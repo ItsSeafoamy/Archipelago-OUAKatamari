@@ -39,7 +39,7 @@ class OUAKatamariWorld(World):
         return items.create_item(self, name)
 
     def get_filler_item_name(self) -> str:
-        return items.get_random_filler_item()
+        return items.get_random_filler_item(self)
 
     def fill_slot_data(self) -> Mapping[str, Any]:
         return {

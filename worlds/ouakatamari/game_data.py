@@ -4,6 +4,7 @@ CROWN_OFFSET = 2000
 PRESENT_OFFSET = 3000
 PLANET_OFFSET = 4000
 FILLER_OFFSET = 5000
+FREEBIE_OFFSET = 6000
 
 data = {
     "Tutorial": {
@@ -487,4 +488,10 @@ data = {
     #     },
     #     "crownIndex": 139
     # }
+}
+freebie_data = {
+    "Rocket": 1,
+    "Magnet": 2,
+    "Sonar": 4,
+    "Timer": 5
 }

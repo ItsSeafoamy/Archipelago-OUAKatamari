@@ -4,7 +4,6 @@ from BaseClasses import Item, ItemClassification
 from typing import TYPE_CHECKING
 
 from . import game_data
-from .game_data import LEVEL_OFFSET, COUSIN_OFFSET
 
 if TYPE_CHECKING:
     from .world import OUAKatamariWorld
@@ -13,7 +12,8 @@ items_all = {}
 items_groups = {
     "Levels": set(),
     "Cousins": set(),
-    "Presents": set()
+    "Presents": set(),
+    "Freebies": set()
 }
 
 class OUAKatamariItem(Item):
@@ -35,6 +35,10 @@ def define_items() -> None:
     items_all["Planet"] = game_data.PLANET_OFFSET
     items_all["Stardust"] = game_data.FILLER_OFFSET
 
+    for freebie_name, freebie_id in game_data.freebie_data.items():
+        items_all[freebie_name] = freebie_id + game_data.FREEBIE_OFFSET
+        items_groups["Freebies"].add(freebie_name)
+
 def create_item(world: OUAKatamariWorld, name: str) -> OUAKatamariItem:
     id = items_all[name]
 
@@ -45,7 +49,9 @@ def create_item(world: OUAKatamariWorld, name: str) -> OUAKatamariItem:
     # planets (progression)
     elif game_data.PLANET_OFFSET <= id < game_data.FILLER_OFFSET: classification = ItemClassification.progression
     # junk (filler)
-    else: classification = ItemClassification.filler
+    elif game_data.FILLER_OFFSET <= id < game_data.FREEBIE_OFFSET: classification = ItemClassification.filler
+    # freebies
+    else: classification = ItemClassification.useful
 
     return OUAKatamariItem(name, classification, id, world.player)
 
@@ -96,7 +102,7 @@ def create_all_items(world: OUAKatamariWorld) -> None:
         itempool.append(world.create_item(cosmetics[i]))
         number_of_unfilled_locations -= 1
 
-    # fill leftover items with stardust
+    # fill leftover items with filler
     itempool += [world.create_filler() for _ in range(number_of_unfilled_locations)]
 
     world.multiworld.itempool += itempool
@@ -107,5 +113,5 @@ def create_all_items(world: OUAKatamariWorld) -> None:
     for name in starting_cousins:
         world.push_precollected(world.create_item(name))
 
-def get_random_filler_item() -> str:
-    return "Stardust"
+def get_random_filler_item(world: OUAKatamariWorld) -> str:
+    return world.random.choice(list(game_data.freebie_data.keys()))
