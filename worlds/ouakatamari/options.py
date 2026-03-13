@@ -1,6 +1,6 @@
 from __future__ import annotations
 from dataclasses import dataclass
-from Options import PerGameCommonOptions, Range, Toggle, OptionSet
+from Options import PerGameCommonOptions, Range, Toggle, OptionSet, DeathLink
 
 from .game_data import data
 
@@ -69,6 +69,7 @@ class OUAKatamariOptions(PerGameCommonOptions):
     planet_clear: PlanetClear
     planet_shuffle: PlanetShuffle
     planet_requirement: PlanetRequirement
+    death_link: DeathLink
     cousins: Cousins
     presents: Presents
     crowns: Crowns

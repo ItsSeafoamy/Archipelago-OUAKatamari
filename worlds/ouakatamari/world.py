@@ -46,6 +46,7 @@ class OUAKatamariWorld(World):
             "number_of_planets": self.number_of_planets,
             "planets_requirement": self.options.planet_requirement.value,
             "planets_on_clear": self.options.planet_clear.value,
+            "death_link": self.options.death_link.value,
             "randomize_cousins": self.options.cousins.value,
             "randomize_presents": self.options.presents.value,
             "randomize_crowns": self.options.crowns.value
