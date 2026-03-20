@@ -472,22 +472,22 @@ data = {
         },
         "crownIndex": 133
     },
-    # "Tag, You're It! 1": {
-    #     "id": 33,
-    #     "cousins": {},
-    #     "present": {
-    #         "Mowed Lawn": 26
-    #     },
-    #     "crownIndex": 136
-    # },
-    # "Tag, You're It! 2": {
-    #     "id": 52,
-    #     "cousins": {},
-    #     "present": {
-    #         "Reindeer Horns": 5
-    #     },
-    #     "crownIndex": 139
-    # }
+    "Tag, You're It! 1": {
+        "id": 33,
+        "cousins": {},
+        "present": {
+            "Mowed Lawn": 26
+        },
+        "crownIndex": 136
+    },
+    "Tag, You're It! 2": {
+        "id": 52,
+        "cousins": {},
+        "present": {
+            "Reindeer Horns": 5
+        },
+        "crownIndex": 139
+    }
 }
 freebie_data = {
     "Rocket": 1,

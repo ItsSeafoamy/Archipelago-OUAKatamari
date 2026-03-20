@@ -6,7 +6,7 @@ from .game_data import data
 
 class PlanetClear(Toggle):
     """
-    Determines if clearing levels gives the player Planets (up to 46 planets)
+    Determines if clearing levels gives the player Planets (up to 48 planets)
     """
 
     display_name = "Level Clears Gives Planets?"
@@ -19,7 +19,7 @@ class PlanetShuffle(Range):
     display_name = "Planets in Item Pool"
 
     range_start = 1
-    range_end = 244
+    range_end = 250
     default = 80
 
 class PlanetRequirement(Range):
@@ -42,14 +42,14 @@ class Cousins(Toggle):
 
 class Presents(Toggle):
     """
-    Determines whether rolling up presents will grant checks (up to 37 locations)
+    Determines whether rolling up presents will grant checks (up to 39 locations)
     """
 
     display_name = "Randomize Presents"
 
 class Crowns(Toggle):
     """
-    Determines whether rolling up crowns will grant checks (up to 135 locations)
+    Determines whether rolling up crowns will grant checks (up to 141 locations)
     """
 
     display_name = "Randomize Crowns"
