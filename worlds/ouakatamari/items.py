@@ -50,14 +50,20 @@ def create_item(world: OUAKatamariWorld, name: str) -> OUAKatamariItem:
     elif game_data.PLANET_OFFSET <= id < game_data.FILLER_OFFSET: classification = ItemClassification.progression
     # junk (filler)
     elif game_data.FILLER_OFFSET <= id < game_data.FREEBIE_OFFSET: classification = ItemClassification.filler
-    # freebies
+    # freebies (useful)
     else: classification = ItemClassification.useful
 
     return OUAKatamariItem(name, classification, id, world.player)
 
 def create_all_items(world: OUAKatamariWorld) -> None:
-    starting_levels = ["Tutorial", "As Large As Possible 1", "As Fast As Possible 1"]
+    starting_levels = {"Tutorial", "As Large As Possible 1"}
     starting_cousins = ["The Prince"]
+
+    # random starting levels
+    level_names = list(game_data.data.keys() - starting_levels - world.options.exclude_levels.value)
+    world.random.shuffle(level_names)
+    for _ in range(world.options.starting_level_count - 2):
+        starting_levels.add(level_names.pop())
 
     itempool: list[Item] = []
     cosmetics: list[str] = []

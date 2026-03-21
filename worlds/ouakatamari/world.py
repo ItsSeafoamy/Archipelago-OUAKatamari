@@ -25,6 +25,13 @@ class OUAKatamariWorld(World):
     item_name_to_id = items.items_all
     item_name_groups = items.items_groups
 
+    def generate_early(self) -> None:
+        excluded_levels = len(self.options.exclude_levels.value)
+        max_levels = 48 - excluded_levels
+
+        if self.options.starting_level_count.value > max_levels:
+            self.options.starting_level_count.value = max_levels
+
     def create_regions(self) -> None:
         regions.create_regions(self)
         locations.create_locations(self)
@@ -32,7 +39,7 @@ class OUAKatamariWorld(World):
     def set_rules(self) -> None:
         rules.set_completion_condition(self)
 
-    def create_items(self):
+    def create_items(self) -> None:
         items.create_all_items(self)
 
     def create_item(self, name: str) -> items.OUAKatamariItem:

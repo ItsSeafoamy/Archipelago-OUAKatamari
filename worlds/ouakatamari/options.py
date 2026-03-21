@@ -54,13 +54,24 @@ class Crowns(Toggle):
 
     display_name = "Randomize Crowns"
 
+class StartingLevels(Range):
+    """
+    The number of levels that you will start with.
+    You will always start with "Tutorial" and "As Large As Possible 1".
+    """
+
+    display_name = "Starting Level Count"
+    range_start = 2
+    range_end = 48
+    default = 5
+
 class ExcludeLevels(OptionSet):
     """
     Prevents these levels from showing up in the seed.
     """
 
     display_name = "Exclude Levels"
-    starting_levels = {"Tutorial", "As Large As Possible 1", "As Fast As Possible 1"}
+    starting_levels = {"Tutorial", "As Large As Possible 1"}
     valid_keys = set(data.keys() - starting_levels)
 
 
@@ -73,4 +84,5 @@ class OUAKatamariOptions(PerGameCommonOptions):
     cousins: Cousins
     presents: Presents
     crowns: Crowns
+    starting_level_count: StartingLevels
     exclude_levels: ExcludeLevels
