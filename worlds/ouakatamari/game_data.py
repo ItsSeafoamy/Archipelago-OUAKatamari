@@ -5,6 +5,8 @@ PRESENT_OFFSET = 3000
 PLANET_OFFSET = 4000
 FILLER_OFFSET = 5000
 FREEBIE_OFFSET = 6000
+FREEBIE_SUPER_OFFSET = 6015
+TRAP_OFFSET = 7000
 
 data = {
     "Tutorial": {
@@ -489,9 +491,17 @@ data = {
         "crownIndex": 139
     }
 }
+
 freebie_data = {
     "Rocket": 1,
     "Magnet": 2,
     "Sonar": 4,
-    "Timer": 5
+    "Timer": 5,
+    "Mushroom": 9,
+    "Ice Axe": 3
+}
+
+trap_data = {
+    "Washpan Trap": 6,
+    "Spider Trap": 7
 }

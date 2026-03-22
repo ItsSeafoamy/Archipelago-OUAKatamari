@@ -13,7 +13,8 @@ items_groups = {
     "Levels": set(),
     "Cousins": set(),
     "Presents": set(),
-    "Freebies": set()
+    "Freebies": set(),
+    "Traps": set()
 }
 
 class OUAKatamariItem(Item):
@@ -38,6 +39,12 @@ def define_items() -> None:
     for freebie_name, freebie_id in game_data.freebie_data.items():
         items_all[freebie_name] = freebie_id + game_data.FREEBIE_OFFSET
         items_groups["Freebies"].add(freebie_name)
+        items_all["Super " + freebie_name] = freebie_id + game_data.FREEBIE_SUPER_OFFSET
+        items_groups["Freebies"].add("Super " + freebie_name)
+
+    for trap_name, trap_id in game_data.trap_data.items():
+        items_all[trap_name] = trap_id + game_data.TRAP_OFFSET
+        items_groups["Traps"].add(trap_name)
 
 def create_item(world: OUAKatamariWorld, name: str) -> OUAKatamariItem:
     id = items_all[name]
@@ -51,7 +58,9 @@ def create_item(world: OUAKatamariWorld, name: str) -> OUAKatamariItem:
     # junk (filler)
     elif game_data.FILLER_OFFSET <= id < game_data.FREEBIE_OFFSET: classification = ItemClassification.filler
     # freebies (useful)
-    else: classification = ItemClassification.useful
+    elif game_data.FREEBIE_OFFSET <= id < game_data.TRAP_OFFSET: classification = ItemClassification.useful
+    # traps
+    else: classification = ItemClassification.trap
 
     return OUAKatamariItem(name, classification, id, world.player)
 
@@ -120,4 +129,40 @@ def create_all_items(world: OUAKatamariWorld) -> None:
         world.push_precollected(world.create_item(name))
 
 def get_random_filler_item(world: OUAKatamariWorld) -> str:
-    return world.random.choice(list(game_data.freebie_data.keys()))
+    # junk/traps
+    if world.random.randint(0, 99) < world.options.junk_trap_chance.value:
+        stardust_weight = world.options.stardust_weight
+        washpan_weight = world.options.washpan_weight
+        spider_weight = world.options.spider_weight
+        trap_weights = stardust_weight + washpan_weight + spider_weight
+
+        if trap_weights > 0:
+            return world.random.choices(
+                population=["Stardust"] + list(game_data.trap_data.keys()),
+                weights=[stardust_weight, washpan_weight, spider_weight],
+                k=1
+            )[0]
+
+    # freebies
+    rocket_weight = world.options.rocket_weight
+    magnet_weight = world.options.magnet_weight
+    sonar_weight = world.options.sonar_weight
+    timer_weight = world.options.timer_weight
+    mushroom_weight = world.options.mushroom_weight
+    ice_axe_weight = world.options.ice_axe_weight
+    freebie_weights = rocket_weight + magnet_weight + sonar_weight + timer_weight + mushroom_weight + ice_axe_weight
+
+    if freebie_weights > 0:
+        selected = world.random.choices(
+            population=list(game_data.freebie_data.keys()),
+            weights=[rocket_weight, magnet_weight, sonar_weight, timer_weight, mushroom_weight, ice_axe_weight],
+            k=1
+        )[0]
+
+        if world.random.randint(0, 99) < world.options.super_freebie_chance.value:
+            selected = "Super " + selected
+
+        return selected
+
+    # if all weights were zero, just return Stardust
+    return "Stardust"

@@ -3,6 +3,8 @@ from __future__ import annotations
 from BaseClasses import Tutorial
 from worlds.AutoWorld import WebWorld
 
+from .options import option_groups
+
 class OUAKatamariWebWorld(WebWorld):
     game = "Once Upon a Katamari"
 
@@ -18,3 +20,5 @@ class OUAKatamariWebWorld(WebWorld):
     )
 
     tutorials = [setup_en]
+
+    option_groups = option_groups
