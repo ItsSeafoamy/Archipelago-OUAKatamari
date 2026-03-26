@@ -65,14 +65,14 @@ def create_item(world: OUAKatamariWorld, name: str) -> OUAKatamariItem:
     return OUAKatamariItem(name, classification, id, world.player)
 
 def create_all_items(world: OUAKatamariWorld) -> None:
-    starting_levels = {"Tutorial", "As Large As Possible 1"}
+    starting_levels = ["Tutorial", "As Large As Possible 1"]
     starting_cousins = ["The Prince"]
 
     # random starting levels
-    level_names = list(game_data.data.keys() - starting_levels - world.options.exclude_levels.value)
+    level_names = sorted(game_data.data.keys() - starting_levels - world.options.exclude_levels.value)
     world.random.shuffle(level_names)
     for _ in range(world.options.starting_level_count - 2):
-        starting_levels.add(level_names.pop())
+        starting_levels.append(level_names.pop())
 
     itempool: list[Item] = []
     cosmetics: list[str] = []
