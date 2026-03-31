@@ -3,6 +3,7 @@ from __future__ import annotations
 from typing import TYPE_CHECKING
 
 from BaseClasses import Region
+from rule_builder.rules import Has
 from .game_data import data
 
 if TYPE_CHECKING:
@@ -21,4 +22,4 @@ def create_regions(world: OUAKatamariWorld) -> None:
         world.multiworld.regions.append(region)
 
         # connect to menu
-        menu.connect(region, "Menu to " + name, lambda state, n=name: state.has(n, world.player))
+        menu.connect(region, "Menu to " + name, Has(name))
