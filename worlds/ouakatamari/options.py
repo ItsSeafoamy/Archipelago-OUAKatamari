@@ -1,8 +1,10 @@
 from __future__ import annotations
-from dataclasses import dataclass
-from Options import PerGameCommonOptions, Range, Toggle, OptionSet, DeathLink, OptionGroup
 
+from dataclasses import dataclass
+
+from Options import PerGameCommonOptions, Range, Toggle, OptionSet, DeathLink, OptionGroup
 from .game_data import data
+
 
 class PlanetClear(Toggle):
     """
@@ -10,6 +12,7 @@ class PlanetClear(Toggle):
     """
 
     display_name = "Level Clears Gives Planets?"
+
 
 class PlanetShuffle(Range):
     """
@@ -22,6 +25,7 @@ class PlanetShuffle(Range):
     range_end = 250
     default = 80
 
+
 class PlanetRequirement(Range):
     """
     The percentage of total planets needed to unlock the final level "That Hole..." and beat the game.
@@ -33,12 +37,14 @@ class PlanetRequirement(Range):
     range_end = 100
     default = 60
 
+
 class Cousins(Toggle):
     """
     Determines whether rolling up cousins will grant checks (up to 69 locations)
     """
 
     display_name = "Randomize Cousins"
+
 
 class Presents(Toggle):
     """
@@ -47,12 +53,14 @@ class Presents(Toggle):
 
     display_name = "Randomize Presents"
 
+
 class Crowns(Toggle):
     """
     Determines whether rolling up crowns will grant checks (up to 141 locations)
     """
 
     display_name = "Randomize Crowns"
+
 
 class StartingLevels(Range):
     """
@@ -65,6 +73,7 @@ class StartingLevels(Range):
     range_end = 48
     default = 5
 
+
 class ExcludeLevels(OptionSet):
     """
     Prevents these levels from showing up in the seed.
@@ -73,6 +82,7 @@ class ExcludeLevels(OptionSet):
     display_name = "Exclude Levels"
     starting_levels = {"Tutorial", "As Large As Possible 1"}
     valid_keys = set(data.keys() - starting_levels)
+
 
 class RocketWeight(Range):
     """
@@ -84,6 +94,7 @@ class RocketWeight(Range):
     range_end = 100
     default = 50
 
+
 class MagnetWeight(Range):
     """
     The weight of Magnets in the freebie pool.
@@ -93,6 +104,7 @@ class MagnetWeight(Range):
     range_start = 0
     range_end = 100
     default = 50
+
 
 class SonarWeight(Range):
     """
@@ -104,6 +116,7 @@ class SonarWeight(Range):
     range_end = 100
     default = 50
 
+
 class TimerWeight(Range):
     """
     The weight of Timers in the freebie pool.
@@ -113,6 +126,7 @@ class TimerWeight(Range):
     range_start = 0
     range_end = 100
     default = 50
+
 
 class MushroomWeight(Range):
     """
@@ -125,6 +139,7 @@ class MushroomWeight(Range):
     range_end = 100
     default = 0
 
+
 class IceAxeWeight(Range):
     """
     The weight of Ice Axes (Also known as "Pickels") in the freebie pool.
@@ -135,6 +150,7 @@ class IceAxeWeight(Range):
     range_start = 0
     range_end = 100
     default = 0
+
 
 class SuperFreebieChance(Range):
     """
@@ -148,6 +164,7 @@ class SuperFreebieChance(Range):
     range_end = 100
     default = 0
 
+
 class JunkTrapChance(Range):
     """
     The chance an unfilled location will be filled with a junk or trap item.
@@ -158,6 +175,7 @@ class JunkTrapChance(Range):
     range_end = 100
     default = 20
 
+
 class StardustWeight(Range):
     """
     The weight of Stardust (junk item) in the junk/trap pool.
@@ -167,6 +185,7 @@ class StardustWeight(Range):
     range_start = 0
     range_end = 100
     default = 50
+
 
 class WashpanWeight(Range):
     """
@@ -179,6 +198,7 @@ class WashpanWeight(Range):
     range_end = 100
     default = 0
 
+
 class SpiderWeight(Range):
     """
     The weight of Spider Traps in the junk/trap pool.
@@ -189,6 +209,7 @@ class SpiderWeight(Range):
     range_start = 0
     range_end = 100
     default = 0
+
 
 @dataclass
 class OUAKatamariOptions(PerGameCommonOptions):
@@ -212,6 +233,7 @@ class OUAKatamariOptions(PerGameCommonOptions):
     stardust_weight: StardustWeight
     washpan_weight: WashpanWeight
     spider_weight: SpiderWeight
+
 
 option_groups = [
     OptionGroup(

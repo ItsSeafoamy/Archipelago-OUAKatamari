@@ -1,8 +1,8 @@
 from __future__ import annotations
 
-from BaseClasses import Item, ItemClassification
 from typing import TYPE_CHECKING
 
+from BaseClasses import Item, ItemClassification
 from . import game_data
 
 if TYPE_CHECKING:
@@ -17,8 +17,10 @@ items_groups = {
     "Traps": set()
 }
 
+
 class OUAKatamariItem(Item):
     game = "Once Upon a Katamari"
+
 
 def define_items() -> None:
     for level_name, level_data in game_data.data.items():
@@ -46,23 +48,31 @@ def define_items() -> None:
         items_all[trap_name] = trap_id + game_data.TRAP_OFFSET
         items_groups["Traps"].add(trap_name)
 
+
 def create_item(world: OUAKatamariWorld, name: str) -> OUAKatamariItem:
     id = items_all[name]
 
     # levels (progression)
-    if game_data.LEVEL_OFFSET <= id < game_data.COUSIN_OFFSET: classification = ItemClassification.progression
+    if game_data.LEVEL_OFFSET <= id < game_data.COUSIN_OFFSET:
+        classification = ItemClassification.progression
     # cousins + presents (filler)
-    elif game_data.COUSIN_OFFSET <= id < game_data.PLANET_OFFSET: classification = ItemClassification.filler
+    elif game_data.COUSIN_OFFSET <= id < game_data.PLANET_OFFSET:
+        classification = ItemClassification.filler
     # planets (progression)
-    elif game_data.PLANET_OFFSET <= id < game_data.FILLER_OFFSET: classification = ItemClassification.progression
+    elif game_data.PLANET_OFFSET <= id < game_data.FILLER_OFFSET:
+        classification = ItemClassification.progression
     # junk (filler)
-    elif game_data.FILLER_OFFSET <= id < game_data.FREEBIE_OFFSET: classification = ItemClassification.filler
+    elif game_data.FILLER_OFFSET <= id < game_data.FREEBIE_OFFSET:
+        classification = ItemClassification.filler
     # freebies (useful)
-    elif game_data.FREEBIE_OFFSET <= id < game_data.TRAP_OFFSET: classification = ItemClassification.useful
+    elif game_data.FREEBIE_OFFSET <= id < game_data.TRAP_OFFSET:
+        classification = ItemClassification.useful
     # traps
-    else: classification = ItemClassification.trap
+    else:
+        classification = ItemClassification.trap
 
     return OUAKatamariItem(name, classification, id, world.player)
+
 
 def create_all_items(world: OUAKatamariWorld) -> None:
     starting_levels = ["Tutorial", "As Large As Possible 1"]
@@ -127,6 +137,7 @@ def create_all_items(world: OUAKatamariWorld) -> None:
         world.push_precollected(world.create_item(name))
     for name in starting_cousins:
         world.push_precollected(world.create_item(name))
+
 
 def get_random_filler_item(world: OUAKatamariWorld) -> str:
     # junk/traps

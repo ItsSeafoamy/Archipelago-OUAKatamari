@@ -1,8 +1,8 @@
 from __future__ import annotations
 
-from BaseClasses import Location
 from typing import TYPE_CHECKING
 
+from BaseClasses import Location
 from . import game_data
 
 if TYPE_CHECKING:
@@ -10,8 +10,10 @@ if TYPE_CHECKING:
 
 locations_all = {}
 
+
 class OUAKatamariLocation(Location):
     game = "Once Upon a Katamari"
+
 
 def define_locations() -> None:
     for level_name, level_data in game_data.data.items():
@@ -27,6 +29,7 @@ def define_locations() -> None:
         if level_data["crownIndex"] != -1:
             for i in range(3):
                 locations_all[level_name + " - Crown " + str(i+1)] = level_data["crownIndex"] + i + game_data.CROWN_OFFSET
+
 
 def create_locations(world: OUAKatamariWorld) -> None:
     for level_name, level_data in game_data.data.items():

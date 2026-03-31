@@ -1,12 +1,13 @@
 from __future__ import annotations
 
-from BaseClasses import Region
 from typing import TYPE_CHECKING
 
+from BaseClasses import Region
 from .game_data import data
 
 if TYPE_CHECKING:
     from .world import OUAKatamariWorld
+
 
 def create_regions(world: OUAKatamariWorld) -> None:
     menu = Region("Menu", world.player, world.multiworld)
