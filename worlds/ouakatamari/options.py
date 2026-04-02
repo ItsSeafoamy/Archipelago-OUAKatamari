@@ -62,6 +62,14 @@ class Crowns(Toggle):
     display_name = "Randomize Crowns"
 
 
+class Collectionsanity(Toggle):
+    """
+    Adds a check for every single object in the collection
+    """
+
+    display_name = "Collectionsanity"
+
+
 class StartingLevels(Range):
     """
     The number of levels that you will start with.
@@ -220,6 +228,7 @@ class OUAKatamariOptions(PerGameCommonOptions):
     cousins: Cousins
     presents: Presents
     crowns: Crowns
+    collectionsanity: Collectionsanity
     starting_level_count: StartingLevels
     exclude_levels: ExcludeLevels
     rocket_weight: RocketWeight

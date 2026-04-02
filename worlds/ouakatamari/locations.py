@@ -30,6 +30,8 @@ def define_locations() -> None:
             for i in range(3):
                 locations_all[level_name + " - Crown " + str(i+1)] = level_data["crownIndex"] + i + game_data.CROWN_OFFSET
 
+    for name, id in game_data.collection_data.items():
+        locations_all["Collectionsanity: " + name] = id + game_data.COLLECTION_OFFSET
 
 def create_locations(world: OUAKatamariWorld) -> None:
     for level_name, level_data in game_data.data.items():
@@ -79,3 +81,13 @@ def create_locations(world: OUAKatamariWorld) -> None:
                                           level_data["crownIndex"] + i + game_data.CROWN_OFFSET,
                                           region)
                 region.locations.append(loc)
+
+    # collectionsanity
+    if world.options.collectionsanity:
+        region = world.get_region("Menu")
+        for name, id in game_data.collection_data.items():
+            loc = OUAKatamariLocation(world.player,
+                                    "Collectionsanity: " + name,
+                                    id + game_data.COLLECTION_OFFSET,
+                                    region)
+            region.locations.append(loc)
