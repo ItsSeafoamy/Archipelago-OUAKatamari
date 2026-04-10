@@ -75,13 +75,16 @@ def create_item(world: OUAKatamariWorld, name: str) -> OUAKatamariItem:
 
 
 def create_all_items(world: OUAKatamariWorld) -> None:
-    starting_levels = ["Tutorial", "As Large As Possible 1"]
+    starting_levels = []
     starting_cousins = ["The Prince"]
 
+    if not world.options.skip_tutorial.value:
+        starting_levels.append("Tutorial")
+
     # random starting levels
-    level_names = sorted(game_data.data.keys() - starting_levels - world.options.exclude_levels.value)
+    level_names = sorted(game_data.data.keys() - starting_levels - world.options.exclude_levels.value - {"Tutorial"})
     world.random.shuffle(level_names)
-    for _ in range(world.options.starting_level_count - 2):
+    for _ in range(world.options.starting_level_count):
         starting_levels.append(level_names.pop())
 
     itempool: list[Item] = []
@@ -89,6 +92,7 @@ def create_all_items(world: OUAKatamariWorld) -> None:
 
     for level_name, level_data in game_data.data.items():
         if level_name in world.options.exclude_levels.value: continue
+        if level_name == "Tutorial" and world.options.skip_tutorial.value: continue
 
         # level unlocks
         if level_name not in starting_levels:

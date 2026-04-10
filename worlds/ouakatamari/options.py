@@ -40,7 +40,7 @@ class PlanetRequirement(Range):
 
 class Cousins(Toggle):
     """
-    Determines whether rolling up cousins will grant checks (up to 69 locations)
+    Determines whether rolling up cousins will grant checks (up to 69 locations).
     """
 
     display_name = "Randomize Cousins"
@@ -48,7 +48,7 @@ class Cousins(Toggle):
 
 class Presents(Toggle):
     """
-    Determines whether rolling up presents will grant checks (up to 39 locations)
+    Determines whether rolling up presents will grant checks (up to 39 locations).
     """
 
     display_name = "Randomize Presents"
@@ -56,21 +56,28 @@ class Presents(Toggle):
 
 class Crowns(Toggle):
     """
-    Determines whether rolling up crowns will grant checks (up to 141 locations)
+    Determines whether rolling up crowns will grant checks (up to 141 locations).
     """
 
     display_name = "Randomize Crowns"
 
 
+class SkipTutorial(Toggle):
+    """
+    Skips the tutorial.
+    """
+
+    display_name = "Skip Tutorial"
+
+
 class StartingLevels(Range):
     """
     The number of levels that you will start with.
-    You will always start with "Tutorial" and "As Large As Possible 1".
     """
 
     display_name = "Starting Level Count"
-    range_start = 2
-    range_end = 48
+    range_start = 1
+    range_end = 47
     default = 5
 
 
@@ -80,8 +87,7 @@ class ExcludeLevels(OptionSet):
     """
 
     display_name = "Exclude Levels"
-    starting_levels = {"Tutorial", "As Large As Possible 1"}
-    valid_keys = set(data.keys() - starting_levels)
+    valid_keys = set(data.keys() - {"Tutorial"})
 
 
 class RocketWeight(Range):
@@ -220,6 +226,7 @@ class OUAKatamariOptions(PerGameCommonOptions):
     cousins: Cousins
     presents: Presents
     crowns: Crowns
+    skip_tutorial: SkipTutorial
     starting_level_count: StartingLevels
     exclude_levels: ExcludeLevels
     rocket_weight: RocketWeight

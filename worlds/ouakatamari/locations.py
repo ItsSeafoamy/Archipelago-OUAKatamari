@@ -34,6 +34,7 @@ def define_locations() -> None:
 def create_locations(world: OUAKatamariWorld) -> None:
     for level_name, level_data in game_data.data.items():
         if level_name in world.options.exclude_levels.value: continue
+        if level_name == "Tutorial" and world.options.skip_tutorial.value: continue
 
         region = world.get_region(level_name)
 

@@ -58,5 +58,6 @@ class OUAKatamariWorld(World):
             "death_link": self.options.death_link.value,
             "randomize_cousins": self.options.cousins.value,
             "randomize_presents": self.options.presents.value,
-            "randomize_crowns": self.options.crowns.value
+            "randomize_crowns": self.options.crowns.value,
+            "skip_tutorial": self.options.skip_tutorial.value,
         }
