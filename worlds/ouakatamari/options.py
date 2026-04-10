@@ -2,7 +2,7 @@ from __future__ import annotations
 
 from dataclasses import dataclass
 
-from Options import PerGameCommonOptions, Range, Toggle, OptionSet, DeathLink, OptionGroup
+from Options import PerGameCommonOptions, Range, Toggle, OptionSet, DeathLink, OptionGroup, DefaultOnToggle
 from .game_data import data
 
 
@@ -38,7 +38,7 @@ class PlanetRequirement(Range):
     default = 60
 
 
-class Cousins(Toggle):
+class Cousins(DefaultOnToggle):
     """
     Determines whether rolling up cousins will grant checks (up to 69 locations).
     """
@@ -46,7 +46,7 @@ class Cousins(Toggle):
     display_name = "Randomize Cousins"
 
 
-class Presents(Toggle):
+class Presents(DefaultOnToggle):
     """
     Determines whether rolling up presents will grant checks (up to 39 locations).
     """
@@ -54,7 +54,7 @@ class Presents(Toggle):
     display_name = "Randomize Presents"
 
 
-class Crowns(Toggle):
+class Crowns(DefaultOnToggle):
     """
     Determines whether rolling up crowns will grant checks (up to 141 locations).
     """
