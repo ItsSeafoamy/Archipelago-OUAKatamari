@@ -245,10 +245,10 @@ class OUAKatamariOptions(PerGameCommonOptions):
 option_groups = [
     OptionGroup(
         "Freebie Options",
-        [RocketWeight, MagnetWeight, SonarWeight, TimerWeight, MushroomWeight, IceAxeWeight, SuperFreebieChance]
+        [RocketWeight, MagnetWeight, SonarWeight, TimerWeight, MushroomWeight, IceAxeWeight, SuperFreebieChance],
     ),
     OptionGroup(
         "Junk & Trap Options",
-        [JunkTrapChance, StardustWeight, WashpanWeight, SpiderWeight]
+        [JunkTrapChance, StardustWeight, WashpanWeight, SpiderWeight],
     )
 ]

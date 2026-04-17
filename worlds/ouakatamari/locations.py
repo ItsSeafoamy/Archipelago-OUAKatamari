@@ -17,18 +17,18 @@ class OUAKatamariLocation(Location):
 
 def define_locations() -> None:
     for level_name, level_data in game_data.data.items():
-        locations_all[level_name + " - Clear"] = level_data["id"] + game_data.LEVEL_OFFSET
-        locations_all[level_name + " - Planet"] = level_data["id"] + game_data.PLANET_OFFSET
+        locations_all[f"{level_name} - Clear"] = level_data["id"] + game_data.LEVEL_OFFSET
+        locations_all[f"{level_name} - Planet"] = level_data["id"] + game_data.PLANET_OFFSET
 
         for cousin_name, cousin_id in level_data["cousins"].items():
-            locations_all[level_name + " - Cousin: " + cousin_name] = cousin_id + game_data.COUSIN_OFFSET
+            locations_all[f"{level_name} - Cousin: {cousin_name}"] = cousin_id + game_data.COUSIN_OFFSET
 
         for present_name, present_id in level_data["present"].items():
-            locations_all[level_name + " - Present"] = present_id + game_data.PRESENT_OFFSET
+            locations_all[f"{level_name} - Present"] = present_id + game_data.PRESENT_OFFSET
 
-        if level_data["crownIndex"] != -1:
+        if level_data["crown_index"] != -1:
             for i in range(3):
-                locations_all[level_name + " - Crown " + str(i+1)] = level_data["crownIndex"] + i + game_data.CROWN_OFFSET
+                locations_all[f"{level_name} - Crown {str(i+1)}"] = level_data["crown_index"] + i + game_data.CROWN_OFFSET
 
 
 def create_locations(world: OUAKatamariWorld) -> None:
@@ -40,7 +40,7 @@ def create_locations(world: OUAKatamariWorld) -> None:
 
         # level clear check
         loc = OUAKatamariLocation(world.player,
-                                  level_name + " - Clear",
+                                  f"{level_name} - Clear",
                                   level_data["id"] + game_data.LEVEL_OFFSET,
                                   region)
         region.locations.append(loc)
@@ -48,7 +48,7 @@ def create_locations(world: OUAKatamariWorld) -> None:
         # planet check
         if world.options.planet_clear:
             loc = OUAKatamariLocation(world.player,
-                                      level_name + " - Planet",
+                                      f"{level_name} - Planet",
                                       level_data["id"] + game_data.PLANET_OFFSET,
                                       region)
             loc.place_locked_item(world.create_item("Planet"))
@@ -58,7 +58,7 @@ def create_locations(world: OUAKatamariWorld) -> None:
         if world.options.cousins:
             for cousin_name, cousin_id in level_data["cousins"].items():
                 loc = OUAKatamariLocation(world.player,
-                                          level_name + " - Cousin: " + cousin_name,
+                                          f"{level_name} - Cousin: {cousin_name}",
                                           cousin_id + game_data.COUSIN_OFFSET,
                                           region)
                 region.locations.append(loc)
@@ -67,16 +67,16 @@ def create_locations(world: OUAKatamariWorld) -> None:
         if world.options.presents:
             for present_name, present_id in level_data["present"].items():
                 loc = OUAKatamariLocation(world.player,
-                                          level_name + " - Present",
+                                          f"{level_name} - Present",
                                           present_id + game_data.PRESENT_OFFSET,
                                           region)
                 region.locations.append(loc)
 
         # crown checks
-        if world.options.crowns and level_data["crownIndex"] != -1:
+        if world.options.crowns and level_data["crown_index"] != -1:
             for i in range(3):
                 loc = OUAKatamariLocation(world.player,
-                                          level_name + " - Crown " + str(i+1),
-                                          level_data["crownIndex"] + i + game_data.CROWN_OFFSET,
+                                          f"{level_name} - Crown {str(i+1)}",
+                                          level_data["crown_index"] + i + game_data.CROWN_OFFSET,
                                           region)
                 region.locations.append(loc)

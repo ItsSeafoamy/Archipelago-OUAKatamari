@@ -16,7 +16,7 @@ class OUAKatamariWebWorld(WebWorld):
         "English",
         "setup_en.md",
         "setup/en",
-        ["Seafoamy"]
+        ["Seafoamy"],
     )
 
     tutorials = [setup_en]

@@ -22,4 +22,4 @@ def create_regions(world: OUAKatamariWorld) -> None:
         world.multiworld.regions.append(region)
 
         # connect to menu
-        menu.connect(region, "Menu to " + name, Has(name))
+        menu.connect(region, f"Menu to {name}", Has(name))

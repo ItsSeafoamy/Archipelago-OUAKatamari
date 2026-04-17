@@ -14,7 +14,7 @@ items_groups = {
     "Cousins": set(),
     "Presents": set(),
     "Freebies": set(),
-    "Traps": set()
+    "Traps": set(),
 }
 
 
@@ -41,8 +41,8 @@ def define_items() -> None:
     for freebie_name, freebie_id in game_data.freebie_data.items():
         items_all[freebie_name] = freebie_id + game_data.FREEBIE_OFFSET
         items_groups["Freebies"].add(freebie_name)
-        items_all["Super " + freebie_name] = freebie_id + game_data.FREEBIE_SUPER_OFFSET
-        items_groups["Freebies"].add("Super " + freebie_name)
+        items_all[f"Super {freebie_name}"] = freebie_id + game_data.FREEBIE_SUPER_OFFSET
+        items_groups["Freebies"].add(f"Super {freebie_name}")
 
     for trap_name, trap_id in game_data.trap_data.items():
         items_all[trap_name] = trap_id + game_data.TRAP_OFFSET
@@ -175,7 +175,7 @@ def get_random_filler_item(world: OUAKatamariWorld) -> str:
         )[0]
 
         if world.random.randint(0, 99) < world.options.super_freebie_chance.value:
-            selected = "Super " + selected
+            selected = f"Super {selected}"
 
         return selected
 

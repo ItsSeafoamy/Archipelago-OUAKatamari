@@ -29,7 +29,7 @@ class OUAKatamariWorld(World):
 
     def generate_early(self) -> None:
         excluded_levels = len(self.options.exclude_levels.value)
-        max_levels = 48 - excluded_levels
+        max_levels = 47 - excluded_levels
 
         if self.options.starting_level_count.value > max_levels:
             self.options.starting_level_count.value = max_levels
