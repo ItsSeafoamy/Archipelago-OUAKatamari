@@ -62,6 +62,14 @@ class Crowns(DefaultOnToggle):
     display_name = "Randomize Crowns"
 
 
+class Collectionsanity(Toggle):
+    """
+    Adds a check for (almost) every single object in the collection.
+    """
+
+    display_name = "Collectionsanity"
+
+
 class SkipTutorial(Toggle):
     """
     Skips the tutorial.
@@ -226,6 +234,7 @@ class OUAKatamariOptions(PerGameCommonOptions):
     cousins: Cousins
     presents: Presents
     crowns: Crowns
+    collectionsanity: Collectionsanity
     skip_tutorial: SkipTutorial
     starting_level_count: StartingLevels
     exclude_levels: ExcludeLevels

@@ -3,7 +3,9 @@ from __future__ import annotations
 from typing import TYPE_CHECKING
 
 from BaseClasses import Location
+from rule_builder.rules import HasAny
 from . import game_data
+from .collectionsanity_data import collection_data
 
 if TYPE_CHECKING:
     from .world import OUAKatamariWorld
@@ -30,6 +32,8 @@ def define_locations() -> None:
             for i in range(3):
                 locations_all[f"{level_name} - Crown {str(i+1)}"] = level_data["crown_index"] + i + game_data.CROWN_OFFSET
 
+    for object_name, object_data in collection_data.items():
+        locations_all[f"Collectionsanity: {object_name}"] = object_data["id"] + game_data.COLLECTIONSANITY_OFFSET
 
 def create_locations(world: OUAKatamariWorld) -> None:
     for level_name, level_data in game_data.data.items():
@@ -80,3 +84,24 @@ def create_locations(world: OUAKatamariWorld) -> None:
                                           level_data["crown_index"] + i + game_data.CROWN_OFFSET,
                                           region)
                 region.locations.append(loc)
+
+    # collectionsanity
+    if world.options.collectionsanity:
+        region = world.get_region("Menu")
+
+        for object_name, object_data in collection_data.items():
+            levels = [
+                level_name for level_name in object_data["levels"]
+                if level_name not in world.options.exclude_levels.value
+                if level_name != "That Hole..."
+            ]
+
+            if not levels: continue
+
+            loc = OUAKatamariLocation(world.player,
+                                      f"Collectionsanity: {object_name}",
+                                      object_data["id"] + game_data.COLLECTIONSANITY_OFFSET,
+                                      region)
+
+            region.locations.append(loc)
+            world.set_rule(loc, HasAny(*levels))
