@@ -105,3 +105,4 @@ def create_locations(world: OUAKatamariWorld) -> None:
 
             region.locations.append(loc)
             world.set_rule(loc, HasAny(*levels))
+            world.collectionsanity_locations.append(loc)

@@ -69,6 +69,16 @@ class Collectionsanity(Toggle):
 
     display_name = "Collectionsanity"
 
+class CollectionsanityLocalFill(Range):
+    """
+    The percentage of collectionsanity checks that will be forced to have a local junk item.
+    """
+
+    display_name = "Collectionsanity Local Fill Percentage"
+    range_start = 0
+    range_end = 100
+    default = 90
+
 
 class SkipTutorial(Toggle):
     """
@@ -235,6 +245,7 @@ class OUAKatamariOptions(PerGameCommonOptions):
     presents: Presents
     crowns: Crowns
     collectionsanity: Collectionsanity
+    collectionsanity_local_fill: CollectionsanityLocalFill
     skip_tutorial: SkipTutorial
     starting_level_count: StartingLevels
     exclude_levels: ExcludeLevels
