@@ -2407,7 +2407,7 @@ collection_data = {
     },
     "Kimono": {
         "id": 10707,
-        "levels": ["As Fast As Possible 5", "As Large As Possible 5", "As Large As Possible 3", "As Large As Possible 4", "Lots of Yokai"],
+        "levels": ["As Fast As Possible 5", "As Large As Possible 5", "As Large As Possible 3", "As Large As Possible 4", "Lots of Yokai", "Cowbear Pasture"],
     },
     "Plain Short Sleeves": {
         "id": 1989,
@@ -2907,7 +2907,7 @@ collection_data = {
     },
     "Kendo Mask": {
         "id": 10105,
-        "levels": ["Lots of Food 1", "As Large As Possible 3", "As Fast As Possible 3", "Light the Sacred Fire", "Lots of Yokai", "Lots of Food 2", "As Large As Possible 4", "As Large As Possible 2"],
+        "levels": ["Lots of Food 1", "As Large As Possible 3", "As Fast As Possible 3", "Light the Sacred Fire", "Lots of Yokai", "Lots of Food 2", "As Large As Possible 4", "As Large As Possible 2", "Cowbear Pasture"],
     },
     "Straw Dummy": {
         "id": 2816,
@@ -2999,7 +2999,7 @@ collection_data = {
     },
     "Samurai's Vortex Wheel": {
         "id": 2877,
-        "levels": ["As Large As Possible 5"],
+        "levels": ["As Large As Possible 5", "Cowbear Pasture"],
     },
     "Killer Move": {
         "id": 11032,
@@ -3869,6 +3869,10 @@ collection_data = {
         "id": 10404,
         "levels": ["As Large As Possible 2", "As Fast As Possible 3", "Lots of Food 2", "As Large As Possible 3", "As Large As Possible 4"],
     },
+    "Ball Toss Basket": {
+        "id": 10681,
+        "levels": ["Cowbear Pasture"],
+    },
     "Soy Sauce Pack": {
         "id": 10869,
         "levels": ["Make a Star Again 1", "Perfect-Sized Skull"],
@@ -4383,7 +4387,7 @@ collection_data = {
     },
     "Hammock": {
         "id": 12091,
-        "levels": ["As Large As Possible (Race)", "Build a Ship"],
+        "levels": ["As Large As Possible (Race)", "Build a Ship", "Cowbear Pasture"],
     },
     "Tabletop Calendar": {
         "id": 23202,
@@ -4439,7 +4443,7 @@ collection_data = {
     },
     "Red Umbrella": {
         "id": 10629,
-        "levels": ["As Fast As Possible 5", "As Large As Possible 3", "As Large As Possible 4", "Lots of Yokai", "As Large As Possible 5"],
+        "levels": ["As Fast As Possible 5", "As Large As Possible 3", "As Large As Possible 4", "Lots of Yokai", "As Large As Possible 5", "Cowbear Pasture"],
     },
     "Snail": {
         "id": 10545,
@@ -4579,7 +4583,7 @@ collection_data = {
     },
     "Wooden Table": {
         "id": 11130,
-        "levels": ["As Large As Possible (Race)", "As Fast As Possible 5", "As Large As Possible 5", "As Large As Possible 3", "As Large As Possible 4"],
+        "levels": ["As Large As Possible (Race)", "As Fast As Possible 5", "As Large As Possible 5", "As Large As Possible 3", "As Large As Possible 4", "Cowbear Pasture"],
     },
     "Shelf": {
         "id": 1006,
@@ -4851,7 +4855,7 @@ collection_data = {
     },
     "Topiary Deer": {
         "id": 12209,
-        "levels": ["As Large As Possible (Race)", "As Fast As Possible 5", "As Large As Possible 5", "As Large As Possible 4"],
+        "levels": ["As Large As Possible (Race)", "As Fast As Possible 5", "As Large As Possible 5", "As Large As Possible 4", "Cowbear Pasture"],
     },
     "Log Flower Bed (Empty)": {
         "id": 3059,
@@ -5359,7 +5363,7 @@ collection_data = {
     },
     "Log (Tools)": {
         "id": 260,
-        "levels": ["Lots of Drinks", "As Large As Possible (Race)", "Build a Ship", "Lots of Food 1", "Lots of Dinosaurs", "As Large As Possible 3", "As Fast As Possible 3", "Lots of Yokai", "Build a Haniwa", "As Large As Possible 4", "As Large As Possible 5"],
+        "levels": ["Lots of Drinks", "As Large As Possible (Race)", "Build a Ship", "Lots of Food 1", "Lots of Dinosaurs", "As Large As Possible 3", "As Fast As Possible 3", "Lots of Yokai", "Build a Haniwa", "As Large As Possible 4", "As Large As Possible 5", "Cowbear Pasture"],
     },
     "Stack of Logs": {
         "id": 321,
@@ -5387,7 +5391,7 @@ collection_data = {
     },
     "Giant Watermelon": {
         "id": 10431,
-        "levels": ["As Large As Possible (Race)", "Build a Ship", "Lots of Dinosaurs", "As Large As Possible 3", "As Fast As Possible 5", "As Large As Possible 5"],
+        "levels": ["As Large As Possible (Race)", "Build a Ship", "Lots of Dinosaurs", "As Large As Possible 3", "As Fast As Possible 5", "As Large As Possible 5", "Cowbear Pasture"],
     },
     "Square Watermelon": {
         "id": 3733,
@@ -5487,7 +5491,7 @@ collection_data = {
     },
     "Cow Umbrella": {
         "id": 10882,
-        "levels": ["As Large As Possible (Race)", "Build a Ship"],
+        "levels": ["As Large As Possible (Race)", "Build a Ship", "Cowbear Pasture"],
     },
     "Cicada": {
         "id": 24740,
@@ -5683,7 +5687,7 @@ collection_data = {
     },
     "Ammonite Fossil": {
         "id": 411,
-        "levels": ["Lots of Drinks", "Only Fifty", "Lots of Icicles", "As Large As Possible (Race)", "As Large As Possible (Pond)", "Lots of Dinosaurs", "Perfect-Sized Mammoth", "As Fast As Possible (Ghost Ship)", "Light the Sacred Fire", "Lots of Yokai", "As Large As Possible 3", "As Large As Possible (Sea)"],
+        "levels": ["Lots of Drinks", "Only Fifty", "Lots of Icicles", "As Large As Possible (Race)", "As Large As Possible (Pond)", "Lots of Dinosaurs", "Perfect-Sized Mammoth", "As Fast As Possible (Ghost Ship)", "Light the Sacred Fire", "Lots of Yokai", "As Large As Possible 3", "As Large As Possible (Sea)", "Cowbear Pasture"],
     },
     "Giant Ammonite Fossil": {
         "id": 1276,
@@ -5695,7 +5699,7 @@ collection_data = {
     },
     "Fossil": {
         "id": 10934,
-        "levels": ["As Large As Possible (Race)", "Lots of Dinosaurs", "Perfect-Sized Mammoth"],
+        "levels": ["As Large As Possible (Race)", "Lots of Dinosaurs", "Perfect-Sized Mammoth", "Cowbear Pasture"],
     },
     "Gold Stamp": {
         "id": 1401,
@@ -5907,7 +5911,7 @@ collection_data = {
     },
     "Ancient Coin Slab": {
         "id": 1349,
-        "levels": ["As Fast As Possible 5", "As Large As Possible 5", "As Large As Possible 3", "As Large As Possible 4"],
+        "levels": ["As Fast As Possible 5", "As Large As Possible 5", "As Large As Possible 3", "As Large As Possible 4", "Cowbear Pasture"],
     },
     "Ancient Bills": {
         "id": 1350,
@@ -6019,7 +6023,7 @@ collection_data = {
     },
     "Giant Paper Lantern": {
         "id": 2283,
-        "levels": ["As Large As Possible 5", "As Large As Possible 3", "As Large As Possible 4", "Lots of Yokai"],
+        "levels": ["As Large As Possible 5", "As Large As Possible 3", "As Large As Possible 4", "Lots of Yokai", "Cowbear Pasture"],
     },
     "Red Garden Lantern": {
         "id": 2092,
@@ -6159,7 +6163,7 @@ collection_data = {
     },
     "Heated Table": {
         "id": 10322,
-        "levels": ["As Fast As Possible 5", "Build a Ship", "Lots of Food 3", "As Large As Possible 5", "As Large As Possible 4"],
+        "levels": ["As Fast As Possible 5", "Build a Ship", "Lots of Food 3", "As Large As Possible 5", "As Large As Possible 4", "Cowbear Pasture"],
     },
     "Icicle": {
         "id": 2509,
@@ -6483,7 +6487,7 @@ collection_data = {
     },
     "Bamboo Sword": {
         "id": 171,
-        "levels": ["As Large As Possible 3", "As Large As Possible 4", "As Fast As Possible 3", "Light the Sacred Fire", "Lots of Yokai", "As Large As Possible 2"],
+        "levels": ["As Large As Possible 3", "As Large As Possible 4", "As Fast As Possible 3", "Light the Sacred Fire", "Lots of Yokai", "As Large As Possible 2", "Cowbear Pasture"],
     },
     "Wooden Sword": {
         "id": 2718,
@@ -6551,7 +6555,7 @@ collection_data = {
     },
     "Naginata Spear": {
         "id": 2958,
-        "levels": ["As Large As Possible 3", "As Fast As Possible 3", "As Large As Possible 4"],
+        "levels": ["As Large As Possible 3", "As Fast As Possible 3", "As Large As Possible 4", "Cowbear Pasture"],
     },
     "Stone Hatchet": {
         "id": 440,
@@ -6631,7 +6635,7 @@ collection_data = {
     },
     "Cannon": {
         "id": 12045,
-        "levels": ["As Large As Possible 5", "As Large As Possible 3", "As Large As Possible 4", "As Fast As Possible 5"],
+        "levels": ["As Large As Possible 5", "As Large As Possible 3", "As Large As Possible 4", "As Fast As Possible 5", "Cowbear Pasture"],
     },
     "Cannonball": {
         "id": 860,
@@ -6703,7 +6707,7 @@ collection_data = {
     },
     "Falling Rock": {
         "id": 10273,
-        "levels": ["As Fast As Possible 5", "Lots of Dinosaurs", "As Large As Possible 3", "As Large As Possible 4", "As Large As Possible 5"],
+        "levels": ["As Fast As Possible 5", "Lots of Dinosaurs", "As Large As Possible 3", "As Large As Possible 4", "As Large As Possible 5", "Cowbear Pasture"],
     },
     "Huge Falling Rock": {
         "id": 11318,
@@ -7259,7 +7263,7 @@ collection_data = {
     },
     "Large Samurai Armor": {
         "id": 2831,
-        "levels": ["Lots of Food 3"],
+        "levels": ["Lots of Food 3", "Cowbear Pasture"],
     },
     "Shogun": {
         "id": 362,
@@ -7275,7 +7279,7 @@ collection_data = {
     },
     "Water Ninja": {
         "id": 12637,
-        "levels": ["As Large As Possible (Race)", "Build a Ship", "As Large As Possible 4"],
+        "levels": ["As Large As Possible (Race)", "Build a Ship", "As Large As Possible 4", "Cowbear Pasture"],
     },
     "Ninja on a Kite": {
         "id": 2287,
@@ -7319,7 +7323,7 @@ collection_data = {
     },
     "Tatami Mat": {
         "id": 12130,
-        "levels": ["Build a Ship", "As Large As Possible 3", "As Fast As Possible 3", "As Large As Possible 4"],
+        "levels": ["Build a Ship", "As Large As Possible 3", "As Fast As Possible 3", "As Large As Possible 4", "Cowbear Pasture"],
     },
     "Ninja Scroll": {
         "id": 23422,
@@ -7355,7 +7359,7 @@ collection_data = {
     },
     "Big Kokeshi": {
         "id": 37,
-        "levels": ["As Large As Possible (Sea)", "As Fast As Possible 2", "Build a Ship", "As Large As Possible 2", "As Large As Possible 3", "As Fast As Possible 3", "As Fast As Possible (Ghost Ship)", "Light the Sacred Fire", "As Large As Possible 4"],
+        "levels": ["As Large As Possible (Sea)", "As Fast As Possible 2", "Build a Ship", "As Large As Possible 2", "As Large As Possible 3", "As Fast As Possible 3", "As Fast As Possible (Ghost Ship)", "Light the Sacred Fire", "As Large As Possible 4", "Cowbear Pasture"],
     },
     "Japanese Doll": {
         "id": 23072,
@@ -7411,7 +7415,7 @@ collection_data = {
     },
     "Cow Oni": {
         "id": 2742,
-        "levels": ["As Fast As Possible 5"],
+        "levels": ["As Fast As Possible 5", "Cowbear Pasture"],
     },
     "Nue": {
         "id": 2743,
@@ -7547,7 +7551,7 @@ collection_data = {
     },
     "Shrine Dog": {
         "id": 12328,
-        "levels": ["Lots of Yokai", "As Large As Possible 5", "As Fast As Possible 4", "As Large As Possible 4"],
+        "levels": ["Lots of Yokai", "As Large As Possible 5", "As Fast As Possible 4", "As Large As Possible 4", "Cowbear Pasture"],
     },
     "Inari Shrine": {
         "id": 1986,
@@ -7587,7 +7591,7 @@ collection_data = {
     },
     "Pine Decoration": {
         "id": 10275,
-        "levels": ["As Large As Possible 4", "Lots of Yokai", "As Large As Possible 5"],
+        "levels": ["As Large As Possible 4", "Lots of Yokai", "As Large As Possible 5", "Cowbear Pasture"],
     },
     "Secretive Kite": {
         "id": 2966,
@@ -7595,7 +7599,7 @@ collection_data = {
     },
     "Lion Dancer": {
         "id": 11423,
-        "levels": ["As Fast As Possible 5", "As Large As Possible 4", "As Large As Possible 5"],
+        "levels": ["As Fast As Possible 5", "As Large As Possible 4", "As Large As Possible 5", "Cowbear Pasture"],
     },
     "Lone Lion Dance": {
         "id": 3022,
@@ -7783,7 +7787,7 @@ collection_data = {
     },
     "Horseback Archer": {
         "id": 2977,
-        "levels": ["As Large As Possible 4"],
+        "levels": ["As Large As Possible 4", "Cowbear Pasture"],
     },
     "Paper Lantern (Festival)": {
         "id": 10336,
@@ -8131,7 +8135,7 @@ collection_data = {
     },
     "Dried Rice Plant": {
         "id": 1392,
-        "levels": ["Build a Haniwa"],
+        "levels": ["Build a Haniwa", "Cowbear Pasture"],
     },
     "Straw": {
         "id": 10221,
@@ -8179,7 +8183,7 @@ collection_data = {
     },
     "Rice Drying Rack": {
         "id": 1373,
-        "levels": ["As Large As Possible 5", "As Large As Possible 4"],
+        "levels": ["As Large As Possible 5", "As Large As Possible 4", "Cowbear Pasture"],
     },
     "Scarecrow": {
         "id": 10103,
@@ -8231,7 +8235,7 @@ collection_data = {
     },
     "Cow Banner": {
         "id": 3049,
-        "levels": ["As Large As Possible (Race)"],
+        "levels": ["As Large As Possible (Race)", "Cowbear Pasture"],
     },
     "Bear Banner": {
         "id": 3050,
@@ -8283,11 +8287,11 @@ collection_data = {
     },
     "Statue Base": {
         "id": 12214,
-        "levels": ["As Large As Possible (Race)", "As Large As Possible 4", "As Fast As Possible 4"],
+        "levels": ["As Large As Possible (Race)", "As Large As Possible 4", "As Fast As Possible 4", "Cowbear Pasture"],
     },
     "Monument": {
         "id": 10331,
-        "levels": ["Perfect-Sized Coffin", "Build a Ship", "As Large As Possible 3", "As Large As Possible 4", "Lots of Yokai"],
+        "levels": ["Perfect-Sized Coffin", "Build a Ship", "As Large As Possible 3", "As Large As Possible 4", "Lots of Yokai", "Cowbear Pasture"],
     },
     "Married Rocks": {
         "id": 12437,
@@ -8927,7 +8931,7 @@ collection_data = {
     },
     "Log Fence": {
         "id": 10463,
-        "levels": ["As Large As Possible (Race)", "Lots of Yokai"],
+        "levels": ["As Large As Possible (Race)", "Lots of Yokai", "Cowbear Pasture"],
     },
     "Farm Railing": {
         "id": 11892,
@@ -8955,7 +8959,7 @@ collection_data = {
     },
     "Bamboo Railing": {
         "id": 23433,
-        "levels": ["Lots of Yokai", "As Large As Possible 4", "As Large As Possible 5"],
+        "levels": ["Lots of Yokai", "As Large As Possible 4", "As Large As Possible 5", "Cowbear Pasture"],
     },
     "Steel Fence": {
         "id": 10451,
@@ -8971,7 +8975,7 @@ collection_data = {
     },
     "Barbed Fence": {
         "id": 3041,
-        "levels": ["As Large As Possible (Race)", "Build a Ship", "As Large As Possible 5", "As Fast As Possible 5"],
+        "levels": ["As Large As Possible (Race)", "Build a Ship", "As Large As Possible 5", "As Fast As Possible 5", "Cowbear Pasture"],
     },
     "Bamboo Fence": {
         "id": 11145,
@@ -9007,7 +9011,7 @@ collection_data = {
     },
     "Encampment Barrier": {
         "id": 3056,
-        "levels": ["As Large As Possible 5", "As Fast As Possible 5"],
+        "levels": ["As Large As Possible 5", "As Fast As Possible 5", "Cowbear Pasture"],
     },
     "Freestanding Shield": {
         "id": 3040,
@@ -9071,7 +9075,7 @@ collection_data = {
     },
     "Post": {
         "id": 11906,
-        "levels": ["Build a Ship"],
+        "levels": ["Build a Ship", "Cowbear Pasture"],
     },
     "Stone Picket": {
         "id": 24475,
@@ -9111,7 +9115,11 @@ collection_data = {
     },
     "Sliding Door (Paper Fan)": {
         "id": 11236,
-        "levels": ["Build a Ship", "Lots of Food 3", "Lots of Food 2", "As Large As Possible 4"],
+        "levels": ["Build a Ship", "Lots of Food 3", "Lots of Food 2", "As Large As Possible 4", "Cowbear Pasture"],
+    },
+    "Sliding Door Wave Pattern": {
+        "id": 29,
+        "levels": ["Cowbear Pasture"],
     },
     "Small Sliding Door": {
         "id": 11238,
@@ -9379,7 +9387,7 @@ collection_data = {
     },
     "Teahouse Banner": {
         "id": 10933,
-        "levels": ["Lots of Food 3", "As Large As Possible 4"],
+        "levels": ["Lots of Food 3", "As Large As Possible 4", "Cowbear Pasture"],
     },
     "\"Farm-Fresh\" Sign": {
         "id": 11469,
@@ -9555,7 +9563,7 @@ collection_data = {
     },
     "Willow": {
         "id": 23469,
-        "levels": ["As Fast As Possible 5", "As Large As Possible 5", "As Large As Possible 4", "As Fast As Possible 4"],
+        "levels": ["As Fast As Possible 5", "As Large As Possible 5", "As Large As Possible 4", "As Fast As Possible 4", "Cowbear Pasture"],
     },
     "Palm Tree": {
         "id": 10261,
@@ -9651,7 +9659,7 @@ collection_data = {
     },
     "Tall Grass": {
         "id": 11434,
-        "levels": ["As Large As Possible (Race)", "As Large As Possible 3", "Lots of Yokai"],
+        "levels": ["As Large As Possible (Race)", "As Large As Possible 3", "Lots of Yokai", "Cowbear Pasture"],
     },
     "Thin Grass": {
         "id": 11435,
@@ -9675,7 +9683,7 @@ collection_data = {
     },
     "Bush": {
         "id": 13048,
-        "levels": ["As Large As Possible (Race)", "As Fast As Possible 5", "Build a Ship", "As Large As Possible 5", "As Large As Possible 3", "As Large As Possible 4", "As Fast As Possible 3", "Lots of Yokai"],
+        "levels": ["As Large As Possible (Race)", "As Fast As Possible 5", "Build a Ship", "As Large As Possible 5", "As Large As Possible 3", "As Large As Possible 4", "As Fast As Possible 3", "Lots of Yokai", "Cowbear Pasture"],
     },
     "Pointy Shrubbery": {
         "id": 23987,
@@ -9751,7 +9759,7 @@ collection_data = {
     },
     "Garden Plant (M)": {
         "id": 10233,
-        "levels": ["As Large As Possible (Race)", "Build a Ship", "As Large As Possible 3", "Lots of Yokai", "As Large As Possible 4"],
+        "levels": ["As Large As Possible (Race)", "Build a Ship", "As Large As Possible 3", "Lots of Yokai", "As Large As Possible 4", "Cowbear Pasture"],
     },
     "Fluff": {
         "id": 11245,
@@ -9923,7 +9931,7 @@ collection_data = {
     },
     "Pointy Garden Rock": {
         "id": 23476,
-        "levels": ["Build a Ship", "As Large As Possible 3", "As Large As Possible 4", "As Fast As Possible 3", "Lots of Yokai", "Build a Haniwa"],
+        "levels": ["Build a Ship", "As Large As Possible 3", "As Large As Possible 4", "As Fast As Possible 3", "Lots of Yokai", "Build a Haniwa", "Cowbear Pasture"],
     },
     "Robust Garden Rock": {
         "id": 23477,
@@ -10371,7 +10379,7 @@ collection_data = {
     },
     "Stone Car": {
         "id": 2106,
-        "levels": ["As Large As Possible 5", "As Large As Possible 4"],
+        "levels": ["As Large As Possible 5", "As Large As Possible 4", "Cowbear Pasture"],
     },
     "Stone Sleigh": {
         "id": 3792,
@@ -10384,6 +10392,10 @@ collection_data = {
     "Noblewoman's Palanquin": {
         "id": 2974,
         "levels": ["As Fast As Possible 5", "As Large As Possible 5", "As Large As Possible 4"],
+    },
+    "Big Bear Bus": {
+        "id": 11882,
+        "levels": ["Cowbear Pasture"],
     },
     "Trojan Rocking Horse": {
         "id": 1165,
@@ -10427,7 +10439,7 @@ collection_data = {
     },
     "Wooden Cart": {
         "id": 334,
-        "levels": ["As Fast As Possible 5", "As Large As Possible 5", "As Large As Possible 4"],
+        "levels": ["As Fast As Possible 5", "As Large As Possible 5", "As Large As Possible 4", "Cowbear Pasture"],
     },
     "Luggage Wagon": {
         "id": 23871,
@@ -11199,7 +11211,7 @@ collection_data = {
     },
     "Loyal Vassal": {
         "id": 3019,
-        "levels": ["As Fast As Possible 5", "As Large As Possible 5", "As Large As Possible 4"],
+        "levels": ["As Fast As Possible 5", "As Large As Possible 5", "As Large As Possible 4", "Cowbear Pasture"],
     },
     "Trader": {
         "id": 41,
@@ -11207,7 +11219,7 @@ collection_data = {
     },
     "Benkei": {
         "id": 2836,
-        "levels": ["As Large As Possible 5", "As Large As Possible 4", "Lots of Food 3"],
+        "levels": ["As Large As Possible 5", "As Large As Possible 4", "Lots of Food 3", "Cowbear Pasture"],
     },
     "Shop Assistant": {
         "id": 1624,
@@ -11595,7 +11607,7 @@ collection_data = {
     },
     "Horse Costume": {
         "id": 12722,
-        "levels": ["As Fast As Possible 5", "As Large As Possible 3", "As Fast As Possible 3", "As Large As Possible 5"],
+        "levels": ["As Fast As Possible 5", "As Large As Possible 3", "As Fast As Possible 3", "As Large As Possible 5", "Cowbear Pasture"],
     },
     "Hula Dancer": {
         "id": 12725,
@@ -12067,7 +12079,7 @@ collection_data = {
     },
     "Dairy Cow": {
         "id": 10487,
-        "levels": ["As Large As Possible (Race)", "Build a Ship", "As Large As Possible 3", "As Large As Possible 4"],
+        "levels": ["As Large As Possible (Race)", "Build a Ship", "As Large As Possible 3", "As Large As Possible 4", "Cowbear Pasture"],
     },
     "Holy Cow": {
         "id": 10490,
@@ -12083,7 +12095,7 @@ collection_data = {
     },
     "Strawberry Cow": {
         "id": 10488,
-        "levels": ["As Large As Possible (Race)", "As Fast As Possible 5", "As Large As Possible 5", "As Large As Possible 4"],
+        "levels": ["As Large As Possible (Race)", "As Fast As Possible 5", "As Large As Possible 5", "As Large As Possible 4", "Cowbear Pasture"],
     },
     "Ox": {
         "id": 10489,
@@ -12092,6 +12104,14 @@ collection_data = {
     "Raging Bull": {
         "id": 1704,
         "levels": ["As Fast As Possible 5", "As Large As Possible 5"],
+    },
+    "Cow Shogun": {
+        "id": 3047,
+        "levels": ["Cowbear Pasture"],
+    },
+    "Cow Foot Soldier": {
+        "id": 3045,
+        "levels": ["Cowbear Pasture"],
     },
     "Tiger": {
         "id": 12589,
@@ -12115,11 +12135,11 @@ collection_data = {
     },
     "Horse": {
         "id": 363,
-        "levels": ["As Fast As Possible 5", "As Large As Possible 5", "As Large As Possible 3", "As Large As Possible 4"],
+        "levels": ["As Fast As Possible 5", "As Large As Possible 5", "As Large As Possible 3", "As Large As Possible 4", "Cowbear Pasture"],
     },
     "White Horse": {
         "id": 364,
-        "levels": ["As Large As Possible 3", "As Large As Possible 4"],
+        "levels": ["As Large As Possible 3", "As Large As Possible 4", "Cowbear Pasture"],
     },
     "Horse Human": {
         "id": 2554,
@@ -12211,19 +12231,19 @@ collection_data = {
     },
     "Polar Bear": {
         "id": 10470,
-        "levels": ["As Large As Possible (Race)", "As Fast As Possible 5", "Build a Ship", "As Large As Possible 4", "Perfect-Sized Mammoth", "As Large As Possible 5"],
+        "levels": ["As Large As Possible (Race)", "As Fast As Possible 5", "Build a Ship", "As Large As Possible 4", "Perfect-Sized Mammoth", "As Large As Possible 5", "Cowbear Pasture"],
     },
     "Big Bear": {
         "id": 10471,
-        "levels": ["As Large As Possible 4"],
+        "levels": ["As Large As Possible 4", "Cowbear Pasture"],
     },
     "Moon Bear": {
         "id": 12713,
-        "levels": ["Build a Ship", "As Large As Possible 3", "As Large As Possible 4", "Perfect-Sized Mammoth", "As Fast As Possible 5", "As Large As Possible 5"],
+        "levels": ["Build a Ship", "As Large As Possible 3", "As Large As Possible 4", "Perfect-Sized Mammoth", "As Fast As Possible 5", "As Large As Possible 5", "Cowbear Pasture"],
     },
     "Money Bear": {
         "id": 1351,
-        "levels": ["Build a Ship"],
+        "levels": ["Build a Ship", "Cowbear Pasture"],
     },
     "Sitting Bear": {
         "id": 2539,
@@ -12231,7 +12251,15 @@ collection_data = {
     },
     "Resting Bear": {
         "id": 2541,
-        "levels": ["As Large As Possible 5"],
+        "levels": ["As Large As Possible 5", "Cowbear Pasture"],
+    },
+    "Bear Foot Soldier": {
+        "id": 3046,
+        "levels": ["Cowbear Pasture"],
+    },
+    "Bear General": {
+        "id": 3048,
+        "levels": ["Cowbear Pasture"],
     },
     "Piranha": {
         "id": 12617,
@@ -12247,7 +12275,7 @@ collection_data = {
     },
     "Lion": {
         "id": 12715,
-        "levels": ["Build a Ship"],
+        "levels": ["Build a Ship", "Cowbear Pasture"],
     },
     "Big Gorilla": {
         "id": 12654,
@@ -12613,6 +12641,10 @@ collection_data = {
         "id": 201,
         "levels": ["Perfect-Sized Coffin", "Philosopher Hunt", "As Large As Possible 2", "Pharaoh's Request", "As Large As Possible 4"],
     },
+    "Eagle": {
+        "id": 203,
+        "levels": ["Cowbear Pasture"],
+    },
     "Vulture": {
         "id": 649,
         "levels": ["Lots of Drinks", "Perfect-Sized Coffin", "Philosopher Hunt"],
@@ -12643,7 +12675,7 @@ collection_data = {
     },
     "Wings": {
         "id": 12738,
-        "levels": ["As Large As Possible (Race)"],
+        "levels": ["As Large As Possible (Race)", "Cowbear Pasture"],
     },
     "Swan": {
         "id": 2559,
@@ -12801,13 +12833,17 @@ collection_data = {
         "id": 12596,
         "levels": ["Build a Ship"],
     },
+    "Donkey Statue": {
+        "id": 12215,
+        "levels": ["Cowbear Pasture"],
+    },
     "Hippopotamus": {
         "id": 12591,
-        "levels": ["As Fast As Possible 5"],
+        "levels": ["As Fast As Possible 5", "Cowbear Pasture"],
     },
     "Pig": {
         "id": 12587,
-        "levels": ["As Fast As Possible (Ghost Ship)", "As Large As Possible (Sea)"],
+        "levels": ["As Fast As Possible (Ghost Ship)", "As Large As Possible (Sea)", "Cowbear Pasture"],
     },
     "Muskox": {
         "id": 3873,
@@ -12815,7 +12851,7 @@ collection_data = {
     },
     "Giraffe": {
         "id": 10493,
-        "levels": ["Build a Ship"],
+        "levels": ["Build a Ship", "Cowbear Pasture"],
     },
     "Giraffes": {
         "id": 24735,
@@ -13323,7 +13359,7 @@ collection_data = {
     },
     "Minotaur": {
         "id": 1158,
-        "levels": ["As Fast As Possible 5", "As Large As Possible 5", "Philosopher Hunt"],
+        "levels": ["As Fast As Possible 5", "As Large As Possible 5", "Philosopher Hunt", "Cowbear Pasture"],
     },
     "Little Cactus Man": {
         "id": 1284,
@@ -13508,6 +13544,10 @@ collection_data = {
     "Goddess": {
         "id": 12650,
         "levels": ["As Fast As Possible 5", "As Large As Possible 5"],
+    },
+    "Cowbear": {
+        "id": 12633,
+        "levels": ["Cowbear Pasture"],
     },
     "Phoenix": {
         "id": 12721,
@@ -13703,7 +13743,7 @@ collection_data = {
     },
     "Coelacanth": {
         "id": 12628,
-        "levels": ["As Large As Possible (Race)", "As Large As Possible (Pond)", "As Large As Possible (Sea)", "As Fast As Possible 5", "As Large As Possible 5", "As Large As Possible 4", "As Fast As Possible (Ghost Ship)"],
+        "levels": ["As Large As Possible (Race)", "As Large As Possible (Pond)", "As Large As Possible (Sea)", "As Fast As Possible 5", "As Large As Possible 5", "As Large As Possible 4", "As Fast As Possible (Ghost Ship)", "Cowbear Pasture"],
     },
     "Dunkleosteus": {
         "id": 617,
