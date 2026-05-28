@@ -2,7 +2,7 @@ from __future__ import annotations
 
 from dataclasses import dataclass
 
-from Options import PerGameCommonOptions, Range, Toggle, OptionSet, DeathLink, OptionGroup, DefaultOnToggle
+from Options import PerGameCommonOptions, Range, Toggle, OptionSet, DeathLink, OptionGroup, DefaultOnToggle, Choice
 from .game_data import data
 
 
@@ -26,9 +26,22 @@ class PlanetShuffle(Range):
     default = 80
 
 
-class PlanetRequirement(Range):
+class PlanetRequirementType(Choice):
+    """
+    Whether the goal is defined as a percentage of planets in the pool, or a specific amount of planets.
+    """
+
+    display_name = "Planets Requirement Type"
+
+    option_percentage = 0
+    option_count = 1
+    default = 0
+
+
+class PlanetRequirementPercentage(Range):
     """
     The percentage of total planets needed to unlock the final level "That Hole..." and beat the game.
+    Only used if 'Planet Requirement Type' is 'percentage'
     """
 
     display_name = "Planet Requirement Percentage"
@@ -36,6 +49,19 @@ class PlanetRequirement(Range):
     range_start = 0
     range_end = 100
     default = 60
+
+
+class PlanetRequirementCount(Range):
+    """
+    The amount of total planets needed to unlock the final level "That Hole..." and beat the game.
+    Only used if 'Planet Requirement Type' is 'count'
+    """
+
+    display_name = "Planets Requirement Count"
+
+    range_start = 0
+    range_end = 250
+    default = 50
 
 
 class Cousins(DefaultOnToggle):
@@ -239,7 +265,9 @@ class SpiderWeight(Range):
 class OUAKatamariOptions(PerGameCommonOptions):
     planet_clear: PlanetClear
     planet_shuffle: PlanetShuffle
-    planet_requirement: PlanetRequirement
+    planet_requirement_type: PlanetRequirementType
+    planet_requirement_percentage: PlanetRequirementPercentage
+    planet_requirement_count: PlanetRequirementCount
     death_link: DeathLink
     cousins: Cousins
     presents: Presents

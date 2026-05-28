@@ -10,6 +10,11 @@ if TYPE_CHECKING:
 
 
 def set_completion_condition(world: OUAKatamariWorld) -> None:
-    planet_requirement = max(1, floor(world.number_of_planets * (world.options.planet_requirement.value / 100.0)))
+    if world.options.planet_requirement_type == 0: # Percentage
+        world.planet_requirement = floor(world.number_of_planets * (world.options.planet_requirement_percentage.value / 100.0))
 
-    world.set_completion_rule(Has("Planet", count=planet_requirement))
+    elif world.options.planet_requirement_type == 1: # Count
+        world.planet_requirement = min(world.number_of_planets, world.options.planet_requirement_count.value)
+        world.options.planet_requirement_count.value = world.planet_requirement
+
+    world.set_completion_rule(Has("Planet", count=world.planet_requirement))

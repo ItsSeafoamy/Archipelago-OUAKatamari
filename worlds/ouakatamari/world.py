@@ -29,6 +29,7 @@ class OUAKatamariWorld(World):
     def __init__(self, world, player: int):
         super().__init__(world, player)
         self.number_of_planets = 0
+        self.planet_requirement = 0
         self.collectionsanity_locations = []
 
     def generate_early(self) -> None:
@@ -42,9 +43,6 @@ class OUAKatamariWorld(World):
         regions.create_regions(self)
         locations.create_locations(self)
 
-    def set_rules(self) -> None:
-        rules.set_completion_condition(self)
-
     def create_items(self) -> None:
         items.create_all_items(self)
 
@@ -53,6 +51,9 @@ class OUAKatamariWorld(World):
 
     def get_filler_item_name(self) -> str:
         return items.get_random_filler_item(self)
+
+    def set_rules(self) -> None:
+        rules.set_completion_condition(self)
 
     def pre_fill(self) -> None:
         if self.options.collectionsanity.value:
@@ -66,13 +67,14 @@ class OUAKatamariWorld(World):
 
     def fill_slot_data(self) -> Mapping[str, Any]:
         return {
-            "number_of_planets": self.number_of_planets,
-            "planets_requirement": self.options.planet_requirement.value,
-            "planets_on_clear": self.options.planet_clear.value,
-            "death_link": self.options.death_link.value,
-            "randomize_cousins": self.options.cousins.value,
-            "randomize_presents": self.options.presents.value,
-            "randomize_crowns": self.options.crowns.value,
-            "collectionsanity": self.options.collectionsanity.value,
-            "skip_tutorial": self.options.skip_tutorial.value,
+            "mod_version": 0,
+            "number_of_planets": int(self.number_of_planets),
+            "planet_requirement": int(self.planet_requirement),
+            "planets_on_clear": bool(self.options.planet_clear.value),
+            "death_link": bool(self.options.death_link.value),
+            "randomize_cousins": bool(self.options.cousins.value),
+            "randomize_presents": bool(self.options.presents.value),
+            "randomize_crowns": bool(self.options.crowns.value),
+            "collectionsanity": bool(self.options.collectionsanity.value),
+            "skip_tutorial": bool(self.options.skip_tutorial.value),
         }
