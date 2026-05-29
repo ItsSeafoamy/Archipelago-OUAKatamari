@@ -68,6 +68,7 @@ class OUAKatamariWorld(World):
     def fill_slot_data(self) -> Mapping[str, Any]:
         return {
             "mod_version": 0,
+            "world_version": str(self.world_version.as_simple_string()),
             "number_of_planets": int(self.number_of_planets),
             "planet_requirement": int(self.planet_requirement),
             "planets_on_clear": bool(self.options.planet_clear.value),
