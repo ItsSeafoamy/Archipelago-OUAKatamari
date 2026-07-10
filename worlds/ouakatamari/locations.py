@@ -35,6 +35,7 @@ def define_locations() -> None:
     for object_name, object_data in collection_data.items():
         locations_all[f"Collectionsanity: {object_name}"] = object_data["id"] + game_data.COLLECTIONSANITY_OFFSET
 
+
 def create_locations(world: OUAKatamariWorld) -> None:
     for level_name, level_data in game_data.data.items():
         if level_name in world.options.exclude_levels.value: continue
@@ -94,6 +95,7 @@ def create_locations(world: OUAKatamariWorld) -> None:
                 level_name for level_name in object_data["levels"]
                 if level_name not in world.options.exclude_levels.value
                 if level_name != "That Hole..."
+                if level_name != "Tutorial"
             ]
 
             if not levels: continue
