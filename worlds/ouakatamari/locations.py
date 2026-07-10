@@ -4,6 +4,7 @@ from typing import TYPE_CHECKING
 
 from BaseClasses import Location
 from rule_builder.rules import HasAny
+from math import floor
 from . import game_data
 from .collectionsanity_data import collection_data
 
@@ -89,6 +90,7 @@ def create_locations(world: OUAKatamariWorld) -> None:
     # collectionsanity
     if world.options.collectionsanity:
         region = world.get_region("Menu")
+        collectionsanity_locations = []
 
         for object_name, object_data in collection_data.items():
             levels = [
@@ -107,4 +109,12 @@ def create_locations(world: OUAKatamariWorld) -> None:
 
             region.locations.append(loc)
             world.set_rule(loc, HasAny(*levels))
-            world.collectionsanity_locations.append(loc)
+            collectionsanity_locations.append(loc)
+
+        local_fill_count = floor(len(collectionsanity_locations) * (world.options.collectionsanity_local_fill.value / 100.0))
+        world.random.shuffle(collectionsanity_locations)
+
+        while local_fill_count > 0:
+            loc = collectionsanity_locations.pop()
+            loc.place_locked_item(world.create_item("Stardust"))
+            local_fill_count -= 1

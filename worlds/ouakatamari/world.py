@@ -1,5 +1,4 @@
 from collections.abc import Mapping
-from math import floor
 from typing import Any
 
 from worlds.AutoWorld import World
@@ -30,7 +29,6 @@ class OUAKatamariWorld(World):
         super().__init__(world, player)
         self.number_of_planets = 0
         self.planet_requirement = 0
-        self.collectionsanity_locations = []
 
     def generate_early(self) -> None:
         excluded_levels = len(self.options.exclude_levels.value)
@@ -54,16 +52,6 @@ class OUAKatamariWorld(World):
 
     def set_rules(self) -> None:
         rules.set_completion_condition(self)
-
-    def pre_fill(self) -> None:
-        if self.options.collectionsanity.value:
-            fill_count = floor(len(self.collectionsanity_locations) * (self.options.collectionsanity_local_fill.value / 100.0))
-            self.random.shuffle(self.collectionsanity_locations)
-
-            while fill_count > 0:
-                loc = self.collectionsanity_locations.pop()
-                loc.place_locked_item(self.create_item("Stardust"))
-                fill_count -= 1
 
     def fill_slot_data(self) -> Mapping[str, Any]:
         return {
