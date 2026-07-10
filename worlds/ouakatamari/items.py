@@ -76,7 +76,7 @@ def create_item(world: OUAKatamariWorld, name: str) -> OUAKatamariItem:
 
 def create_all_items(world: OUAKatamariWorld) -> None:
     starting_levels = []
-    starting_cousins = ["The Prince"]
+    starting_cousins = []
 
     if not world.options.skip_tutorial.value:
         starting_levels.append("Tutorial")
@@ -88,6 +88,7 @@ def create_all_items(world: OUAKatamariWorld) -> None:
         starting_levels.append(level_names.pop())
 
     itempool: list[Item] = []
+    cousins: list[str] = []
     cosmetics: list[str] = []
 
     for level_name, level_data in game_data.data.items():
@@ -99,15 +100,21 @@ def create_all_items(world: OUAKatamariWorld) -> None:
             itempool.append(world.create_item(level_name))
 
         # cousins
-        if world.options.cousins:
+        if world.options.cousins.value:
             for cousin_name in level_data["cousins"].keys():
-                if cousin_name not in starting_cousins:
-                    cosmetics.append(cousin_name)
+                cousins.append(cousin_name)
 
         # presents
-        if world.options.presents:
+        if world.options.presents.value:
             for present_name in level_data["present"].keys():
                 cosmetics.append(present_name)
+
+    if not world.options.cousins.value:
+        starting_cousins.append("The Prince")
+    else:
+        world.random.shuffle(cousins)
+        starting_cousins.append(cousins.pop())
+        cosmetics.extend(cousins)
 
     number_of_levels = len(itempool)
     number_of_unfilled_locations = len(world.multiworld.get_unfilled_locations(world.player)) - number_of_levels
