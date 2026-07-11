@@ -505,4 +505,5 @@ freebie_data = {
 trap_data = {
     "Washpan Trap": 6,
     "Spider Trap": 7,
+    "Fog Trap": 100,
 }

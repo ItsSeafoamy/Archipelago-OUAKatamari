@@ -156,12 +156,13 @@ def get_random_filler_item(world: OUAKatamariWorld) -> str:
         stardust_weight = world.options.stardust_weight
         washpan_weight = world.options.washpan_weight
         spider_weight = world.options.spider_weight
-        trap_weights = stardust_weight + washpan_weight + spider_weight
+        fog_weight = world.options.fog_weight
+        trap_weights = stardust_weight + washpan_weight + spider_weight + fog_weight
 
         if trap_weights > 0:
             return world.random.choices(
                 population=["Stardust"] + list(game_data.trap_data.keys()),
-                weights=[stardust_weight, washpan_weight, spider_weight],
+                weights=[stardust_weight, washpan_weight, spider_weight, fog_weight],
                 k=1
             )[0]
 

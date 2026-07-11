@@ -261,6 +261,19 @@ class SpiderWeight(Range):
     default = 0
 
 
+class FogWeight(Range):
+    """
+    The weight of Fog Traps in the junk/trap pool.
+    This trap adds the fog from 'Lots of Yokai', and will slowly dissipate over time.
+    Does not activate while in 'Lots of Yokai'.
+    """
+
+    display_name = "Fog Trap Weight"
+    range_start = 0
+    range_end = 100
+    default = 0
+
+
 @dataclass
 class OUAKatamariOptions(PerGameCommonOptions):
     planet_clear: PlanetClear
@@ -288,6 +301,7 @@ class OUAKatamariOptions(PerGameCommonOptions):
     stardust_weight: StardustWeight
     washpan_weight: WashpanWeight
     spider_weight: SpiderWeight
+    fog_weight: FogWeight
 
 
 option_groups = [
@@ -297,6 +311,6 @@ option_groups = [
     ),
     OptionGroup(
         "Junk & Trap Options",
-        [JunkTrapChance, StardustWeight, WashpanWeight, SpiderWeight],
+        [JunkTrapChance, StardustWeight, WashpanWeight, SpiderWeight, FogWeight],
     )
 ]
