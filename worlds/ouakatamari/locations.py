@@ -3,10 +3,11 @@ from __future__ import annotations
 from typing import TYPE_CHECKING
 
 from BaseClasses import Location
-from rule_builder.rules import HasAny
+from rule_builder.rules import HasAny, Has
 from math import floor
-from . import game_data
+from . import game_data, items
 from .collectionsanity_data import collection_data
+from .options import Collectionsanity
 
 if TYPE_CHECKING:
     from .world import OUAKatamariWorld
@@ -33,8 +34,11 @@ def define_locations() -> None:
             for i in range(3):
                 locations_all[f"{level_name} - Crown {str(i+1)}"] = level_data["crown_index"] + i + game_data.CROWN_OFFSET
 
+    count = 0
     for object_name, object_data in collection_data.items():
-        locations_all[f"Collectionsanity: {object_name}"] = object_data["id"] + game_data.COLLECTIONSANITY_OFFSET
+        count += 1
+        locations_all[f"Collectionsanity: {object_name}"] = object_data["id"] + game_data.COLLECTIONSANITY_INDIVIDUAL_OFFSET
+        locations_all[f"Collectionsanity: {count} objects"] = count + game_data.COLLECTIONSANITY_MILESTONE_OFFSET
 
 
 def create_locations(world: OUAKatamariWorld) -> None:
@@ -45,53 +49,64 @@ def create_locations(world: OUAKatamariWorld) -> None:
         region = world.get_region(level_name)
 
         # level clear check
-        loc = OUAKatamariLocation(world.player,
-                                  f"{level_name} - Clear",
-                                  level_data["id"] + game_data.LEVEL_OFFSET,
-                                  region)
+        loc = OUAKatamariLocation(
+            world.player,
+           f"{level_name} - Clear",
+            level_data["id"] + game_data.LEVEL_OFFSET,
+            region
+        )
         region.locations.append(loc)
 
         # planet check
         if world.options.planet_clear:
-            loc = OUAKatamariLocation(world.player,
-                                      f"{level_name} - Planet",
-                                      level_data["id"] + game_data.PLANET_OFFSET,
-                                      region)
+            loc = OUAKatamariLocation(
+                world.player,
+                f"{level_name} - Planet",
+                level_data["id"] + game_data.PLANET_OFFSET,
+                region
+            )
             loc.place_locked_item(world.create_item("Planet"))
             region.locations.append(loc)
 
         # cousin checks
         if world.options.cousins:
             for cousin_name, cousin_id in level_data["cousins"].items():
-                loc = OUAKatamariLocation(world.player,
-                                          f"{level_name} - Cousin: {cousin_name}",
-                                          cousin_id + game_data.COUSIN_OFFSET,
-                                          region)
+                loc = OUAKatamariLocation(
+                    world.player,
+                    f"{level_name} - Cousin: {cousin_name}",
+                    cousin_id + game_data.COUSIN_OFFSET,
+                    region
+                )
                 region.locations.append(loc)
 
         # present checks
         if world.options.presents:
             for present_name, present_id in level_data["present"].items():
-                loc = OUAKatamariLocation(world.player,
-                                          f"{level_name} - Present",
-                                          present_id + game_data.PRESENT_OFFSET,
-                                          region)
+                loc = OUAKatamariLocation(
+                    world.player,
+                    f"{level_name} - Present",
+                    present_id + game_data.PRESENT_OFFSET,
+                    region
+                )
                 region.locations.append(loc)
 
         # crown checks
         if world.options.crowns and level_data["crown_index"] != -1:
             for i in range(3):
-                loc = OUAKatamariLocation(world.player,
-                                          f"{level_name} - Crown {str(i+1)}",
-                                          level_data["crown_index"] + i + game_data.CROWN_OFFSET,
-                                          region)
+                loc = OUAKatamariLocation(
+                    world.player,
+                    f"{level_name} - Crown {str(i+1)}",
+                    level_data["crown_index"] + i + game_data.CROWN_OFFSET,
+                    region
+                )
                 region.locations.append(loc)
 
     # collectionsanity
-    if world.options.collectionsanity:
+    if world.options.collectionsanity.value != Collectionsanity.option_disabled:
         region = world.get_region("Menu")
         collectionsanity_locations = []
 
+        count = 0
         for object_name, object_data in collection_data.items():
             levels = [
                 level_name for level_name in object_data["levels"]
@@ -102,14 +117,39 @@ def create_locations(world: OUAKatamariWorld) -> None:
 
             if not levels: continue
 
-            loc = OUAKatamariLocation(world.player,
-                                      f"Collectionsanity: {object_name}",
-                                      object_data["id"] + game_data.COLLECTIONSANITY_OFFSET,
-                                      region)
+            if world.options.collectionsanity.value == Collectionsanity.option_individual:
+                loc = OUAKatamariLocation(
+                    world.player,
+                    f"Collectionsanity: {object_name}",
+                    object_data["id"] + game_data.COLLECTIONSANITY_INDIVIDUAL_OFFSET,
+                    region
+                )
 
-            region.locations.append(loc)
-            world.set_rule(loc, HasAny(*levels))
-            collectionsanity_locations.append(loc)
+                region.locations.append(loc)
+                world.set_rule(loc, HasAny(*levels))
+                collectionsanity_locations.append(loc)
+            else:
+                count += 1
+
+                if count % world.options.collectionsanity_milestones.value == 0:
+                    loc = OUAKatamariLocation(
+                        world.player,
+                        f"Collectionsanity: {count} objects",
+                        count + game_data.COLLECTIONSANITY_MILESTONE_OFFSET,
+                        region
+                    )
+
+                    region.locations.append(loc)
+                    world.set_rule(loc, Has("Collectionsanity", count))
+                    collectionsanity_locations.append(loc)
+
+                region.add_event(
+                    f"Collectionsanity: {object_name}",
+                    "Collectionsanity",
+                    location_type=OUAKatamariLocation,
+                    item_type=items.OUAKatamariItem,
+                    rule=HasAny(*levels)
+                )
 
         local_fill_count = floor(len(collectionsanity_locations) * (world.options.collectionsanity_local_fill.value / 100.0))
         world.random.shuffle(collectionsanity_locations)

@@ -64,6 +64,6 @@ class OUAKatamariWorld(World):
             "randomize_cousins": bool(self.options.cousins.value),
             "randomize_presents": bool(self.options.presents.value),
             "randomize_crowns": bool(self.options.crowns.value),
-            "collectionsanity": bool(self.options.collectionsanity.value),
+            "collectionsanity": int(self.options.collectionsanity.value),
             "skip_tutorial": bool(self.options.skip_tutorial.value),
         }

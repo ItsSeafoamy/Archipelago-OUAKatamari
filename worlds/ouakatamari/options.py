@@ -88,24 +88,6 @@ class Crowns(DefaultOnToggle):
     display_name = "Randomize Crowns"
 
 
-class Collectionsanity(Toggle):
-    """
-    Adds a check for (almost) every single object in the collection.
-    """
-
-    display_name = "Collectionsanity"
-
-class CollectionsanityLocalFill(Range):
-    """
-    The percentage of collectionsanity checks that will be forced to have a local junk item.
-    """
-
-    display_name = "Collectionsanity Local Fill Percentage"
-    range_start = 0
-    range_end = 100
-    default = 90
-
-
 class SkipTutorial(Toggle):
     """
     Skips the tutorial.
@@ -132,6 +114,44 @@ class ExcludeLevels(OptionSet):
 
     display_name = "Exclude Levels"
     valid_keys = set(data.keys() - {"Tutorial"})
+
+
+class Collectionsanity(Choice):
+    """
+    Adds checks for rolling up objects in the collection.
+
+    Individual: Grants a check for every individual unique object in the collection. E.g. Collectionsanity: Tomato
+    Milestones: Grants a check for every x amount of unique objects rolled up. E.g. Collectionsanity: 100 objects
+    """
+
+    display_name = "Collectionsanity"
+    option_disabled = 0
+    option_individual = 1
+    option_milestones = 2
+    default = 0
+
+
+class CollectionsanityMilestones(Range):
+    """
+    How many unique objects must be rolled up before granting a check.
+    Only used when Collectionsanity is 'Milestones'.
+    """
+
+    display_name = "Milestones"
+    range_start = 1
+    range_end = 4000
+    default = 100
+
+
+class CollectionsanityLocalFill(Range):
+    """
+    The percentage of collectionsanity checks that will be forced to have a local junk item.
+    """
+
+    display_name = "Local Fill Percentage"
+    range_start = 0
+    range_end = 100
+    default = 90
 
 
 class RocketWeight(Range):
@@ -285,11 +305,12 @@ class OUAKatamariOptions(PerGameCommonOptions):
     cousins: Cousins
     presents: Presents
     crowns: Crowns
-    collectionsanity: Collectionsanity
-    collectionsanity_local_fill: CollectionsanityLocalFill
     skip_tutorial: SkipTutorial
     starting_level_count: StartingLevels
     exclude_levels: ExcludeLevels
+    collectionsanity: Collectionsanity
+    collectionsanity_milestones: CollectionsanityMilestones
+    collectionsanity_local_fill: CollectionsanityLocalFill
     rocket_weight: RocketWeight
     magnet_weight: MagnetWeight
     sonar_weight: SonarWeight
@@ -305,6 +326,10 @@ class OUAKatamariOptions(PerGameCommonOptions):
 
 
 option_groups = [
+    OptionGroup(
+        "Collectionsanity Options",
+        [Collectionsanity, CollectionsanityMilestones, CollectionsanityLocalFill],
+    ),
     OptionGroup(
         "Freebie Options",
         [RocketWeight, MagnetWeight, SonarWeight, TimerWeight, MushroomWeight, IceAxeWeight, SuperFreebieChance],
