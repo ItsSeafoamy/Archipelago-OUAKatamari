@@ -106,7 +106,7 @@ def create_locations(world: OUAKatamariWorld) -> None:
         region = world.get_region("Menu")
         collectionsanity_locations = []
 
-        count = 0
+        required = 0
         for object_name, object_data in collectionsanity_data.object_data.items():
             levels = [
                 level_name for level_name in object_data["levels"]
@@ -129,9 +129,10 @@ def create_locations(world: OUAKatamariWorld) -> None:
                 world.set_rule(loc, HasAny(*levels))
                 collectionsanity_locations.append(loc)
             else:
-                count += 1
+                required += 1
+                count = required - world.options.collectionsanity_out_of_logic.value
 
-                if count % world.options.collectionsanity_milestones.value == 0:
+                if count > 0 and count % world.options.collectionsanity_milestones.value == 0:
                     loc = OUAKatamariLocation(
                         world.player,
                         f"Collectionsanity: {count} objects",
@@ -140,7 +141,7 @@ def create_locations(world: OUAKatamariWorld) -> None:
                     )
 
                     region.locations.append(loc)
-                    world.set_rule(loc, CollectionRule(count))
+                    world.set_rule(loc, CollectionRule(required))
                     collectionsanity_locations.append(loc)
 
         local_fill_count = floor(len(collectionsanity_locations) * (world.options.collectionsanity_local_fill.value / 100.0))

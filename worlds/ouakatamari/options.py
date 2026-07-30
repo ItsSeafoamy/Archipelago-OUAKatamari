@@ -134,18 +134,33 @@ class Collectionsanity(Choice):
 class CollectionsanityMilestones(Range):
     """
     How many unique objects must be rolled up before granting a check.
-    Only used when Collectionsanity is 'Milestones'.
+    Only used when Collectionsanity is 'milestones'.
     """
 
     display_name = "Milestones"
     range_start = 1
-    range_end = 4000
+    range_end = 3637
+    default = 100
+
+
+class CollectionsanityOutOfLogic(Range):
+    """
+    How many unique objects that are possible to roll up are considered out of logic.
+    e.g. If you can roll up 100 unique objects, but set this value to 20, 80 will be considered in logic.
+    Only used when Collectionsanity is 'milestones'.
+    """
+
+    display_name = "Out of Logic"
+    range_start = 0
+    range_end = 3636
     default = 100
 
 
 class CollectionsanityLocalFill(Range):
     """
     The percentage of collectionsanity checks that will be forced to have a local junk item.
+    Recommended to keep high when using individual mode or a very low milestone such as 1.
+    Recommended to turn down when using higher milestones.
     """
 
     display_name = "Local Fill Percentage"
@@ -310,6 +325,7 @@ class OUAKatamariOptions(PerGameCommonOptions):
     exclude_levels: ExcludeLevels
     collectionsanity: Collectionsanity
     collectionsanity_milestones: CollectionsanityMilestones
+    collectionsanity_out_of_logic: CollectionsanityOutOfLogic
     collectionsanity_local_fill: CollectionsanityLocalFill
     rocket_weight: RocketWeight
     magnet_weight: MagnetWeight
@@ -328,7 +344,7 @@ class OUAKatamariOptions(PerGameCommonOptions):
 option_groups = [
     OptionGroup(
         "Collectionsanity Options",
-        [Collectionsanity, CollectionsanityMilestones, CollectionsanityLocalFill],
+        [Collectionsanity, CollectionsanityMilestones, CollectionsanityOutOfLogic, CollectionsanityLocalFill],
     ),
     OptionGroup(
         "Freebie Options",
