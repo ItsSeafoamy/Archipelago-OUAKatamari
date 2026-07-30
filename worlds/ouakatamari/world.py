@@ -1,6 +1,7 @@
 from collections.abc import Mapping
 from typing import Any
 
+from Options import OptionError
 from worlds.AutoWorld import World
 from . import items, locations, regions, rules, web_world
 from . import options as ouakatamari_options
@@ -33,6 +34,9 @@ class OUAKatamariWorld(World):
     def generate_early(self) -> None:
         excluded_levels = len(self.options.exclude_levels.value)
         max_levels = 47 - excluded_levels
+
+        if max_levels == 0:
+            raise OptionError("Attempted to exclude every single level. Please leave at least one enabled.")
 
         if self.options.starting_level_count.value > max_levels:
             self.options.starting_level_count.value = max_levels
