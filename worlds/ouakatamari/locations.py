@@ -5,9 +5,9 @@ from typing import TYPE_CHECKING
 from BaseClasses import Location
 from rule_builder.rules import HasAny, Has
 from math import floor
-from . import game_data, items
-from .collectionsanity_data import collection_data
+from . import collectionsanity_data, game_data, rules
 from .options import Collectionsanity
+from .rules import CollectionRule
 
 if TYPE_CHECKING:
     from .world import OUAKatamariWorld
@@ -35,7 +35,7 @@ def define_locations() -> None:
                 locations_all[f"{level_name} - Crown {str(i+1)}"] = level_data["crown_index"] + i + game_data.CROWN_OFFSET
 
     count = 0
-    for object_name, object_data in collection_data.items():
+    for object_name, object_data in collectionsanity_data.object_data.items():
         count += 1
         locations_all[f"Collectionsanity: {object_name}"] = object_data["id"] + game_data.COLLECTIONSANITY_INDIVIDUAL_OFFSET
         locations_all[f"Collectionsanity: {count} objects"] = count + game_data.COLLECTIONSANITY_MILESTONE_OFFSET
@@ -107,7 +107,7 @@ def create_locations(world: OUAKatamariWorld) -> None:
         collectionsanity_locations = []
 
         count = 0
-        for object_name, object_data in collection_data.items():
+        for object_name, object_data in collectionsanity_data.object_data.items():
             levels = [
                 level_name for level_name in object_data["levels"]
                 if level_name not in world.options.exclude_levels.value
@@ -140,16 +140,8 @@ def create_locations(world: OUAKatamariWorld) -> None:
                     )
 
                     region.locations.append(loc)
-                    world.set_rule(loc, Has("Collectionsanity", count))
+                    world.set_rule(loc, CollectionRule(count))
                     collectionsanity_locations.append(loc)
-
-                region.add_event(
-                    f"Collectionsanity: {object_name}",
-                    "Collectionsanity",
-                    location_type=OUAKatamariLocation,
-                    item_type=items.OUAKatamariItem,
-                    rule=HasAny(*levels)
-                )
 
         local_fill_count = floor(len(collectionsanity_locations) * (world.options.collectionsanity_local_fill.value / 100.0))
         world.random.shuffle(collectionsanity_locations)
