@@ -109,7 +109,7 @@ def create_all_items(world: OUAKatamariWorld) -> None:
             for present_name in level_data["present"].keys():
                 cosmetics.append(present_name)
 
-    if not world.options.cousins.value:
+    if len(cousins) == 0:
         starting_cousins.append("The Prince")
     else:
         world.random.shuffle(cousins)
