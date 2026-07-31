@@ -119,11 +119,11 @@ object_data = {
     },
     "Bamboo Shoot": {
         "id": 2645,
-        "levels": ["As Large As Possible (Pond)", "As Fast As Possible 2", "Philosopher Hunt", "As Large As Possible 2", "As Large As Possible 3", "As Fast As Possible 3", "Lots of Yokai", "Build a Haniwa", "Cowbear Pasture", "As Large As Possible 4", "Dig a Hole"],
+        "levels": ["As Large As Possible (Pond)", "As Fast As Possible 2", "Philosopher Hunt", "As Large As Possible 2", "As Large As Possible 3", "As Fast As Possible 3", "Lots of Yokai", "Build a Haniwa", "Cowbear Pasture", "As Large As Possible 4", "Dig a Hole", "Lots of Food 1"],
     },
     "Green Onion": {
         "id": 2758,
-        "levels": ["As Large As Possible 3", "Lots of Food 3", "As Fast As Possible 3", "Build a Haniwa", "Lots of Food 2", "As Large As Possible 4", "As Large As Possible 5", "As Large As Possible 2"],
+        "levels": ["As Large As Possible 3", "Lots of Food 3", "As Fast As Possible 3", "Build a Haniwa", "Lots of Food 2", "As Large As Possible 4", "As Large As Possible 5", "As Large As Possible 2", "As Fast As Possible 5"],
     },
     "Green Pumpkin": {
         "id": 10203,
@@ -179,7 +179,7 @@ object_data = {
     },
     "Strawberry": {
         "id": 249,
-        "levels": ["Lots of Drinks", "Make a Star Again 1", "As Large As Possible 2", "As Large As Possible 3", "Tag, You're It! 1", "As Large As Possible 1", "Tutorial", "Lots of Coins"],
+        "levels": ["Lots of Drinks", "Make a Star Again 1", "As Large As Possible 2", "As Large As Possible 3", "Tag, You're It! 1", "As Large As Possible 1", "Tutorial", "Lots of Coins", "As Fast As Possible 1"],
     },
     "Giant Strawberry": {
         "id": 10998,
@@ -207,7 +207,7 @@ object_data = {
     },
     "Melon": {
         "id": 244,
-        "levels": ["Lots of Sweeeeeeeeets", "Perfect-Sized Coffin", "As Large As Possible (Sea)", "Build a Ship", "Lots of Food 1", "As Large As Possible 5", "Lots of Dinosaurs", "As Large As Possible 3", "Lots of Food 3", "As Fast As Possible 3", "Build a Haniwa", "Lots of Food 2", "As Fast As Possible (Ghost Ship)"],
+        "levels": ["Lots of Sweeeeeeeeets", "Perfect-Sized Coffin", "As Large As Possible (Sea)", "Build a Ship", "Lots of Food 1", "As Large As Possible 5", "Lots of Dinosaurs", "As Large As Possible 3", "Lots of Food 3", "As Fast As Possible 3", "Build a Haniwa", "Lots of Food 2", "As Fast As Possible (Ghost Ship)", "As Fast As Possible 5"],
     },
     "Melon With Raw Ham": {
         "id": 1529,
@@ -223,7 +223,7 @@ object_data = {
     },
     "Mandarin Piece": {
         "id": 11331,
-        "levels": ["Make a Star Again 1", "Lots of Coins", "As Large As Possible 2", "As Large As Possible 1", "Lots of Food 2", "Tutorial"],
+        "levels": ["Make a Star Again 1", "Lots of Coins", "As Large As Possible 2", "As Large As Possible 1", "Lots of Food 2", "Tutorial", "As Fast As Possible 1", "Lots of Food 1"],
     },
     "Mandarins": {
         "id": 23392,
@@ -303,11 +303,11 @@ object_data = {
     },
     "Coconut": {
         "id": 1531,
-        "levels": ["Lots of Sweeeeeeeeets", "Light the Sacred Fire", "As Large As Possible (Sea)", "Lots of Food 1", "As Large As Possible 5", "As Large As Possible 3", "As Fast As Possible 3", "As Fast As Possible (Ghost Ship)", "Build a Haniwa", "Build a Ship"],
+        "levels": ["Lots of Sweeeeeeeeets", "Light the Sacred Fire", "As Large As Possible (Sea)", "Lots of Food 1", "As Large As Possible 5", "As Large As Possible 3", "As Fast As Possible 3", "As Fast As Possible (Ghost Ship)", "Build a Haniwa", "Build a Ship", "As Fast As Possible 5"],
     },
     "Half Coconut": {
         "id": 1532,
-        "levels": ["Lots of Sweeeeeeeeets", "Light the Sacred Fire", "As Large As Possible (Sea)", "Lots of Food 1", "As Large As Possible 5", "As Fast As Possible (Ghost Ship)", "Perfect-Sized Skull", "As Large As Possible 3"],
+        "levels": ["Lots of Sweeeeeeeeets", "Light the Sacred Fire", "As Large As Possible (Sea)", "Lots of Food 1", "As Large As Possible 5", "As Fast As Possible (Ghost Ship)", "Perfect-Sized Skull", "As Large As Possible 3", "As Fast As Possible 5"],
     },
     "Star Fruit": {
         "id": 3263,
@@ -331,7 +331,7 @@ object_data = {
     },
     "Fig": {
         "id": 2173,
-        "levels": ["Lots of Food 1", "As Large As Possible 2", "Lots of Food 2", "As Fast As Possible 2"],
+        "levels": ["Lots of Food 1", "As Large As Possible 2", "Lots of Food 2", "As Fast As Possible 2", "As Large As Possible 1"],
     },
     "Fig Bowl": {
         "id": 1505,
@@ -351,7 +351,7 @@ object_data = {
     },
     "Loquat": {
         "id": 2030,
-        "levels": ["As Fast As Possible 1", "Lots of Food 1", "As Large As Possible 2", "As Large As Possible 3", "Tidy It Up", "Lots of Food 2"],
+        "levels": ["As Fast As Possible 1", "Lots of Food 1", "As Large As Possible 2", "As Large As Possible 3", "Tidy It Up", "Lots of Food 2", "As Large As Possible 1"],
     },
     "Durian": {
         "id": 3861,
@@ -407,7 +407,7 @@ object_data = {
     },
     "Box of Apples": {
         "id": 1099,
-        "levels": ["Lots of Drinks", "Light the Sacred Fire", "Perfect-Sized Coffin", "As Fast As Possible 5", "Philosopher Hunt", "As Large As Possible 3", "Lots of Food 3", "As Fast As Possible 3", "Cowbear Pasture"],
+        "levels": ["Lots of Drinks", "Light the Sacred Fire", "Perfect-Sized Coffin", "As Fast As Possible 5", "Philosopher Hunt", "As Large As Possible 3", "Lots of Food 3", "As Fast As Possible 3", "Cowbear Pasture", "As Large As Possible 5"],
     },
     "Box of Grapes": {
         "id": 1100,
@@ -471,7 +471,7 @@ object_data = {
     },
     "Toast": {
         "id": 10057,
-        "levels": ["Lots of Coins", "Lots of Food 1", "As Large As Possible 5", "Lots of Food 3", "Lots of Food 2", "Rev Up Those Fryers", "Tutorial"],
+        "levels": ["Lots of Coins", "Lots of Food 1", "As Large As Possible 5", "Lots of Food 3", "Lots of Food 2", "Rev Up Those Fryers", "Tutorial", "As Fast As Possible 5"],
     },
     "Stew on Toast": {
         "id": 3258,
@@ -555,7 +555,7 @@ object_data = {
     },
     "Gigantic Pizza": {
         "id": 12962,
-        "levels": ["As Large As Possible (Sea)", "Lots of Food 3", "As Fast As Possible (Ghost Ship)"],
+        "levels": ["As Large As Possible (Sea)", "Lots of Food 3", "As Fast As Possible (Ghost Ship)", "As Fast As Possible 5"],
     },
     "Cheese": {
         "id": 11256,
@@ -607,7 +607,7 @@ object_data = {
     },
     "Meat": {
         "id": 23880,
-        "levels": ["Lots of Food 1", "As Large As Possible 5", "Lots of Food 3", "Lots of Food 2"],
+        "levels": ["Lots of Food 1", "As Large As Possible 5", "Lots of Food 3", "Lots of Food 2", "As Fast As Possible 5"],
     },
     "Fried Chicken": {
         "id": 10094,
@@ -615,7 +615,7 @@ object_data = {
     },
     "Hanging Meat": {
         "id": 1321,
-        "levels": ["As Large As Possible (Sea)", "Lots of Food 1", "As Large As Possible 5", "Philosopher Hunt", "Lots of Food 3", "As Fast As Possible (Ghost Ship)"],
+        "levels": ["As Large As Possible (Sea)", "Lots of Food 1", "As Large As Possible 5", "Philosopher Hunt", "Lots of Food 3", "As Fast As Possible (Ghost Ship)", "As Fast As Possible 5"],
     },
     "XL Roast On Bone": {
         "id": 3473,
@@ -627,7 +627,7 @@ object_data = {
     },
     "Large Meat": {
         "id": 12117,
-        "levels": ["As Large As Possible (Race)", "Philosopher Hunt", "Lots of Dinosaurs", "Lots of Food 3", "Build a Haniwa", "As Large As Possible 5"],
+        "levels": ["As Large As Possible (Race)", "Philosopher Hunt", "Lots of Dinosaurs", "Lots of Food 3", "Build a Haniwa", "As Large As Possible 5", "As Fast As Possible 5"],
     },
     "Campfire Meat": {
         "id": 406,
@@ -819,11 +819,11 @@ object_data = {
     },
     "Curry": {
         "id": 11199,
-        "levels": ["As Large As Possible (Sea)", "Lots of Food 3", "As Fast As Possible (Ghost Ship)", "Lots of Food 2", "As Large As Possible 5"],
+        "levels": ["As Large As Possible (Sea)", "Lots of Food 3", "As Fast As Possible (Ghost Ship)", "Lots of Food 2", "As Large As Possible 5", "As Fast As Possible 5"],
     },
     "Stew": {
         "id": 11200,
-        "levels": ["As Large As Possible (Sea)", "Lots of Food 3", "As Fast As Possible (Ghost Ship)", "Lots of Food 2", "As Large As Possible 5"],
+        "levels": ["As Large As Possible (Sea)", "Lots of Food 3", "As Fast As Possible (Ghost Ship)", "Lots of Food 2", "As Large As Possible 5", "As Fast As Possible 5"],
     },
     "Canned Sardines": {
         "id": 1075,
@@ -867,23 +867,23 @@ object_data = {
     },
     "Blue Star Candy": {
         "id": 945,
-        "levels": ["Only Fifty (Appraisal)", "Lots of Food 1", "As Large As Possible 2", "As Large As Possible 1"],
+        "levels": ["Only Fifty (Appraisal)", "Lots of Food 1", "As Large As Possible 2", "As Large As Possible 1", "As Fast As Possible 1"],
     },
     "Yellow Star Candy": {
         "id": 946,
-        "levels": ["Only Fifty (Appraisal)", "As Large As Possible 2", "As Large As Possible 1"],
+        "levels": ["Only Fifty (Appraisal)", "As Large As Possible 2", "As Large As Possible 1", "Lots of Food 1"],
     },
     "Green Star Candy": {
         "id": 947,
-        "levels": ["Lots of Food 1", "As Large As Possible 2", "As Large As Possible 1"],
+        "levels": ["Lots of Food 1", "As Large As Possible 2", "As Large As Possible 1", "As Fast As Possible 1"],
     },
     "Pink Star Candy": {
         "id": 948,
-        "levels": ["Lots of Food 1", "As Large As Possible 2", "As Large As Possible 1"],
+        "levels": ["Lots of Food 1", "As Large As Possible 2", "As Large As Possible 1", "As Fast As Possible 1"],
     },
     "Purple Star Candy": {
         "id": 949,
-        "levels": ["Only Fifty (Appraisal)", "Lots of Food 1", "As Large As Possible 2", "As Large As Possible 3", "As Large As Possible 1"],
+        "levels": ["Only Fifty (Appraisal)", "Lots of Food 1", "As Large As Possible 2", "As Large As Possible 3", "As Large As Possible 1", "As Fast As Possible 1"],
     },
     "Cake": {
         "id": 1024,
@@ -911,15 +911,15 @@ object_data = {
     },
     "Half Red Bean Cake": {
         "id": 959,
-        "levels": ["Make a Star Again 1", "As Fast As Possible 1", "Lots of Food 1", "As Large As Possible 2", "Lots of Food 3", "Tidy It Up", "As Large As Possible 1", "Lots of Food 2"],
+        "levels": ["Make a Star Again 1", "As Fast As Possible 1", "Lots of Food 1", "As Large As Possible 2", "Lots of Food 3", "Tidy It Up", "As Large As Possible 1", "Lots of Food 2", "As Fast As Possible 2"],
     },
     "Red Bean Cake": {
         "id": 966,
-        "levels": ["Make a Star Again 1", "Lots of Food 1", "As Large As Possible 2", "Lots of Food 3", "As Large As Possible 1", "Lots of Food 2"],
+        "levels": ["Make a Star Again 1", "Lots of Food 1", "As Large As Possible 2", "Lots of Food 3", "As Large As Possible 1", "Lots of Food 2", "As Fast As Possible 2"],
     },
     "Kashiwa-Mochi": {
         "id": 1092,
-        "levels": ["As Fast As Possible 2", "Lots of Food 1", "As Large As Possible 2", "Lots of Food 3", "Tidy It Up", "As Large As Possible 1", "Lots of Food 2", "Only Fifty (Appraisal)"],
+        "levels": ["As Fast As Possible 2", "Lots of Food 1", "As Large As Possible 2", "Lots of Food 3", "Tidy It Up", "As Large As Possible 1", "Lots of Food 2", "Only Fifty (Appraisal)", "As Fast As Possible 1"],
     },
     "Mitarashi Dango": {
         "id": 1094,
@@ -935,7 +935,7 @@ object_data = {
     },
     "Chestnut": {
         "id": 1262,
-        "levels": ["Make a Star Again 1", "As Large As Possible 2", "As Large As Possible 1"],
+        "levels": ["Make a Star Again 1", "As Large As Possible 2", "As Large As Possible 1", "As Fast As Possible 1"],
     },
     "Manju Ball": {
         "id": 1487,
@@ -1067,7 +1067,7 @@ object_data = {
     },
     "Kintaro Candy": {
         "id": 12240,
-        "levels": ["As Large As Possible 1", "As Large As Possible 2", "Tutorial"],
+        "levels": ["As Large As Possible 1", "As Large As Possible 2", "Tutorial", "As Fast As Possible 1"],
     },
     "Cake To-Go": {
         "id": 23378,
@@ -1091,7 +1091,7 @@ object_data = {
     },
     "Rice Cracker": {
         "id": 338,
-        "levels": ["As Large As Possible 2", "As Large As Possible 3", "Tidy It Up", "As Large As Possible 1", "As Fast As Possible 2"],
+        "levels": ["As Large As Possible 2", "As Large As Possible 3", "Tidy It Up", "As Large As Possible 1", "As Fast As Possible 2", "Lots of Food 1"],
     },
     "Giant Rice Cracker": {
         "id": 2045,
@@ -1131,7 +1131,7 @@ object_data = {
     },
     "Gigantic Dango": {
         "id": 2648,
-        "levels": ["As Large As Possible 4", "Lots of Food 3", "As Fast As Possible 5", "As Large As Possible 5"],
+        "levels": ["As Large As Possible 4", "Lots of Food 3", "As Fast As Possible 5", "As Large As Possible 5", "Lots of Food 1"],
     },
     "Chocolate Square": {
         "id": 11260,
@@ -1143,7 +1143,7 @@ object_data = {
     },
     "Gigantic Sweet Bean Pastry": {
         "id": 2646,
-        "levels": ["Lots of Food 1", "As Large As Possible 4", "As Large As Possible 5"],
+        "levels": ["Lots of Food 1", "As Large As Possible 4", "As Large As Possible 5", "As Fast As Possible 5"],
     },
     "Crème Caramel": {
         "id": 12712,
@@ -1151,7 +1151,7 @@ object_data = {
     },
     "Strawberry Parfait": {
         "id": 11830,
-        "levels": ["Lots of Sweeeeeeeeets", "As Fast As Possible 5"],
+        "levels": ["Lots of Sweeeeeeeeets", "As Fast As Possible 5", "As Large As Possible 5"],
     },
     "Eclair": {
         "id": 10762,
@@ -1203,23 +1203,23 @@ object_data = {
     },
     "Tuna Sushi": {
         "id": 10075,
-        "levels": ["Lots of Coins", "Lots of Food 1", "As Large As Possible 3", "Rev Up Those Fryers", "Lots of Food 3", "As Large As Possible 1", "Lots of Food 2", "Tutorial"],
+        "levels": ["Lots of Coins", "Lots of Food 1", "As Large As Possible 3", "Rev Up Those Fryers", "Lots of Food 3", "As Large As Possible 1", "Lots of Food 2", "Tutorial", "As Fast As Possible 1"],
     },
     "Fatty Tuna Sushi": {
         "id": 10077,
-        "levels": ["Lots of Food 1", "As Large As Possible 3", "Lots of Food 3", "As Large As Possible 1", "Lots of Food 2"],
+        "levels": ["Lots of Food 1", "As Large As Possible 3", "Lots of Food 3", "As Large As Possible 1", "Lots of Food 2", "As Fast As Possible 1"],
     },
     "Squid Sushi": {
         "id": 10076,
-        "levels": ["Lots of Coins", "Lots of Food 1", "As Large As Possible 3", "Lots of Food 3", "As Large As Possible 1", "Lots of Food 2", "Tutorial"],
+        "levels": ["Lots of Coins", "Lots of Food 1", "As Large As Possible 3", "Lots of Food 3", "As Large As Possible 1", "Lots of Food 2", "Tutorial", "As Fast As Possible 1"],
     },
     "Octopus Sushi": {
         "id": 10079,
-        "levels": ["As Large As Possible 3", "Lots of Food 3", "As Large As Possible 1", "Lots of Food 2"],
+        "levels": ["As Large As Possible 3", "Lots of Food 3", "As Large As Possible 1", "Lots of Food 2", "As Fast As Possible 1"],
     },
     "Shrimp Sushi": {
         "id": 10080,
-        "levels": ["As Large As Possible 3", "Lots of Food 3", "As Large As Possible 1", "Lots of Food 2"],
+        "levels": ["As Large As Possible 3", "Lots of Food 3", "As Large As Possible 1", "Lots of Food 2", "Lots of Food 1"],
     },
     "Egg Sushi": {
         "id": 160,
@@ -1227,11 +1227,11 @@ object_data = {
     },
     "Mackerel Sushi": {
         "id": 11414,
-        "levels": ["As Large As Possible 3", "Lots of Food 3", "As Large As Possible 1", "Lots of Food 2"],
+        "levels": ["As Large As Possible 3", "Lots of Food 3", "As Large As Possible 1", "Lots of Food 2", "As Fast As Possible 1"],
     },
     "Salmon Roe Roll": {
         "id": 294,
-        "levels": ["As Fast As Possible 1", "As Large As Possible 3", "Lots of Food 3", "Tidy It Up", "As Large As Possible 1", "Lots of Food 2"],
+        "levels": ["As Fast As Possible 1", "As Large As Possible 3", "Lots of Food 3", "Tidy It Up", "As Large As Possible 1", "Lots of Food 2", "Lots of Food 1"],
     },
     "Inari Sushi": {
         "id": 1245,
@@ -1239,11 +1239,11 @@ object_data = {
     },
     "Cucumber Roll": {
         "id": 292,
-        "levels": ["Lots of Food 1", "As Large As Possible 3", "Lots of Food 3", "As Large As Possible 1", "Lots of Food 2", "Tutorial"],
+        "levels": ["Lots of Food 1", "As Large As Possible 3", "Lots of Food 3", "As Large As Possible 1", "Lots of Food 2", "Tutorial", "As Fast As Possible 1"],
     },
     "Tuna Roll": {
         "id": 293,
-        "levels": ["As Large As Possible 3", "Lots of Food 3", "As Large As Possible 1", "Lots of Food 2", "Tutorial"],
+        "levels": ["As Large As Possible 3", "Lots of Food 3", "As Large As Possible 1", "Lots of Food 2", "Tutorial", "As Fast As Possible 1"],
     },
     "Uncut Sushi Roll": {
         "id": 23404,
@@ -1271,7 +1271,7 @@ object_data = {
     },
     "Gigantic Rice Ball": {
         "id": 12963,
-        "levels": ["Lots of Food 1", "As Large As Possible 4", "As Large As Possible 5"],
+        "levels": ["Lots of Food 1", "As Large As Possible 4", "As Large As Possible 5", "As Fast As Possible 5"],
     },
     "Sekihan": {
         "id": 2717,
@@ -1463,7 +1463,7 @@ object_data = {
     },
     "Rice Skewer": {
         "id": 2957,
-        "levels": ["As Large As Possible 4", "Lots of Food 3", "Light the Sacred Fire"],
+        "levels": ["As Large As Possible 4", "Lots of Food 3", "Light the Sacred Fire", "Lots of Food 1"],
     },
     "Square Mochi": {
         "id": 1255,
@@ -1487,7 +1487,7 @@ object_data = {
     },
     "Orange Soda": {
         "id": 324,
-        "levels": ["Lots of Drinks", "Light the Sacred Fire", "As Large As Possible 5"],
+        "levels": ["Lots of Drinks", "Light the Sacred Fire", "As Large As Possible 5", "As Fast As Possible 5"],
     },
     "Fizzy Cider": {
         "id": 325,
@@ -1495,7 +1495,7 @@ object_data = {
     },
     "Apple Juice Bottle": {
         "id": 326,
-        "levels": ["Lots of Drinks", "Lots of Sweeeeeeeeets", "Light the Sacred Fire", "As Large As Possible 5"],
+        "levels": ["Lots of Drinks", "Lots of Sweeeeeeeeets", "Light the Sacred Fire", "As Large As Possible 5", "As Fast As Possible 5"],
     },
     "Stamina Drink": {
         "id": 776,
@@ -1651,7 +1651,7 @@ object_data = {
     },
     "Tea Ceremony Bamboo Whisk": {
         "id": 1501,
-        "levels": ["Lots of Food 1", "As Large As Possible 2", "Tidy It Up", "Only Fifty (Appraisal)"],
+        "levels": ["Lots of Food 1", "As Large As Possible 2", "Tidy It Up", "Only Fifty (Appraisal)", "As Fast As Possible 2"],
     },
     "Canned Tea": {
         "id": 2279,
@@ -1771,7 +1771,7 @@ object_data = {
     },
     "Ladle": {
         "id": 10055,
-        "levels": ["As Large As Possible 3", "Lots of Food 3", "Tutorial"],
+        "levels": ["As Large As Possible 3", "Lots of Food 3", "Tutorial", "Lots of Food 1"],
     },
     "Kitchen Knife": {
         "id": 10864,
@@ -1867,11 +1867,11 @@ object_data = {
     },
     "Sushi Boat": {
         "id": 353,
-        "levels": ["As Large As Possible (Race)", "As Large As Possible (Sea)", "Lots of Food 1", "As Large As Possible 2", "As Large As Possible 3", "Lots of Food 3", "As Fast As Possible (Ghost Ship)", "Lots of Food 2"],
+        "levels": ["As Large As Possible (Race)", "As Large As Possible (Sea)", "Lots of Food 1", "As Large As Possible 2", "As Large As Possible 3", "Lots of Food 3", "As Fast As Possible (Ghost Ship)", "Lots of Food 2", "As Fast As Possible 3"],
     },
     "Decorative Dish": {
         "id": 1498,
-        "levels": ["Lots of Sweeeeeeeeets", "As Large As Possible (Race)", "Perfect-Sized Coffin", "As Large As Possible (Sea)", "As Fast As Possible 5", "As Fast As Possible (Ghost Ship)", "Light the Sacred Fire", "As Large As Possible 4"],
+        "levels": ["Lots of Sweeeeeeeeets", "As Large As Possible (Race)", "Perfect-Sized Coffin", "As Large As Possible (Sea)", "As Fast As Possible 5", "As Fast As Possible (Ghost Ship)", "Light the Sacred Fire", "As Large As Possible 4", "As Large As Possible 5"],
     },
     "Squirt Ketchup": {
         "id": 23371,
@@ -1971,7 +1971,7 @@ object_data = {
     },
     "Chopsticks": {
         "id": 286,
-        "levels": ["As Fast As Possible 2", "As Large As Possible 2", "As Large As Possible 1", "As Large As Possible 3", "Tutorial"],
+        "levels": ["As Fast As Possible 2", "As Large As Possible 2", "As Large As Possible 1", "As Large As Possible 3", "Tutorial", "As Fast As Possible 1"],
     },
     "Plastic Wrap": {
         "id": 10386,
@@ -1999,7 +1999,7 @@ object_data = {
     },
     "Wooden Mallet": {
         "id": 10173,
-        "levels": ["As Large As Possible 4", "Lots of Food 3", "As Large As Possible 5"],
+        "levels": ["As Large As Possible 4", "Lots of Food 3", "As Large As Possible 5", "As Fast As Possible 5"],
     },
     "Takoyaki Hotplate": {
         "id": 10155,
@@ -2075,7 +2075,7 @@ object_data = {
     },
     "Fish Drying Poles": {
         "id": 1336,
-        "levels": ["As Large As Possible (Race)", "As Large As Possible (Sea)", "As Fast As Possible 5", "Build a Ship", "As Large As Possible 5", "As Large As Possible 3", "As Fast As Possible (Ghost Ship)", "As Large As Possible 4"],
+        "levels": ["As Large As Possible (Race)", "As Large As Possible (Sea)", "As Fast As Possible 5", "Build a Ship", "As Large As Possible 5", "As Large As Possible 3", "As Fast As Possible (Ghost Ship)", "As Large As Possible 4", "As Fast As Possible 3"],
     },
     "Fish Drying Net": {
         "id": 1337,
@@ -2087,7 +2087,7 @@ object_data = {
     },
     "Bamboo Broom": {
         "id": 10031,
-        "levels": ["Perfect-Sized Coffin", "Lots of Food 1", "As Large As Possible 5", "As Large As Possible 3", "As Fast As Possible 3", "Lots of Yokai", "Build a Haniwa", "Lots of Food 2", "As Large As Possible 4"],
+        "levels": ["Perfect-Sized Coffin", "Lots of Food 1", "As Large As Possible 5", "As Large As Possible 3", "As Fast As Possible 3", "Lots of Yokai", "Build a Haniwa", "Lots of Food 2", "As Large As Possible 4", "As Fast As Possible 5"],
     },
     "Mop": {
         "id": 1063,
@@ -2131,11 +2131,11 @@ object_data = {
     },
     "Old Magazines": {
         "id": 10891,
-        "levels": ["As Large As Possible 2", "As Large As Possible 3"],
+        "levels": ["As Large As Possible 2", "As Large As Possible 3", "As Fast As Possible 3"],
     },
     "Old Books": {
         "id": 12074,
-        "levels": ["As Large As Possible 2", "As Large As Possible 3"],
+        "levels": ["As Large As Possible 2", "As Large As Possible 3", "As Fast As Possible 3"],
     },
     "Old Newspaper": {
         "id": 10036,
@@ -2243,7 +2243,7 @@ object_data = {
     },
     "History Textbook": {
         "id": 12166,
-        "levels": ["Philosopher Hunt", "As Large As Possible 3", "Lots of Food 3"],
+        "levels": ["Philosopher Hunt", "As Large As Possible 3", "Lots of Food 3", "As Fast As Possible 3"],
     },
     "Japanese-English Dictionary": {
         "id": 10748,
@@ -2263,15 +2263,15 @@ object_data = {
     },
     "Animal Book": {
         "id": 10616,
-        "levels": ["As Large As Possible 3", "As Large As Possible 4"],
+        "levels": ["As Large As Possible 3", "As Large As Possible 4", "As Fast As Possible 3"],
     },
     "Plant Book": {
         "id": 10617,
-        "levels": ["As Large As Possible 3", "As Large As Possible 4"],
+        "levels": ["As Large As Possible 3", "As Large As Possible 4", "As Fast As Possible 3"],
     },
     "Bird Illustrations": {
         "id": 10893,
-        "levels": ["As Large As Possible 2", "As Large As Possible 3", "As Large As Possible 4"],
+        "levels": ["As Large As Possible 2", "As Large As Possible 3", "As Large As Possible 4", "As Fast As Possible 3"],
     },
     "Library Book": {
         "id": 23935,
@@ -2279,7 +2279,7 @@ object_data = {
     },
     "Home Medicine Book": {
         "id": 10749,
-        "levels": ["As Large As Possible 3", "As Large As Possible 4"],
+        "levels": ["As Large As Possible 3", "As Large As Possible 4", "As Fast As Possible 3"],
     },
     "Scarlet Book": {
         "id": 23969,
@@ -2367,7 +2367,7 @@ object_data = {
     },
     "Small Ink Block": {
         "id": 2032,
-        "levels": ["Only Fifty (Appraisal)", "As Large As Possible 3", "Tidy It Up", "As Large As Possible 1"],
+        "levels": ["Only Fifty (Appraisal)", "As Large As Possible 3", "Tidy It Up", "As Large As Possible 1", "As Fast As Possible 1"],
     },
     "Paperweight": {
         "id": 164,
@@ -2655,7 +2655,7 @@ object_data = {
     },
     "Egyptian Necklace": {
         "id": 1951,
-        "levels": ["Hurry, the Mummies", "As Large As Possible 5", "Perfect-Sized Coffin"],
+        "levels": ["Hurry, the Mummies", "As Large As Possible 5", "Perfect-Sized Coffin", "As Fast As Possible 5"],
     },
     "Primitive Necklace": {
         "id": 2180,
@@ -2691,7 +2691,7 @@ object_data = {
     },
     "Sunglasses": {
         "id": 23932,
-        "levels": ["Lots of Icicles", "Rev Up Those Fryers", "As Large As Possible 5"],
+        "levels": ["Lots of Icicles", "Rev Up Those Fryers", "As Large As Possible 5", "As Fast As Possible 5"],
     },
     "Earring": {
         "id": 21202,
@@ -2779,7 +2779,7 @@ object_data = {
     },
     "Gong": {
         "id": 11973,
-        "levels": ["Cowbear Pasture", "As Large As Possible 3", "Lots of Food 3", "As Fast As Possible 3"],
+        "levels": ["Cowbear Pasture", "As Large As Possible 3", "Lots of Food 3", "As Fast As Possible 3", "As Large As Possible (Race)"],
     },
     "Mini Hand Drum": {
         "id": 1465,
@@ -2899,7 +2899,7 @@ object_data = {
     },
     "Music Box": {
         "id": 1542,
-        "levels": ["As Large As Possible (Sea)", "Build a Ship", "As Fast As Possible (Ghost Ship)"],
+        "levels": ["As Large As Possible (Sea)", "Build a Ship", "As Fast As Possible (Ghost Ship)", "As Large As Possible 5"],
     },
     "Court Musician Flutist": {
         "id": 10668,
@@ -2935,15 +2935,15 @@ object_data = {
     },
     "Straw Dummy": {
         "id": 2816,
-        "levels": ["Cowbear Pasture", "Lots of Food 1", "As Large As Possible 3", "Lots of Food 3", "Lots of Food 2", "As Large As Possible 4"],
+        "levels": ["Cowbear Pasture", "Lots of Food 1", "As Large As Possible 3", "Lots of Food 3", "Lots of Food 2", "As Large As Possible 4", "As Fast As Possible 3"],
     },
     "Cut Straw Dummy": {
         "id": 2817,
-        "levels": ["Lots of Food 1", "As Large As Possible 3", "Lots of Food 3", "Cowbear Pasture", "Lots of Food 2"],
+        "levels": ["Lots of Food 1", "As Large As Possible 3", "Lots of Food 3", "Cowbear Pasture", "Lots of Food 2", "As Fast As Possible 3"],
     },
     "Straw Target Board": {
         "id": 2724,
-        "levels": ["As Large As Possible (Race)", "As Large As Possible 3", "As Fast As Possible 3", "Lots of Yokai", "As Large As Possible 4", "As Large As Possible 5", "Cowbear Pasture"],
+        "levels": ["As Large As Possible (Race)", "As Large As Possible 3", "As Fast As Possible 3", "Lots of Yokai", "As Large As Possible 4", "As Large As Possible 5", "Cowbear Pasture", "As Fast As Possible 5", "Lots of Food 1"],
     },
     "Judo Practitioner": {
         "id": 11418,
@@ -2999,7 +2999,7 @@ object_data = {
     },
     "Spartan Soldier": {
         "id": 2756,
-        "levels": ["As Fast As Possible 5", "Philosopher Hunt"],
+        "levels": ["As Fast As Possible 5", "Philosopher Hunt", "As Large As Possible 5"],
     },
     "Spartan Warrior & Dory": {
         "id": 1197,
@@ -3135,7 +3135,7 @@ object_data = {
     },
     "Green Beanbag": {
         "id": 1035,
-        "levels": ["As Large As Possible 2", "As Large As Possible 1", "As Large As Possible 3", "Only Fifty (Appraisal)"],
+        "levels": ["As Large As Possible 2", "As Large As Possible 1", "As Large As Possible 3", "Only Fifty (Appraisal)", "As Fast As Possible 1"],
     },
     "Blue Beanbag": {
         "id": 1036,
@@ -3179,11 +3179,11 @@ object_data = {
     },
     "Green Flat Marble": {
         "id": 23335,
-        "levels": ["As Large As Possible 2", "As Large As Possible 1", "Perfect-Sized Skull"],
+        "levels": ["As Large As Possible 2", "As Large As Possible 1", "Perfect-Sized Skull", "As Fast As Possible 1"],
     },
     "Blue Flat Marble": {
         "id": 23336,
-        "levels": ["As Large As Possible 2", "As Large As Possible 1", "Perfect-Sized Skull"],
+        "levels": ["As Large As Possible 2", "As Large As Possible 1", "Perfect-Sized Skull", "As Fast As Possible 1"],
     },
     "Red Marble": {
         "id": 21087,
@@ -3243,7 +3243,7 @@ object_data = {
     },
     "Battledore Shuttlecock": {
         "id": 2948,
-        "levels": ["As Large As Possible 1", "As Large As Possible 4"],
+        "levels": ["As Large As Possible 1", "As Large As Possible 4", "As Fast As Possible 1"],
     },
     "Picture-story Show": {
         "id": 10104,
@@ -3355,7 +3355,7 @@ object_data = {
     },
     "Black Go Stone": {
         "id": 1478,
-        "levels": ["As Large As Possible 2", "As Large As Possible 3"],
+        "levels": ["As Large As Possible 2", "As Large As Possible 3", "As Large As Possible 1", "As Fast As Possible 1"],
     },
     "Go Board": {
         "id": 1479,
@@ -3403,7 +3403,7 @@ object_data = {
     },
     "Die": {
         "id": 12066,
-        "levels": ["As Large As Possible 1", "Perfect-Sized Skull", "As Large As Possible 2"],
+        "levels": ["As Large As Possible 1", "Perfect-Sized Skull", "As Large As Possible 2", "As Fast As Possible 1"],
     },
     "Red Die": {
         "id": 12097,
@@ -3411,7 +3411,7 @@ object_data = {
     },
     "Green Die": {
         "id": 10825,
-        "levels": ["Make a Star Again 1", "As Large As Possible 1", "Perfect-Sized Skull", "As Large As Possible 2"],
+        "levels": ["Make a Star Again 1", "As Large As Possible 1", "Perfect-Sized Skull", "As Large As Possible 2", "As Fast As Possible 1"],
     },
     "Fortune Dispenser": {
         "id": 12046,
@@ -3759,51 +3759,51 @@ object_data = {
     },
     "Hanafuda (Crane)": {
         "id": 1037,
-        "levels": ["Make a Star Again 1", "As Large As Possible 1", "As Large As Possible 2"],
+        "levels": ["Make a Star Again 1", "As Large As Possible 1", "As Large As Possible 2", "As Fast As Possible 1"],
     },
     "Hanafuda (Uguisu)": {
         "id": 1038,
-        "levels": ["As Large As Possible 1", "As Large As Possible 2"],
+        "levels": ["As Large As Possible 1", "As Large As Possible 2", "As Fast As Possible 1"],
     },
     "Hanafuda (Cherry Blossom)": {
         "id": 1039,
-        "levels": ["As Large As Possible 2", "Tidy It Up", "As Large As Possible 1"],
+        "levels": ["As Large As Possible 2", "Tidy It Up", "As Large As Possible 1", "As Fast As Possible 1"],
     },
     "Hanafuda (Hototogisu)": {
         "id": 1040,
-        "levels": ["As Large As Possible 2", "As Large As Possible 1"],
+        "levels": ["As Large As Possible 2", "As Large As Possible 1", "As Fast As Possible 1"],
     },
     "Hanafuda (Iris)": {
         "id": 1041,
-        "levels": ["As Large As Possible 2", "As Large As Possible 1"],
+        "levels": ["As Large As Possible 2", "As Large As Possible 1", "As Fast As Possible 1"],
     },
     "Hanafuda (Butterflies)": {
         "id": 1042,
-        "levels": ["As Large As Possible 2", "Tidy It Up", "As Large As Possible 1"],
+        "levels": ["As Large As Possible 2", "Tidy It Up", "As Large As Possible 1", "As Fast As Possible 1"],
     },
     "Hanafuda (Boar)": {
         "id": 1043,
-        "levels": ["Make a Star Again 1", "As Large As Possible 2", "Tidy It Up", "As Large As Possible 1"],
+        "levels": ["Make a Star Again 1", "As Large As Possible 2", "Tidy It Up", "As Large As Possible 1", "As Fast As Possible 1"],
     },
     "Hanafuda (Moon)": {
         "id": 1044,
-        "levels": ["As Large As Possible 2", "As Large As Possible 1"],
+        "levels": ["As Large As Possible 2", "As Large As Possible 1", "As Fast As Possible 1"],
     },
     "Hanafuda (Chrysanthemum)": {
         "id": 1045,
-        "levels": ["As Large As Possible 2", "Tidy It Up", "As Large As Possible 1"],
+        "levels": ["As Large As Possible 2", "Tidy It Up", "As Large As Possible 1", "As Fast As Possible 1"],
     },
     "Hanafuda (Deer)": {
         "id": 1046,
-        "levels": ["As Large As Possible 2", "Tidy It Up", "As Large As Possible 1"],
+        "levels": ["As Large As Possible 2", "Tidy It Up", "As Large As Possible 1", "As Fast As Possible 1"],
     },
     "Hanafuda (Willow)": {
         "id": 1047,
-        "levels": ["As Large As Possible 2", "As Large As Possible 1"],
+        "levels": ["As Large As Possible 2", "As Large As Possible 1", "As Fast As Possible 1"],
     },
     "Hanafuda (Fenghuang)": {
         "id": 1048,
-        "levels": ["As Large As Possible 2", "As Large As Possible 1"],
+        "levels": ["As Large As Possible 2", "As Large As Possible 1", "As Fast As Possible 1"],
     },
     "Joker": {
         "id": 1603,
@@ -3843,7 +3843,7 @@ object_data = {
     },
     "Calabash": {
         "id": 30,
-        "levels": ["Light the Sacred Fire", "As Large As Possible 2", "As Large As Possible 3", "As Large As Possible 4", "Tutorial", "As Fast As Possible 2"],
+        "levels": ["Light the Sacred Fire", "As Large As Possible 2", "As Large As Possible 3", "As Large As Possible 4", "Tutorial", "As Fast As Possible 2", "As Large As Possible 1"],
     },
     "Green Bottle": {
         "id": 884,
@@ -3939,7 +3939,7 @@ object_data = {
     },
     "Animal Cage": {
         "id": 914,
-        "levels": ["Lots of Drinks", "As Large As Possible (Race)", "As Large As Possible (Sea)", "Cowbear Pasture", "Build a Ship", "As Large As Possible 3", "Lots of Food 3", "As Fast As Possible (Ghost Ship)", "Lots of Yokai"],
+        "levels": ["Lots of Drinks", "As Large As Possible (Race)", "As Large As Possible (Sea)", "Cowbear Pasture", "Build a Ship", "As Large As Possible 3", "Lots of Food 3", "As Fast As Possible (Ghost Ship)", "Lots of Yokai", "As Fast As Possible 3"],
     },
     "Egyptian Box": {
         "id": 1953,
@@ -3951,7 +3951,7 @@ object_data = {
     },
     "Suggestion Box": {
         "id": 2849,
-        "levels": ["As Large As Possible 5", "As Large As Possible 4", "As Fast As Possible 3", "As Large As Possible 3"],
+        "levels": ["As Large As Possible 5", "As Large As Possible 4", "As Fast As Possible 3", "As Large As Possible 3", "As Fast As Possible 5"],
     },
     "Empty Coin Box": {
         "id": 2850,
@@ -4019,7 +4019,7 @@ object_data = {
     },
     "Small Wash Bucket": {
         "id": 55,
-        "levels": ["As Large As Possible 3", "As Fast As Possible 3", "Lots of Yokai", "As Large As Possible 5"],
+        "levels": ["As Large As Possible 3", "As Fast As Possible 3", "Lots of Yokai", "As Large As Possible 5", "As Fast As Possible 5"],
     },
     "Wood Bucket": {
         "id": 23865,
@@ -4039,7 +4039,7 @@ object_data = {
     },
     "Rainwater Bucket": {
         "id": 2044,
-        "levels": ["As Fast As Possible 5", "As Large As Possible 3", "As Large As Possible 4", "Lots of Food 3", "Lots of Yokai", "As Large As Possible 5"],
+        "levels": ["As Fast As Possible 5", "As Large As Possible 3", "As Large As Possible 4", "Lots of Food 3", "Lots of Yokai", "As Large As Possible 5", "As Fast As Possible 3"],
     },
     "Sue Pottery": {
         "id": 1427,
@@ -4055,7 +4055,7 @@ object_data = {
     },
     "Goldfish Bowl": {
         "id": 1788,
-        "levels": ["As Large As Possible 3", "As Large As Possible 4", "Lots of Food 3", "As Fast As Possible 3", "Lots of Food 2", "As Large As Possible 5"],
+        "levels": ["As Large As Possible 3", "As Large As Possible 4", "Lots of Food 3", "As Fast As Possible 3", "Lots of Food 2", "As Large As Possible 5", "As Fast As Possible 5"],
     },
     "Gold Pan": {
         "id": 1866,
@@ -4071,7 +4071,7 @@ object_data = {
     },
     "Sweets Container": {
         "id": 10404,
-        "levels": ["As Large As Possible 2", "As Fast As Possible 3", "Lots of Food 2", "As Large As Possible 3", "As Large As Possible 4", "As Fast As Possible 2"],
+        "levels": ["As Large As Possible 2", "As Fast As Possible 3", "Lots of Food 2", "As Large As Possible 3", "As Large As Possible 4", "As Fast As Possible 2", "Lots of Food 1"],
     },
     "Ball Toss Basket": {
         "id": 10681,
@@ -4211,7 +4211,7 @@ object_data = {
     },
     "Raccoon Dog Statue": {
         "id": 12052,
-        "levels": ["As Large As Possible 3", "As Large As Possible 4", "Lots of Yokai", "Cowbear Pasture", "Perfect-Sized Coffin"],
+        "levels": ["As Large As Possible 3", "As Large As Possible 4", "Lots of Yokai", "Cowbear Pasture", "Perfect-Sized Coffin", "As Fast As Possible 3"],
     },
     "Raccoon Figure": {
         "id": 3514,
@@ -4351,7 +4351,7 @@ object_data = {
     },
     "Lucky Rake": {
         "id": 2813,
-        "levels": ["Lots of Food 1", "As Large As Possible 4"],
+        "levels": ["Lots of Food 1", "As Large As Possible 4", "As Fast As Possible 5"],
     },
     "Sword Display Stand": {
         "id": 86,
@@ -4375,7 +4375,7 @@ object_data = {
     },
     "Decorative Vase": {
         "id": 23956,
-        "levels": ["As Large As Possible (Race)", "Perfect-Sized Coffin", "As Large As Possible (Sea)", "Cowbear Pasture", "As Large As Possible 3", "Hurry, the Mummies", "As Fast As Possible (Ghost Ship)", "As Large As Possible 5"],
+        "levels": ["As Large As Possible (Race)", "Perfect-Sized Coffin", "As Large As Possible (Sea)", "Cowbear Pasture", "As Large As Possible 3", "Hurry, the Mummies", "As Fast As Possible (Ghost Ship)", "As Large As Possible 5", "As Fast As Possible 5", "As Fast As Possible 3"],
     },
     "Aging Jar": {
         "id": 1888,
@@ -4395,11 +4395,11 @@ object_data = {
     },
     "Large Novelty Plate": {
         "id": 1604,
-        "levels": ["Perfect-Sized Coffin", "As Large As Possible 2", "As Large As Possible 4", "As Fast As Possible 2", "As Large As Possible 3"],
+        "levels": ["Perfect-Sized Coffin", "As Large As Possible 2", "As Large As Possible 4", "As Fast As Possible 2", "As Large As Possible 3", "As Fast As Possible 3"],
     },
     "Oni Tile": {
         "id": 2725,
-        "levels": ["Light the Sacred Fire", "As Fast As Possible 5", "Lots of Food 1", "As Large As Possible 3", "As Large As Possible 4", "Lots of Yokai", "Cowbear Pasture", "Lots of Food 2", "As Large As Possible 5"],
+        "levels": ["Light the Sacred Fire", "As Fast As Possible 5", "Lots of Food 1", "As Large As Possible 3", "As Large As Possible 4", "Lots of Yokai", "Cowbear Pasture", "Lots of Food 2", "As Large As Possible 5", "As Fast As Possible 3"],
     },
     "Garden Rock": {
         "id": 10760,
@@ -4423,7 +4423,7 @@ object_data = {
     },
     "Eye of Horus": {
         "id": 1956,
-        "levels": ["Perfect-Sized Coffin"],
+        "levels": ["Perfect-Sized Coffin", "Hurry, the Mummies"],
     },
     "Miniature Pyramid": {
         "id": 1944,
@@ -4567,7 +4567,7 @@ object_data = {
     },
     "Hanko": {
         "id": 10178,
-        "levels": ["As Large As Possible 2", "As Large As Possible 1", "Tutorial"],
+        "levels": ["As Large As Possible 2", "As Large As Possible 1", "Tutorial", "As Fast As Possible 1"],
     },
     "Nail Clipper": {
         "id": 11003,
@@ -4587,7 +4587,7 @@ object_data = {
     },
     "Mosquito Repellent": {
         "id": 12042,
-        "levels": ["Light the Sacred Fire", "As Large As Possible 3"],
+        "levels": ["Light the Sacred Fire", "As Large As Possible 3", "As Fast As Possible 3"],
     },
     "Cushion": {
         "id": 12080,
@@ -4727,7 +4727,7 @@ object_data = {
     },
     "Elekiter": {
         "id": 2967,
-        "levels": ["As Large As Possible 4", "As Large As Possible 5"],
+        "levels": ["As Large As Possible 4", "As Large As Possible 5", "As Fast As Possible 5"],
     },
     "Iron": {
         "id": 10034,
@@ -4815,7 +4815,7 @@ object_data = {
     },
     "Shelf": {
         "id": 1006,
-        "levels": ["Lots of Drinks", "As Large As Possible (Sea)", "Build a Ship", "As Large As Possible 3", "Hurry, the Mummies", "Lots of Food 3", "As Fast As Possible (Ghost Ship)", "Lots of Food 2", "Perfect-Sized Coffin"],
+        "levels": ["Lots of Drinks", "As Large As Possible (Sea)", "Build a Ship", "As Large As Possible 3", "Hurry, the Mummies", "Lots of Food 3", "As Fast As Possible (Ghost Ship)", "Lots of Food 2", "Perfect-Sized Coffin", "As Fast As Possible 3"],
     },
     "Step Stool": {
         "id": 2038,
@@ -4847,7 +4847,7 @@ object_data = {
     },
     "Bonsai Stand": {
         "id": 7,
-        "levels": ["As Large As Possible (Race)", "As Large As Possible (Sea)", "Build a Ship", "As Large As Possible 4", "Lots of Yokai", "As Large As Possible 3", "As Large As Possible 5"],
+        "levels": ["As Large As Possible (Race)", "As Large As Possible (Sea)", "Build a Ship", "As Large As Possible 4", "Lots of Yokai", "As Large As Possible 3", "As Large As Possible 5", "As Fast As Possible 5"],
     },
     "Bookshelf": {
         "id": 11786,
@@ -4871,7 +4871,7 @@ object_data = {
     },
     "Tower Rack": {
         "id": 1661,
-        "levels": ["Perfect-Sized Coffin"],
+        "levels": ["Perfect-Sized Coffin", "As Fast As Possible 5", "As Large As Possible 5"],
     },
     "Cabinet": {
         "id": 11291,
@@ -4887,7 +4887,7 @@ object_data = {
     },
     "Blue Rug": {
         "id": 1577,
-        "levels": ["As Large As Possible (Race)", "As Large As Possible (Sea)", "Hurry, the Mummies", "Lots of Food 3", "As Large As Possible 5", "As Fast As Possible (Ghost Ship)"],
+        "levels": ["As Large As Possible (Race)", "As Large As Possible (Sea)", "Hurry, the Mummies", "Lots of Food 3", "As Large As Possible 5", "As Fast As Possible (Ghost Ship)", "As Fast As Possible 5"],
     },
     "Green Rug": {
         "id": 1656,
@@ -4951,7 +4951,7 @@ object_data = {
     },
     "New Year's Postcard": {
         "id": 10782,
-        "levels": ["As Large As Possible 1", "Make a Star Again 1"],
+        "levels": ["As Large As Possible 1", "Make a Star Again 1", "As Fast As Possible 1"],
     },
     "Postcard": {
         "id": 10783,
@@ -4983,7 +4983,7 @@ object_data = {
     },
     "Santa & Reindeer": {
         "id": 23529,
-        "levels": ["Lots of Icicles", "As Large As Possible 5"],
+        "levels": ["Lots of Icicles", "As Large As Possible 5", "As Fast As Possible 5"],
     },
     "Wooden Crate": {
         "id": 451,
@@ -5015,19 +5015,19 @@ object_data = {
     },
     "Burlap Sack": {
         "id": 866,
-        "levels": ["Lots of Drinks", "Light the Sacred Fire", "Perfect-Sized Coffin", "As Large As Possible (Sea)", "Philosopher Hunt", "As Fast As Possible (Ghost Ship)", "As Large As Possible 3"],
+        "levels": ["Lots of Drinks", "Light the Sacred Fire", "Perfect-Sized Coffin", "As Large As Possible (Sea)", "Philosopher Hunt", "As Fast As Possible (Ghost Ship)", "As Large As Possible 3", "As Fast As Possible 3"],
     },
     "Big Burlap Sack": {
         "id": 1154,
-        "levels": ["As Large As Possible (Sea)", "Build a Ship", "As Large As Possible 5", "Philosopher Hunt", "As Large As Possible 3", "As Fast As Possible 3", "Build a Haniwa", "As Fast As Possible (Ghost Ship)"],
+        "levels": ["As Large As Possible (Sea)", "Build a Ship", "As Large As Possible 5", "Philosopher Hunt", "As Large As Possible 3", "As Fast As Possible 3", "Build a Haniwa", "As Fast As Possible (Ghost Ship)", "As Fast As Possible 5", "As Large As Possible 4"],
     },
     "Bundle": {
         "id": 28,
-        "levels": ["Lots of Coins", "Perfect-Sized Coffin", "As Fast As Possible 2", "Lots of Food 1", "As Large As Possible 2", "As Large As Possible 3", "As Large As Possible 4", "Lots of Food 2"],
+        "levels": ["Lots of Coins", "Perfect-Sized Coffin", "As Fast As Possible 2", "Lots of Food 1", "As Large As Possible 2", "As Large As Possible 3", "As Large As Possible 4", "Lots of Food 2", "As Fast As Possible 3"],
     },
     "Plant Pattern Sack": {
         "id": 23713,
-        "levels": ["As Fast As Possible 5", "As Large As Possible 5", "As Large As Possible 2", "As Large As Possible 3", "As Large As Possible 4", "Lots of Yokai", "Lots of Food 2"],
+        "levels": ["As Fast As Possible 5", "As Large As Possible 5", "As Large As Possible 2", "As Large As Possible 3", "As Large As Possible 4", "Lots of Yokai", "Lots of Food 2", "As Fast As Possible 3"],
     },
     "Greek Potted Plant": {
         "id": 1145,
@@ -5123,7 +5123,7 @@ object_data = {
     },
     "Soybean": {
         "id": 942,
-        "levels": ["Lots of Food 1", "As Large As Possible 1", "As Large As Possible 3"],
+        "levels": ["Lots of Food 1", "As Large As Possible 1", "As Large As Possible 3", "As Fast As Possible 1"],
     },
     "Coffee Bean": {
         "id": 11868,
@@ -5163,7 +5163,7 @@ object_data = {
     },
     "Hydrangea": {
         "id": 112,
-        "levels": ["Perfect-Sized Coffin", "Lots of Food 3", "As Fast As Possible 3", "Lots of Food 2", "As Large As Possible 5"],
+        "levels": ["Perfect-Sized Coffin", "Lots of Food 3", "As Fast As Possible 3", "Lots of Food 2", "As Large As Possible 5", "As Fast As Possible 5"],
     },
     "Flowers": {
         "id": 10976,
@@ -5227,11 +5227,11 @@ object_data = {
     },
     "White Tulip": {
         "id": 269,
-        "levels": ["Lots of Drinks", "Light the Sacred Fire", "Philosopher Hunt", "As Large As Possible 2", "Perfect-Sized Coffin"],
+        "levels": ["Lots of Drinks", "Light the Sacred Fire", "Philosopher Hunt", "As Large As Possible 2", "Perfect-Sized Coffin", "As Fast As Possible 2"],
     },
     "Yellow Tulip": {
         "id": 11222,
-        "levels": ["Lots of Drinks", "Light the Sacred Fire", "Philosopher Hunt", "As Large As Possible 2"],
+        "levels": ["Lots of Drinks", "Light the Sacred Fire", "Philosopher Hunt", "As Large As Possible 2", "As Fast As Possible 2"],
     },
     "Pink Tulip": {
         "id": 11223,
@@ -5259,7 +5259,7 @@ object_data = {
     },
     "Sunflower": {
         "id": 10709,
-        "levels": ["Hurry, the Gold", "As Large As Possible (Sea)", "Build a Ship", "As Large As Possible 3", "As Fast As Possible 3", "Build a Haniwa", "Lots of Gold"],
+        "levels": ["Hurry, the Gold", "As Large As Possible (Sea)", "Build a Ship", "As Large As Possible 3", "As Fast As Possible 3", "Build a Haniwa", "Lots of Gold", "As Large As Possible (Race)"],
     },
     "Rose": {
         "id": 11929,
@@ -5435,7 +5435,7 @@ object_data = {
     },
     "Sunflower Head": {
         "id": 11754,
-        "levels": ["Light the Sacred Fire"],
+        "levels": ["Light the Sacred Fire", "Lots of Food 3"],
     },
     "Surprise Flower": {
         "id": 13068,
@@ -5523,7 +5523,7 @@ object_data = {
     },
     "Toolbox": {
         "id": 10863,
-        "levels": ["As Large As Possible 2", "As Large As Possible 3", "As Fast As Possible 3"],
+        "levels": ["As Large As Possible 2", "As Large As Possible 3", "As Fast As Possible 3", "As Fast As Possible 5"],
     },
     "Superglue": {
         "id": 11049,
@@ -5539,7 +5539,7 @@ object_data = {
     },
     "Blacksmith Hammer": {
         "id": 1097,
-        "levels": ["Lots of Drinks", "Light the Sacred Fire", "As Large As Possible 5", "As Large As Possible 4", "As Fast As Possible 3"],
+        "levels": ["Lots of Drinks", "Light the Sacred Fire", "As Large As Possible 5", "As Large As Possible 4", "As Fast As Possible 3", "As Fast As Possible 5"],
     },
     "Sculpting Hammer": {
         "id": 1103,
@@ -5731,7 +5731,7 @@ object_data = {
     },
     "Wooden Seaside House": {
         "id": 12336,
-        "levels": ["As Large As Possible 5", "As Large As Possible 4", "As Fast As Possible 4"],
+        "levels": ["As Large As Possible 5", "As Large As Possible 4", "As Fast As Possible 4", "As Fast As Possible 5"],
     },
     "Colorful Beach Umbrella": {
         "id": 10908,
@@ -5831,7 +5831,7 @@ object_data = {
     },
     "Samurai Thief Hunter": {
         "id": 45,
-        "levels": ["As Fast As Possible 5", "As Large As Possible 5", "As Large As Possible 3", "As Large As Possible 4", "Lots of Food 3", "As Fast As Possible 3"],
+        "levels": ["As Fast As Possible 5", "As Large As Possible 5", "As Large As Possible 3", "As Large As Possible 4", "Lots of Food 3", "As Fast As Possible 3", "Lots of Food 1"],
     },
     "Samurai Thief Hunter (Paper Lantern)": {
         "id": 2531,
@@ -5899,7 +5899,7 @@ object_data = {
     },
     "Globe": {
         "id": 10335,
-        "levels": ["Perfect-Sized Coffin", "As Large As Possible 5"],
+        "levels": ["Perfect-Sized Coffin", "As Large As Possible 5", "As Fast As Possible 5"],
     },
     "Spyglass": {
         "id": 864,
@@ -5911,7 +5911,7 @@ object_data = {
     },
     "Compass": {
         "id": 956,
-        "levels": ["As Large As Possible 1", "As Large As Possible 3"],
+        "levels": ["As Large As Possible 1", "As Large As Possible 3", "As Fast As Possible 1"],
     },
     "Magnet": {
         "id": 11146,
@@ -5935,7 +5935,7 @@ object_data = {
     },
     "Butterfly Specimens": {
         "id": 10698,
-        "levels": ["As Large As Possible 3", "Lots of Food 3", "As Fast As Possible 3", "Lots of Food 2"],
+        "levels": ["As Large As Possible 3", "Lots of Food 3", "As Fast As Possible 3", "Lots of Food 2", "As Large As Possible 5"],
     },
     "Human Anatomy Model": {
         "id": 12657,
@@ -5983,7 +5983,7 @@ object_data = {
     },
     "Old Coin": {
         "id": 21,
-        "levels": ["Lots of Coins", "Lots of Food 1", "As Large As Possible 2", "As Large As Possible 3", "Lots of Food 3", "Tidy It Up", "As Large As Possible 1", "Lots of Food 2", "Perfect-Sized Skull"],
+        "levels": ["Lots of Coins", "Lots of Food 1", "As Large As Possible 2", "As Large As Possible 3", "Lots of Food 3", "Tidy It Up", "As Large As Possible 1", "Lots of Food 2", "Perfect-Sized Skull", "As Fast As Possible 1"],
     },
     "Big Coin": {
         "id": 22,
@@ -6023,7 +6023,7 @@ object_data = {
     },
     "Golden Egg": {
         "id": 1761,
-        "levels": ["Perfect-Sized Coffin", "Hurry, the Gold", "As Large As Possible 5", "As Fast As Possible (Ghost Ship)", "Light the Sacred Fire", "As Fast As Possible 5"],
+        "levels": ["Perfect-Sized Coffin", "Hurry, the Gold", "As Large As Possible 5", "As Fast As Possible (Ghost Ship)", "Light the Sacred Fire", "As Fast As Possible 5", "Lots of Gold"],
     },
     "Egyptian Coin": {
         "id": 1950,
@@ -6171,7 +6171,7 @@ object_data = {
     },
     "1 Mon Coin": {
         "id": 941,
-        "levels": ["Make a Star Again 1", "As Large As Possible 2", "As Large As Possible 1", "As Large As Possible 3"],
+        "levels": ["Make a Star Again 1", "As Large As Possible 2", "As Large As Possible 1", "As Large As Possible 3", "As Fast As Possible 1"],
     },
     "5 Yen Coin": {
         "id": 10745,
@@ -6219,7 +6219,7 @@ object_data = {
     },
     "Tsuba": {
         "id": 1093,
-        "levels": ["Lots of Coins", "Only Fifty (Appraisal)", "As Large As Possible 2", "Tidy It Up", "As Large As Possible 1", "As Large As Possible 3"],
+        "levels": ["Lots of Coins", "Only Fifty (Appraisal)", "As Large As Possible 2", "Tidy It Up", "As Large As Possible 1", "As Large As Possible 3", "As Fast As Possible 1"],
     },
     "Scepter": {
         "id": 1193,
@@ -6243,7 +6243,7 @@ object_data = {
     },
     "Coin Box": {
         "id": 21004,
-        "levels": ["Cowbear Pasture", "Lots of Food 1", "Lots of Food 3", "Lots of Yokai", "Lots of Food 2", "As Large As Possible 4", "As Large As Possible 3"],
+        "levels": ["Cowbear Pasture", "Lots of Food 1", "Lots of Food 3", "Lots of Yokai", "Lots of Food 2", "As Large As Possible 4", "As Large As Possible 3", "As Fast As Possible 3"],
     },
     "Fancy Key": {
         "id": 22226,
@@ -6259,7 +6259,7 @@ object_data = {
     },
     "Mini Treasure Boat": {
         "id": 2779,
-        "levels": ["Cowbear Pasture", "As Large As Possible 5", "Lots of Food 2", "As Large As Possible 4"],
+        "levels": ["Cowbear Pasture", "As Large As Possible 5", "Lots of Food 2", "As Large As Possible 4", "As Fast As Possible 5"],
     },
     "Treasure Boat": {
         "id": 24710,
@@ -6267,7 +6267,7 @@ object_data = {
     },
     "Paper Lamp": {
         "id": 2,
-        "levels": ["As Fast As Possible 5", "Build a Ship", "As Large As Possible 5", "As Large As Possible 3", "As Large As Possible 4", "Lots of Food 3", "Lots of Yokai", "Lots of Food 2"],
+        "levels": ["As Fast As Possible 5", "Build a Ship", "As Large As Possible 5", "As Large As Possible 3", "As Large As Possible 4", "Lots of Food 3", "Lots of Yokai", "Lots of Food 2", "As Fast As Possible 3"],
     },
     "Wealthy Lamp": {
         "id": 2282,
@@ -6299,7 +6299,7 @@ object_data = {
     },
     "Giant Paper Lantern": {
         "id": 2283,
-        "levels": ["As Large As Possible 5", "As Large As Possible 3", "As Large As Possible 4", "Lots of Yokai", "Cowbear Pasture"],
+        "levels": ["As Large As Possible 5", "As Large As Possible 3", "As Large As Possible 4", "Lots of Yokai", "Cowbear Pasture", "As Fast As Possible 5"],
     },
     "Red Garden Lantern": {
         "id": 2092,
@@ -6335,7 +6335,7 @@ object_data = {
     },
     "Candle": {
         "id": 9,
-        "levels": ["Lots of Drinks", "As Large As Possible 2", "Hurry, the Mummies", "As Large As Possible 1", "Perfect-Sized Skull", "As Large As Possible 3"],
+        "levels": ["Lots of Drinks", "As Large As Possible 2", "Hurry, the Mummies", "As Large As Possible 1", "Perfect-Sized Skull", "As Large As Possible 3", "As Fast As Possible 1"],
     },
     "Wax Candle": {
         "id": 1488,
@@ -6431,7 +6431,7 @@ object_data = {
     },
     "Camp Fire": {
         "id": 11360,
-        "levels": ["Lots of Drinks", "Only Fifty", "Lots of Icicles", "As Large As Possible (Race)", "As Large As Possible (Pond)", "Hurry, the Gold", "Cowbear Pasture", "Build a Ship", "As Large As Possible 5", "Philosopher Hunt", "Lots of Dinosaurs", "As Large As Possible 3", "As Fast As Possible 3", "Light the Sacred Fire", "Lots of Yokai", "Build a Haniwa", "Lots of Gold", "As Large As Possible 4"],
+        "levels": ["Lots of Drinks", "Only Fifty", "Lots of Icicles", "As Large As Possible (Race)", "As Large As Possible (Pond)", "Hurry, the Gold", "Cowbear Pasture", "Build a Ship", "As Large As Possible 5", "Philosopher Hunt", "Lots of Dinosaurs", "As Large As Possible 3", "As Fast As Possible 3", "Light the Sacred Fire", "Lots of Yokai", "Build a Haniwa", "Lots of Gold", "As Large As Possible 4", "As Fast As Possible 5"],
     },
     "Glove": {
         "id": 12077,
@@ -6439,7 +6439,7 @@ object_data = {
     },
     "Flame": {
         "id": 12362,
-        "levels": ["As Large As Possible 5"],
+        "levels": ["As Large As Possible 5", "As Fast As Possible 5"],
     },
     "Bathhouse Chimney": {
         "id": 11266,
@@ -6539,7 +6539,7 @@ object_data = {
     },
     "Ice Block": {
         "id": 2514,
-        "levels": ["Lots of Icicles", "Lots of Food 3", "As Large As Possible 5"],
+        "levels": ["Lots of Icicles", "Lots of Food 3", "As Large As Possible 5", "As Fast As Possible 5"],
     },
     "Frozen Red Fish": {
         "id": 2521,
@@ -6551,7 +6551,7 @@ object_data = {
     },
     "Giant Frozen Fish": {
         "id": 2523,
-        "levels": ["Lots of Icicles", "As Large As Possible 5"],
+        "levels": ["Lots of Icicles", "As Large As Possible 5", "As Fast As Possible 5"],
     },
     "Frozen Striped Fish": {
         "id": 2524,
@@ -6647,7 +6647,7 @@ object_data = {
     },
     "Pointy Iceberg": {
         "id": 10941,
-        "levels": ["As Large As Possible 5"],
+        "levels": ["As Large As Possible 5", "As Fast As Possible 5"],
     },
     "Iceberg": {
         "id": 13164,
@@ -6683,7 +6683,7 @@ object_data = {
     },
     "Folding Stool": {
         "id": 12,
-        "levels": ["As Large As Possible 5"],
+        "levels": ["As Large As Possible 5", "As Fast As Possible 5"],
     },
     "Round Straw Mat": {
         "id": 100,
@@ -6703,7 +6703,7 @@ object_data = {
     },
     "Wooden Bench": {
         "id": 233,
-        "levels": ["Lots of Drinks", "As Large As Possible 3", "As Large As Possible 4", "As Fast As Possible 3", "As Large As Possible 5", "Perfect-Sized Coffin"],
+        "levels": ["Lots of Drinks", "As Large As Possible 3", "As Large As Possible 4", "As Fast As Possible 3", "As Large As Possible 5", "Perfect-Sized Coffin", "As Fast As Possible 5"],
     },
     "Saddle": {
         "id": 1025,
@@ -6779,7 +6779,7 @@ object_data = {
     },
     "Katana": {
         "id": 85,
-        "levels": ["Light the Sacred Fire", "As Large As Possible (Sea)", "As Fast As Possible 5", "Cowbear Pasture", "As Large As Possible 5", "As Large As Possible 2", "As Fast As Possible (Ghost Ship)", "Lots of Yokai", "As Large As Possible 3", "As Large As Possible 4"],
+        "levels": ["Light the Sacred Fire", "As Large As Possible (Sea)", "As Fast As Possible 5", "Cowbear Pasture", "As Large As Possible 5", "As Large As Possible 2", "As Fast As Possible (Ghost Ship)", "Lots of Yokai", "As Large As Possible 3", "As Large As Possible 4", "As Fast As Possible 3", "Lots of Food 1"],
     },
     "Bamboo Sword": {
         "id": 171,
@@ -6887,7 +6887,7 @@ object_data = {
     },
     "Arrow": {
         "id": 11155,
-        "levels": ["Lots of Coins", "Lots of Food 1", "As Large As Possible 2", "Tidy It Up", "As Large As Possible 1", "Lots of Food 2", "Perfect-Sized Skull", "As Large As Possible 3"],
+        "levels": ["Lots of Coins", "Lots of Food 1", "As Large As Possible 2", "Tidy It Up", "As Large As Possible 1", "Lots of Food 2", "Perfect-Sized Skull", "As Large As Possible 3", "As Fast As Possible 1"],
     },
     "Cupid's Bow": {
         "id": 1113,
@@ -6895,7 +6895,7 @@ object_data = {
     },
     "Jomon Bow": {
         "id": 1367,
-        "levels": ["As Large As Possible (Pond)", "Perfect-Sized Coffin", "As Large As Possible 3", "Lots of Yokai"],
+        "levels": ["As Large As Possible (Pond)", "Perfect-Sized Coffin", "As Large As Possible 3", "Lots of Yokai", "As Fast As Possible 3"],
     },
     "Rubber Band Slingshot": {
         "id": 23708,
@@ -6943,7 +6943,7 @@ object_data = {
     },
     "Spartan Helmet": {
         "id": 1180,
-        "levels": ["Light the Sacred Fire", "Hurry, the Gold", "Philosopher Hunt", "Lots of Gold", "As Large As Possible 5"],
+        "levels": ["Light the Sacred Fire", "Hurry, the Gold", "Philosopher Hunt", "Lots of Gold", "As Large As Possible 5", "As Fast As Possible 5"],
     },
     "Spartan Armor": {
         "id": 2493,
@@ -7003,7 +7003,7 @@ object_data = {
     },
     "\"Look Out!\" Sign": {
         "id": 10144,
-        "levels": ["As Large As Possible 3", "Lots of Yokai"],
+        "levels": ["As Large As Possible 3", "Lots of Yokai", "As Fast As Possible 3"],
     },
     "\"No Trespassing\"": {
         "id": 11108,
@@ -7067,7 +7067,7 @@ object_data = {
     },
     "Warning Sign": {
         "id": 2141,
-        "levels": ["Hurry, the Gold", "Build a Ship", "Pharaoh's Request"],
+        "levels": ["Hurry, the Gold", "Build a Ship", "Pharaoh's Request", "Lots of Gold"],
     },
     "Stone Signpost": {
         "id": 2300,
@@ -7107,7 +7107,7 @@ object_data = {
     },
     "Giant Scale": {
         "id": 1862,
-        "levels": ["As Fast As Possible 5", "As Large As Possible 5"],
+        "levels": ["As Fast As Possible 5", "As Large As Possible 5", "Hurry, the Mummies"],
     },
     "Small Wooden Box": {
         "id": 694,
@@ -7307,11 +7307,11 @@ object_data = {
     },
     "1st Generation Bust": {
         "id": 1518,
-        "levels": ["Philosopher Hunt", "As Large As Possible 5"],
+        "levels": ["Philosopher Hunt", "As Large As Possible 5", "As Fast As Possible 5"],
     },
     "2nd Generation Bust": {
         "id": 1519,
-        "levels": ["Philosopher Hunt", "As Large As Possible 5"],
+        "levels": ["Philosopher Hunt", "As Large As Possible 5", "As Fast As Possible 5"],
     },
     "3rd Generation Bust": {
         "id": 1520,
@@ -7399,11 +7399,11 @@ object_data = {
     },
     "Bonsai": {
         "id": 10291,
-        "levels": ["As Large As Possible (Sea)", "Build a Ship", "As Large As Possible 4", "Tumbleweed Terror", "Lots of Food 3", "As Fast As Possible 3", "Lots of Yokai", "Lots of Food 2", "As Large As Possible 3"],
+        "levels": ["As Large As Possible (Sea)", "Build a Ship", "As Large As Possible 4", "Tumbleweed Terror", "Lots of Food 3", "As Fast As Possible 3", "Lots of Yokai", "Lots of Food 2", "As Large As Possible 3", "As Fast As Possible 5"],
     },
     "Hanging Scroll": {
         "id": 11322,
-        "levels": ["As Large As Possible 3", "As Large As Possible 4", "Lots of Yokai"],
+        "levels": ["As Large As Possible 3", "As Large As Possible 4", "Lots of Yokai", "As Fast As Possible 3"],
     },
     "Folding Screen": {
         "id": 23425,
@@ -7415,15 +7415,15 @@ object_data = {
     },
     "Sudden Downpour Ukiyo-e": {
         "id": 2962,
-        "levels": ["As Large As Possible 4", "As Large As Possible 5"],
+        "levels": ["As Large As Possible 4", "As Large As Possible 5", "As Fast As Possible 5"],
     },
     "Great Wave Ukiyo-e": {
         "id": 2963,
-        "levels": ["As Large As Possible 5", "As Large As Possible 4"],
+        "levels": ["As Large As Possible 5", "As Large As Possible 4", "As Fast As Possible 5"],
     },
     "Red Fuji Ukiyo-e": {
         "id": 2964,
-        "levels": ["As Large As Possible 5", "As Large As Possible 4"],
+        "levels": ["As Large As Possible 5", "As Large As Possible 4", "As Fast As Possible 5"],
     },
     "Cave Painting": {
         "id": 1348,
@@ -7519,7 +7519,7 @@ object_data = {
     },
     "Garden": {
         "id": 23989,
-        "levels": ["As Large As Possible 5", "As Large As Possible 4", "As Fast As Possible 4"],
+        "levels": ["As Large As Possible 5", "As Large As Possible 4", "As Fast As Possible 4", "As Fast As Possible 5"],
     },
     "Mystery Sun Island": {
         "id": 13035,
@@ -7539,7 +7539,7 @@ object_data = {
     },
     "Paddle": {
         "id": 871,
-        "levels": ["As Large As Possible (Race)", "As Large As Possible (Sea)", "Build a Ship", "As Large As Possible 3", "As Fast As Possible (Ghost Ship)"],
+        "levels": ["As Large As Possible (Race)", "As Large As Possible (Sea)", "Build a Ship", "As Large As Possible 3", "As Fast As Possible (Ghost Ship)", "Hurry, the Mummies"],
     },
     "Rusted Anchor": {
         "id": 1327,
@@ -7611,11 +7611,11 @@ object_data = {
     },
     "Inro": {
         "id": 31,
-        "levels": ["As Large As Possible 2", "Lots of Food 3", "Tidy It Up", "As Large As Possible 1", "Lots of Food 2"],
+        "levels": ["As Large As Possible 2", "Lots of Food 3", "Tidy It Up", "As Large As Possible 1", "Lots of Food 2", "Lots of Food 1"],
     },
     "Katashiro": {
         "id": 2035,
-        "levels": ["As Large As Possible 1", "Only Fifty (Appraisal)"],
+        "levels": ["As Large As Possible 1", "Only Fifty (Appraisal)", "As Fast As Possible 1"],
     },
     "Incense Stick": {
         "id": 2031,
@@ -7679,7 +7679,7 @@ object_data = {
     },
     "Japanese Doll": {
         "id": 23072,
-        "levels": ["Lots of Food 1", "As Large As Possible 3", "As Large As Possible 4", "Lots of Yokai", "Lots of Food 2", "As Large As Possible 5", "As Fast As Possible 3"],
+        "levels": ["Lots of Food 1", "As Large As Possible 3", "As Large As Possible 4", "Lots of Yokai", "Lots of Food 2", "As Large As Possible 5", "As Fast As Possible 3", "As Fast As Possible 5"],
     },
     "Monk Statue": {
         "id": 21382,
@@ -7735,7 +7735,7 @@ object_data = {
     },
     "Nue": {
         "id": 2743,
-        "levels": ["As Fast As Possible 5", "Lots of Yokai"],
+        "levels": ["As Fast As Possible 5", "Lots of Yokai", "As Large As Possible 5"],
     },
     "Inugami": {
         "id": 2744,
@@ -7763,7 +7763,7 @@ object_data = {
     },
     "Ittanmomen": {
         "id": 2750,
-        "levels": ["As Fast As Possible 5", "Lots of Yokai"],
+        "levels": ["As Fast As Possible 5", "Lots of Yokai", "As Large As Possible 5"],
     },
     "Kodama": {
         "id": 2751,
@@ -7799,7 +7799,7 @@ object_data = {
     },
     "Jorogumo": {
         "id": 2769,
-        "levels": ["As Large As Possible 5"],
+        "levels": ["As Large As Possible 5", "As Fast As Possible 5"],
     },
     "Akaname": {
         "id": 2770,
@@ -7807,7 +7807,7 @@ object_data = {
     },
     "Tree Monster": {
         "id": 2772,
-        "levels": ["As Fast As Possible 5"],
+        "levels": ["As Fast As Possible 5", "As Large As Possible 5"],
     },
     "Jinmen-ken": {
         "id": 2773,
@@ -7851,7 +7851,7 @@ object_data = {
     },
     "Rokurokubi": {
         "id": 23601,
-        "levels": ["Lots of Yokai"],
+        "levels": ["Lots of Yokai", "As Large As Possible 5"],
     },
     "Monster Cat": {
         "id": 23605,
@@ -7871,7 +7871,7 @@ object_data = {
     },
     "Inari Shrine": {
         "id": 1986,
-        "levels": ["Build a Ship", "As Large As Possible 3", "As Large As Possible 4"],
+        "levels": ["Build a Ship", "As Large As Possible 3", "As Large As Possible 4", "As Fast As Possible 3"],
     },
     "Inari Banner": {
         "id": 1988,
@@ -7895,7 +7895,7 @@ object_data = {
     },
     "Shintai": {
         "id": 3582,
-        "levels": ["As Fast As Possible 5"],
+        "levels": ["As Fast As Possible 5", "As Large As Possible 5"],
     },
     "Wish Tablet Display": {
         "id": 23369,
@@ -7907,7 +7907,7 @@ object_data = {
     },
     "Pine Decoration": {
         "id": 10275,
-        "levels": ["As Large As Possible 4", "Lots of Yokai", "As Large As Possible 5", "Cowbear Pasture"],
+        "levels": ["As Large As Possible 4", "Lots of Yokai", "As Large As Possible 5", "Cowbear Pasture", "As Fast As Possible 5"],
     },
     "Secretive Kite": {
         "id": 2966,
@@ -8035,7 +8035,7 @@ object_data = {
     },
     "Taiko Drum": {
         "id": 10355,
-        "levels": ["As Large As Possible (Race)", "As Fast As Possible 5", "As Large As Possible 3", "As Large As Possible 4", "Lots of Yokai", "Cowbear Pasture", "As Large As Possible 5"],
+        "levels": ["As Large As Possible (Race)", "As Fast As Possible 5", "As Large As Possible 3", "As Large As Possible 4", "Lots of Yokai", "Cowbear Pasture", "As Large As Possible 5", "As Fast As Possible 3"],
     },
     "Festival Float": {
         "id": 23716,
@@ -8159,11 +8159,11 @@ object_data = {
     },
     "Daruma Doll": {
         "id": 10334,
-        "levels": ["Cowbear Pasture", "Build a Ship", "As Large As Possible 5", "As Large As Possible 2", "As Large As Possible 3", "As Large As Possible 4", "Lots of Food 3", "Lots of Yokai", "Lots of Food 2", "As Fast As Possible 3"],
+        "levels": ["Cowbear Pasture", "Build a Ship", "As Large As Possible 5", "As Large As Possible 2", "As Large As Possible 3", "As Large As Possible 4", "Lots of Food 3", "Lots of Yokai", "Lots of Food 2", "As Fast As Possible 3", "As Fast As Possible 5"],
     },
     "Birthday Cake": {
         "id": 10963,
-        "levels": ["Perfect-Sized Coffin", "Pharaoh's Request", "Lots of Food 3", "As Fast As Possible 5"],
+        "levels": ["Perfect-Sized Coffin", "Pharaoh's Request", "Lots of Food 3", "As Fast As Possible 5", "As Large As Possible 5"],
     },
     "Wedding Cake": {
         "id": 10967,
@@ -8215,7 +8215,7 @@ object_data = {
     },
     "Relic Robber": {
         "id": 2148,
-        "levels": ["Perfect-Sized Coffin"],
+        "levels": ["Perfect-Sized Coffin", "Hurry, the Mummies"],
     },
     "White Hair Relic Robber": {
         "id": 2149,
@@ -8271,7 +8271,7 @@ object_data = {
     },
     "Momotaro": {
         "id": 11011,
-        "levels": ["Lots of Food 1", "As Fast As Possible 5", "As Large As Possible 5", "As Large As Possible 3"],
+        "levels": ["Lots of Food 1", "As Fast As Possible 5", "As Large As Possible 5", "As Large As Possible 3", "As Fast As Possible 3"],
     },
     "Kintaro": {
         "id": 1763,
@@ -8295,11 +8295,11 @@ object_data = {
     },
     "Man-Catcher Fireman": {
         "id": 2084,
-        "levels": ["As Large As Possible 3", "As Large As Possible 5"],
+        "levels": ["As Large As Possible 3", "As Large As Possible 5", "As Fast As Possible 5"],
     },
     "Paper Fan Fireman": {
         "id": 2085,
-        "levels": ["As Large As Possible 3", "Lots of Food 3"],
+        "levels": ["As Large As Possible 3", "Lots of Food 3", "As Fast As Possible 5", "As Large As Possible 5"],
     },
     "Jumbo Samurai Governor": {
         "id": 3590,
@@ -8347,7 +8347,7 @@ object_data = {
     },
     "Reversible Cap": {
         "id": 12160,
-        "levels": ["As Large As Possible 5"],
+        "levels": ["As Large As Possible 5", "As Fast As Possible 5"],
     },
     "Horizontal Bars": {
         "id": 10676,
@@ -8383,7 +8383,7 @@ object_data = {
     },
     "Slide": {
         "id": 10321,
-        "levels": ["As Large As Possible 5"],
+        "levels": ["As Large As Possible 5", "As Fast As Possible 5"],
     },
     "Seesaw": {
         "id": 10319,
@@ -8427,11 +8427,11 @@ object_data = {
     },
     "Charcoal": {
         "id": 83,
-        "levels": ["Make a Star Again 1", "As Large As Possible 2", "Tidy It Up", "As Large As Possible 1", "Lots of Food 2", "As Large As Possible 3"],
+        "levels": ["Make a Star Again 1", "As Large As Possible 2", "Tidy It Up", "As Large As Possible 1", "Lots of Food 2", "As Large As Possible 3", "As Fast As Possible 1"],
     },
     "Charcoal Barrel": {
         "id": 3004,
-        "levels": ["As Large As Possible 4"],
+        "levels": ["As Large As Possible 4", "As Large As Possible (Race)"],
     },
     "Ink Ball": {
         "id": 3502,
@@ -8463,7 +8463,7 @@ object_data = {
     },
     "Bale of Rice": {
         "id": 174,
-        "levels": ["As Fast As Possible 5", "Build a Ship", "Lots of Food 1", "As Large As Possible 5", "As Large As Possible 3", "As Large As Possible 4", "Lots of Food 3", "Lots of Yokai", "Cowbear Pasture", "Lots of Food 2"],
+        "levels": ["As Fast As Possible 5", "Build a Ship", "Lots of Food 1", "As Large As Possible 5", "As Large As Possible 3", "As Large As Possible 4", "Lots of Food 3", "Lots of Yokai", "Cowbear Pasture", "Lots of Food 2", "As Fast As Possible 3"],
     },
     "Harvested Rice": {
         "id": 1391,
@@ -8507,7 +8507,7 @@ object_data = {
     },
     "Small Winnowing Basket": {
         "id": 1390,
-        "levels": ["As Large As Possible 5", "As Fast As Possible 3", "As Large As Possible 4", "Lots of Food 3", "As Large As Possible 3"],
+        "levels": ["As Large As Possible 5", "As Fast As Possible 3", "As Large As Possible 4", "Lots of Food 3", "As Large As Possible 3", "As Fast As Possible 5"],
     },
     "Shovel": {
         "id": 10218,
@@ -8527,7 +8527,7 @@ object_data = {
     },
     "Rice Drying Rack": {
         "id": 1373,
-        "levels": ["As Large As Possible 5", "As Large As Possible 4", "Cowbear Pasture", "Build a Haniwa"],
+        "levels": ["As Large As Possible 5", "As Large As Possible 4", "Cowbear Pasture", "Build a Haniwa", "As Fast As Possible 5"],
     },
     "Scarecrow": {
         "id": 10103,
@@ -8611,7 +8611,7 @@ object_data = {
     },
     "Umajirushi": {
         "id": 3043,
-        "levels": ["As Large As Possible 5", "Cowbear Pasture"],
+        "levels": ["As Large As Possible 5", "Cowbear Pasture", "As Fast As Possible 5"],
     },
     "Kabuki Tower Ornament": {
         "id": 2998,
@@ -8727,7 +8727,7 @@ object_data = {
     },
     "Traditional Snow House": {
         "id": 12202,
-        "levels": ["As Fast As Possible 5"],
+        "levels": ["As Fast As Possible 5", "As Large As Possible 5"],
     },
     "Pit House": {
         "id": 3602,
@@ -8875,7 +8875,7 @@ object_data = {
     },
     "Soba Stand": {
         "id": 2549,
-        "levels": ["As Fast As Possible 5", "As Large As Possible 3", "As Large As Possible 4"],
+        "levels": ["As Fast As Possible 5", "As Large As Possible 3", "As Large As Possible 4", "As Large As Possible 5"],
     },
     "Carpenter Shop": {
         "id": 2932,
@@ -8971,7 +8971,7 @@ object_data = {
     },
     "Red Sunshade": {
         "id": 1055,
-        "levels": ["As Large As Possible (Race)", "As Large As Possible 5"],
+        "levels": ["As Large As Possible (Race)", "As Large As Possible 5", "As Fast As Possible 5"],
     },
     "Blue Sunshade": {
         "id": 1056,
@@ -8979,7 +8979,7 @@ object_data = {
     },
     "Shrine Office": {
         "id": 24465,
-        "levels": ["As Fast As Possible 5", "As Large As Possible 4"],
+        "levels": ["As Fast As Possible 5", "As Large As Possible 4", "As Large As Possible 5"],
     },
     "Mask Stall": {
         "id": 24468,
@@ -9107,7 +9107,7 @@ object_data = {
     },
     "Stage": {
         "id": 11358,
-        "levels": ["As Large As Possible 4", "As Fast As Possible 4", "As Fast As Possible 5"],
+        "levels": ["As Large As Possible 4", "As Fast As Possible 4", "As Fast As Possible 5", "As Large As Possible 5"],
     },
     "Fairy Tale Fountain": {
         "id": 23851,
@@ -9219,7 +9219,7 @@ object_data = {
     },
     "Cheap Inn": {
         "id": 3490,
-        "levels": ["As Fast As Possible 5", "As Large As Possible 4"],
+        "levels": ["As Fast As Possible 5", "As Large As Possible 4", "As Large As Possible 5"],
     },
     "Fireman's Lodging Post": {
         "id": 3493,
@@ -9251,7 +9251,7 @@ object_data = {
     },
     "Garden Pavilion": {
         "id": 2987,
-        "levels": ["As Fast As Possible 5", "As Large As Possible 4", "As Fast As Possible 4"],
+        "levels": ["As Fast As Possible 5", "As Large As Possible 4", "As Fast As Possible 4", "As Large As Possible 5"],
     },
     "Notice Board": {
         "id": 2992,
@@ -9263,7 +9263,7 @@ object_data = {
     },
     "Offering Box": {
         "id": 24467,
-        "levels": ["As Fast As Possible 5", "As Large As Possible 5", "Lots of Yokai", "As Large As Possible 4"],
+        "levels": ["As Fast As Possible 5", "As Large As Possible 5", "Lots of Yokai", "As Large As Possible 4", "Lots of Food 1"],
     },
     "Fire Watch Tower": {
         "id": 3001,
@@ -9351,7 +9351,7 @@ object_data = {
     },
     "Partition": {
         "id": 1559,
-        "levels": ["As Large As Possible (Race)", "As Large As Possible (Sea)", "Build a Ship", "As Fast As Possible (Ghost Ship)"],
+        "levels": ["As Large As Possible (Race)", "As Large As Possible (Sea)", "Build a Ship", "As Fast As Possible (Ghost Ship)", "As Large As Possible 5"],
     },
     "Half Partition": {
         "id": 1560,
@@ -9399,11 +9399,11 @@ object_data = {
     },
     "Bamboo Blind": {
         "id": 11286,
-        "levels": ["As Large As Possible 3", "As Large As Possible 4", "Lots of Food 3", "Lots of Food 2"],
+        "levels": ["As Large As Possible 3", "As Large As Possible 4", "Lots of Food 3", "Lots of Food 2", "As Fast As Possible 3"],
     },
     "Bathhouse Curtain": {
         "id": 11269,
-        "levels": ["As Fast As Possible 5", "As Large As Possible 3", "As Large As Possible 5"],
+        "levels": ["As Fast As Possible 5", "As Large As Possible 3", "As Large As Possible 5", "As Fast As Possible 3"],
     },
     "Ship Rail": {
         "id": 1317,
@@ -9443,7 +9443,7 @@ object_data = {
     },
     "Bamboo Bundle": {
         "id": 3042,
-        "levels": ["As Large As Possible 5", "As Large As Possible 3", "Build a Haniwa", "Cowbear Pasture", "As Fast As Possible 3"],
+        "levels": ["As Large As Possible 5", "As Large As Possible 3", "Build a Haniwa", "Cowbear Pasture", "As Fast As Possible 3", "As Fast As Possible 5"],
     },
     "Cinder Block": {
         "id": 10028,
@@ -9459,7 +9459,7 @@ object_data = {
     },
     "Angled Shrubbery": {
         "id": 23475,
-        "levels": ["As Large As Possible 5"],
+        "levels": ["As Large As Possible 5", "As Fast As Possible 5"],
     },
     "Swinging Doors": {
         "id": 646,
@@ -9499,7 +9499,7 @@ object_data = {
     },
     "Shrine Gate": {
         "id": 1987,
-        "levels": ["Build a Ship", "As Large As Possible 5", "As Large As Possible 3", "As Large As Possible 4"],
+        "levels": ["Build a Ship", "As Large As Possible 5", "As Large As Possible 3", "As Large As Possible 4", "As Fast As Possible 3"],
     },
     "Inari Shrine Gate": {
         "id": 12327,
@@ -9523,7 +9523,7 @@ object_data = {
     },
     "Boat Dock": {
         "id": 2999,
-        "levels": ["As Large As Possible 4", "As Fast As Possible 4", "As Large As Possible 5"],
+        "levels": ["As Large As Possible 4", "As Fast As Possible 4", "As Large As Possible 5", "As Fast As Possible 5"],
     },
     "Hole": {
         "id": 12787,
@@ -9603,11 +9603,11 @@ object_data = {
     },
     "Cyber City": {
         "id": 13172,
-        "levels": ["As Large As Possible 5"],
+        "levels": ["As Large As Possible 5", "As Fast As Possible 5"],
     },
     "Techno City": {
         "id": 13173,
-        "levels": ["As Large As Possible 5"],
+        "levels": ["As Large As Possible 5", "As Fast As Possible 5"],
     },
     "Mushroom City": {
         "id": 24793,
@@ -9623,23 +9623,23 @@ object_data = {
     },
     "Ginger Crane Town": {
         "id": 3517,
-        "levels": ["As Large As Possible 5"],
+        "levels": ["As Large As Possible 5", "As Fast As Possible 5"],
     },
     "Turtle Dove Town": {
         "id": 3518,
-        "levels": ["As Large As Possible 5"],
+        "levels": ["As Large As Possible 5", "As Fast As Possible 5"],
     },
     "Flycatcher Town": {
         "id": 3519,
-        "levels": ["As Large As Possible 5"],
+        "levels": ["As Large As Possible 5", "As Fast As Possible 5"],
     },
     "Tuna City": {
         "id": 3520,
-        "levels": ["As Large As Possible 5"],
+        "levels": ["As Large As Possible 5", "As Fast As Possible 5"],
     },
     "Flying Squirrel District": {
         "id": 3521,
-        "levels": ["As Large As Possible 5"],
+        "levels": ["As Large As Possible 5", "As Fast As Possible 5"],
     },
     "Peacock District": {
         "id": 3522,
@@ -9667,7 +9667,7 @@ object_data = {
     },
     "Llama District": {
         "id": 3529,
-        "levels": ["As Large As Possible 5"],
+        "levels": ["As Large As Possible 5", "As Fast As Possible 5"],
     },
     "Sea Turtle District": {
         "id": 3528,
@@ -9719,7 +9719,7 @@ object_data = {
     },
     "Edo Transport Service Sign": {
         "id": 3548,
-        "levels": ["As Large As Possible 4", "As Large As Possible 5", "As Fast As Possible 4"],
+        "levels": ["As Large As Possible 4", "As Large As Possible 5", "As Fast As Possible 4", "As Fast As Possible 5"],
     },
     "Edo Water House Sign": {
         "id": 3536,
@@ -9727,7 +9727,7 @@ object_data = {
     },
     "Bookstore Sign": {
         "id": 2942,
-        "levels": ["As Large As Possible 3", "As Fast As Possible 5", "As Large As Possible 5", "As Large As Possible 4"],
+        "levels": ["As Large As Possible 3", "As Fast As Possible 5", "As Large As Possible 5", "As Large As Possible 4", "As Fast As Possible 3"],
     },
     "Edo Barbershop Sign": {
         "id": 3544,
@@ -9771,7 +9771,7 @@ object_data = {
     },
     "Candy Apple Sign": {
         "id": 24471,
-        "levels": ["As Large As Possible 3"],
+        "levels": ["As Large As Possible 3", "As Fast As Possible 3"],
     },
     "Palmistry Sign": {
         "id": 11284,
@@ -10095,7 +10095,7 @@ object_data = {
     },
     "Bamboo Grass": {
         "id": 1396,
-        "levels": ["As Large As Possible 4", "As Large As Possible 5"],
+        "levels": ["As Large As Possible 4", "As Large As Possible 5", "As Fast As Possible 5"],
     },
     "Rice Plant": {
         "id": 2296,
@@ -10139,7 +10139,7 @@ object_data = {
     },
     "Potted Ivy": {
         "id": 23957,
-        "levels": ["Perfect-Sized Coffin", "As Large As Possible 3"],
+        "levels": ["Perfect-Sized Coffin", "As Large As Possible 3", "Lots of Food 1"],
     },
     "Garden Plant": {
         "id": 11144,
@@ -10303,7 +10303,7 @@ object_data = {
     },
     "Cherry Forest": {
         "id": 13101,
-        "levels": ["As Large As Possible 5"],
+        "levels": ["As Large As Possible 5", "As Fast As Possible 5"],
     },
     "Stone Door Rock": {
         "id": 2207,
@@ -10447,7 +10447,7 @@ object_data = {
     },
     "Lily Bell Island": {
         "id": 13114,
-        "levels": ["As Large As Possible 5"],
+        "levels": ["As Large As Possible 5", "As Fast As Possible 5"],
     },
     "Parsley Island": {
         "id": 13115,
@@ -10527,7 +10527,7 @@ object_data = {
     },
     "Mt. Camellia": {
         "id": 13138,
-        "levels": ["As Large As Possible 5"],
+        "levels": ["As Large As Possible 5", "As Fast As Possible 5"],
     },
     "Mt. Akane": {
         "id": 13139,
@@ -10591,7 +10591,7 @@ object_data = {
     },
     "Hyacinth Island": {
         "id": 13157,
-        "levels": ["As Large As Possible 5"],
+        "levels": ["As Large As Possible 5", "As Fast As Possible 5"],
     },
     "Canna Island": {
         "id": 13160,
@@ -10623,11 +10623,11 @@ object_data = {
     },
     "Niagara Falls": {
         "id": 13204,
-        "levels": ["As Large As Possible 5"],
+        "levels": ["As Large As Possible 5", "As Fast As Possible 5"],
     },
     "The Grand Canyon": {
         "id": 13205,
-        "levels": ["As Large As Possible 5"],
+        "levels": ["As Large As Possible 5", "As Fast As Possible 5"],
     },
     "Green Island": {
         "id": 13270,
@@ -10659,7 +10659,7 @@ object_data = {
     },
     "Cuckoo Isle": {
         "id": 24765,
-        "levels": ["As Large As Possible 5"],
+        "levels": ["As Large As Possible 5", "As Fast As Possible 5"],
     },
     "Spot-Billed Isle": {
         "id": 24766,
@@ -10871,7 +10871,7 @@ object_data = {
     },
     "Tsuchinoko": {
         "id": 360,
-        "levels": ["Perfect-Sized Coffin", "As Fast As Possible 5", "As Large As Possible 4", "Tutorial"],
+        "levels": ["Perfect-Sized Coffin", "As Fast As Possible 5", "As Large As Possible 4", "Tutorial", "As Large As Possible 5"],
     },
     "Bunbuku Chagama": {
         "id": 1548,
@@ -10971,7 +10971,7 @@ object_data = {
     },
     "Rich Boy": {
         "id": 1072,
-        "levels": ["Philosopher Hunt", "As Large As Possible 3", "As Fast As Possible 3", "As Large As Possible 4"],
+        "levels": ["Philosopher Hunt", "As Large As Possible 3", "As Fast As Possible 3", "As Large As Possible 4", "As Large As Possible 5"],
     },
     "Rich Girl": {
         "id": 1071,
@@ -10983,7 +10983,7 @@ object_data = {
     },
     "Noble Lad": {
         "id": 2827,
-        "levels": ["Lots of Food 1", "Lots of Food 3", "As Large As Possible 5"],
+        "levels": ["Lots of Food 1", "Lots of Food 3", "As Large As Possible 5", "As Fast As Possible 5"],
     },
     "Noble Youngster": {
         "id": 2828,
@@ -10999,7 +10999,7 @@ object_data = {
     },
     "Ushiwakamaru": {
         "id": 2917,
-        "levels": ["As Large As Possible 3", "As Fast As Possible 3", "Lots of Food 2", "As Fast As Possible 5", "As Large As Possible 5"],
+        "levels": ["As Large As Possible 3", "As Fast As Possible 3", "Lots of Food 2", "As Fast As Possible 5", "As Large As Possible 5", "As Large As Possible 4"],
     },
     "Naughty Child": {
         "id": 1026,
@@ -11179,7 +11179,7 @@ object_data = {
     },
     "Miss Umbrella": {
         "id": 2057,
-        "levels": ["As Large As Possible 5", "As Large As Possible 3", "As Fast As Possible 3", "As Large As Possible 4"],
+        "levels": ["As Large As Possible 5", "As Large As Possible 3", "As Fast As Possible 3", "As Large As Possible 4", "As Fast As Possible 5"],
     },
     "Dango Lady": {
         "id": 2058,
@@ -11227,7 +11227,7 @@ object_data = {
     },
     "Villager": {
         "id": 1545,
-        "levels": ["As Large As Possible 5", "As Large As Possible 3", "As Large As Possible 4", "As Fast As Possible 3"],
+        "levels": ["As Large As Possible 5", "As Large As Possible 3", "As Large As Possible 4", "As Fast As Possible 3", "As Fast As Possible 5"],
     },
     "Blue Kimono Woman": {
         "id": 1547,
@@ -11247,7 +11247,7 @@ object_data = {
     },
     "Furoshiki Man": {
         "id": 2052,
-        "levels": ["As Large As Possible 5", "As Large As Possible 3", "As Large As Possible 4", "As Fast As Possible 5"],
+        "levels": ["As Large As Possible 5", "As Large As Possible 3", "As Large As Possible 4", "As Fast As Possible 5", "As Fast As Possible 3"],
     },
     "Old Glasses Wearer": {
         "id": 2054,
@@ -11267,7 +11267,7 @@ object_data = {
     },
     "Bookworm": {
         "id": 2067,
-        "levels": ["As Fast As Possible 5", "As Large As Possible 5", "As Large As Possible 3", "As Large As Possible 4"],
+        "levels": ["As Fast As Possible 5", "As Large As Possible 5", "As Large As Possible 3", "As Large As Possible 4", "As Fast As Possible 3"],
     },
     "Kimono Lady": {
         "id": 10601,
@@ -11295,7 +11295,7 @@ object_data = {
     },
     "Lazy Servant": {
         "id": 2706,
-        "levels": ["As Large As Possible 5", "As Large As Possible 4", "Lots of Food 3", "Lots of Food 2"],
+        "levels": ["As Large As Possible 5", "As Large As Possible 4", "Lots of Food 3", "Lots of Food 2", "Lots of Food 1"],
     },
     "Sitting Servant": {
         "id": 2707,
@@ -11327,7 +11327,7 @@ object_data = {
     },
     "Wandering Monk": {
         "id": 2079,
-        "levels": ["As Fast As Possible 5", "As Large As Possible 5", "As Large As Possible 3", "As Large As Possible 4", "Lots of Food 3"],
+        "levels": ["As Fast As Possible 5", "As Large As Possible 5", "As Large As Possible 3", "As Large As Possible 4", "Lots of Food 3", "As Fast As Possible 3"],
     },
     "Giddy Up! Cowboy": {
         "id": 306,
@@ -11343,7 +11343,7 @@ object_data = {
     },
     "Brunette Cowboy": {
         "id": 309,
-        "levels": ["Lots of Drinks", "Hurry, the Gold"],
+        "levels": ["Lots of Drinks", "Hurry, the Gold", "Lots of Gold"],
     },
     "Red Dress Woman": {
         "id": 665,
@@ -11431,7 +11431,7 @@ object_data = {
     },
     "Mr. Coffin": {
         "id": 2326,
-        "levels": ["As Fast As Possible 5", "Perfect-Sized Coffin"],
+        "levels": ["As Fast As Possible 5", "Perfect-Sized Coffin", "As Large As Possible 5"],
     },
     "Egyptian Man": {
         "id": 2328,
@@ -11467,7 +11467,7 @@ object_data = {
     },
     "Red Toga Greek": {
         "id": 1133,
-        "levels": ["As Fast As Possible 5", "Philosopher Hunt"],
+        "levels": ["As Fast As Possible 5", "Philosopher Hunt", "As Large As Possible 5"],
     },
     "Relaxing Greek Citizen": {
         "id": 1134,
@@ -11627,7 +11627,7 @@ object_data = {
     },
     "Daimyo": {
         "id": 2886,
-        "levels": ["As Large As Possible 5", "As Large As Possible 4", "Lots of Food 3"],
+        "levels": ["As Large As Possible 5", "As Large As Possible 4", "Lots of Food 3", "As Fast As Possible 5"],
     },
     "Edo Police Officer": {
         "id": 3016,
@@ -11819,7 +11819,7 @@ object_data = {
     },
     "Handcar": {
         "id": 12661,
-        "levels": ["As Large As Possible 5"],
+        "levels": ["As Large As Possible 5", "As Fast As Possible 5"],
     },
     "Tomio Hoshino (Astronaut)": {
         "id": 10590,
@@ -11827,7 +11827,7 @@ object_data = {
     },
     "Ant": {
         "id": 11259,
-        "levels": ["Make a Star Again 1", "As Large As Possible 2", "As Large As Possible 1"],
+        "levels": ["Make a Star Again 1", "As Large As Possible 2", "As Large As Possible 1", "As Fast As Possible 1"],
     },
     "Shamisen Master": {
         "id": 2074,
@@ -11843,7 +11843,7 @@ object_data = {
     },
     "Large Hand Drum Guy": {
         "id": 2076,
-        "levels": ["As Large As Possible 3", "As Fast As Possible 3", "Lots of Food 2"],
+        "levels": ["As Large As Possible 3", "As Fast As Possible 3", "Lots of Food 2", "Lots of Food 1"],
     },
     "High-pitched Drum Player ": {
         "id": 2077,
@@ -11851,11 +11851,11 @@ object_data = {
     },
     "Fife Player": {
         "id": 2078,
-        "levels": ["As Large As Possible 3", "Lots of Food 3", "As Fast As Possible 3"],
+        "levels": ["As Large As Possible 3", "Lots of Food 3", "As Fast As Possible 3", "Lots of Food 1"],
     },
     "Kabuki Actor": {
         "id": 2064,
-        "levels": ["As Large As Possible 5", "As Large As Possible 3", "As Large As Possible 4", "Lots of Food 3", "Lots of Food 2", "As Fast As Possible 5"],
+        "levels": ["As Large As Possible 5", "As Large As Possible 3", "As Large As Possible 4", "Lots of Food 3", "Lots of Food 2", "As Fast As Possible 5", "As Fast As Possible 3"],
     },
     "Tea Master": {
         "id": 1622,
@@ -11927,7 +11927,7 @@ object_data = {
     },
     "Socrates": {
         "id": 1339,
-        "levels": ["As Fast As Possible 5", "Philosopher Hunt"],
+        "levels": ["As Fast As Possible 5", "Philosopher Hunt", "As Large As Possible 5"],
     },
     "Plato": {
         "id": 1340,
@@ -12355,7 +12355,7 @@ object_data = {
     },
     "Calico Cat": {
         "id": 11,
-        "levels": ["Lots of Sweeeeeeeeets", "Perfect-Sized Coffin", "As Large As Possible (Sea)", "As Fast As Possible 5", "Philosopher Hunt", "As Large As Possible 3", "Pharaoh's Request", "As Large As Possible 4", "Lots of Food 3", "Build a Ship", "As Fast As Possible (Ghost Ship)"],
+        "levels": ["Lots of Sweeeeeeeeets", "Perfect-Sized Coffin", "As Large As Possible (Sea)", "As Fast As Possible 5", "Philosopher Hunt", "As Large As Possible 3", "Pharaoh's Request", "As Large As Possible 4", "Lots of Food 3", "Build a Ship", "As Fast As Possible (Ghost Ship)", "As Fast As Possible 3"],
     },
     "Tabby Cat": {
         "id": 197,
@@ -12519,7 +12519,7 @@ object_data = {
     },
     "Mouse": {
         "id": 10510,
-        "levels": ["Lots of Drinks", "Make a Star Again 1", "Lots of Coins", "As Large As Possible (Sea)", "As Large As Possible 2", "As Large As Possible 3", "As Fast As Possible (Ghost Ship)", "As Large As Possible 1", "Tutorial", "Only Fifty (Appraisal)"],
+        "levels": ["Lots of Drinks", "Make a Star Again 1", "Lots of Coins", "As Large As Possible (Sea)", "As Large As Possible 2", "As Large As Possible 3", "As Fast As Possible (Ghost Ship)", "As Large As Possible 1", "Tutorial", "Only Fifty (Appraisal)", "As Fast As Possible 1"],
     },
     "Dairy Cow": {
         "id": 10487,
@@ -12579,7 +12579,7 @@ object_data = {
     },
     "Cobra": {
         "id": 12604,
-        "levels": ["Perfect-Sized Coffin"],
+        "levels": ["Perfect-Sized Coffin", "As Large As Possible 5"],
     },
     "Horse": {
         "id": 363,
@@ -12611,11 +12611,11 @@ object_data = {
     },
     "Speak-No-Evil Monkey": {
         "id": 2806,
-        "levels": ["Build a Ship", "Lots of Food 3", "As Large As Possible 4"],
+        "levels": ["Build a Ship", "Lots of Food 3", "As Large As Possible 4", "Lots of Food 1"],
     },
     "Hear-No-Evil Monkey": {
         "id": 2807,
-        "levels": ["Lots of Food 3", "As Large As Possible 4"],
+        "levels": ["Lots of Food 3", "As Large As Possible 4", "Lots of Food 1"],
     },
     "Golden Snub-Nosed Monkey": {
         "id": 1759,
@@ -12651,7 +12651,7 @@ object_data = {
     },
     "Husky": {
         "id": 12705,
-        "levels": ["As Large As Possible (Race)", "Perfect-Sized Coffin", "Lots of Food 2"],
+        "levels": ["As Large As Possible (Race)", "Perfect-Sized Coffin", "Lots of Food 2", "Lots of Food 3"],
     },
     "Doberman": {
         "id": 12706,
@@ -12691,7 +12691,7 @@ object_data = {
     },
     "Moon Bear": {
         "id": 12713,
-        "levels": ["Build a Ship", "As Large As Possible 3", "As Large As Possible 4", "Perfect-Sized Mammoth", "As Fast As Possible 5", "As Large As Possible 5", "Cowbear Pasture"],
+        "levels": ["Build a Ship", "As Large As Possible 3", "As Large As Possible 4", "Perfect-Sized Mammoth", "As Fast As Possible 5", "As Large As Possible 5", "Cowbear Pasture", "Only Fifty"],
     },
     "Money Bear": {
         "id": 1351,
@@ -12703,7 +12703,7 @@ object_data = {
     },
     "Resting Bear": {
         "id": 2541,
-        "levels": ["As Large As Possible 5", "Cowbear Pasture"],
+        "levels": ["As Large As Possible 5", "Cowbear Pasture", "As Fast As Possible 5"],
     },
     "Bear Foot Soldier": {
         "id": 3046,
@@ -12735,7 +12735,7 @@ object_data = {
     },
     "Killer Whale": {
         "id": 23639,
-        "levels": ["As Large As Possible (Race)", "As Fast As Possible 5"],
+        "levels": ["As Large As Possible (Race)", "As Fast As Possible 5", "As Large As Possible 5"],
     },
     "Electric Jellyfish": {
         "id": 11172,
@@ -12903,7 +12903,7 @@ object_data = {
     },
     "Spider Crab": {
         "id": 10484,
-        "levels": ["As Large As Possible (Race)", "As Large As Possible (Pond)", "As Large As Possible (Sea)", "Lots of Food 1", "As Large As Possible 3", "As Fast As Possible 3", "As Fast As Possible (Ghost Ship)", "Cowbear Pasture", "Lots of Food 2", "As Large As Possible 4", "As Large As Possible 5", "Build a Ship"],
+        "levels": ["As Large As Possible (Race)", "As Large As Possible (Pond)", "As Large As Possible (Sea)", "Lots of Food 1", "As Large As Possible 3", "As Fast As Possible 3", "As Fast As Possible (Ghost Ship)", "Cowbear Pasture", "Lots of Food 2", "As Large As Possible 4", "As Large As Possible 5", "Build a Ship", "As Fast As Possible 5"],
     },
     "Space Crab": {
         "id": 3627,
@@ -12915,7 +12915,7 @@ object_data = {
     },
     "Giant Red Shrimp": {
         "id": 3052,
-        "levels": ["As Fast As Possible 5", "As Large As Possible 5", "Lots of Food 3", "Lots of Food 2"],
+        "levels": ["As Fast As Possible 5", "As Large As Possible 5", "Lots of Food 3", "Lots of Food 2", "As Large As Possible (Race)"],
     },
     "Mantis Shrimp": {
         "id": 3053,
@@ -12931,7 +12931,7 @@ object_data = {
     },
     "Crayfish": {
         "id": 12622,
-        "levels": ["As Large As Possible (Pond)", "As Large As Possible 2", "As Large As Possible 3", "As Large As Possible 4", "Perfect-Sized Skull", "Tutorial"],
+        "levels": ["As Large As Possible (Pond)", "As Large As Possible 2", "As Large As Possible 3", "As Large As Possible 4", "Perfect-Sized Skull", "Tutorial", "As Large As Possible 1"],
     },
     "Sea Urchin": {
         "id": 12106,
@@ -12971,7 +12971,7 @@ object_data = {
     },
     "Snapper": {
         "id": 10474,
-        "levels": ["Lots of Icicles", "As Large As Possible (Pond)", "As Large As Possible (Sea)", "Build a Ship", "Lots of Food 1", "Philosopher Hunt", "As Large As Possible 3", "Pharaoh's Request", "As Large As Possible 4", "Lots of Food 3", "As Fast As Possible (Ghost Ship)", "Lots of Food 2"],
+        "levels": ["Lots of Icicles", "As Large As Possible (Pond)", "As Large As Possible (Sea)", "Build a Ship", "Lots of Food 1", "Philosopher Hunt", "As Large As Possible 3", "Pharaoh's Request", "As Large As Possible 4", "Lots of Food 3", "As Fast As Possible (Ghost Ship)", "Lots of Food 2", "As Fast As Possible 3"],
     },
     "Carp": {
         "id": 10473,
@@ -13003,7 +13003,7 @@ object_data = {
     },
     "Dolphin": {
         "id": 12613,
-        "levels": ["As Large As Possible (Race)", "Build a Ship", "As Large As Possible 5"],
+        "levels": ["As Large As Possible (Race)", "Build a Ship", "As Large As Possible 5", "As Fast As Possible 5"],
     },
     "Killifish": {
         "id": 12621,
@@ -13111,7 +13111,7 @@ object_data = {
     },
     "Pteranodon": {
         "id": 693,
-        "levels": ["As Fast As Possible 5", "As Large As Possible 5"],
+        "levels": ["As Fast As Possible 5", "As Large As Possible 5", "Only Fifty", "Lots of Dinosaurs"],
     },
     "Pteranodon Cosplayer": {
         "id": 3511,
@@ -13123,7 +13123,7 @@ object_data = {
     },
     "Peacock": {
         "id": 12716,
-        "levels": ["As Large As Possible 4", "As Large As Possible 5"],
+        "levels": ["As Large As Possible 4", "As Large As Possible 5", "As Fast As Possible 5"],
     },
     "Wings": {
         "id": 12738,
@@ -13259,7 +13259,7 @@ object_data = {
     },
     "Deer": {
         "id": 12594,
-        "levels": ["As Large As Possible (Race)", "As Fast As Possible 5", "Cowbear Pasture", "Build a Ship", "As Large As Possible 5", "Philosopher Hunt", "As Large As Possible 3", "Lots of Food 3", "As Large As Possible 4", "Only Fifty"],
+        "levels": ["As Large As Possible (Race)", "As Fast As Possible 5", "Cowbear Pasture", "Build a Ship", "As Large As Possible 5", "Philosopher Hunt", "As Large As Possible 3", "Lots of Food 3", "As Large As Possible 4", "Only Fifty", "As Fast As Possible 3"],
     },
     "Okapi": {
         "id": 12595,
@@ -13415,7 +13415,7 @@ object_data = {
     },
     "Roly Poly": {
         "id": 943,
-        "levels": ["As Large As Possible 1"],
+        "levels": ["As Large As Possible 1", "As Fast As Possible 1"],
     },
     "Dung Beetle": {
         "id": 10515,
@@ -13439,7 +13439,7 @@ object_data = {
     },
     "Thread (Red & White)": {
         "id": 11936,
-        "levels": ["As Large As Possible 1", "Perfect-Sized Skull", "As Large As Possible 2", "Tutorial"],
+        "levels": ["As Large As Possible 1", "Perfect-Sized Skull", "As Large As Possible 2", "Tutorial", "As Fast As Possible 1"],
     },
     "Thread (Navy)": {
         "id": 11937,
@@ -13451,7 +13451,7 @@ object_data = {
     },
     "Cloth Roll": {
         "id": 1297,
-        "levels": ["As Large As Possible 5", "As Large As Possible 2", "As Large As Possible 3", "As Large As Possible 4", "Lots of Food 3", "As Fast As Possible 3", "Lots of Food 2", "Perfect-Sized Coffin"],
+        "levels": ["As Large As Possible 5", "As Large As Possible 2", "As Large As Possible 3", "As Large As Possible 4", "Lots of Food 3", "As Fast As Possible 3", "Lots of Food 2", "Perfect-Sized Coffin", "As Fast As Possible 5"],
     },
     "Pincushion": {
         "id": 11855,
@@ -13475,7 +13475,7 @@ object_data = {
     },
     "U-shaped Scissors": {
         "id": 1257,
-        "levels": ["As Large As Possible 2", "As Large As Possible 1"],
+        "levels": ["As Large As Possible 2", "As Large As Possible 1", "As Fast As Possible 1"],
     },
     "Satsuma Flower Button": {
         "id": 2234,
@@ -13495,7 +13495,7 @@ object_data = {
     },
     "Sewing Box": {
         "id": 11715,
-        "levels": ["As Large As Possible 5", "As Large As Possible 2"],
+        "levels": ["As Large As Possible 5", "As Large As Possible 2", "As Fast As Possible 5"],
     },
     "White Cloud (S)": {
         "id": 11739,
@@ -13743,7 +13743,7 @@ object_data = {
     },
     "Hanging Fish": {
         "id": 1328,
-        "levels": ["As Large As Possible (Race)", "Perfect-Sized Coffin", "As Large As Possible (Sea)", "Lots of Food 1", "Philosopher Hunt", "As Large As Possible 3", "As Fast As Possible (Ghost Ship)", "Build a Haniwa"],
+        "levels": ["As Large As Possible (Race)", "Perfect-Sized Coffin", "As Large As Possible (Sea)", "Lots of Food 1", "Philosopher Hunt", "As Large As Possible 3", "As Fast As Possible (Ghost Ship)", "Build a Haniwa", "As Fast As Possible 3"],
     },
     "Swordfish": {
         "id": 1483,
@@ -13879,7 +13879,7 @@ object_data = {
     },
     "Pot Mummy": {
         "id": 1921,
-        "levels": ["As Large As Possible 5", "Pharaoh's Request", "Hurry, the Mummies"],
+        "levels": ["As Large As Possible 5", "Pharaoh's Request", "Hurry, the Mummies", "As Fast As Possible 5"],
     },
     "Relaxing Mummy": {
         "id": 1922,
@@ -13971,7 +13971,7 @@ object_data = {
     },
     "Red Rose Prince": {
         "id": 3701,
-        "levels": ["Hurry, the Roses"],
+        "levels": ["Hurry, the Roses", "Lots of Roses"],
     },
     "White Rose Prince": {
         "id": 3702,
@@ -14039,7 +14039,7 @@ object_data = {
     },
     "Flying Arabian Guy": {
         "id": 12672,
-        "levels": ["Perfect-Sized Coffin"],
+        "levels": ["Perfect-Sized Coffin", "As Large As Possible 5"],
     },
     "Pumpkin Carriage": {
         "id": 11956,
@@ -14263,7 +14263,7 @@ object_data = {
     },
     "Mosasaurus": {
         "id": 373,
-        "levels": ["As Fast As Possible 5", "Lots of Dinosaurs"],
+        "levels": ["As Fast As Possible 5", "Lots of Dinosaurs", "As Large As Possible 5"],
     },
     "Plesiosaurus": {
         "id": 618,
@@ -14279,7 +14279,7 @@ object_data = {
     },
     "Cameroceras": {
         "id": 1064,
-        "levels": ["As Large As Possible 5"],
+        "levels": ["As Large As Possible 5", "As Fast As Possible 5"],
     },
     "Gigantopithecus": {
         "id": 3871,
@@ -14291,7 +14291,7 @@ object_data = {
     },
     "Megatherium": {
         "id": 3470,
-        "levels": ["As Fast As Possible 5", "Perfect-Sized Mammoth", "As Large As Possible 5"],
+        "levels": ["As Fast As Possible 5", "Perfect-Sized Mammoth", "As Large As Possible 5", "Only Fifty"],
     },
     "Ancylotherium": {
         "id": 3483,
@@ -14303,7 +14303,7 @@ object_data = {
     },
     "Elasmotherium": {
         "id": 3474,
-        "levels": ["As Fast As Possible 5", "As Large As Possible 5"],
+        "levels": ["As Fast As Possible 5", "As Large As Possible 5", "Only Fifty"],
     },
     "Pelorovis": {
         "id": 3872,
@@ -15033,48 +15033,48 @@ object_data = {
 
 level_data = {
     "Tutorial": ["Cucumber", "Parsley", "Eggplant", "Onion", "Strawberry", "Half Apple", "Rabbit Apple", "Mandarin", "Mandarin Peel", "Mandarin Piece", "Cherries", "Banana", "Banana Peel", "Half Lemon", "Bento Lunch", "Toast", "White Egg", "Shumai Dumpling", "Curry Roux", "Hard Candy", "Milk Candy", "Kintaro Candy", "Chocolate Square", "Pancakes", "Tuna Sushi", "Squid Sushi", "Cucumber Roll", "Tuna Roll", "Chunk of Salmon", "Takoyaki One Bite", "Cola", "Milk Bottle", "Milk Carton", "Teacup", "Cork", "Ladle", "Kitchen Knife", "Expensive Plate", "Small Plate", "Round Plate", "Food Bowl", "Soy Sauce Bottle", "Sugar Cube", "Chopsticks", "Dust Cloth", "Blue Clothespin", "Yellow Pushpin", "Blue Pushpin", "Thumbtack", "Fancy Tape", "Small B Pencil", "B Pencil", "H Pencil", "Scissors", "Thin Paintbrush", "Inkstone", "India Ink", "Paperweight", "Calligraphy Brush", "Classroom Calligraphy - \"Mother\"", "Abacus", "Hairpin", "Glasses", "Cat Bell", "Dumbbell", "Origami Samurai Helmet", "Origami Samurai", "Red Cylinder Toy Block", "Blue Cylinder Toy Block", "Yellow Square Toy Block", "Red Square Toy Block", "Blue Triangle Toy Block", "Yellow Triangle Toy Block", "Paper Ball", "Mallet", "Daruma Head", "Daruma Body (Yellow)", "Daruma Body (Green)", "Daruma Body (Red)", "Daruma Body (Blue)", "Kinsho", "4 Ball", "Ousho", "Gyokusho", "Hisha", "Kakugyo", "Ginsho", "Keima", "Kyousha", "Fu (Shogi)", "Calabash", "Olive Green Bottle", "Ring Box", "Soy Sauce Pack", "Coin Purse", "Paper Tiger", "Toilet Paper Roll", "Button", "Hanko", "Tissue Box", "Open Tissue Box", "Snail", "Tree Frog", "Alarm Clock", "Postcard", "Airmail", "Sunflower Seed", "Peony (Red)", "Peony (Pink) (Small)", "Peony (White) (Small)", "Red Morning Glory", "Blue Morning Glory", "Superglue", "Phillips-head Screw", "Screw", "Metal Hammer", "Wooden Hammer", "Wrench", "Phillips Head Screwdriver", "Watermelon Slice", "Firework", "Boxed Fireworks", "Mosquito Paper", "Magnet", "Diamond Ring", "Ruby Ring", "Emerald Ring", "Onyx Ring", "Ruby", "Emerald", "Sapphire", "Iolite", "5 Yen Coin", "10 Yen Coin", "Blue Paint Tube", "Green Paint Tube", "Black Paint Tube", "Red Paint Tube", "Yellow Paint Tube", "Kokeshi Doll", "Plaque", "Horsetail", "Acorn", "Clover", "Tsuchinoko", "Tadpole", "Advanced Tadpole", "Cosmi", "Bunny", "Mouse", "Hermit Crab", "Crayfish", "Sea Urchin", "Seahorse", "Sparrow", "Paper Airplane", "Red Origami Crane", "Blue Origami Crane", "Yellow Origami Crane", "Green Origami Crane", "Pink Origami Crane", "Purple Origami Crane", "White Origami Crane", "White Butterfly", "Yellow Swallowtail", "Purple Butterfly", "Ladybug", "Rhinoceros Beetle", "Hercules Beetle", "Thread (Green)", "Thread (White)", "Thread (Red & White)", "Thread (Navy)", "Pincushion", "Red Dress Pin", "Green Dress Pin", "Dress Pin", "The Prince Angel"],
-    "As Large As Possible 1": ["Wasabi", "Edamame", "Strawberry", "Half Apple", "Rabbit Apple", "Mandarin", "Mandarin Peel", "Mandarin Piece", "Asian Pear", "Persimmon", "Daikon Radish Salad", "Fu (Food)", "Blue Star Candy", "Yellow Star Candy", "Green Star Candy", "Pink Star Candy", "Purple Star Candy", "Dried Squid", "Half Red Bean Cake", "Red Bean Cake", "Kashiwa-Mochi", "Mitarashi Dango", "Warabi-Mochi", "Chestnut Manju", "Chestnut", "Kintaro Candy", "Rice Cracker", "Tuna Sushi", "Fatty Tuna Sushi", "Squid Sushi", "Octopus Sushi", "Shrimp Sushi", "Egg Sushi", "Mackerel Sushi", "Salmon Roe Roll", "Inari Sushi", "Cucumber Roll", "Tuna Roll", "Uncut Sushi Roll", "Pickled Plum", "Cylindrical Rice Ball", "Rice Ball", "Pickled Radish", "Chikuwa", "Sweet Rolled Omelet", "Fish Cake Slice", "Dried Sardine", "Grilled Fish", "Variety Lunch Box", "Tofu", "Oden", "Square Mochi", "Matcha", "Teapot", "Teacup", "Kitchen Knife", "Expensive Plate", "Small Plate", "Coaster", "Rectangular Plate", "Wooden Dish", "Sugar Cube", "Chopsticks", "Japanese-style Book", "Edo Comics", "Inkstone", "Small Ink Block", "Paperweight", "Calligraphy Brush", "Yatate", "Classroom Calligraphy - \"Egg\"", "Abacus", "Zori", "Cat Bell", "Pigeon-shaped Whistle", "Origami Samurai Helmet", "Origami Samurai", "Balancing Toy", "Roly-Poly Toy", "Big Top", "Shell Top", "Yellow Top", "Blue Top", "Green Top", "Red Beanbag", "Green Beanbag", "Blue Beanbag", "Green Flat Marble", "Blue Flat Marble", "Red Marble", "Blue Marble", "Bamboo Dragonfly", "Party Blower", "Japanese Cup & Ball", "Battledore", "Battledore Shuttlecock", "Kaleidoscope", "Mallet", "Daruma Head", "Daruma Body (Yellow)", "Daruma Body (Green)", "Daruma Body (Red)", "Daruma Body (Blue)", "Die", "Red Die", "Green Die", "Kinsho", "Hanafuda (Crane)", "Hanafuda (Uguisu)", "Hanafuda (Cherry Blossom)", "Hanafuda (Hototogisu)", "Hanafuda (Iris)", "Hanafuda (Butterflies)", "Hanafuda (Boar)", "Hanafuda (Moon)", "Hanafuda (Chrysanthemum)", "Hanafuda (Deer)", "Hanafuda (Willow)", "Hanafuda (Fenghuang)", "Ousho", "Gyokusho", "Hisha", "Kakugyo", "Ginsho", "Keima", "Kyousha", "Fu (Shogi)", "Striped Bowl", "Striped Vase", "Coin Purse", "Inkpad", "Hanko", "Old Lock", "Chest Key", "Dessert Cutter", "Snail", "Tree Frog", "New Year's Postcard", "New Year's Cards", "Red Bean", "Soybean", "Folding Fan (Summer)", "Compass", "Old Coin", "Big Coin", "1 Mon Coin", "Tsuba", "Candle", "Metal Chopsticks", "Fire Striker", "Arrow", "Shuriken", "Small Wooden Box", "Ruler", "Charm", "Inro", "Katashiro", "Folding Fan (Japan)", "Noh Mask", "Kokeshi Doll", "Hyottoko Mask", "New Year's Money", "Red Oni Mask", "Blue Oni Mask", "Green Oni Mask", "Charcoal", "News Broadsheet", "Horsetail", "Acorn", "Clover", "Wish Tablet", "Ant", "Lalala", "Akabeko", "Rat", "Mouse", "Turban Snail", "Basket Clam", "Big Clam", "Hermit Crab", "Small Fiddler Crab", "Freshwater Crab", "Fish Bones", "Sparrow", "Quail Hatchling", "Yellow Origami Crane", "Green Origami Crane", "Pink Origami Crane", "Roly Poly", "Thread (Green)", "Thread (White)", "Thread (Red & White)", "Thread (Navy)", "Pincushion", "Red Dress Pin", "Green Dress Pin", "U-shaped Scissors"],
-    "As Fast As Possible 1": ["Edamame", "Loquat", "Fu (Food)", "Half Red Bean Cake", "Warabi-Mochi", "Salmon Roe Roll", "Pickled Plum", "Cylindrical Rice Ball", "Pickled Radish", "Chikuwa", "Sweet Rolled Omelet", "Fish Cake Slice", "Dried Sardine", "Square Mochi", "Sugar Cube", "Cat Bell", "Origami Samurai", "Roly-Poly Toy", "Shell Top", "Yellow Top", "Blue Top", "Green Top", "Red Marble", "Blue Marble", "Daruma Head", "Daruma Body (Green)", "Daruma Body (Blue)", "Kinsho", "Ousho", "Hisha", "Kakugyo", "Ginsho", "Kyousha", "Inkpad", "Chest Key", "Dessert Cutter", "Red Bean", "Charm", "Horsetail", "Acorn", "Clover", "Kuro", "Turban Snail", "Basket Clam", "Big Clam", "Hermit Crab", "Freshwater Crab", "Thread (Green)", "Thread (White)", "Thread (Navy)", "Pincushion", "Red Dress Pin", "Green Dress Pin"],
+    "As Large As Possible 1": ["Wasabi", "Edamame", "Strawberry", "Half Apple", "Rabbit Apple", "Mandarin", "Mandarin Peel", "Mandarin Piece", "Asian Pear", "Persimmon", "Fig", "Loquat", "Daikon Radish Salad", "Fu (Food)", "Blue Star Candy", "Yellow Star Candy", "Green Star Candy", "Pink Star Candy", "Purple Star Candy", "Dried Squid", "Half Red Bean Cake", "Red Bean Cake", "Kashiwa-Mochi", "Mitarashi Dango", "Warabi-Mochi", "Chestnut Manju", "Chestnut", "Kintaro Candy", "Rice Cracker", "Tuna Sushi", "Fatty Tuna Sushi", "Squid Sushi", "Octopus Sushi", "Shrimp Sushi", "Egg Sushi", "Mackerel Sushi", "Salmon Roe Roll", "Inari Sushi", "Cucumber Roll", "Tuna Roll", "Uncut Sushi Roll", "Pickled Plum", "Cylindrical Rice Ball", "Rice Ball", "Pickled Radish", "Chikuwa", "Sweet Rolled Omelet", "Fish Cake Slice", "Dried Sardine", "Grilled Fish", "Variety Lunch Box", "Tofu", "Oden", "Square Mochi", "Matcha", "Teapot", "Teacup", "Kitchen Knife", "Expensive Plate", "Small Plate", "Coaster", "Rectangular Plate", "Wooden Dish", "Sugar Cube", "Chopsticks", "Japanese-style Book", "Edo Comics", "Inkstone", "Small Ink Block", "Paperweight", "Calligraphy Brush", "Yatate", "Classroom Calligraphy - \"Egg\"", "Abacus", "Zori", "Cat Bell", "Pigeon-shaped Whistle", "Origami Samurai Helmet", "Origami Samurai", "Balancing Toy", "Roly-Poly Toy", "Big Top", "Shell Top", "Yellow Top", "Blue Top", "Green Top", "Red Beanbag", "Green Beanbag", "Blue Beanbag", "Green Flat Marble", "Blue Flat Marble", "Red Marble", "Blue Marble", "Bamboo Dragonfly", "Party Blower", "Japanese Cup & Ball", "Battledore", "Battledore Shuttlecock", "Kaleidoscope", "Mallet", "Daruma Head", "Daruma Body (Yellow)", "Daruma Body (Green)", "Daruma Body (Red)", "Daruma Body (Blue)", "Black Go Stone", "Die", "Red Die", "Green Die", "Kinsho", "Hanafuda (Crane)", "Hanafuda (Uguisu)", "Hanafuda (Cherry Blossom)", "Hanafuda (Hototogisu)", "Hanafuda (Iris)", "Hanafuda (Butterflies)", "Hanafuda (Boar)", "Hanafuda (Moon)", "Hanafuda (Chrysanthemum)", "Hanafuda (Deer)", "Hanafuda (Willow)", "Hanafuda (Fenghuang)", "Ousho", "Gyokusho", "Hisha", "Kakugyo", "Ginsho", "Keima", "Kyousha", "Fu (Shogi)", "Calabash", "Striped Bowl", "Striped Vase", "Coin Purse", "Inkpad", "Hanko", "Old Lock", "Chest Key", "Dessert Cutter", "Snail", "Tree Frog", "New Year's Postcard", "New Year's Cards", "Red Bean", "Soybean", "Folding Fan (Summer)", "Compass", "Old Coin", "Big Coin", "1 Mon Coin", "Tsuba", "Candle", "Metal Chopsticks", "Fire Striker", "Arrow", "Shuriken", "Small Wooden Box", "Ruler", "Charm", "Inro", "Katashiro", "Folding Fan (Japan)", "Noh Mask", "Kokeshi Doll", "Hyottoko Mask", "New Year's Money", "Red Oni Mask", "Blue Oni Mask", "Green Oni Mask", "Charcoal", "News Broadsheet", "Horsetail", "Acorn", "Clover", "Wish Tablet", "Ant", "Lalala", "Akabeko", "Rat", "Mouse", "Turban Snail", "Basket Clam", "Big Clam", "Hermit Crab", "Small Fiddler Crab", "Freshwater Crab", "Crayfish", "Fish Bones", "Sparrow", "Quail Hatchling", "Yellow Origami Crane", "Green Origami Crane", "Pink Origami Crane", "Roly Poly", "Thread (Green)", "Thread (White)", "Thread (Red & White)", "Thread (Navy)", "Pincushion", "Red Dress Pin", "Green Dress Pin", "U-shaped Scissors"],
+    "As Fast As Possible 1": ["Edamame", "Strawberry", "Mandarin Piece", "Loquat", "Fu (Food)", "Blue Star Candy", "Green Star Candy", "Pink Star Candy", "Purple Star Candy", "Half Red Bean Cake", "Kashiwa-Mochi", "Warabi-Mochi", "Chestnut", "Kintaro Candy", "Tuna Sushi", "Fatty Tuna Sushi", "Squid Sushi", "Octopus Sushi", "Mackerel Sushi", "Salmon Roe Roll", "Cucumber Roll", "Tuna Roll", "Pickled Plum", "Cylindrical Rice Ball", "Pickled Radish", "Chikuwa", "Sweet Rolled Omelet", "Fish Cake Slice", "Dried Sardine", "Square Mochi", "Sugar Cube", "Chopsticks", "Small Ink Block", "Cat Bell", "Origami Samurai", "Roly-Poly Toy", "Shell Top", "Yellow Top", "Blue Top", "Green Top", "Green Beanbag", "Green Flat Marble", "Blue Flat Marble", "Red Marble", "Blue Marble", "Battledore Shuttlecock", "Daruma Head", "Daruma Body (Green)", "Daruma Body (Blue)", "Black Go Stone", "Die", "Green Die", "Kinsho", "Hanafuda (Crane)", "Hanafuda (Uguisu)", "Hanafuda (Cherry Blossom)", "Hanafuda (Hototogisu)", "Hanafuda (Iris)", "Hanafuda (Butterflies)", "Hanafuda (Boar)", "Hanafuda (Moon)", "Hanafuda (Chrysanthemum)", "Hanafuda (Deer)", "Hanafuda (Willow)", "Hanafuda (Fenghuang)", "Ousho", "Hisha", "Kakugyo", "Ginsho", "Kyousha", "Inkpad", "Hanko", "Chest Key", "Dessert Cutter", "New Year's Postcard", "Red Bean", "Soybean", "Compass", "Old Coin", "1 Mon Coin", "Tsuba", "Candle", "Arrow", "Charm", "Katashiro", "Charcoal", "Horsetail", "Acorn", "Clover", "Ant", "Kuro", "Mouse", "Turban Snail", "Basket Clam", "Big Clam", "Hermit Crab", "Freshwater Crab", "Roly Poly", "Thread (Green)", "Thread (White)", "Thread (Red & White)", "Thread (Navy)", "Pincushion", "Red Dress Pin", "Green Dress Pin", "U-shaped Scissors"],
     "Tidy It Up": ["Rabbit Apple", "Loquat", "Sweet Bean Pancake", "Half Red Bean Cake", "Kashiwa-Mochi", "Mitarashi Dango", "Warabi-Mochi", "Chestnut Manju", "Rakugan", "Yatsuhashi", "Matcha Yatsuhashi", "Rice Cracker", "Dango Dumplings", "Egg Sushi", "Salmon Roe Roll", "Sweet Rolled Omelet", "Fish Cake Slice", "Dried Sardine", "Square Mochi", "Matcha", "Tea Caddy", "Tea Ceremony Bamboo Spoon", "Tea Ceremony Bamboo Whisk", "Expensive Plate", "Coaster", "Baren", "Thin Paintbrush", "Small Ink Block", "Calligraphy Brush", "Black Bachi Hairpin", "Black Comb Hairpin", "Red Comb Hairpin", "Origami Samurai Helmet", "Origami Samurai", "Roly-Poly Toy", "Shell Top", "Kaleidoscope", "Mallet", "Daruma Head", "Daruma Body (Yellow)", "Daruma Body (Green)", "Daruma Body (Blue)", "Hanafuda (Cherry Blossom)", "Hanafuda (Butterflies)", "Hanafuda (Boar)", "Hanafuda (Chrysanthemum)", "Hanafuda (Deer)", "Raccoon Figure", "Magnifying Glass", "Inkpad", "Dessert Cutter", "Old Coin", "Tsuba", "Metal Chopsticks", "Arrow", "Charm", "Inro", "Yellow Yo-Yo Balloon", "Name Tag", "Charcoal", "Cinder", "Maple Leaf", "L'Amour", "Monkey Doll", "Starfish"],
     "Only Fifty (Appraisal)": ["Blue Star Candy", "Yellow Star Candy", "Purple Star Candy", "Kashiwa-Mochi", "Manju Ball", "Rakugan", "Dango Dumplings", "Sweet Rolled Omelet", "Matcha", "Tea Caddy", "Tea Ceremony Bamboo Spoon", "Tea Ceremony Bamboo Whisk", "Canned Tea", "Rakuyaki Tea Bowl", "Teacup", "Expensive Plate", "Coaster", "Sugar Cube", "Blue Pushpin", "Baren", "Small Ink Block", "Yatate", "Black Bachi Hairpin", "Red Bachi Hairpin", "Purple Ball Hairpin", "Green Ball Hairpin", "White Ball Hairpin", "Black Comb Hairpin", "Red Comb Hairpin", "Glasses", "Pigeon-shaped Whistle", "Roly-Poly Toy", "Yellow Top", "Green Beanbag", "Blue Beanbag", "Pinwheel", "Daruma Head", "Daruma Body (Red)", "Striped Bowl", "Flower Frog", "Magnifying Glass", "Button", "Dessert Cutter", "Snail", "Peony (Pink) (Small)", "Peony (White) (Small)", "Firework", "Gold Stamp", "Tsuba", "Fire Striker", "Shuriken", "Katashiro", "Yellow Yo-Yo Balloon", "Green Yo-Yo Balloon", "Charlie", "Monkey Doll", "Mouse", "Yellow Origami Crane", "Pink Origami Crane", "Pincushion", "Red Dress Pin", "Green Dress Pin", "Dress Pin", "Satsuma Flower Button", "Satsuma Rabbit Button", "Satsuma Fish Button", "Satsuma Human Button"],
     "Lots of Drinks": ["Tomato", "Sweet Potato", "Canned Tomatoes", "Canned Corn", "Corn", "Strawberry", "Half Apple", "Apple", "Cherries", "Box of Apples", "Cornbread", "French Country Bread", "Sliced Bread", "Hamburger", "Pizza", "Swiss Cheese", "Cheese Wheel", "Sausage", "Roast Turkey", "Raw Meat", "Giant White Egg", "Steak", "Tacos", "Bean Soup", "Canned Sardines", "Canned Salmon", "Canned Baked Beans", "Canned Meat", "Pickles", "Cake", "Cupcake", "Cracker", "Melon Soda", "Ginger Soda", "Orange Soda", "Fizzy Cider", "Apple Juice Bottle", "Stamina Drink", "Berry Soda", "Cream Soda", "Cola", "Milk Can", "Barley Tea", "Lemon Water", "Cup of Coffee", "Cup of Milk", "Lemon Tea", "Lemonade Pitcher", "Swizzle Stick", "Shaker", "Shot Glass", "Hip Flask", "Tin Pot", "Drink Tap", "Fancy Teapot", "Fork", "Wooden Spoon", "Steel Plate", "Hot Sauce", "Tray (1)", "Cauldron", "Broom", "Tin Bucket", "Wooden Bucket", "Western-Style Book", "Navy Book", "Red Book", "Fringe Jacket", "Poncho", "Cowboy Hat", "Red Bandana", "Blue Bandana", "Green Bandana", "Cowboy Belt", "Holster Belt", "Cowboy Boot", "Cowbell", "Turtle Shell Rattle", "Guiro", "Conga", "Dulcimer", "Banjo", "Resonator Guitar", "Guitar", "Horseshoe", "Axe", "Pickaxe", "Dartboard", "Dart", "Card Game Mat", "Backgammon", "Cue Chalk", "King (White)", "Queen (White)", "Rook (White)", "Bishop (White)", "Knight (White)", "Pawn (White)", "King (Black)", "Queen (Black)", "Rook (Black)", "Bishop (Black)", "Knight (Black)", "Pawn (Black)", "Chessboard", "Cue Ball", "1 Ball", "2 Ball", "3 Ball", "4 Ball", "5 Ball", "6 Ball", "7 Ball", "8 Ball", "9 Ball", "10 Ball", "11 Ball", "12 Ball", "13 Ball", "14 Ball", "15 Ball", "Pool Cue", "Rack", "Ace of Spades", "2 of Spades", "3 of Spades", "4 of Spades", "5 of Spades", "6 of Spades", "7 of Spades", "8 of Spades", "9 of Spades", "10 of Spades", "Jack of Spades", "Queen of Spades", "King of Spades", "Ace of Diamonds", "2 of Diamonds", "3 of Diamonds", "4 of Diamonds", "5 of Diamonds", "6 of Diamonds", "7 of Diamonds", "8 of Diamonds", "9 of Diamonds", "10 of Diamonds", "Jack of Diamonds", "Queen of Diamonds", "King of Diamonds", "Ace of Clubs", "2 of Clubs", "3 of Clubs", "4 of Clubs", "5 of Clubs", "6 of Clubs", "7 of Clubs", "8 of Clubs", "9 of Clubs", "10 of Clubs", "Jack of Clubs", "Queen of Clubs", "King of Clubs", "Ace of Hearts", "2 of Hearts", "3 of Hearts", "4 of Hearts", "5 of Hearts", "6 of Hearts", "7 of Hearts", "8 of Hearts", "9 of Hearts", "10 of Hearts", "Jack of Hearts", "Queen of Hearts", "King of Hearts", "Joker", "Green Bottle", "Teal Bottle", "Locked Wooden Chest", "Wooden Bin", "Animal Cage", "Tiny Storage Box", "Cannonball Holder", "Barrel", "Tin Watering Can", "Fruit Basket", "Holster", "Bear Carving", "Hanger", "Grooming Brush", "Corkscrew", "Matchbox", "Match", "Cash Register", "Typewriter", "Pocket Watch", "Grandfather Clock", "Barrel Table", "Shelf", "Hat Rack", "Wooden Crate", "Wide Wooden Crate", "Burlap Sack", "House Plant", "Almond", "Log Planter", "Red Tulip", "White Tulip", "Yellow Tulip", "Pink Tulip", "Dandelion", "Paintbrush", "Blacksmith Hammer", "Small Anvil", "Medium Anvil", "Wooden Board", "Thin Log", "Log (Tools)", "Lassoing Sheriff", "Veteran Sheriff", "Young Sheriff", "Sheriff", "Handcuffs", "Sheriff Star", "Shooting Target", "Wanted Poster", "Big Shot Wanted Poster", "Bone", "Ammonite Fossil", "Gold Bar", "Diamond Ring", "Safe", "Empty Safe", "Money Bag", "Western Coin", "Stack of Money", "Cow-Patterned Mat", "Lantern", "Candle Stand", "Candle", "Camp Fire", "Round Stool", "Stool", "Mariner's Chair", "Wooden Bench", "Saddle", "Café Chair", "Knife", "TNT Box", "Dynamite", "Mousetrap", "Cone 50cm", "Scorpion", "Hygrometer", "Gunman Carving", "Majestic Painting", "Desolate Painting", "Adventure Painting", "Prisoner", "Cajón Prisoner", "Guitar Prisoner", "Red Outlaw", "Blue Outlaw", "Green Outlaw", "Firewood", "Shovel", "Pitchfork", "Hand Pump", "Wooden Fence", "Swinging Doors", "Hole", "Voyage Map", "Over 50cm", "Tiny Cactus", "Paddle Cactus", "Yucca", "Wheat", "Dead Tree", "Tumbleweed", "Grass Clump", "Wagon Wheel", "Square Dancers", "Naughty Child", "Lazy Girl", "Relaxing Tiny Cowboy", "Giddy Up! Cowboy", "Mustache Cowboy", "Blond Cowboy", "Brunette Cowboy", "Red Dress Woman", "Light Blue Dress Woman", "Gray Dress Woman", "Giddy Up! Cowgirl", "Poncho Cowboy", "Rodeo Cowboy", "Blue Shirt Cowboy", "Pink Shirt Cowboy", "Cheerful Fellow", "White Shirt Cowboy", "Rivals", "Guitar Cowboy", "Youngster Cowboy", "Bomb Cowboy", "Waitress", "Chief Archaeologist", "Archaeologist", "Cacta", "Siamese Cat", "Black Cat", "Tom Hoshino", "Rat", "Mouse", "Chicken", "Fish Bones", "Vulture", "Weathercock", "Mole", "Dinosaur Egg", "White Butterfly", "Yellow Swallowtail", "Little Cactus Man", "Cactus Man"],
     "Tumbleweed Terror": ["Melon Soda", "Milk Can", "Strawberry Milk Can", "Cowboy Hat", "Cowboy Boot", "Moss Ball", "Turtle Shell Rattle", "Pickaxe", "Dartboard", "Hair Ball", "Surprise Peony", "Rope Ball", "Watermelon", "Twig Pool Ring", "Beach Flag", "Shooting Target", "Gold Pineapple", "Shachihoko", "Big Gold Ore", "Rough Diamond", "Sapphire Ore", "Unpolished Amethyst", "Red Gem", "Green Gem", "Blue Gem", "Safe", "Toy Bomb", "Bonsai", "Ink Ball", "Pitchfork", "Tiny Cactus", "Yucca", "Mushroom", "Red Hemp Ball", "Blue Hemp Ball", "Green Hemp Ball", "Orange Hemp Ball", "Tumbleweed", "Big Tumbleweed", "Flower Tumbleweed", "Giant Flower Tumbleweed", "Spiny Tumbleweed", "Giant Spiny Tumbleweed", "Cactus Ball", "Giant Cactus Ball", "Mysterious Fuzzball", "Giant Fuzzball", "Mini Grass Ball", "Grass Clump", "Wagon Wheel", "Ban-Ban", "Chicken", "Vulture", "Weathercock", "Gold Axe"],
-    "Lots of Gold": ["Cabbage", "Pumpkin", "Corn", "Golden Corn", "Green Pumpkin", "Green Apple", "Mandarin", "Mandarin Peel", "Banana Bunch", "Half Lemon", "Gold Kiwi", "Cheese Wheel", "Kebab", "Giant White Egg", "Omelet Rice", "Golden Fried Rice", "Expensive Plate", "Food Bowl", "Camping Pot", "Jeans", "Blond Long & Straight", "Blond Pompadour", "Blond Afro", "Pickaxe", "Jumbo Kinsho", "Hanger", "Picnic Mat", "Golden Cracker Flower", "Log Planter", "Marigold", "Golden Rose", "Sunflower", "Rose", "Gold Paint", "Gold Paintbrush", "Golden Apple", "Gold Pineapple", "Mini Gold Ore", "Mini Gold Ore Pieces", "Medium Gold Ore", "Big Gold Ore", "Golden Jet", "Golden Stag Beetle", "Golden Mask", "Lantern", "Camp Fire", "Golden Ice Cream", "Stump", "Spartan Helmet", "TNT Box", "Detonator", "Dynamite", "Barrel Bomb", "Horse Haniwa", "Kintaro", "Doghouse", "Hole", "Yucca", "Tiny Cowboy", "Tiny Cowgirl", "Relaxing Tiny Cowboy", "Sitting P.E. Boy", "Clip-Clop", "Golden Hamster", "Bunny", "Duckling", "Goose", "Jersey Cow", "Rabbit", "Golden Snub-Nosed Monkey", "Golden Retriever", "Spartan Doggy", "Golden Pheasant", "Lady Amherst's Pheasant", "Mole", "Hercules Beetle", "Giant Dung Beetle", "Gold Axe", "Silver Axe"],
+    "Lots of Gold": ["Cabbage", "Pumpkin", "Corn", "Golden Corn", "Green Pumpkin", "Green Apple", "Mandarin", "Mandarin Peel", "Banana Bunch", "Half Lemon", "Gold Kiwi", "Cheese Wheel", "Kebab", "Giant White Egg", "Omelet Rice", "Golden Fried Rice", "Expensive Plate", "Food Bowl", "Camping Pot", "Jeans", "Blond Long & Straight", "Blond Pompadour", "Blond Afro", "Pickaxe", "Jumbo Kinsho", "Hanger", "Picnic Mat", "Golden Cracker Flower", "Log Planter", "Marigold", "Golden Rose", "Sunflower", "Rose", "Gold Paint", "Gold Paintbrush", "Golden Apple", "Gold Pineapple", "Mini Gold Ore", "Mini Gold Ore Pieces", "Medium Gold Ore", "Big Gold Ore", "Golden Jet", "Golden Stag Beetle", "Golden Egg", "Golden Mask", "Lantern", "Camp Fire", "Golden Ice Cream", "Stump", "Spartan Helmet", "TNT Box", "Detonator", "Dynamite", "Barrel Bomb", "Warning Sign", "Horse Haniwa", "Kintaro", "Doghouse", "Hole", "Yucca", "Tiny Cowboy", "Tiny Cowgirl", "Relaxing Tiny Cowboy", "Sitting P.E. Boy", "Brunette Cowboy", "Clip-Clop", "Golden Hamster", "Bunny", "Duckling", "Goose", "Jersey Cow", "Rabbit", "Golden Snub-Nosed Monkey", "Golden Retriever", "Spartan Doggy", "Golden Pheasant", "Lady Amherst's Pheasant", "Mole", "Hercules Beetle", "Giant Dung Beetle", "Gold Axe", "Silver Axe"],
     "Hurry, the Gold": ["Cabbage", "Pumpkin", "Corn", "Golden Corn", "Green Pumpkin", "Green Apple", "Mandarin", "Mandarin Peel", "Banana Bunch", "Half Lemon", "Gold Kiwi", "Cheese Wheel", "Kebab", "Giant White Egg", "Omelet Rice", "Golden Fried Rice", "Expensive Plate", "Food Bowl", "Camping Pot", "Jeans", "Blond Long & Straight", "Blond Pompadour", "Blond Afro", "Pickaxe", "Jumbo Kinsho", "Picnic Mat", "Golden Cracker Flower", "Log Planter", "Marigold", "Golden Rose", "Sunflower", "Rose", "Gold Paint", "Gold Paintbrush", "Golden Apple", "Gold Pineapple", "Mini Gold Ore", "Mini Gold Ore Pieces", "Golden Jet", "Golden Stag Beetle", "Golden Egg", "Golden Mask", "Lantern", "Camp Fire", "Golden Ice Cream", "Stump", "Spartan Helmet", "Warning Sign", "Horse Haniwa", "Kintaro", "Doghouse", "Hole", "Yucca", "Tiny Cowboy", "Tiny Cowgirl", "Relaxing Tiny Cowboy", "Sitting P.E. Boy", "Brunette Cowboy", "Blue Shirt Cowboy", "Kunihiro", "Golden Hamster", "Bunny", "Duckling", "Goose", "Rabbit", "Golden Snub-Nosed Monkey", "Golden Retriever", "Spartan Doggy", "Golden Pheasant", "Lady Amherst's Pheasant", "Mole", "Hercules Beetle", "Giant Dung Beetle", "Gold Axe", "Silver Axe"],
-    "Lots of Dinosaurs": ["Half Apple", "Apple", "Green Apple", "Melon", "Asian Pear", "Banana Bunch", "Pineapple", "Red Berry Harvest", "Green Berries", "Apple Basket", "Peach Basket", "Orange Basket", "Roast On Bone", "Large Meat", "Campfire Meat", "Raw Meat", "Fishing Pole", "Log (Tools)", "Watermelon", "Wow Watermelon", "Giant Watermelon", "Half Watermelon", "Swimming Caveman", "Ammonite Fossil", "Full Dinosaur Skeleton", "Fossil", "Camp Fire", "Falling Rock", "Huge Falling Rock", "Cone 80cm", "Sand Castle", "Big Rock", "Pebble", "Over 80cm", "Lily Pad", "Reeds", "Big Dead Tree", "Mushroom", "Gigantic Mushroom", "Fairy Mushroom", "Flat Mushroom", "Cavebaby", "Cavegirl", "Caveboy", "Caveboy With Bone", "High Ponytail Kid", "Baby Tyrannosaurus", "Baby Zuolong", "Baby Parasaurolophus", "Young Spinosaurus", "Baby Triceratops", "Baby Iguanodon", "Baby Pachycephalosaurus", "Caveman", "Berry Harvester", "Lazy Watchman", "Velvet", "Beyond", "Piranha", "Crocodile", "Striped Fish", "No-necked Lizard", "Frill-necked Lizard", "Giant Tortoise", "Dinosaur Egg", "Giant Dung Beetle", "Ammonite", "Prehistoric Dragonfly", "Diplocaulus", "Red Tyrannosaurus Rex", "Dinosaur Enthusiast", "Triceratops", "Stegosaurus", "Ankylosaurus", "Velociraptor", "Oviraptor", "Parasaurolophus", "Moros Intrepidus", "Therizinosaurus", "Compsognathus", "Heterodontosaurus", "Deinonychus", "Zuolong", "Epidexipteryx", "Microraptor", "Sinosauropteryx", "Megapnosaurus", "Leaellynasaura", "Mononykus", "Mei Long", "Caudipteryx", "Agustinia", "Brontosaurus", "Carnotaurus", "Anurognathus", "Iguanodon", "Pachycephalosaurus", "Dunkleosteus", "Ichthyosaurus", "Stethacanthus", "Mosasaurus", "Plesiosaurus", "Longisquama", "Dimetrodon", "Neanderthal"],
-    "Only Fifty": ["Large Raw Meat", "Well-Done Steak", "Red Ball", "Water Lily", "Half Watermelon", "Swimming Caveman", "Ammonite Fossil", "Full Dinosaur Skeleton", "Fossil", "Anglerfish", "Camp Fire", "Stone Chair", "Lily Pad", "Giant Lily Pad", "Reeds", "Big Tumbleweed", "Alien", "Alien Offspring", "Baby Tyrannosaurus", "Baby Parasaurolophus", "Baby Triceratops", "Baby Iguanodon", "Baby Pachycephalosaurus", "Cavewoman Sculptor", "Jungle Man", "Ace", "Mu", "Rodeo Bull", "Crocodile", "Giant Clam", "Napoleonfish", "Sea Turtle", "Pteranodon Cosplayer", "Ostrich", "Elk", "Deer", "Turtle", "Giant Tortoise", "Dinosaur Egg", "Ammonite", "Anomalocaris", "Diplocaulus", "Dinosaur Enthusiast", "Triceratops Cosplayer", "Triceratops", "Stegosaurus", "Ankylosaurus", "Velociraptor", "Oviraptor", "Parasaurolophus", "Moros Intrepidus", "Compsognathus", "Heterodontosaurus", "Deinonychus", "Zuolong", "Microraptor", "Megapnosaurus", "Mononykus", "Mei Long", "Caudipteryx", "Ceratogaulus", "Iguanodon", "Giant Moa", "Pachycephalosaurus", "Anchiornis", "Coelacanth", "Dunkleosteus", "Ichthyosaurus", "Ichthyosaurus Cosplayer", "Stethacanthus", "Stethacanthus Cosplayer", "Ancylotherium", "Glyptodon", "Ashoroa", "Neanderthal", "Gigantic Egg"],
+    "Lots of Dinosaurs": ["Half Apple", "Apple", "Green Apple", "Melon", "Asian Pear", "Banana Bunch", "Pineapple", "Red Berry Harvest", "Green Berries", "Apple Basket", "Peach Basket", "Orange Basket", "Roast On Bone", "Large Meat", "Campfire Meat", "Raw Meat", "Fishing Pole", "Log (Tools)", "Watermelon", "Wow Watermelon", "Giant Watermelon", "Half Watermelon", "Swimming Caveman", "Ammonite Fossil", "Full Dinosaur Skeleton", "Fossil", "Camp Fire", "Falling Rock", "Huge Falling Rock", "Cone 80cm", "Sand Castle", "Big Rock", "Pebble", "Over 80cm", "Lily Pad", "Reeds", "Big Dead Tree", "Mushroom", "Gigantic Mushroom", "Fairy Mushroom", "Flat Mushroom", "Cavebaby", "Cavegirl", "Caveboy", "Caveboy With Bone", "High Ponytail Kid", "Baby Tyrannosaurus", "Baby Zuolong", "Baby Parasaurolophus", "Young Spinosaurus", "Baby Triceratops", "Baby Iguanodon", "Baby Pachycephalosaurus", "Caveman", "Berry Harvester", "Lazy Watchman", "Velvet", "Beyond", "Piranha", "Crocodile", "Striped Fish", "Pteranodon", "No-necked Lizard", "Frill-necked Lizard", "Giant Tortoise", "Dinosaur Egg", "Giant Dung Beetle", "Ammonite", "Prehistoric Dragonfly", "Diplocaulus", "Red Tyrannosaurus Rex", "Dinosaur Enthusiast", "Triceratops", "Stegosaurus", "Ankylosaurus", "Velociraptor", "Oviraptor", "Parasaurolophus", "Moros Intrepidus", "Therizinosaurus", "Compsognathus", "Heterodontosaurus", "Deinonychus", "Zuolong", "Epidexipteryx", "Microraptor", "Sinosauropteryx", "Megapnosaurus", "Leaellynasaura", "Mononykus", "Mei Long", "Caudipteryx", "Agustinia", "Brontosaurus", "Carnotaurus", "Anurognathus", "Iguanodon", "Pachycephalosaurus", "Dunkleosteus", "Ichthyosaurus", "Stethacanthus", "Mosasaurus", "Plesiosaurus", "Longisquama", "Dimetrodon", "Neanderthal"],
+    "Only Fifty": ["Large Raw Meat", "Well-Done Steak", "Red Ball", "Water Lily", "Half Watermelon", "Swimming Caveman", "Ammonite Fossil", "Full Dinosaur Skeleton", "Fossil", "Anglerfish", "Camp Fire", "Stone Chair", "Lily Pad", "Giant Lily Pad", "Reeds", "Big Tumbleweed", "Alien", "Alien Offspring", "Baby Tyrannosaurus", "Baby Parasaurolophus", "Baby Triceratops", "Baby Iguanodon", "Baby Pachycephalosaurus", "Cavewoman Sculptor", "Jungle Man", "Ace", "Mu", "Rodeo Bull", "Moon Bear", "Crocodile", "Giant Clam", "Napoleonfish", "Sea Turtle", "Pteranodon", "Pteranodon Cosplayer", "Ostrich", "Elk", "Deer", "Turtle", "Giant Tortoise", "Dinosaur Egg", "Ammonite", "Anomalocaris", "Diplocaulus", "Dinosaur Enthusiast", "Triceratops Cosplayer", "Triceratops", "Stegosaurus", "Ankylosaurus", "Velociraptor", "Oviraptor", "Parasaurolophus", "Moros Intrepidus", "Compsognathus", "Heterodontosaurus", "Deinonychus", "Zuolong", "Microraptor", "Megapnosaurus", "Mononykus", "Mei Long", "Caudipteryx", "Ceratogaulus", "Iguanodon", "Giant Moa", "Pachycephalosaurus", "Anchiornis", "Coelacanth", "Dunkleosteus", "Ichthyosaurus", "Ichthyosaurus Cosplayer", "Stethacanthus", "Stethacanthus Cosplayer", "Megatherium", "Ancylotherium", "Elasmotherium", "Glyptodon", "Ashoroa", "Neanderthal", "Gigantic Egg"],
     "As Large As Possible (Pond)": ["Wasabi", "Bamboo Shoot", "Apple", "Asian Pear", "Banana", "Banana Bunch", "Star Fruit Slice", "Pineapple", "Roast On Bone", "Fried Shrimp", "Dried Squid", "Sweet Bean Pastry", "Grilled Mackerel Pike", "Skewered Fish", "Fishing Pole", "Rose", "Chisel", "Wooden Board", "Watermelon", "Watermelon Slice", "Snorkel & Goggles", "Ammonite Fossil", "Golden Apple", "Ruby Gem", "Unpolished Emerald", "Sapphire Ore", "Fire Starter", "Camp Fire", "Club", "Jomon Bow", "Sand Castle", "Rock", "Black Rock", "Big Rock", "Ginkgo Leaf", "Giant Lily Pad", "Thin Tall Grass", "Green Plant", "Log Bundle", "Mushroom", "Gigantic Mushroom", "Fairy Mushroom", "Flat Mushroom", "Big Pebble", "Baby Coelacanth", "Baby Tyrannosaurus", "Foomin", "Clownfish", "Yellow Clownfish", "Green Clownfish", "Piranha", "Electric Jellyfish", "Rainbow Jellyfish", "Comb Jelly", "Red Shroom Jelly", "Shroom Jelly", "Giant Clam", "Pointy Shell", "Sea Snail Shell", "Big Clam", "Triangle Shell", "Scallop Shell", "Bony Conch", "Univalve Shell", "Hermit Crab", "Algae Ball", "Seaweed", "Orange Flat Coral", "Lime Flat Coral", "Coral Reef", "Big Coral", "Red Coral", "Peach Coral", "Blue Coral", "Pink Coral", "Round Coral", "Big Round Coral", "Sea Anemone", "Red Crab", "Blue Crab", "Small Fiddler Crab", "Coconut Crab", "Freshwater Crab", "Spider Crab", "Mantis Shrimp", "Horseshoe Crab", "Crayfish", "Sea Urchin", "Starfish", "Seahorse", "Salmon", "Moray Eel", "Snapper", "Eel", "Catfish", "Stingray", "Fish Bones", "Striped Fish", "Squid", "Turtle", "Giant Tortoise", "Ammonite", "Nautilus", "Vicarya", "Prehistoric Dragonfly", "Anomalocaris", "Diplocaulus", "Diania", "Opabinia", "Mini Trilobite", "Trilobite", "Dinosaur Enthusiast", "Triceratops Cosplayer", "Velociraptor", "Compsognathus", "Coelacanth", "Ichthyosaurus", "Ichthyosaurus Cosplayer", "Stethacanthus", "Stethacanthus Cosplayer", "Obdurodon", "Sea Scorpion", "Dimetrodon"],
     "As Large As Possible 2": ["Tomato", "Daikon Radishes", "Chinese Cabbages", "Cabbage", "Sweet Potato", "Wasabi", "Edamame", "Chili Pepper", "Fava Bean", "Green Pepper", "Carrot", "Cucumber", "Eggplant", "Onion", "Bamboo Shoot", "Green Onion", "Green Pumpkin", "Turnip", "Strawberry", "Giant Strawberry", "Half Apple", "Rabbit Apple", "Mandarin", "Mandarin Piece", "Peach", "Cherries", "Monster Cherries", "Persimmon", "Fig", "Loquat", "Half Jujube", "Rice Bowl", "Kids Rice Bowl", "Medium Rice Bowl", "Roast On Bone", "White Egg", "Daikon Radish Salad", "Fried Shrimp", "Fu (Food)", "Blue Star Candy", "Yellow Star Candy", "Green Star Candy", "Pink Star Candy", "Purple Star Candy", "Sweet Bean Pancake", "Dried Squid", "Hishi-Mochi", "Half Red Bean Cake", "Red Bean Cake", "Kashiwa-Mochi", "Mitarashi Dango", "Warabi-Mochi", "Chestnut Manju", "Chestnut", "Manju Ball", "Kintaro Candy", "Rice Cracker", "Castella", "Dango Dumplings", "Sweet Bean Pastry", "Sakura-Mochi", "Inari Sushi", "Dried Seaweed", "Pickled Plum", "Cylindrical Rice Ball", "Rice Ball", "Soba Noodles", "Pickle Tub", "Pickled Radish", "Chikuwa", "Fish Cake Slice", "Dried Sardine", "Grilled Fish", "Chunk of Salmon", "Japanese Flag Lunch Box", "Tofu", "Kitsune Udon", "Pork Bowl", "Square Mochi", "Milk Bottle", "Coffee Milk", "Milk Can", "Matcha", "Lemon Tea", "Malted Rice Drink", "Tea Caddy", "Tea Ceremony Bamboo Spoon", "Tea Ceremony Bamboo Whisk", "Teapot", "Teacup", "Fancy Teapot", "Rice Scoop", "Scooper", "Shell Ladle", "Butcher's Knife", "Wooden Peeler", "Expensive Plate", "Small Plate", "Coaster", "Round Plate", "Plate", "Rectangular Plate", "Chinese Bowl", "Wooden Dish", "Sushi Boat", "Sugar Cube", "Sugar", "Round Tray", "Tray (1)", "Cutting Board", "Chopsticks", "Camping Pot", "Irori Pot", "Rice Container", "Rice Pot", "Clay Stove", "Powder Ball", "Toilet Plunger", "Dust Cloth", "Old Magazines", "Old Books", "Soap", "Washtub", "Japanese-style Book", "Japanese-style Books", "Mino Book", "Edo Comics", "Fairy Tale Book", "School Library Book", "Bird Illustrations", "Wood Carving Knife", "Inkstone", "Calligraphy Brush", "Yatate", "Abacus", "Black Bachi Hairpin", "Red Bachi Hairpin", "Red Ball Hairpin", "Purple Ball Hairpin", "Green Ball Hairpin", "White Ball Hairpin", "Black Comb Hairpin", "Red Comb Hairpin", "Zori", "Glasses", "Cat Bell", "Mini Hand Drum", "Large Hand Drum", "Pigeon-shaped Whistle", "Court Musician Flutist", "Court Musician Drummer", "Kendo Mask", "Axe", "Origami Samurai Helmet", "Origami Samurai", "Roly-Poly Toy", "Hime-Daruma", "Big Top", "Shell Top", "Yellow Top", "Blue Top", "Green Top", "Red Beanbag", "Green Beanbag", "Blue Beanbag", "Red Cylinder Toy Block", "Blue Cylinder Toy Block", "Yellow Square Toy Block", "Red Square Toy Block", "Blue Triangle Toy Block", "Yellow Triangle Toy Block", "Paper Ball", "Green Flat Marble", "Blue Flat Marble", "Red Marble", "Blue Marble", "Pinwheel", "Bamboo Dragonfly", "Japanese Cup & Ball", "Kiddie Spade", "Kiddie Rake", "Kaleidoscope", "Mallet", "Daruma Head", "Daruma Body (Green)", "Daruma Body (Red)", "Daruma Body (Blue)", "Shogi Table", "Go Bowl", "White Go Stone", "Black Go Stone", "Go Board", "Hyakunin Isshu (Bonze)", "Hyakunin Isshu (Kimono)", "Hyakunin Isshu (Mikado)", "Die", "Red Die", "Green Die", "Kinsho", "Hanafuda (Crane)", "Hanafuda (Uguisu)", "Hanafuda (Cherry Blossom)", "Hanafuda (Hototogisu)", "Hanafuda (Iris)", "Hanafuda (Butterflies)", "Hanafuda (Boar)", "Hanafuda (Moon)", "Hanafuda (Chrysanthemum)", "Hanafuda (Deer)", "Hanafuda (Willow)", "Hanafuda (Fenghuang)", "Calabash", "Striped Bowl", "Striped Vase", "Bamboo Water Vessel", "Iron Kettle", "Large Basket", "Wash Bucket", "Wood Bucket", "Tin Watering Can", "Sweets Container", "Coin Purse", "Fruit Basket", "Bear Carving", "Lucky Cat", "Paper Tiger", "Still Life Painting", "Deer Horn", "Sword Display Stand", "Vase", "Fancy Vase", "Flower Frog", "Novelty Plate", "Large Novelty Plate", "Garden Rock", "Magnifying Glass", "Japanese Matchbox", "Match", "Inkpad", "Hanko", "Old Lock", "Chest Key", "Cushion", "Bookmark", "Dessert Cutter", "Japanese Umbrella", "Tree Frog", "Cuckoo Clock", "Cuckoo", "Bookstand", "Drawer", "Wicker Basket", "Postcard", "Envelope", "Bundle", "Plant Pattern Sack", "Sprout", "Cherry Tree", "Almond", "Elephant Watering Can", "Sprayer", "Water Scoop", "Garden Scissors", "White Flower Basket", "Brown Flower Basket", "Red Tulip", "White Tulip", "Yellow Tulip", "Pink Tulip", "Dandelion", "Rose", "Rose Bouquet", "Hygrangea (Pink) (Small)", "Peony (Red)", "Peony (Pink) (Small)", "Peony (White) (Small)", "Azalea (Pink)", "Azalea (Purple)", "Lily", "Red Flowers", "White Vase", "Pink Paintbrush", "Paintbrush", "Toolbox", "Metal Hammer", "Chisel", "Wooden Board", "Wooden Hammer", "Folding Fan (Summer)", "Police Club", "Mortar", "Pestle", "Bone", "Old Coin", "Big Coin", "Gold Bar", "Gold Bars", "1 Mon Coin", "Tsuba", "Paper Lantern (Luminous)", "Japanese Lantern", "Candle", "Hibachi", "Metal Chopsticks", "Fire Striker", "Round Straw Mat", "Seat Cushion", "Japanese Sword", "Katana", "Bamboo Sword", "Arrow", "Shuriken", "Mini Cone", "Small Wooden Box", "Large Wooden Box", "Big Protractor", "Big Triangle Ruler", "Ruler", "Haniwa", "Gourd Picture", "Inro", "Geta", "Straw Conical Hat", "Folding Fan (Japan)", "Noh Mask", "Kokeshi Doll", "Big Kokeshi", "Fox Mask", "Hyottoko Mask", "Long-mouthed Hyottoko Mask", "Hina Doll", "Dairi Doll", "Lady-in-waiting Doll", "Right Councilor", "Left Councilor", "Daruma Doll", "Rock", "Black Rock", "Big Rock", "Charcoal", "Firewood", "Hoe", "Hole", "News Broadsheet", "Nameplate", "Plaque", "Map", "Over 20cm", "Horsetail", "Acorn", "Clover", "Bamboo Internode", "Fluff", "Mushroom", "Ox Carriage", "Rich Girl", "Tadpole", "Advanced Tadpole", "Ant", "Shikao", "Honey (Cousin)", "Tabby Cat", "Chipmunk", "Akabeko", "Monkey Doll", "Duckling", "Duck", "Rat", "Mouse", "Rabbit", "Monkey", "Chicken", "Doggy", "Basket Clam", "Red Crab", "Small Fiddler Crab", "Freshwater Crab", "Crayfish", "Starfish", "Pigeon", "Sparrow", "Quail Hatchling", "Chick", "Paper Airplane", "Red Origami Crane", "Blue Origami Crane", "Yellow Origami Crane", "Green Origami Crane", "Pink Origami Crane", "Purple Origami Crane", "White Origami Crane", "Mole", "White Butterfly", "Ladybug", "Spider", "Thread (Green)", "Thread (White)", "Thread (Red & White)", "Thread (Navy)", "Cloth Roll", "Pincushion", "U-shaped Scissors", "Sewing Box"],
-    "As Fast As Possible 2": ["Tomato", "Sweet Potato", "Garlic", "Green Pepper", "Cucumber", "Eggplant", "Onion", "Bamboo Shoot", "Giant Strawberry", "Half Apple", "Mandarin", "Peach", "Monster Cherries", "Persimmon", "Fig", "Half Jujube", "Rice Bowl", "Kids Rice Bowl", "Medium Rice Bowl", "White Egg", "Daikon Radish Salad", "Sweet Bean Pancake", "Dried Squid", "Kashiwa-Mochi", "Mitarashi Dango", "Chestnut Manju", "Rice Cracker", "Dango Dumplings", "Sweet Bean Pastry", "Sakura-Mochi", "Inari Sushi", "Rice Ball", "Grilled Fish", "Chunk of Salmon", "Japanese Flag Lunch Box", "Tofu", "Kitsune Udon", "Milk Bottle", "Coffee Milk", "Matcha", "Lemon Tea", "Teapot", "Teacup", "Fancy Teapot", "Rice Scoop", "Wooden Peeler", "Expensive Plate", "Small Plate", "Coaster", "Round Plate", "Plate", "Chinese Bowl", "Sugar", "Round Tray", "Cutting Board", "Chopsticks", "Edo Book", "Mino Book", "Wood Carving Knife", "Calligraphy Brush", "Yatate", "Zori", "Hime-Daruma", "Big Top", "Red Cylinder Toy Block", "Blue Cylinder Toy Block", "Yellow Square Toy Block", "Red Square Toy Block", "Blue Triangle Toy Block", "Yellow Triangle Toy Block", "Paper Ball", "Bamboo Dragonfly", "Japanese Cup & Ball", "Kiddie Spade", "Kiddie Rake", "Kaleidoscope", "Calabash", "Striped Vase", "Sweets Container", "Novelty Plate", "Large Novelty Plate", "Magnifying Glass", "Postcard", "Envelope", "Bundle", "Elephant Watering Can", "Water Scoop", "Garden Scissors", "Red Tulip", "Pink Tulip", "Dandelion", "Rose", "White Vase", "Pink Paintbrush", "Paintbrush", "Metal Hammer", "Chisel", "Wooden Hammer", "Folding Fan (Summer)", "Police Club", "Bone", "Big Coin", "Bamboo Sword", "Shuriken", "Small Wooden Box", "Haniwa", "Geta", "Folding Fan (Japan)", "Noh Mask", "Kokeshi Doll", "Big Kokeshi", "Fox Mask", "Hyottoko Mask", "Long-mouthed Hyottoko Mask", "Rock", "Black Rock", "Nameplate", "Fluff", "Ichigo", "Paula", "Chipmunk", "Akabeko", "Duckling", "Rat", "Red Crab", "Small Fiddler Crab", "Starfish", "Pigeon", "Sparrow", "Chick", "Paper Airplane", "Red Origami Crane", "Blue Origami Crane", "Yellow Origami Crane", "Green Origami Crane", "Pink Origami Crane", "Purple Origami Crane", "White Origami Crane", "Mole", "Pincushion"],
-    "Lots of Food 1": ["Tomato", "Daikon Radish", "Greek Salad", "Wasabi", "Edamame", "Chili Pepper", "Sakura Carrot", "Shiitake Mushroom", "Slim Mushroom", "Carrot", "Cucumber", "Parsley", "Turnip", "Giant Strawberry", "Half Apple", "Rabbit Apple", "Green Apple", "Half Melon", "Melon", "Melon With Raw Ham", "Mandarin", "Mandarin Peel", "Asian Pear", "European Pear", "Big Peach", "Monster Cherries", "Banana Bunch", "Grapes", "Muscat Grapes", "Half Lemon", "Lemon Slice", "Palm Fruit", "Coconut", "Half Coconut", "Persimmon", "Fig", "Loquat", "Half Lime", "Box of Grapes", "Box of Muscat Grapes", "Box of Pears", "Apple Basket", "Peach Basket", "Rice Bowl", "Toast", "Bacon Knot", "Croissant", "Hamburger", "Egg Sandwich", "Steamed Bun", "Meat", "Hanging Meat", "Turkey", "Kebab", "White Egg", "Fried Egg", "Omelet Rice", "Shumai Dumpling", "Steak", "Daikon Radish Salad", "Fried Shrimp", "Gyoza Dumplings", "Bean Soup", "Pickles", "Fried Rice", "Blue Star Candy", "Green Star Candy", "Pink Star Candy", "Purple Star Candy", "Dried Squid", "Hishi-Mochi", "Half Red Bean Cake", "Red Bean Cake", "Kashiwa-Mochi", "Mitarashi Dango", "Chestnut Manju", "Rakugan", "Chocolate Cake", "Lollipop", "Giant Rice Cracker", "Dango Dumplings", "Sweet Bean Pastry", "Gigantic Sweet Bean Pastry", "Crème Caramel", "Eclair", "Pancakes", "Shortcake", "Sakura-Mochi", "Tuna Sushi", "Fatty Tuna Sushi", "Squid Sushi", "Egg Sushi", "Inari Sushi", "Cucumber Roll", "Sashimi Boat", "Dried Seaweed", "Cylindrical Rice Ball", "Rice Ball", "Gigantic Rice Ball", "Sekihan", "Fancy Eel Box", "Soba Noodles", "Pickled Radish", "Straw Natto", "Dried Sardine", "Grilled Fish", "Chunk of Salmon", "Ration Meatball", "Six Ration Meatballs", "Takoyaki One Bite", "Takoyaki", "Okonomiyaki", "Chikuzen-ni", "Chawanmushi", "Raw Egg on Rice", "Ochazuke", "Miso Soup", "Tororo Soup", "Pickled Side Dish", "Fish Stir Fry", "Tofu", "Tempura Soba", "Kitsune Udon", "Chicken & Egg Bowl", "Pork Bowl", "Spiny Lobster", "Giant Shrimp", "Oden", "Oden Meal", "Oden Pot", "Hot Pot", "Kagami-Mochi", "Huge Rice Cake", "Matcha", "Lemon Tea", "Jasmine Tea", "Malted Rice Drink", "Tea Ceremony Bamboo Whisk", "Teapot", "Teacup", "Sakazuki", "Gold Cup", "Fork", "Small Plate", "Coaster", "Round Plate", "Large Plate", "Rectangular Plate", "Chinese Bowl", "Sushi Boat", "Honey (Cooking)", "Ketchup", "Soy Sauce Bottle", "Pepper", "Sugar", "Miso Paste", "Round Tray", "Tray Table", "Fancy Dining Table", "Bamboo Steamer", "Wok", "Rice Container", "Clay Stove", "Bamboo Broom", "Japanese-style Book", "Spiffy Geta Sandals", "Court Musician Flutist", "Court Musician Drummer", "Kendo Mask", "Straw Dummy", "Cut Straw Dummy", "Big Top", "Temari Ball", "Pinwheel", "Fishing Pole", "Striped Bowl", "Striped Vase", "Bamboo Water Vessel", "Iron Kettle", "Large Basket", "Barrel", "Lucky Cat", "Sacred Branch ", "Lucky Rake", "Sword Display Stand", "Porcelain Vase", "Oni Tile", "Wooden Chopsticks", "Chopstick Rest", "Decorative Shelf", "Cupboard", "Bundle", "House Plant", "Red Bean", "Soybean", "White Vase", "Short Ladder", "Log (Tools)", "Watermelon", "Half Watermelon", "Watermelon Slice", "Paper Fan", "Folding Fan (Summer)", "Firework Shell", "Shaved Ice (Strawberry)", "Shaved Ice (Melon)", "Shaved Ice (Blue Hawaii)", "Samurai Governor", "Binoculars", "Old Coin", "Coin Box", "Wealthy Lamp", "White Lantern", "Red Paper Lantern", "Japanese Lantern", "Seat Cushion", "Japanese Sword", "Arrow", "Child Armor", "Folding Fan (Japan)", "Japanese Doll", "Festival Paper Fan", "Candy Apple", "Hina Doll", "Dairi Doll", "Lady-in-waiting Doll", "Left Councilor", "Celebratory Booze Barrel", "Momotaro", "Bale of Rice", "Bird's Nest", "Plum Branch", "Mushroom", "Ox Carriage", "Noble Lad", "Young Princess", "Komono", "Sitting Servant", "Kneeling Messenger", "Shamisen Master", "High-pitched Drum Player ", "Appraiser", "Servant", "Miso", "Tom Hoshino", "Chipmunk", "See-No-Evil Monkey", "Big Clam", "Red Crab", "Blue Crab", "Spider Crab", "Red Shrimp", "Mantis Shrimp", "Sea Urchin", "Salmon", "Snapper", "Eel", "Fish Bones", "Crow", "Red Fox", "Hanging Fish"],
+    "As Fast As Possible 2": ["Tomato", "Sweet Potato", "Garlic", "Green Pepper", "Cucumber", "Eggplant", "Onion", "Bamboo Shoot", "Giant Strawberry", "Half Apple", "Mandarin", "Peach", "Monster Cherries", "Persimmon", "Fig", "Half Jujube", "Rice Bowl", "Kids Rice Bowl", "Medium Rice Bowl", "White Egg", "Daikon Radish Salad", "Sweet Bean Pancake", "Dried Squid", "Half Red Bean Cake", "Red Bean Cake", "Kashiwa-Mochi", "Mitarashi Dango", "Chestnut Manju", "Rice Cracker", "Dango Dumplings", "Sweet Bean Pastry", "Sakura-Mochi", "Inari Sushi", "Rice Ball", "Grilled Fish", "Chunk of Salmon", "Japanese Flag Lunch Box", "Tofu", "Kitsune Udon", "Milk Bottle", "Coffee Milk", "Matcha", "Lemon Tea", "Tea Ceremony Bamboo Whisk", "Teapot", "Teacup", "Fancy Teapot", "Rice Scoop", "Wooden Peeler", "Expensive Plate", "Small Plate", "Coaster", "Round Plate", "Plate", "Chinese Bowl", "Sugar", "Round Tray", "Cutting Board", "Chopsticks", "Edo Book", "Mino Book", "Wood Carving Knife", "Calligraphy Brush", "Yatate", "Zori", "Hime-Daruma", "Big Top", "Red Cylinder Toy Block", "Blue Cylinder Toy Block", "Yellow Square Toy Block", "Red Square Toy Block", "Blue Triangle Toy Block", "Yellow Triangle Toy Block", "Paper Ball", "Bamboo Dragonfly", "Japanese Cup & Ball", "Kiddie Spade", "Kiddie Rake", "Kaleidoscope", "Calabash", "Striped Vase", "Sweets Container", "Novelty Plate", "Large Novelty Plate", "Magnifying Glass", "Postcard", "Envelope", "Bundle", "Elephant Watering Can", "Water Scoop", "Garden Scissors", "Red Tulip", "White Tulip", "Yellow Tulip", "Pink Tulip", "Dandelion", "Rose", "White Vase", "Pink Paintbrush", "Paintbrush", "Metal Hammer", "Chisel", "Wooden Hammer", "Folding Fan (Summer)", "Police Club", "Bone", "Big Coin", "Bamboo Sword", "Shuriken", "Small Wooden Box", "Haniwa", "Geta", "Folding Fan (Japan)", "Noh Mask", "Kokeshi Doll", "Big Kokeshi", "Fox Mask", "Hyottoko Mask", "Long-mouthed Hyottoko Mask", "Rock", "Black Rock", "Nameplate", "Fluff", "Ichigo", "Paula", "Chipmunk", "Akabeko", "Duckling", "Rat", "Red Crab", "Small Fiddler Crab", "Starfish", "Pigeon", "Sparrow", "Chick", "Paper Airplane", "Red Origami Crane", "Blue Origami Crane", "Yellow Origami Crane", "Green Origami Crane", "Pink Origami Crane", "Purple Origami Crane", "White Origami Crane", "Mole", "Pincushion"],
+    "Lots of Food 1": ["Tomato", "Daikon Radish", "Greek Salad", "Wasabi", "Edamame", "Chili Pepper", "Sakura Carrot", "Shiitake Mushroom", "Slim Mushroom", "Carrot", "Cucumber", "Parsley", "Bamboo Shoot", "Turnip", "Giant Strawberry", "Half Apple", "Rabbit Apple", "Green Apple", "Half Melon", "Melon", "Melon With Raw Ham", "Mandarin", "Mandarin Peel", "Mandarin Piece", "Asian Pear", "European Pear", "Big Peach", "Monster Cherries", "Banana Bunch", "Grapes", "Muscat Grapes", "Half Lemon", "Lemon Slice", "Palm Fruit", "Coconut", "Half Coconut", "Persimmon", "Fig", "Loquat", "Half Lime", "Box of Grapes", "Box of Muscat Grapes", "Box of Pears", "Apple Basket", "Peach Basket", "Rice Bowl", "Toast", "Bacon Knot", "Croissant", "Hamburger", "Egg Sandwich", "Steamed Bun", "Meat", "Hanging Meat", "Turkey", "Kebab", "White Egg", "Fried Egg", "Omelet Rice", "Shumai Dumpling", "Steak", "Daikon Radish Salad", "Fried Shrimp", "Gyoza Dumplings", "Bean Soup", "Pickles", "Fried Rice", "Blue Star Candy", "Yellow Star Candy", "Green Star Candy", "Pink Star Candy", "Purple Star Candy", "Dried Squid", "Hishi-Mochi", "Half Red Bean Cake", "Red Bean Cake", "Kashiwa-Mochi", "Mitarashi Dango", "Chestnut Manju", "Rakugan", "Chocolate Cake", "Lollipop", "Rice Cracker", "Giant Rice Cracker", "Dango Dumplings", "Gigantic Dango", "Sweet Bean Pastry", "Gigantic Sweet Bean Pastry", "Crème Caramel", "Eclair", "Pancakes", "Shortcake", "Sakura-Mochi", "Tuna Sushi", "Fatty Tuna Sushi", "Squid Sushi", "Shrimp Sushi", "Egg Sushi", "Salmon Roe Roll", "Inari Sushi", "Cucumber Roll", "Sashimi Boat", "Dried Seaweed", "Cylindrical Rice Ball", "Rice Ball", "Gigantic Rice Ball", "Sekihan", "Fancy Eel Box", "Soba Noodles", "Pickled Radish", "Straw Natto", "Dried Sardine", "Grilled Fish", "Chunk of Salmon", "Ration Meatball", "Six Ration Meatballs", "Takoyaki One Bite", "Takoyaki", "Okonomiyaki", "Chikuzen-ni", "Chawanmushi", "Raw Egg on Rice", "Ochazuke", "Miso Soup", "Tororo Soup", "Pickled Side Dish", "Fish Stir Fry", "Tofu", "Tempura Soba", "Kitsune Udon", "Chicken & Egg Bowl", "Pork Bowl", "Spiny Lobster", "Giant Shrimp", "Oden", "Oden Meal", "Oden Pot", "Hot Pot", "Rice Skewer", "Kagami-Mochi", "Huge Rice Cake", "Matcha", "Lemon Tea", "Jasmine Tea", "Malted Rice Drink", "Tea Ceremony Bamboo Whisk", "Teapot", "Teacup", "Sakazuki", "Gold Cup", "Fork", "Ladle", "Small Plate", "Coaster", "Round Plate", "Large Plate", "Rectangular Plate", "Chinese Bowl", "Sushi Boat", "Honey (Cooking)", "Ketchup", "Soy Sauce Bottle", "Pepper", "Sugar", "Miso Paste", "Round Tray", "Tray Table", "Fancy Dining Table", "Bamboo Steamer", "Wok", "Rice Container", "Clay Stove", "Bamboo Broom", "Japanese-style Book", "Spiffy Geta Sandals", "Court Musician Flutist", "Court Musician Drummer", "Kendo Mask", "Straw Dummy", "Cut Straw Dummy", "Straw Target Board", "Big Top", "Temari Ball", "Pinwheel", "Fishing Pole", "Striped Bowl", "Striped Vase", "Bamboo Water Vessel", "Iron Kettle", "Large Basket", "Barrel", "Sweets Container", "Lucky Cat", "Sacred Branch ", "Lucky Rake", "Sword Display Stand", "Porcelain Vase", "Oni Tile", "Wooden Chopsticks", "Chopstick Rest", "Decorative Shelf", "Cupboard", "Bundle", "House Plant", "Red Bean", "Soybean", "White Vase", "Short Ladder", "Log (Tools)", "Watermelon", "Half Watermelon", "Watermelon Slice", "Paper Fan", "Folding Fan (Summer)", "Firework Shell", "Shaved Ice (Strawberry)", "Shaved Ice (Melon)", "Shaved Ice (Blue Hawaii)", "Samurai Governor", "Samurai Thief Hunter", "Binoculars", "Old Coin", "Coin Box", "Wealthy Lamp", "White Lantern", "Red Paper Lantern", "Japanese Lantern", "Seat Cushion", "Japanese Sword", "Katana", "Arrow", "Child Armor", "Inro", "Folding Fan (Japan)", "Japanese Doll", "Festival Paper Fan", "Candy Apple", "Hina Doll", "Dairi Doll", "Lady-in-waiting Doll", "Left Councilor", "Celebratory Booze Barrel", "Momotaro", "Bale of Rice", "Bird's Nest", "Offering Box", "Plum Branch", "Potted Ivy", "Mushroom", "Ox Carriage", "Noble Lad", "Young Princess", "Komono", "Lazy Servant", "Sitting Servant", "Kneeling Messenger", "Shamisen Master", "Large Hand Drum Guy", "High-pitched Drum Player ", "Fife Player", "Appraiser", "Servant", "Miso", "Tom Hoshino", "Chipmunk", "See-No-Evil Monkey", "Speak-No-Evil Monkey", "Hear-No-Evil Monkey", "Big Clam", "Red Crab", "Blue Crab", "Spider Crab", "Red Shrimp", "Mantis Shrimp", "Sea Urchin", "Salmon", "Snapper", "Eel", "Fish Bones", "Crow", "Red Fox", "Hanging Fish"],
     "Lots of Food 2": ["Tomato", "Daikon Radish", "Daikon Radishes", "Chinese Cabbages", "Pumpkin", "Sweet Potato", "Corn", "Wasabi", "Red Onion", "Lotus Root", "Carrot", "Cucumber", "Eggplant", "Onion", "Green Onion", "Gigantic Green Pumpkin", "Turnip", "Apple", "Green Apple", "Half Melon", "Melon", "Melon With Raw Ham", "Mandarin", "Mandarin Peel", "Mandarin Piece", "Mandarins", "Asian Pear", "European Pear", "Big Peach", "Monster Cherries", "Banana Bunch", "Grapes", "Muscat Grapes", "Lemon Slice", "Persimmon", "Fig", "Loquat", "Box of Grapes", "Box of Muscat Grapes", "Box of Pears", "Peach Basket", "Orange Basket", "Rice Bowl", "Large Rice Bowl", "Bento Lunch", "Big Bento Lunch", "Toast", "Champion Burger", "Egg Sandwich", "Sandwich", "Steamed Bun", "Pizza", "Ham", "Meat", "Roast On Bone", "Kebab", "White Egg", "Omelet Rice", "Beef Patty", "Steak", "Daikon Radish Salad", "Konjac", "Ramen", "Gigantic Ramen", "Gyoza Dumplings", "Fu (Food)", "Curry Rice", "Curry", "Stew", "Pickles", "Fried Rice", "Golden Fried Rice", "Roast Pork", "Dried Squid", "Hishi-Mochi", "Half Red Bean Cake", "Red Bean Cake", "Kashiwa-Mochi", "Mitarashi Dango", "Chestnut Manju", "Rakugan", "Moon Viewing Dango", "Yatsuhashi", "Matcha Yatsuhashi", "Chocolate Cake", "Lollipop", "Sweet Bean Pastry", "Shortcake", "Sakura-Mochi", "Dried Mochi", "Tuna Sushi", "Fatty Tuna Sushi", "Squid Sushi", "Octopus Sushi", "Shrimp Sushi", "Mackerel Sushi", "Salmon Roe Roll", "Inari Sushi", "Cucumber Roll", "Tuna Roll", "Sashimi Boat", "Pickled Plum", "Rice Ball", "Sekihan", "Fancy Eel Box", "Soba Noodles", "Pickle Tub", "Sweet Rolled Omelet", "Straw Natto", "Fish Cake", "Dried Sardine", "Grilled Fish", "Chunk of Salmon", "Six Ration Meatballs", "Takoyaki One Bite", "Takoyaki", "Okonomiyaki", "Variety Lunch Box", "Chikuzen-ni", "Chawanmushi", "Raw Egg on Rice", "Ochazuke", "Miso Soup", "Tororo Soup", "Pickled Side Dish", "Fish Stir Fry", "Tofu", "Tempura Soba", "Kitsune Udon", "Chicken & Egg Bowl", "Pork Bowl", "Spiny Lobster", "Oden", "Oden Pot", "Kabuki Actor Hot Pot", "Tasty Hot Pot", "Hot Pot", "Giant Hot Pot", "Huge Rice Cake", "Matcha", "Lemon Tea", "Jasmine Tea", "Malted Rice Drink", "Cold Ginger Drink", "Teapot", "Teacup", "Sakazuki", "Gold Cup", "Fork", "Expensive Plate", "Small Plate", "Coaster", "Round Plate", "Rectangular Plate", "Fruit Dish", "Sushi Boat", "Soy Sauce Bottle", "Pepper", "Sugar", "Miso Paste", "Round Tray", "Tray Table", "Fancy Dining Table", "Tiered Lunch Box", "Bamboo Steamer", "Takoyaki Hotplate", "Giant Pot", "Wok", "Rice Container", "Clay Stove", "Cooking Pot", "Bamboo Broom", "Japanese-style Book", "Eboshi", "Red Bachi Hairpin", "Red Ball Hairpin", "Purple Ball Hairpin", "White Ball Hairpin", "Hand Mirror", "Shamisen", "Court Musician Flutist", "Court Musician Drummer", "Kendo Mask", "Straw Dummy", "Cut Straw Dummy", "Big Top", "Temari Ball", "Ramshackle Kite", "Kite", "Battledore", "Shogi Table", "Fortune Dispenser", "Striped Bowl", "Striped Vase", "Iron Kettle", "Empty Coin Box", "Large Basket", "Barrel", "Goldfish Bowl", "Sweets Container", "Fruit Basket", "Lucky Cat", "Goldfish Nebuta", "Sacred Branch ", "Sword Display Stand", "Vase", "Porcelain Vase", "Novelty Plate", "Oni Tile", "Wooden Chopsticks", "Chopstick Rest", "Rush Mat", "Shelf", "Decorative Shelf", "Big Decorative Shelf", "Cupboard", "Felt Rug", "Armrest", "Mirror Stand", "Rolled-Up Letter", "Bundle", "Plant Pattern Sack", "Garden Scissors", "Hydrangea", "Flowers", "Brown Flower Basket", "Marigold", "Lace Flower", "Asters", "White Vase", "Short Ladder", "Wooden Board", "Watermelon", "Half Watermelon", "Watermelon Slice", "Paper Fan", "Firework Shell", "Shaved Ice (Strawberry)", "Shaved Ice (Melon)", "Shaved Ice (Blue Hawaii)", "Samurai Assistant", "Butterfly Specimens", "Bone", "Old Coin", "Rough Diamond", "Coin Box", "Mini Treasure Boat", "Paper Lamp", "Wealthy Lamp", "White Lantern", "Red Paper Lantern", "Japanese Lantern", "Wide Hibachi", "Snowman", "Cushioned Chair", "Legless Chair", "Seat Cushion", "Japanese Sword", "Arrow", "Blowfish", "Bonsai", "Samurai Armor", "Inro", "Geta", "Folding Fan (Japan)", "Geezer Mask", "Hannya Mask", "Japanese Doll", "Osakabehime", "Festival Paper Fan", "Red Namahage", "Blue Namahage", "Candy Apple", "Strongman", "Dairi Doll", "Lady-in-waiting Doll", "Daruma Doll", "Celebratory Booze Barrel", "Charcoal", "Bale of Rice", "Standing Screen", "Bedside Screen", "Bamboo Blind", "Sliding Door", "Sliding Door (Paper Fan)", "Small Sliding Door", "Plum Branch", "Mushroom", "Ox Carriage", "Noble Youngster", "Young Princess", "Relaxing Princess", "Ushiwakamaru", "Komono", "Lazy Servant", "Sitting Servant", "Shogun's Caretaker", "Shogun's Wife", "Battledore Apprentice", "Noble Minister", "Trainee Monk", "Ashigaru", "Messenger", "Carpenter", "Meal Planner", "Hatamoto", "Shamisen Master", "Small Drum Player", "Large Hand Drum Guy", "High-pitched Drum Player ", "Kabuki Actor", "Appraiser", "Servant", "Ryu", "Chipmunk", "Cymbal Monkey", "Doggy", "Husky", "Red Crab", "Blue Crab", "Spider Crab", "Giant Red Shrimp", "Sea Urchin", "Salmon", "Snapper", "Eel", "Stingray", "Crow", "Wire Prop (Butterfly)", "Wire Prop (Bird)", "Cloth Roll"],
-    "Lots of Food 3": ["Tomato", "Daikon Radishes", "Chinese Cabbages", "Cabbage", "Pumpkin", "Sweet Potato", "Corn", "Greek Salad", "Wasabi", "Red Onion", "Lotus Root", "Carrot", "Cucumber", "Eggplant", "Onion", "Green Onion", "Gigantic Green Pumpkin", "Purple Cabbage", "Turnip", "Half Apple", "Apple", "Rabbit Apple", "Green Apple", "Half Melon", "Melon", "Melon With Raw Ham", "European Pear", "Peach", "Big Peach", "Banana Bunch", "Grapes", "Muscat Grapes", "Lemon Slice", "Persimmon", "Box of Apples", "Box of Grapes", "Box of Muscat Grapes", "Box of Pears", "Apple Basket", "Peach Basket", "Orange Basket", "Rice Bowl", "Large Rice Bowl", "Bento Lunch", "Big Bento Lunch", "Toast", "Tiny Bread", "Bacon Knot", "Croissant", "Long Baguette", "Hamburger", "Champion Burger", "Egg Sandwich", "Sandwich", "Steamed Bun", "Pizza", "Gigantic Pizza", "Cheese Wedge", "Whole Cheese", "Ham", "Meat", "Fried Chicken", "Hanging Meat", "Roast On Bone", "Large Meat", "Turkey", "Raw Meat", "Octopus-shaped Wiener", "Kebab", "Fried Egg", "Beef Patty", "Steak", "Daikon Radish Salad", "California Roll", "Konjac", "Fried Shrimp", "Gigantic Fried Shrimp", "Ramen", "Gigantic Ramen", "Bean Soup", "Curry Rice", "Curry", "Stew", "Pickles", "Fried Rice", "Golden Fried Rice", "Roast Pork", "Sweet Bean Pancake", "Dried Squid", "Hishi-Mochi", "Half Red Bean Cake", "Red Bean Cake", "Kashiwa-Mochi", "Mitarashi Dango", "Chestnut Manju", "Rakugan", "Moon Viewing Dango", "Giant Rice Cracker", "Dango Dumplings", "Gigantic Dango", "Sweet Bean Pastry", "Shortcake", "Sakura-Mochi", "Dried Mochi", "Tuna Sushi", "Fatty Tuna Sushi", "Squid Sushi", "Octopus Sushi", "Shrimp Sushi", "Egg Sushi", "Mackerel Sushi", "Salmon Roe Roll", "Inari Sushi", "Cucumber Roll", "Tuna Roll", "Uncut Sushi Roll", "Sashimi Boat", "Pickled Plum", "Cylindrical Rice Ball", "Rice Ball", "Sekihan", "Fancy Eel Box", "Soba Noodles", "Pickle Tub", "Chikuwa", "Sweet Rolled Omelet", "Straw Natto", "Fish Cake", "Fish Cake Slice", "Grilled Fish", "Chunk of Salmon", "Ration Meatball", "Six Ration Meatballs", "Variety Lunch Box", "Chikuzen-ni", "Chawanmushi", "Ochazuke", "Miso Soup", "Tororo Soup", "Pickled Side Dish", "Fish Stir Fry", "Tofu", "Tempura Soba", "Kitsune Udon", "Pork Bowl", "Gigantic Pork Bowl", "Spiny Lobster", "Giant Shrimp", "Oden Meal", "Oden Pot", "Kabuki Actor Hot Pot", "Tasty Hot Pot", "Hot Pot", "Giant Hot Pot", "Rice Skewer", "Square Mochi", "Kagami-Mochi", "Huge Rice Cake", "Milk Can", "Strawberry Milk Can", "Matcha", "Giant Matcha", "Lemon Tea", "Jasmine Tea", "Malted Rice Drink", "Cold Ginger Drink", "Canned Tea", "Teapot", "Teacup", "Sakazuki", "Gold Cup", "Ladle", "Butcher's Knife", "Expensive Plate", "Small Plate", "Coaster", "Round Plate", "Plate", "Large Plate", "Rectangular Plate", "Chinese Bowl", "Food Bowl", "Sushi Boat", "Ketchup", "Soy Sauce", "Pepper", "Sugar", "Round Tray", "Tray Table", "Fancy Dining Table", "Cutting Board", "Tiered Lunch Box", "Wooden Mortar", "Wooden Mallet", "Giant Pot", "Shabu-Shabu Pot", "Wok", "Clay Stove", "Cooking Pot", "Giant Tub", "Japanese-style Book", "History Textbook", "Abacus", "Wandering Samurai Hat", "Gong", "Shamisen", "Straw Dummy", "Cut Straw Dummy", "Axe", "Big Top", "Temari Ball", "Battledore", "Fishing Pole", "Shogi Table", "Fortune Dispenser", "Basket", "Animal Cage", "Rolling Luggage", "Empty Coin Box", "Large Basket", "Wooden Washtub", "Rainwater Bucket", "Goldfish Bowl", "Urn", "Fruit Basket", "Lucky Cat", "Goldfish Nebuta", "Sword Display Stand", "Vase", "Porcelain Vase", "Novelty Plate", "Plant Pattern Towel", "Peach Blossom Hand Towel", "Bamboo Pattern Towel", "Wooden Chopsticks", "Chopstick Rest", "Straw Mat", "Rush Mat", "Japanese Umbrella", "Iron", "Log Table", "Shelf", "Decorative Shelf", "Big Decorative Shelf", "Cupboard", "Blue Rug", "Felt Rug", "Carpet", "Armrest", "Mirror Stand", "Wicker Basket", "Rolled-Up Letter", "Sprout", "Watering Pot", "Hydrangea", "Flowers", "Brown Flower Basket", "Asters", "Wooden Board", "Watermelon", "Half Watermelon", "Watermelon Slice", "Paper Fan", "Folding Fan (Summer)", "Firework Shell", "Shaved Ice (Strawberry)", "Shaved Ice (Melon)", "Shaved Ice (Blue Hawaii)", "Samurai Patroller", "Samurai Thief Hunter", "Samurai Assistant", "Butterfly Specimens", "Old Coin", "Cow-Patterned Mat", "Coin Box", "Matsutake", "Paper Lamp", "Wealthy Lamp", "White Lantern", "Japanese Lantern", "Candlestick", "Fire Basket", "Wide Hibachi", "Heated Table", "Twin Pop", "Ice Block", "Cushioned Chair", "Round Straw Mat", "Legless Chair", "Seat Cushion", "Japanese Sword", "Sasumata (Man-catching Fork)", "Blowfish", "Bonsai", "Large Samurai Armor", "Shogun", "Invisible Ninja", "Inro", "Geta", "Noh Mask", "Tengu Mask", "Geezer Mask", "Kabuki-Style Mask", "Ebisu Mask", "Monk Statue", "Kappa", "Small Fox", "Lone Lion Dance", "Festival Paper Fan", "Red Namahage", "Blue Namahage", "Candy Apple", "Stall Lantern", "Festival Lantern", "Strongman", "Hina Doll", "Dairi Doll", "Daruma Doll", "Birthday Cake", "Celebratory Booze Barrel", "Good Thief", "Paper Fan Fireman", "Test Papers", "Firewood", "Bale of Rice", "Straw", "Young Farmer", "Veteran Farmer", "Cattleman", "Small Winnowing Basket", "Pole Banner", "Biker Flag", "Bird's Nest", "Long Wooden Fence", "Bamboo Fence", "Standing Screen", "Bedside Screen", "Bamboo Blind", "Sliding Door", "Sliding Door (Paper Fan)", "Fish Store Sign", "\"All You Can Eat\" Banner", "Teahouse Banner", "\"Farm-Fresh\" Sign", "New Release", "Snow-Cone Sign", "\"No Stealing Cows\" Sign", "Cherry Blossom Branch", "Rice Plant", "Plum Branch", "Mushroom", "Gigantic Mushroom", "Ox Carriage", "Noble Lad", "Noble Youngster", "Young Princess", "Relaxing Princess", "Kanzashi Lady", "Ninokin", "Pompadour Samurai", "Komono", "Lazy Servant", "Sitting Servant", "Shogun's Caretaker", "Shogun's Wife", "Battledore Apprentice", "Rambler", "Wandering Monk", "Big Man", "Chinese Man", "Indian Man", "Ashigaru", "Training Samurai", "Loyal Retainer", "Daimyo", "Edo Police Officer", "Benkei", "Messenger", "Mustached Messenger", "Carpenter", "Traveler", "Kneeling Messenger", "Goatee Emissary", "Shamisen Master", "Four-eyed Shamisen Player", "Small Drum Player", "High-pitched Drum Player ", "Fife Player", "Kabuki Actor", "Appraiser", "Servant", "Chef", "Cook", "Old Master", "Harvest", "Calico Cat", "Chipmunk", "Baby Boar", "Penguin", "See-No-Evil Monkey", "Speak-No-Evil Monkey", "Hear-No-Evil Monkey", "Chicken", "Doggy", "Red Crab", "Blue Crab", "Red Shrimp", "Giant Red Shrimp", "Mantis Shrimp", "Giant Mantis Shrimp", "Sea Urchin", "Salmon", "Snapper", "Eel", "Stingray", "Squid", "Crow", "Crane", "Wire Prop (Butterfly)", "Wire Prop (Bird)", "Big Origami Crane", "King Origami Crane", "36 Origami Cranes", "Deer", "Mole", "Cloth Roll"],
+    "Lots of Food 3": ["Tomato", "Daikon Radishes", "Chinese Cabbages", "Cabbage", "Pumpkin", "Sweet Potato", "Corn", "Greek Salad", "Wasabi", "Red Onion", "Lotus Root", "Carrot", "Cucumber", "Eggplant", "Onion", "Green Onion", "Gigantic Green Pumpkin", "Purple Cabbage", "Turnip", "Half Apple", "Apple", "Rabbit Apple", "Green Apple", "Half Melon", "Melon", "Melon With Raw Ham", "European Pear", "Peach", "Big Peach", "Banana Bunch", "Grapes", "Muscat Grapes", "Lemon Slice", "Persimmon", "Box of Apples", "Box of Grapes", "Box of Muscat Grapes", "Box of Pears", "Apple Basket", "Peach Basket", "Orange Basket", "Rice Bowl", "Large Rice Bowl", "Bento Lunch", "Big Bento Lunch", "Toast", "Tiny Bread", "Bacon Knot", "Croissant", "Long Baguette", "Hamburger", "Champion Burger", "Egg Sandwich", "Sandwich", "Steamed Bun", "Pizza", "Gigantic Pizza", "Cheese Wedge", "Whole Cheese", "Ham", "Meat", "Fried Chicken", "Hanging Meat", "Roast On Bone", "Large Meat", "Turkey", "Raw Meat", "Octopus-shaped Wiener", "Kebab", "Fried Egg", "Beef Patty", "Steak", "Daikon Radish Salad", "California Roll", "Konjac", "Fried Shrimp", "Gigantic Fried Shrimp", "Ramen", "Gigantic Ramen", "Bean Soup", "Curry Rice", "Curry", "Stew", "Pickles", "Fried Rice", "Golden Fried Rice", "Roast Pork", "Sweet Bean Pancake", "Dried Squid", "Hishi-Mochi", "Half Red Bean Cake", "Red Bean Cake", "Kashiwa-Mochi", "Mitarashi Dango", "Chestnut Manju", "Rakugan", "Moon Viewing Dango", "Giant Rice Cracker", "Dango Dumplings", "Gigantic Dango", "Sweet Bean Pastry", "Shortcake", "Sakura-Mochi", "Dried Mochi", "Tuna Sushi", "Fatty Tuna Sushi", "Squid Sushi", "Octopus Sushi", "Shrimp Sushi", "Egg Sushi", "Mackerel Sushi", "Salmon Roe Roll", "Inari Sushi", "Cucumber Roll", "Tuna Roll", "Uncut Sushi Roll", "Sashimi Boat", "Pickled Plum", "Cylindrical Rice Ball", "Rice Ball", "Sekihan", "Fancy Eel Box", "Soba Noodles", "Pickle Tub", "Chikuwa", "Sweet Rolled Omelet", "Straw Natto", "Fish Cake", "Fish Cake Slice", "Grilled Fish", "Chunk of Salmon", "Ration Meatball", "Six Ration Meatballs", "Variety Lunch Box", "Chikuzen-ni", "Chawanmushi", "Ochazuke", "Miso Soup", "Tororo Soup", "Pickled Side Dish", "Fish Stir Fry", "Tofu", "Tempura Soba", "Kitsune Udon", "Pork Bowl", "Gigantic Pork Bowl", "Spiny Lobster", "Giant Shrimp", "Oden Meal", "Oden Pot", "Kabuki Actor Hot Pot", "Tasty Hot Pot", "Hot Pot", "Giant Hot Pot", "Rice Skewer", "Square Mochi", "Kagami-Mochi", "Huge Rice Cake", "Milk Can", "Strawberry Milk Can", "Matcha", "Giant Matcha", "Lemon Tea", "Jasmine Tea", "Malted Rice Drink", "Cold Ginger Drink", "Canned Tea", "Teapot", "Teacup", "Sakazuki", "Gold Cup", "Ladle", "Butcher's Knife", "Expensive Plate", "Small Plate", "Coaster", "Round Plate", "Plate", "Large Plate", "Rectangular Plate", "Chinese Bowl", "Food Bowl", "Sushi Boat", "Ketchup", "Soy Sauce", "Pepper", "Sugar", "Round Tray", "Tray Table", "Fancy Dining Table", "Cutting Board", "Tiered Lunch Box", "Wooden Mortar", "Wooden Mallet", "Giant Pot", "Shabu-Shabu Pot", "Wok", "Clay Stove", "Cooking Pot", "Giant Tub", "Japanese-style Book", "History Textbook", "Abacus", "Wandering Samurai Hat", "Gong", "Shamisen", "Straw Dummy", "Cut Straw Dummy", "Axe", "Big Top", "Temari Ball", "Battledore", "Fishing Pole", "Shogi Table", "Fortune Dispenser", "Basket", "Animal Cage", "Rolling Luggage", "Empty Coin Box", "Large Basket", "Wooden Washtub", "Rainwater Bucket", "Goldfish Bowl", "Urn", "Fruit Basket", "Lucky Cat", "Goldfish Nebuta", "Sword Display Stand", "Vase", "Porcelain Vase", "Novelty Plate", "Plant Pattern Towel", "Peach Blossom Hand Towel", "Bamboo Pattern Towel", "Wooden Chopsticks", "Chopstick Rest", "Straw Mat", "Rush Mat", "Japanese Umbrella", "Iron", "Log Table", "Shelf", "Decorative Shelf", "Big Decorative Shelf", "Cupboard", "Blue Rug", "Felt Rug", "Carpet", "Armrest", "Mirror Stand", "Wicker Basket", "Rolled-Up Letter", "Sprout", "Watering Pot", "Hydrangea", "Flowers", "Brown Flower Basket", "Asters", "Sunflower Head", "Wooden Board", "Watermelon", "Half Watermelon", "Watermelon Slice", "Paper Fan", "Folding Fan (Summer)", "Firework Shell", "Shaved Ice (Strawberry)", "Shaved Ice (Melon)", "Shaved Ice (Blue Hawaii)", "Samurai Patroller", "Samurai Thief Hunter", "Samurai Assistant", "Butterfly Specimens", "Old Coin", "Cow-Patterned Mat", "Coin Box", "Matsutake", "Paper Lamp", "Wealthy Lamp", "White Lantern", "Japanese Lantern", "Candlestick", "Fire Basket", "Wide Hibachi", "Heated Table", "Twin Pop", "Ice Block", "Cushioned Chair", "Round Straw Mat", "Legless Chair", "Seat Cushion", "Japanese Sword", "Sasumata (Man-catching Fork)", "Blowfish", "Bonsai", "Large Samurai Armor", "Shogun", "Invisible Ninja", "Inro", "Geta", "Noh Mask", "Tengu Mask", "Geezer Mask", "Kabuki-Style Mask", "Ebisu Mask", "Monk Statue", "Kappa", "Small Fox", "Lone Lion Dance", "Festival Paper Fan", "Red Namahage", "Blue Namahage", "Candy Apple", "Stall Lantern", "Festival Lantern", "Strongman", "Hina Doll", "Dairi Doll", "Daruma Doll", "Birthday Cake", "Celebratory Booze Barrel", "Good Thief", "Paper Fan Fireman", "Test Papers", "Firewood", "Bale of Rice", "Straw", "Young Farmer", "Veteran Farmer", "Cattleman", "Small Winnowing Basket", "Pole Banner", "Biker Flag", "Bird's Nest", "Long Wooden Fence", "Bamboo Fence", "Standing Screen", "Bedside Screen", "Bamboo Blind", "Sliding Door", "Sliding Door (Paper Fan)", "Fish Store Sign", "\"All You Can Eat\" Banner", "Teahouse Banner", "\"Farm-Fresh\" Sign", "New Release", "Snow-Cone Sign", "\"No Stealing Cows\" Sign", "Cherry Blossom Branch", "Rice Plant", "Plum Branch", "Mushroom", "Gigantic Mushroom", "Ox Carriage", "Noble Lad", "Noble Youngster", "Young Princess", "Relaxing Princess", "Kanzashi Lady", "Ninokin", "Pompadour Samurai", "Komono", "Lazy Servant", "Sitting Servant", "Shogun's Caretaker", "Shogun's Wife", "Battledore Apprentice", "Rambler", "Wandering Monk", "Big Man", "Chinese Man", "Indian Man", "Ashigaru", "Training Samurai", "Loyal Retainer", "Daimyo", "Edo Police Officer", "Benkei", "Messenger", "Mustached Messenger", "Carpenter", "Traveler", "Kneeling Messenger", "Goatee Emissary", "Shamisen Master", "Four-eyed Shamisen Player", "Small Drum Player", "High-pitched Drum Player ", "Fife Player", "Kabuki Actor", "Appraiser", "Servant", "Chef", "Cook", "Old Master", "Harvest", "Calico Cat", "Chipmunk", "Baby Boar", "Penguin", "See-No-Evil Monkey", "Speak-No-Evil Monkey", "Hear-No-Evil Monkey", "Chicken", "Doggy", "Husky", "Red Crab", "Blue Crab", "Red Shrimp", "Giant Red Shrimp", "Mantis Shrimp", "Giant Mantis Shrimp", "Sea Urchin", "Salmon", "Snapper", "Eel", "Stingray", "Squid", "Crow", "Crane", "Wire Prop (Butterfly)", "Wire Prop (Bird)", "Big Origami Crane", "King Origami Crane", "36 Origami Cranes", "Deer", "Mole", "Cloth Roll"],
     "As Large As Possible (Sea)": ["Tomato", "Daikon Radish", "Cabbage", "Sweet Potato", "Garlic", "Carrot", "Parsley", "Onion", "Half Apple", "Rabbit Apple", "Green Apple", "Melon", "Melon With Raw Ham", "Peach", "Banana", "Banana Bunch", "Palm Fruit", "Coconut", "Half Coconut", "Pineapple", "Apple Basket", "Peach Basket", "Orange Basket", "French Country Bread", "Gigantic Pizza", "Cheese Wedge", "Swiss Cheese", "Whole Cheese", "Hanging Meat", "Turkey", "Salt-cured Meat", "Giant White Egg", "Squid Ink Pasta", "Curry", "Stew", "Pickles", "Fried Rice", "Roast Pork", "Dried Squid", "Chunk of Salmon", "Spiny Lobster", "Teacup", "Steel Goblet", "Butcher's Knife", "Steel Plate", "Food Bowl", "Sushi Boat", "Decorative Dish", "Tray (1)", "Cutting Board", "Salt Basket", "Cauldron", "Clay Stove", "Fish Drying Poles", "Fish Drying Net", "Broom", "Mop", "Dust Cloth", "Wooden Bucket", "Laundry Basket", "Washboard", "Stack of Books", "Western-Style Book", "Navy Book", "Handbook", "Logbook", "Library Book", "Scarlet Book", "Green Book", "Ink", "Quill Pen", "Inkstone", "Paperweight", "Calligraphy Brush", "Classroom Calligraphy - \"Bean\"", "Parchment", "Red Striped Shirt", "Ragged Vest", "Ragged Blouse", "Ragged Blue Vest", "Leather Boot", "Chime Bell", "Phonograph", "Ship Bell", "Music Box", "Piano", "Fishing Pole", "Bone Hook", "Dartboard", "Green Bottle", "Teal Bottle", "Olive Green Bottle", "Blue Bottle", "Wooden Bin", "Worn-out Wooden Bin", "Animal Cage", "Tiny Storage Box", "Cannonball Holder", "Barrel", "Empty Barrel", "Wooden Washtub", "Tin Watering Can", "Message In Bottle", "Urn", "Fruit Basket", "Jomon Pottery", "Blue Greek Jug", "Greek Pot & Lid", "Fancy Greek Pot", "Dolphin Carving", "Parrot Carving", "Mermaid Carving", "Lucky Cat", "Model Ship", "Ship In Bottle", "Portrait Painting", "Landscape Painting", "Lady Painting", "Shark Teeth", "Sword Display Stand", "Vase", "Fancy Vase", "Decorative Vase", "Novelty Plate", "Hanger", "Grooming Brush", "Magnifying Glass", "Toilet Paper Roll", "Grandfather Clock", "Mariner's Table", "Huge Table", "Table With Tablecloth", "Shelf", "Bonsai Stand", "Blue Rug", "Green Rug", "Drainboard", "Perch", "Wooden Crate", "Wide Wooden Crate", "Sack", "Slouched Sack", "Burlap Sack", "Big Burlap Sack", "Potted Cactus", "Potted Plant", "Potted Garden Plant", "Tropical Garden Plant", "Log Planter", "Sunflower", "Rose", "Metal Hammer", "Chisel", "Rope", "Coil of Rope", "Wooden Board", "Watermelon", "Half Watermelon", "Watermelon Slice", "Red & White Life Preserver", "Snorkel & Goggles", "Prehistoric Globe", "Spyglass", "Mortar", "Pestle", "Ammonite Fossil", "Big Coin", "Shachihoko", "Crown", "Golden Mask", "Sarcophagus", "Ruby", "Emerald", "Sapphire", "Iolite", "Suit of Armor", "Brooch", "Lamp", "Fire Basket", "Candle Stand", "Wax Candle", "Melted Wax Candle", "Anglerfish", "Ghost Sailor", "Barefoot Ghost", "Goatee Sailor", "Missing Boot Ghost", "Bandana Ghost", "Sitting Ghost", "Ghost Chef", "Ghost Captain", "Mariner's Chair", "Blue Deck Chair", "Red Deck Chair", "Seat Cushion", "Japanese Sword", "Katana", "Cutlass", "Knife", "Linstock", "Harpoon", "Antique Gun", "Ship Cannon", "Cannonball", "Bomb", "Blowfish", "Spider Web", "Balance Scale", "Pirate Compass", "Antique Hourglass", "Storm Glass", "Astrolabe", "Goddess Statue", "Sand Castle", "Bonsai", "Majestic Painting", "Easel", "Helm", "Paddle", "Rusted Anchor", "Helm Pedestal", "Samurai Armor", "Big Kokeshi", "Kappa", "Winners' Podium", "Prisoner", "Red Oni Mask", "Pebble", "Harvested Rice", "Sack of Wheat", "Doghouse", "Birdcage", "Blue Sunshade", "Steel Bars", "Partition", "Half Partition", "Broken Partition", "Broken Half Partition", "Belaying Pin Rail", "Ship Rail", "Diagonal Ship Rail", "Ghost Ship Railing", "Ghost Ship Fence", "Support Pillar", "Belaying Pin", "Nameplate", "Treasure Map", "Voyage Map", "Thin Tall Grass", "Wheat", "Flat Mushroom", "Treasure Chest", "Man In Pot", "Nik", "Whaleson", "Dangle", "Calico Cat", "Tabby Cat", "Siamese Cat", "Black Cat", "Tom Hoshino", "Penguin", "Flapjack Octopus", "Giant Flapjack Octopus", "Rat", "Mouse", "Rabbit", "Chicken", "Bulldog", "Piranha", "Electric Jellyfish", "Rainbow Jellyfish", "Comb Jelly", "Venus Flower Basket", "Huge Venus Flower Basket", "Giant Clam", "Pointy Shell", "Sea Snail Shell", "Big Clam", "Triangle Shell", "Univalve Shell", "Hermit Crab", "Algae Ball", "Seaweed", "Tall Seaweed", "Orange Flat Coral", "Lime Flat Coral", "Coral Reef", "Big Coral", "Red Coral", "Peach Coral", "Blue Coral", "Pink Coral", "Round Coral", "Big Round Coral", "Sea Anemone", "Ping-Pong Tree Sponge", "Red Crab", "Blue Crab", "Small Fiddler Crab", "Coconut Crab", "Spider Crab", "Horseshoe Crab", "Sea Urchin", "Starfish", "Salmon", "Mackerel Pike", "Snapper", "Carp", "Tuna", "Bonito", "Stingray", "Sunfish", "Fish Bones", "Striped Fish", "Merman", "Purple Mermaid", "Green Merman", "Relaxing Purple Mermaid", "Relaxing Green Merman", "Mermaid", "Squid", "Sea Turtle", "Large Sea Turtle", "Herring Gull", "Large Parrot", "Toucan", "Giant Chick", "Pig", "Giant Tortoise", "Captain Blackbeard", "Pirate", "Mariner With Cutlass", "New Crew Member", "Relaxing Bandana Crewman", "Sitting Bandana Crewman", "Sitting Sailor", "Gruff Sailor", "Deck Scrubber", "Red Sunbather", "Blue Sunbather", "Green Sunbather", "Swinging Couple", "Seagull Man", "Sailor In Barrel", "Man In Barrel", "Pirate Ship Man", "Guard Duty Sailor", "Sailor Tank Top", "Leather Vest", "Mariner's Hat", "Hook Hand", "Bundle of Scrolls", "Capstan", "Capstan Rod", "Fishing Net", "Glass Float", "Hanging Fish", "Swordfish", "Gold Axe", "Silver Axe", "Nautilus", "Anomalocaris", "Coelacanth"],
     "As Fast As Possible (Ghost Ship)": ["Tomato", "Sweet Potato", "Carrot", "Parsley", "Onion", "Half Apple", "Rabbit Apple", "Green Apple", "Melon", "Melon With Raw Ham", "Peach", "Banana", "Banana Bunch", "Palm Fruit", "Coconut", "Half Coconut", "Pineapple", "Apple Basket", "Peach Basket", "Orange Basket", "French Country Bread", "Gigantic Pizza", "Cheese Wedge", "Swiss Cheese", "Whole Cheese", "Hanging Meat", "Roast On Bone", "Turkey", "Salt-cured Meat", "Giant White Egg", "Squid Ink Pasta", "Curry", "Stew", "Pickles", "Fried Rice", "Roast Pork", "Dried Squid", "Chunk of Salmon", "Spiny Lobster", "Steel Goblet", "Butcher's Knife", "Steel Plate", "Food Bowl", "Sushi Boat", "Decorative Dish", "Tray (1)", "Cutting Board", "Salt Basket", "Cauldron", "Clay Stove", "Fish Drying Poles", "Broom", "Mop", "Dust Cloth", "Wooden Bucket", "Laundry Basket", "Washboard", "Stack of Books", "Navy Book", "Handbook", "Logbook", "Library Book", "Scarlet Book", "Green Book", "Ink", "Quill Pen", "Inkstone", "Paperweight", "Calligraphy Brush", "Classroom Calligraphy - \"Bean\"", "Parchment", "Red Striped Shirt", "Ragged Vest", "Ragged Blouse", "Ragged Blue Vest", "Leather Boot", "Ship Bell", "Music Box", "Fishing Pole", "Bone Hook", "Green Bottle", "Teal Bottle", "Olive Green Bottle", "Blue Bottle", "Wooden Bin", "Worn-out Wooden Bin", "Animal Cage", "Tiny Storage Box", "Cannonball Holder", "Barrel", "Empty Barrel", "Wooden Washtub", "Tin Watering Can", "Message In Bottle", "Urn", "Fruit Basket", "Jomon Pottery", "Fancy Greek Pot", "Mermaid Carving", "Lucky Cat", "Model Ship", "Ship In Bottle", "Portrait Painting", "Landscape Painting", "Lady Painting", "Shark Teeth", "Sword Display Stand", "Vase", "Fancy Vase", "Decorative Vase", "Hanger", "Grooming Brush", "Magnifying Glass", "Toilet Paper Roll", "Mariner's Table", "Huge Table", "Table With Tablecloth", "Shelf", "Blue Rug", "Green Rug", "Drainboard", "Perch", "Wooden Crate", "Wide Wooden Crate", "Sack", "Slouched Sack", "Burlap Sack", "Big Burlap Sack", "Potted Cactus", "Potted Plant", "Rose", "Rope", "Coil of Rope", "Wooden Board", "Watermelon", "Half Watermelon", "Watermelon Slice", "Red & White Life Preserver", "Prehistoric Globe", "Spyglass", "Mortar", "Pestle", "Ammonite Fossil", "Big Coin", "Shachihoko", "Golden Egg", "Crown", "Ruby", "Emerald", "Sapphire", "Iolite", "Suit of Armor", "Brooch", "Lamp", "Fire Basket", "Candle Stand", "Wax Candle", "Melted Wax Candle", "Ghost Sailor", "Barefoot Ghost", "Goatee Sailor", "Missing Boot Ghost", "Bandana Ghost", "Sitting Ghost", "Ghost Chef", "Ghost Captain", "Mariner's Chair", "Blue Deck Chair", "Red Deck Chair", "Seat Cushion", "Japanese Sword", "Katana", "Cutlass", "Knife", "Linstock", "Harpoon", "Antique Gun", "Ship Cannon", "Cannonball", "Bomb", "Blowfish", "Balance Scale", "Pirate Compass", "Antique Hourglass", "Storm Glass", "Haniwa", "Majestic Painting", "Helm", "Paddle", "Rusted Anchor", "Helm Pedestal", "Samurai Armor", "Big Kokeshi", "Kappa", "Winners' Podium", "Prisoner", "Red Oni Mask", "Harvested Rice", "Sack of Wheat", "Doghouse", "Birdcage", "Steel Bars", "Partition", "Half Partition", "Broken Partition", "Broken Half Partition", "Belaying Pin Rail", "Ship Rail", "Diagonal Ship Rail", "Ghost Ship Railing", "Ghost Ship Fence", "Support Pillar", "Belaying Pin", "Treasure Map", "Voyage Map", "Flat Mushroom", "Treasure Chest", "Johnson", "Nai-Nai", "Calico Cat", "Tabby Cat", "Siamese Cat", "Black Cat", "Tom Hoshino", "Penguin", "Rat", "Mouse", "Rabbit", "Chicken", "Bulldog", "Pointy Shell", "Sea Snail Shell", "Triangle Shell", "Univalve Shell", "Hermit Crab", "Red Crab", "Blue Crab", "Small Fiddler Crab", "Coconut Crab", "Spider Crab", "Sea Urchin", "Starfish", "Snapper", "Tuna", "Bonito", "Sunfish", "Fish Bones", "Squid", "Herring Gull", "Large Parrot", "Giant Chick", "Pig", "Captain Blackbeard", "Pirate", "Mariner With Cutlass", "Sailor With Cutlass", "Deck Sweeper", "Lackey", "New Crew Member", "Relaxing Bandana Crewman", "Sitting Bandana Crewman", "Sitting Sailor", "Gruff Sailor", "Blond Beard Sailor", "Seasick Sailor", "Sailor Girl", "Deck Scrubber", "Red Sunbather", "Blue Sunbather", "Swimming Sailor", "Swinging Couple", "Seagull Man", "Sailor In Barrel", "Man In Barrel", "Pirate Ship Man", "Guard Duty Sailor", "Sailor Tank Top", "Leather Vest", "Mariner's Hat", "Hook Hand", "Bundle of Scrolls", "Capstan", "Capstan Rod", "Fishing Net", "Glass Float", "Hanging Fish", "Swordfish", "Gold Axe", "Silver Axe", "Coelacanth"],
     "Perfect-Sized Skull": ["Half Coconut", "Star Fruit Slice", "Cornbread", "Cheese", "Sausage", "Octopus-shaped Wiener", "Fried Shrimp", "Canned Sardines", "Canned Salmon", "Dried Squid", "Canned Nuts", "Chocolate Pie", "Dried Seaweed", "Small Takoyaki", "Cup of Coffee", "Gold Cup", "Swizzle Stick", "Steel Goblet", "Shot Glass", "Cork", "Teaspoon", "Fork", "Sugar Cube", "Takoyaki Hotplate", "Blue Clothespin", "Library Book", "Thumbtack", "Clip", "Small B Pencil", "B Pencil", "H Pencil", "Scissors", "Ink", "Quill Pen", "Thin Paintbrush", "Parchment", "Earring", "Green Flat Marble", "Blue Flat Marble", "Red Marble", "Bone Hook", "Fishing Lure", "Dart", "Playing Cards", "Die", "Red Die", "Green Die", "Bishop (White)", "Knight (White)", "Pawn (White)", "Bishop (Black)", "Knight (Black)", "Pawn (Black)", "Cue Ball", "1 Ball", "2 Ball", "3 Ball", "4 Ball", "5 Ball", "6 Ball", "7 Ball", "8 Ball", "Ace of Diamonds", "Ace of Clubs", "6 of Clubs", "7 of Clubs", "8 of Clubs", "Ace of Hearts", "Ring Box", "Message In Bottle", "Soy Sauce Pack", "Wedding Picture", "Corkscrew", "Magnifying Glass", "Matchbox", "Match", "Button", "Lock", "Chest Key", "Bookmark", "Adhesive Bandage", "Wound Ointment", "Bandage", "Toothpick​", "Tree Frog", "Pocket Watch", "Airmail", "Stamp", "Coffee Bean", "Superglue", "Screw", "Magnet", "Old Coin", "Golden Lighter", "Gold Bar", "Diamond Ring", "Giant Diamond Ring", "Ruby Ring", "Emerald Ring", "Onyx Ring", "Ruby", "Emerald", "Sapphire", "Iolite", "Gold Coin", "Silver Coin", "Western Coin", "Pearl", "Brooch", "Fancy Key", "Jewelry Box", "Candle", "Melted Wax Candle", "Orange Candle", "Knife", "Toy Knife", "Arrow", "Antique Gun", "Bomb", "Pirate Compass", "Antique Hourglass", "Hygrometer", "Blue Paint Tube", "Green Paint Tube", "Black Paint Tube", "Red Paint Tube", "Yellow Paint Tube", "Gold Medal", "Silver Medal", "Bronze Medal", "Treasure Map", "Clover", "Magic Lamp", "Tadpole", "Advanced Tadpole", "Marny", "Clownfish", "Yellow Clownfish", "Green Clownfish", "Venus Flower Basket", "Conch (Aquarium)", "Pointy Shell", "Sea Snail Shell", "Big Clam", "Triangle Shell", "Scallop Shell", "Univalve Shell", "Hermit Crab", "Mini Algae Ball", "Small Fiddler Crab", "Freshwater Crab", "Red Shrimp", "Crayfish", "Sea Urchin", "Starfish", "Seahorse", "Goldfish", "Telescope Goldfish", "Killifish", "Angelfish", "Fish Bones", "Thread (Green)", "Thread (White)", "Thread (Red & White)", "Thread (Navy)", "Red Dress Pin", "Green Dress Pin", "Hook Hand", "Turtle Egg"],
     "Build a Ship": ["Melon", "Banana Bunch", "Grapes", "Palm Fruit", "Coconut", "Pineapple", "Dried Fish Lunch", "Roast On Bone", "Dried Fish", "Skewered Fish", "Milk Can", "Fancy Plate", "Outdoor Grill", "Fish Drying Poles", "Wooden Bucket", "Laundry Basket", "Washboard", "Red Striped Shirt", "Ragged Blue Vest", "Leather Boot", "Patchwork Rug", "Ship Bell", "Conga", "Music Box", "Axe", "Pickaxe", "Rocking Horse", "Fishing Pole", "Jumbo Kinsho", "Shogi Table", "Pool Table", "Green Bottle", "Teal Bottle", "Wooden Bin", "Worn-out Wooden Bin", "Animal Cage", "Cannonball Holder", "Barrel", "Empty Barrel", "Wooden Washtub", "Message In Bottle", "Wooden Coffin", "Bear Carving", "Dolphin Carving", "Parrot Carving", "Mermaid Carving", "Raccoon Figure", "Still Life Painting", "Hat Stand", "Display Stand", "Hammock", "Humanoid Robot", "Log Table", "Table With Tablecloth", "Shelf", "Bonsai Stand", "Wooden Outhouse", "Wooden Crate", "Giant Wooden Crate", "Wide Wooden Crate", "Giant Wide Wooden Crate", "Sack", "Slouched Sack", "Big Burlap Sack", "Potted Cactus", "Potted Plant", "Flower-Blooming Boots", "Sunflower", "Cactus Flower", "Stepping Board", "Ladder", "Coil of Rope", "Wooden Board", "Timber", "Thin Log", "Log (Tools)", "Stack of Logs", "Watermelon", "Wow Watermelon", "Giant Watermelon", "Half Watermelon", "Watermelon Smasher", "Firework Shell", "Red & White Life Preserver", "Beach Flag", "Pastel Beach Umbrella", "Yellow & Purple Beach Umbrella", "Cow Umbrella", "Sand Man", "Gold Pineapple", "Suit of Armor", "Deer Head Wall Mount", "Paper Lamp", "Lamp", "Fire Basket", "Wooden Torch", "Camp Fire", "Heated Table", "Snowman", "Abominable Snowman", "Yeti", "Ghost Sailor", "Barefoot Ghost", "Goatee Sailor", "Bandana Ghost", "Sitting Ghost", "Ghost Chef", "Ghost Captain", "Mariner's Chair", "Blue Deck Chair", "Green Deck Chair", "Red Deck Chair", "Stump", "Log Bench", "Cutlass", "Harpoon", "Ship Cannon", "Cannonball", "Barrel Bomb", "Warning Sign", "Bear Sign", "Sand Castle", "Giant Sandcastle", "Bonsai", "Easel", "Dog Doodle", "Cat Doodle", "Doodle of a Bird", "Turtle Doodle", "Helm", "Paddle", "Rusted Anchor", "Water Ninja", "Ninja on a Kite", "Tatami Mat", "Big Kokeshi", "Monk Statue", "Yuki Onna", "Inari Shrine", "Big Camp Fire", "Fireworks (Hydrangea)", "Fireworks (Peony)", "Daruma Doll", "Winners' Podium", "Red Oni", "Black Oni", "Good Thief", "Kintaro", "Firewood", "Bale of Rice", "Straw", "Scarecrow", "Pole Banner", "Monument", "Camping Tent", "Island House", "Log Cabin", "Igloo", "Doghouse", "Bird's Nest", "Birdcage", "Blue Stall", "Orange Stall", "Today's Price Sign", "Log (Facilities)", "Wooden Steps", "Wishing Well", "Food Storage House", "Primitive Log Fence", "Wooden Fence", "Long Wooden Fence", "Barbed Fence", "Partition", "Belaying Pin Rail", "Belaying Pin", "Post", "Sliding Door (Cherry Blossom)", "Sliding Door (Paper Fan)", "Stone Gate", "Shrine Gate", "Suspension Bridge", "Suspension Bridge Brace", "Western Signpost", "\"No Stealing Cows\" Sign", "Voyage Map", "Fir Tree", "Grape Tree", "Decorative Tree", "High Tree", "Banana Tree", "Lily Pad", "Giant Lily Pad", "Mini Tree", "Bush", "Bamboo", "Garden Plant (M)", "Dead Tree", "Big Dead Tree", "Mushroom", "Gigantic Mushroom", "Fairy Mushroom", "Rocks", "Pointy Garden Rock", "Log Boat", "Boat", "Trojan Rocking Horse", "Treasure Chest", "Junior Rafter", "Jomon Native", "Cowboy with a Shovel", "Jomon Paddler", "Lumberjack", "Chef", "June", "Nutsuo", "Calico Cat", "Siamese Cat", "Panda", "Duck", "Goose", "Penguin", "Seal", "Dairy Cow", "Jersey Cow", "Rabbit", "Horse Human", "White Sheep", "Black Sheep", "Monkey", "Speak-No-Evil Monkey", "Dog With Fleas", "Japanese Wolf", "Sun Bear", "Polar Bear", "Moon Bear", "Money Bear", "Shark", "Lion", "Electric Jellyfish", "Rainbow Jellyfish", "Red Shroom Jelly", "Giant Clam", "Seaweed", "Red Crab", "Coconut Crab", "Spider Crab", "Horseshoe Crab", "Salmon", "Snapper", "Tuna", "Dolphin", "Relaxing Purple Mermaid", "Octopus", "Sea Turtle", "Large Sea Turtle", "Herring Gull", "Bat", "Ostrich", "Deer", "Gorilla", "Giraffe", "Giant Tortoise", "Captain Blackbeard", "Mariner With Cutlass", "Rowdy Sailor", "Sailor With Cutlass", "Cold Shoulder Sailor", "Lackey", "New Crew Member", "Large Sailor", "Tall Sailor", "Braided Sailor", "Mr. Bandana", "Bald Sailor", "Relaxing Bandana Crewman", "Sitting Bandana Crewman", "Sitting Sailor", "Gluttonous Sailor", "Gruff Sailor", "Blond Beard Sailor", "Seasick Sailor", "Sailor Girl", "1st Place", "Face-Down Sailor", "Face-Down Bearded Sailor", "Workout Sailor", "Deck Scrubber", "Red Sunbather", "Blue Sunbather", "Green Sunbather", "Swinging Couple", "Seagull Man", "Sailor Hanging Out", "Sailor In Barrel", "Man In Barrel", "Pirate Ship Man", "Guard Duty Sailor", "Mariner's Hat", "Glass Float", "Sperm Whale", "Pegasus", "Canoe Mummy", "Deer-person", "Poseidon"],
-    "As Large As Possible (Race)": ["Boxed Tomatoes", "Boxed Mandarins", "Big Peach", "Palm Fruit", "Apple Basket", "Orange Basket", "Large Meat", "Milk Can", "Large Plate", "Fancy Plate", "Fruit Dish", "Sushi Boat", "Decorative Dish", "Fish Drying Rack", "Fish Drying Poles", "Fish Drying Net", "Tin Bucket", "Patchwork Rug", "Crank Gramophone", "Ship Bell", "Conga", "Guitar", "Harp", "Organ", "Straw Target Board", "Rocking Horse", "Fishing Pole", "Locked Wooden Chest", "Animal Cage", "Cannonball Holder", "Barrel", "Empty Barrel", "Tin Watering Can", "Model Ship", "Still Life Painting", "Portrait Painting", "Shark Teeth", "Porcelain Vase", "Decorative Vase", "Stepping Stone", "Blue Cloth Roll", "Green Cloth Roll", "Purple Cloth Roll", "Red Cloth Roll", "Yellow Cloth Roll", "Rush Mat", "Hammock", "Mariner's Table", "Barrel Table", "Log Table", "Wooden Table", "Bonsai Stand", "Red Rug", "Blue Rug", "Wooden Outhouse", "Wooden Crate", "Giant Wooden Crate", "Giant Wide Wooden Crate", "Sack", "Slouched Sack", "Potted Cactus", "Flower-Blooming Boots", "Flowerpots", "Topiary Duck", "Topiary Turtle", "Topiary Rabbit", "Topiary Deer", "White Flower Pot", "Flower Bucket", "Log Flower Bed", "Flower Shrubbery", "Rose Bouquet", "Ladder", "Bamboo Ladder", "Coil of Rope", "Timber", "Thin Log", "Log (Tools)", "Stack of Logs", "Watermelon", "Wow Watermelon", "Giant Watermelon", "Twig Pool Ring", "Red & White Life Preserver", "Polka-Dot Pool Ring", "Beachball", "Colorful Beach Umbrella", "Blue & White Beach Umbrella", "Green & White Beach Umbrella", "Pastel Beach Umbrella", "Yellow & Purple Beach Umbrella", "Cow Umbrella", "Sand Man", "Prehistoric Globe", "Ammonite Fossil", "Fossil", "Shachihoko", "Big Gold Ore", "Money Bag", "Wooden Torch", "Camp Fire", "Ice Spire", "Ghost Sailor", "Barefoot Ghost", "Sitting Ghost", "Ghost Captain", "Mariner's Chair", "Blue Deck Chair", "Green Deck Chair", "Red Deck Chair", "Log Bench", "Cutlass", "Trident", "Harpoon", "Ship Cannon", "Cannonball", "Barrel Bomb", "Toy Bomb", "Danger Sign", "Sand Castle", "Giant Sandcastle", "Easel", "Helm", "Paddle", "Rusted Anchor", "Log Oar", "Water Ninja", "Taiko Drum", "Big Camp Fire", "Fireworks (Hydrangea)", "Fireworks (Peony)", "Trophy", "Winners' Podium", "Harvested Rice", "Straw", "Scarecrow", "Pole Banner", "Cow Banner", "Biker Flag", "Triangle Flags", "Statue Base", "Camping Tent", "Island House", "Log Cabin", "Igloo", "Doghouse", "Red Sunshade", "Blue Sunshade", "Takoyaki Stand", "Blue Stall", "Orange Stall", "Log (Facilities)", "Wooden Steps", "Food Storage House", "Primitive Log Fence", "Log Fence", "Fence", "Long Wooden Fence", "Barbed Fence", "Partition", "Half Partition", "Broken Partition", "Broken Half Partition", "Belaying Pin Rail", "Stone Gate", "Primitive Traffic Signal", "Wooden Lamp Post", "Suspension Bridge Brace", "\"On Sale\" Banner", "Blowfish Model", "\"No Stealing Cows\" Sign", "Flag Buoy", "Voyage Map", "Fir Tree", "Decorative Tree", "Tree", "Tree-Swing Tree", "Palm Tree", "Spherical Tree", "High Tree", "Lily Pad", "Giant Lily Pad", "Thin Tall Grass", "Tall Grass", "Mini Tree", "Bush", "Garden Plant (M)", "Big Dead Tree", "Mushroom (L)", "Gigantic Mushroom", "Fairy Mushroom", "Flat Mushroom", "Flower Tumbleweed", "Giant Flower Tumbleweed", "Giant Cactus Ball", "Giant Fuzzball", "Big Pebble", "Floating Island", "Log Boat", "Boat", "Papyrus Boat", "Ferryboat", "Swan Boat", "Raft", "Treasure Chest", "Greek Child & Horsey", "Can-Can", "Drive", "Potty", "Penguin", "Seal", "Giant Flapjack Octopus", "Dairy Cow", "Jersey Cow", "Strawberry Cow", "White Sheep", "Black Sheep", "Husky", "Sun Bear", "Polar Bear", "Shark", "Killer Whale", "Big Bivalve", "Giant Clam", "Big Clam", "Seaweed", "Tall Seaweed", "Spider Crab", "Giant Mantis Shrimp", "Napoleonfish", "Tuna", "Dolphin", "Sunfish", "Oarfish", "Merman", "Mermaid", "Octopus", "Large Sea Turtle", "Wings", "Deer", "Captain Blackbeard", "Pirate", "Mariner With Cutlass", "Bearded Sailor", "Rowdy Sailor", "Sailor With Cutlass", "Bandana Sailor", "Cold Shoulder Sailor", "Lackey", "New Crew Member", "Large Sailor", "Tall Sailor", "Bald Sailor", "Relaxing Bandana Crewman", "Sitting Bandana Crewman", "Sitting Sailor", "Gluttonous Sailor", "Gruff Sailor", "Blond Beard Sailor", "Seasick Sailor", "Relaxing Sailor", "Sailor Girl", "1st Place", "Face-Down Sailor", "Face-Down Bearded Sailor", "Workout Sailor", "Deck Scrubber", "Red Sunbather", "Blue Sunbather", "Green Sunbather", "Flutter-Kick Sailor", "Swinging Couple", "Seagull Man", "Sailor In Barrel", "Man In Barrel", "Pirate Ship Man", "Guard Duty Sailor", "Hanging Fish", "Swordfish", "Sperm Whale", "Driftwood", "Pegasus", "Canoe Mummy", "Poseidon", "Ammonite", "Coelacanth", "Dunkleosteus", "Stethacanthus Cosplayer"],
+    "As Large As Possible (Race)": ["Boxed Tomatoes", "Boxed Mandarins", "Big Peach", "Palm Fruit", "Apple Basket", "Orange Basket", "Large Meat", "Milk Can", "Large Plate", "Fancy Plate", "Fruit Dish", "Sushi Boat", "Decorative Dish", "Fish Drying Rack", "Fish Drying Poles", "Fish Drying Net", "Tin Bucket", "Patchwork Rug", "Crank Gramophone", "Ship Bell", "Conga", "Gong", "Guitar", "Harp", "Organ", "Straw Target Board", "Rocking Horse", "Fishing Pole", "Locked Wooden Chest", "Animal Cage", "Cannonball Holder", "Barrel", "Empty Barrel", "Tin Watering Can", "Model Ship", "Still Life Painting", "Portrait Painting", "Shark Teeth", "Porcelain Vase", "Decorative Vase", "Stepping Stone", "Blue Cloth Roll", "Green Cloth Roll", "Purple Cloth Roll", "Red Cloth Roll", "Yellow Cloth Roll", "Rush Mat", "Hammock", "Mariner's Table", "Barrel Table", "Log Table", "Wooden Table", "Bonsai Stand", "Red Rug", "Blue Rug", "Wooden Outhouse", "Wooden Crate", "Giant Wooden Crate", "Giant Wide Wooden Crate", "Sack", "Slouched Sack", "Potted Cactus", "Flower-Blooming Boots", "Flowerpots", "Topiary Duck", "Topiary Turtle", "Topiary Rabbit", "Topiary Deer", "White Flower Pot", "Flower Bucket", "Log Flower Bed", "Flower Shrubbery", "Sunflower", "Rose Bouquet", "Ladder", "Bamboo Ladder", "Coil of Rope", "Timber", "Thin Log", "Log (Tools)", "Stack of Logs", "Watermelon", "Wow Watermelon", "Giant Watermelon", "Twig Pool Ring", "Red & White Life Preserver", "Polka-Dot Pool Ring", "Beachball", "Colorful Beach Umbrella", "Blue & White Beach Umbrella", "Green & White Beach Umbrella", "Pastel Beach Umbrella", "Yellow & Purple Beach Umbrella", "Cow Umbrella", "Sand Man", "Prehistoric Globe", "Ammonite Fossil", "Fossil", "Shachihoko", "Big Gold Ore", "Money Bag", "Wooden Torch", "Camp Fire", "Ice Spire", "Ghost Sailor", "Barefoot Ghost", "Sitting Ghost", "Ghost Captain", "Mariner's Chair", "Blue Deck Chair", "Green Deck Chair", "Red Deck Chair", "Log Bench", "Cutlass", "Trident", "Harpoon", "Ship Cannon", "Cannonball", "Barrel Bomb", "Toy Bomb", "Danger Sign", "Sand Castle", "Giant Sandcastle", "Easel", "Helm", "Paddle", "Rusted Anchor", "Log Oar", "Water Ninja", "Taiko Drum", "Big Camp Fire", "Fireworks (Hydrangea)", "Fireworks (Peony)", "Trophy", "Winners' Podium", "Charcoal Barrel", "Harvested Rice", "Straw", "Scarecrow", "Pole Banner", "Cow Banner", "Biker Flag", "Triangle Flags", "Statue Base", "Camping Tent", "Island House", "Log Cabin", "Igloo", "Doghouse", "Red Sunshade", "Blue Sunshade", "Takoyaki Stand", "Blue Stall", "Orange Stall", "Log (Facilities)", "Wooden Steps", "Food Storage House", "Primitive Log Fence", "Log Fence", "Fence", "Long Wooden Fence", "Barbed Fence", "Partition", "Half Partition", "Broken Partition", "Broken Half Partition", "Belaying Pin Rail", "Stone Gate", "Primitive Traffic Signal", "Wooden Lamp Post", "Suspension Bridge Brace", "\"On Sale\" Banner", "Blowfish Model", "\"No Stealing Cows\" Sign", "Flag Buoy", "Voyage Map", "Fir Tree", "Decorative Tree", "Tree", "Tree-Swing Tree", "Palm Tree", "Spherical Tree", "High Tree", "Lily Pad", "Giant Lily Pad", "Thin Tall Grass", "Tall Grass", "Mini Tree", "Bush", "Garden Plant (M)", "Big Dead Tree", "Mushroom (L)", "Gigantic Mushroom", "Fairy Mushroom", "Flat Mushroom", "Flower Tumbleweed", "Giant Flower Tumbleweed", "Giant Cactus Ball", "Giant Fuzzball", "Big Pebble", "Floating Island", "Log Boat", "Boat", "Papyrus Boat", "Ferryboat", "Swan Boat", "Raft", "Treasure Chest", "Greek Child & Horsey", "Can-Can", "Drive", "Potty", "Penguin", "Seal", "Giant Flapjack Octopus", "Dairy Cow", "Jersey Cow", "Strawberry Cow", "White Sheep", "Black Sheep", "Husky", "Sun Bear", "Polar Bear", "Shark", "Killer Whale", "Big Bivalve", "Giant Clam", "Big Clam", "Seaweed", "Tall Seaweed", "Spider Crab", "Giant Red Shrimp", "Giant Mantis Shrimp", "Napoleonfish", "Tuna", "Dolphin", "Sunfish", "Oarfish", "Merman", "Mermaid", "Octopus", "Large Sea Turtle", "Wings", "Deer", "Captain Blackbeard", "Pirate", "Mariner With Cutlass", "Bearded Sailor", "Rowdy Sailor", "Sailor With Cutlass", "Bandana Sailor", "Cold Shoulder Sailor", "Lackey", "New Crew Member", "Large Sailor", "Tall Sailor", "Bald Sailor", "Relaxing Bandana Crewman", "Sitting Bandana Crewman", "Sitting Sailor", "Gluttonous Sailor", "Gruff Sailor", "Blond Beard Sailor", "Seasick Sailor", "Relaxing Sailor", "Sailor Girl", "1st Place", "Face-Down Sailor", "Face-Down Bearded Sailor", "Workout Sailor", "Deck Scrubber", "Red Sunbather", "Blue Sunbather", "Green Sunbather", "Flutter-Kick Sailor", "Swinging Couple", "Seagull Man", "Sailor In Barrel", "Man In Barrel", "Pirate Ship Man", "Guard Duty Sailor", "Hanging Fish", "Swordfish", "Sperm Whale", "Driftwood", "Pegasus", "Canoe Mummy", "Poseidon", "Ammonite", "Coelacanth", "Dunkleosteus", "Stethacanthus Cosplayer"],
     "Philosopher Hunt": ["Pumpkin", "Greek Salad", "Carrot", "Bamboo Shoot", "Green Pumpkin", "Apple", "Mandarin", "Big Pear", "Banana Bunch", "Grapes", "Muscat Grapes", "Half Lemon", "Fig Bowl", "Olive Branch", "Box of Apples", "Box of Grapes", "Box of Muscat Grapes", "Box of Pears", "Apple Basket", "Peach Basket", "Orange Basket", "French Country Bread", "Tiny Bread", "Bread Slice", "Baguette", "Cheese Wedge", "Whole Cheese", "Hanging Meat", "Roast On Bone", "Large Meat", "Salt-cured Meat", "Greek Lunch", "Baumkuchen Cake", "Skewered Fish", "Steel Plate", "Wooden Bucket", "Soap", "Stack of Books", "Clay Tablet", "Book of Philosophy", "History Textbook", "Scarlet Book", "Green Book", "Parchment", "Greek Toga", "Laurel Wreath", "Strap Sandal", "Bouzouki", "Kithara", "Grand Harp", "Sumo Wrestler", "Spartan Soldier", "Spartan Warrior & Dory", "Spartan Warrior & Xiphos", "Phalanx Formation", "Spartan Student", "Relaxing Spartan Soldier", "Spartan Teacher", "Huge Rhyton", "Kylix", "Kantharos", "Skyphos", "Wooden Bin", "Large Basket", "Wash Bucket", "Wood Bucket", "Barrel", "Fruit Basket", "Greek Pot", "Blue Greek Jug", "Greek Water Pitcher", "Tall Greek Jug", "Big Greek Pot", "Greek Pot & Lid", "Fancy Greek Pot", "Hanging Pots", "Minoan Pottery Basket", "Lucky Cat", "Vase", "Fancy Vase", "Novelty Plate", "Concave Mirror", "Blue Cloth Roll", "Green Cloth Roll", "Purple Cloth Roll", "Red Cloth Roll", "Yellow Cloth Roll", "Huge Table", "Marketplace Table", "Table With Tablecloth", "Burlap Sack", "Big Burlap Sack", "Greek Potted Plant", "Potted Garden Plant", "Tropical Garden Plant", "Elephant Watering Can", "White Flower Basket", "Brown Flower Basket", "White Flower Pot", "Black Flower Pot", "Flower Bed", "Red Tulip", "White Tulip", "Yellow Tulip", "Rose", "Cactus Flower", "Peony (Red)", "Peony (Pink) (Large)", "Peony (White) (Large)", "Surprise Peony", "Red Tulip Flower", "White Tulip Flower", "Yellow Tulip Flower", "Pink Tulip Flower", "Hibiscus", "Cosmea", "Orange Cosmea", "Marguerite", "Chrysanthemum", "Asters", "Chrysanthemums", "Cosmeas", "Sculpting Hammer", "Metal Hammer", "Chisel", "Small Anvil", "Medium Anvil", "Big Anvil", "Ladder", "Plywood Board", "Wooden Hammer", "Prehistoric Globe", "Shachihoko", "Crown", "Scepter", "Slim Fire Pit", "Big Fire Pit", "Antique Lantern", "Torch", "Camp Fire", "Round Stool", "Stool", "Greek Chair", "School Chair", "Gladius", "Spartan Dory", "Labrys", "Club", "Cupid's Arrow", "Cupid's Bow", "Spartan Shield", "Spartan Helmet", "Balance Scale", "Haniwa", "Haniwa Man", "Horse Haniwa", "Warrior Helmet Haniwa", "Flying Squirrel Haniwa", "Heart-Shaped Clay Figure", "Theater Mask", "Human Statue", "1st Generation Bust", "2nd Generation Bust", "3rd Generation Bust", "4th Generation Bust", "5th Generation Bust", "Bathhouse Samurai", "Goldfish (Festival)", "Guitar Prisoner", "Yellow Oni", "School Desk", "Firewood", "Sack of Wheat", "Doghouse", "Welcome Mat", "Wooden Wall", "Wheat", "Mushroom", "Fairy Mushroom", "Grass Clump", "Trojan Rocking Horse", "Cupid", "Bow & Arrow Cupid", "Relaxing Cupid", "Rich Boy", "Greek Child", "Greek Child & Horsey", "Relaxing Greek Child", "Bathhouse Greek Child", "Alexander", "Inner Tube Kid", "Kickboard Boy", "Man In Pot", "Ancient Greek", "Red Toga Greek", "Relaxing Greek Citizen", "Greek With Cane", "Lazy Greek", "Greek Woman", "Relaxing Greek Woman", "Wandering Man", "Bathhouse Greek", "Sitting Bathhouse Greek", "Nearly Naked Greek", "Ancient Greek Earthling", "Gray Toga Guy", "Plump Greek", "Noble Greek Woman", "Master Carpenter", "Goliath", "Greek Merchant", "Greek Singer", "Greek Blacksmith Boy", "Construction Worker", "Snake Lover", "Blacksmith", "Sculptor", "Socrates", "Plato", "Pythagoras", "Archimedes", "Homer", "Thales", "Aristotle", "Heraclitus", "Harp Player", "Kithara Player", "Bouzouki Player", "Torch Runner", "Race Official", "Marcy", "Calico Cat", "Tabby Cat", "Siamese Cat", "Black Cat", "Tom Hoshino", "Flying Squirrel", "Chipmunk", "Duckling", "Duck", "Rat", "Rabbit", "Monkey", "Chicken", "Doggy", "Dog With Fleas", "Spartan Doggy", "Nile Perch", "Snapper", "Fish Bones", "Merman", "Mermaid", "Octopus", "Pigeon", "Vulture", "Deer", "Frill-necked Lizard", "Giant Tortoise", "Spider", "Hanging Fish", "Centaur", "Minotaur", "Cactus Man", "Three-headed Shiba", "Broken Column"],
     "Light the Sacred Fire": ["Daikon Radish", "Daikon Radishes", "Pumpkin", "Corn", "Greek Salad", "Carrot", "Green Pumpkin", "Apple", "Green Apple", "Half Melon", "Banana", "Banana Bunch", "Grapes", "Muscat Grapes", "Coconut", "Half Coconut", "Fig Bowl", "Persea", "Half Guava", "Red Berry Harvest", "Green Berries", "Box of Apples", "French Country Bread", "Tiny Bread", "Bread Slice", "Bacon Knot", "Pretzel", "Bread Loaf", "Baguette", "Bratwurst", "Cheese Wedge", "Big Cheese Slice", "Swiss Cheese", "Blue Cheese", "Whole Cheese", "Roast On Bone", "Roast Turkey", "Salt-cured Meat", "Giant White Egg", "Steak", "Greek Lunch", "Bean Soup", "Pickles", "Grilled Fish", "Skewered Fish", "Rice Skewer", "Melon Soda", "Ginger Soda", "Orange Soda", "Apple Juice Bottle", "Stamina Drink", "Berry Soda", "Cream Soda", "Cola", "Drink Tap", "Butcher's Knife", "Plate", "Fruit Dish", "Decorative Dish", "Cutting Board", "Toaster", "Cauldron", "Wooden Bucket", "Laundry Basket", "Faucet", "Stack of Books", "Western-Style Book", "Navy Book", "Clay Tablet", "Book of Philosophy", "Parchment", "Greek Toga", "Fake Top Knot", "Cowboy Hat", "Laurel Wreath", "Leather Boot", "Strap Sandal", "Gold Sandal (Right)", "Gold Sandal (Left)", "Cowbell", "Shakuhachi", "Pan Flute", "Recorder", "Trumpet", "Cassette Radio", "Kendo Mask", "Soccer Ball", "Dodgeball", "Baseball Bat", "Home Plate", "Flagstick", "Dumbbell", "Balance Toy", "Temari Ball", "Fishing Pole", "Red Balloon", "Blue Balloon", "Yellow Balloon", "Green Balloon", "Pink Balloon", "Dartboard", "Calabash", "Huge Rhyton", "Rhyton", "Basket", "Wooden Bin", "Worn-out Wooden Bin", "Large Basket", "Wash Bucket", "Greek Pot", "Big Greek Pot", "Bear Carving", "Dolphin Carving", "Parrot Carving", "Mermaid Carving", "Oni Tile", "Wooden Staff", "Mosquito Repellent", "Wooden Crate (Fragile)", "Burlap Sack", "Watering Pot", "Planting Fence", "White Flower Basket", "Brown Flower Basket", "Golden Cracker Flower", "Red Flower Pot", "Blue Flower Pot", "Red Tulip", "White Tulip", "Yellow Tulip", "Pink Tulip", "Golden Rose", "Bouquet of Golden Roses", "Rose", "Rose Bouquet", "Hygrangea (Pink) (Large)", "Hydrangea Flowers", "Kale (Purple)", "Kale", "Peony (Red)", "Peony (Pink) (Large)", "Peony (White) (Large)", "Sunflower Head", "Bullhorn", "Blacksmith Hammer", "Chisel", "Small Anvil", "Coil of Rope", "Plywood Board", "Wooden Board", "Half Watermelon", "Paper Fan", "Twig Pool Ring", "Spyglass", "Ivory", "Ammonite Fossil", "Golden Apple", "Agamemnon Mask", "Mini Gold Ore", "Medium Gold Ore", "Golden Egg", "Gold Bar", "Gold Bars", "Expensive Clock", "Money Bag", "Silver Nugget", "Deer Head Wall Mount", "Scepter", "Paper Lantern (Luminous)", "Lantern", "Lamp", "Fire Basket", "Antique Lantern", "Torch", "Camp Fire", "Round Straw Mat", "Seat Cushion", "Katana", "Bamboo Sword", "Wooden Sword", "Gladius", "Khopesh", "Cutlass", "Epic Sword", "Spartan Dory", "Labrys", "Cupid's Arrow", "Cupid's Bow", "Crossbow", "Wooden Shield", "Spartan Shield", "Cannonball", "Spartan Helmet", "Spartan Armor", "Balance Scale", "Waterfowl Haniwa", "Theater Mask", "Kokeshi Doll", "Big Kokeshi", "Will-o'-the-Wisp", "Trophy", "Top Step", "2nd Step", "3rd Step", "4th Step", "5th Step", "Firewood", "Emblem", "Bird's Nest", "Belaying Pin", "Treasure Map", "Voyage Map", "Bamboo Internode", "Dead Tree", "Mushroom", "Gigantic Mushroom", "Field Liner", "Wagon Wheel", "Candy Boot", "Macho", "Weathercock", "Wool Roll", "Bundle of Scrolls", "Silver Axe"],
-    "Lots of Roses": ["Bouquet of Golden Roses", "Rose", "Rose Bouquet", "White Rose", "Yellow Rose", "Red Rose Crown", "White Rose Crown", "Yellow Rose Crown", "Blue Rose Crown", "Ancient Greek Earthling", "Kenta", "Red Rose Princess", "White Rose Princess", "Yellow Rose Princess", "Blue Rose Princess", "Black Rose Princess", "White Rose Prince", "Yellow Rose Prince", "Blue Rose Prince", "Black Rose Prince", "Red Rose Fairy", "White Rose Fairy", "Yellow Rose Fairy", "Blue Rose Fairy", "The Prince Angel"],
+    "Lots of Roses": ["Bouquet of Golden Roses", "Rose", "Rose Bouquet", "White Rose", "Yellow Rose", "Red Rose Crown", "White Rose Crown", "Yellow Rose Crown", "Blue Rose Crown", "Ancient Greek Earthling", "Kenta", "Red Rose Princess", "White Rose Princess", "Yellow Rose Princess", "Blue Rose Princess", "Black Rose Princess", "Red Rose Prince", "White Rose Prince", "Yellow Rose Prince", "Blue Rose Prince", "Black Rose Prince", "Red Rose Fairy", "White Rose Fairy", "Yellow Rose Fairy", "Blue Rose Fairy", "The Prince Angel"],
     "Hurry, the Roses": ["Rose", "Rose Bouquet", "White Rose", "Yellow Rose", "Red Rose Crown", "White Rose Crown", "Yellow Rose Crown", "Blue Rose Crown", "Black Rose Crown", "Greek With Cane", "Dipp", "Yellow Rose Princess", "Blue Rose Princess", "Red Rose Prince", "Yellow Rose Prince", "Blue Rose Prince", "Black Rose Prince", "Red Rose Fairy", "White Rose Fairy", "Yellow Rose Fairy", "Blue Rose Fairy", "Black Rose Fairy", "The Prince Angel"],
     "As Large As Possible 3": ["Tomato", "Daikon Radish", "Daikon Radishes", "Chinese Cabbages", "Cabbage", "Pumpkin", "Corn", "Wasabi", "Edamame", "Chili Pepper", "Golden Corn", "Fava Bean", "Carrot", "Cucumber", "Parsley", "Eggplant", "Onion", "Bamboo Shoot", "Green Onion", "Green Pumpkin", "Salad", "Purple Cabbage", "Spinach Bundle", "Boxed Tomatoes", "Boxed Green Peppers", "Turnip", "Strawberry", "Giant Strawberry", "Apple", "Rabbit Apple", "Green Apple", "Half Melon", "Melon", "Mandarin Peel", "Boxed Mandarins", "Coconut", "Half Coconut", "Loquat", "Half Lime", "Strawberry Jam", "Marmalade", "Box of Apples", "Apple Basket", "Peach Basket", "Orange Basket", "Rice Bowl", "Kebab", "Egg", "Fried Egg", "Daikon Radish Salad", "California Roll", "Fried Shrimp", "Fu (Food)", "Purple Star Candy", "Dried Squid", "Manju Ball", "Rakugan", "Rice Cracker", "Giant Rice Cracker", "Castella", "Sweet Bean Pastry", "Dried Mochi", "Tuna Sushi", "Fatty Tuna Sushi", "Squid Sushi", "Octopus Sushi", "Shrimp Sushi", "Egg Sushi", "Mackerel Sushi", "Salmon Roe Roll", "Cucumber Roll", "Tuna Roll", "Uncut Sushi Roll", "Sashimi Boat", "Pickled Plum", "Cylindrical Rice Ball", "Soba Noodles", "Pickle Tub", "Pickled Radish", "Chikuwa", "Straw Natto", "Fish Cake Slice", "Grilled Fish", "Chunk of Salmon", "Skewered Fish", "Takoyaki One Bite", "Takoyaki", "Okonomiyaki", "Variety Lunch Box", "Tofu", "Kitsune Udon", "Pork Bowl", "Spiny Lobster", "Hot Pot", "Square Mochi", "Ramune Drink", "Lemon Water", "Matcha", "Malted Rice Drink", "Tea Caddy", "Tea Ceremony Bamboo Spoon", "Canned Tea", "Teapot", "Teacup", "Kettle", "Shot Glass", "Cute Teapot", "Rice Scoop", "Ladle", "Kitchen Knife", "Butcher's Knife", "Wooden Peeler", "Spatula", "Side Dish Bowl", "Expensive Plate", "Round Plate", "Plate", "Large Plate", "Fancy Plate", "Fruit Dish", "Chinese Bowl", "Wooden Dish", "Sushi Boat", "Soy Sauce Bottle", "Soy Sauce", "Sugar", "Miso Paste", "Round Tray", "Tray (1)", "Tray Table", "Cutting Board", "Salt Basket", "Chopsticks", "Camping Pot", "Tiered Lunch Box", "Bamboo Steamer Lid", "Bamboo Steamer", "Takoyaki Hotplate", "Irori Pot", "Shabu-Shabu Pot", "Wok", "Rice Container", "Rice Pot", "Clay Stove", "Cooking Pot", "Fish Drying Poles", "Fish Drying Net", "Bamboo Broom", "Powder Ball", "Dustpan", "Store Dustpan", "Dust Cloth", "Garbage Disposal Area", "Old Magazines", "Old Books", "Laundry Deck", "Laundry Pole", "Soap", "Washtub", "Stack of Books", "Japanese-style Book", "Edo Book", "Mino Book", "Edo Comics", "History Textbook", "School Library Book", "Paperback Book", "Animal Book", "Plant Book", "Bird Illustrations", "Home Medicine Book", "Purple Book", "Wood Carving Knife", "Baren", "Inkstone", "India Ink", "Small Ink Block", "Paperweight", "Calligraphy Brush", "Yatate", "Calligraphy", "Classroom Calligraphy - \"Bean\"", "Classroom Calligraphy - \"Balloon\"", "Classroom Calligraphy - \"Mother\"", "Abacus", "Kimono", "Plain Short Sleeves", "Arrow Feather Patterned Kimono", "Green Short Sleeves", "Short-sleeve Kimono", "Sky Blue Short Sleeves", "Straw Hat", "Black Bachi Hairpin", "Red Bachi Hairpin", "Black Comb Hairpin", "Red Comb Hairpin", "Zori", "Powder Brush", "Glasses", "Big Magatama", "Wind Chime", "Rattle", "Gong", "Mini Hand Drum", "Large Hand Drum", "Tightened Drum", "Wooden Fish Gong", "Wooden Fish Mallet", "Biwa", "Shamisen", "Koto", "Shakuhachi", "Conch (Audio)", "Court Musician Drummer", "Kendo Mask", "Straw Dummy", "Cut Straw Dummy", "Straw Target Board", "Judo Practitioner", "Sumo Wrestler", "Sumo Referee", "Axe", "Dumbbell", "Origami Samurai", "Hime-Daruma", "Ichimatsu Doll", "Shell Top", "Red Beanbag", "Green Beanbag", "Blue Beanbag", "Red Cylinder Toy Block", "Blue Cylinder Toy Block", "Yellow Square Toy Block", "Red Square Toy Block", "Blue Triangle Toy Block", "Yellow Triangle Toy Block", "Paper Ball", "Temari Ball", "Red Marble", "Blue Marble", "Dragon Kite", "Pinwheel", "Party Blower", "Japanese Cup & Ball", "Rocking Horse", "Floating Ring", "Castle Model", "Kiddie Bucket", "Kaleidoscope", "Fishing Pole", "Bone Hook", "Fishing Lure", "Daruma Head", "Daruma Body (Yellow)", "Daruma Body (Green)", "Daruma Body (Red)", "Daruma Body (Blue)", "Shogi Table", "Shogi Piece Stand", "White Go Stone", "Black Go Stone", "Go Board", "Hyakunin Isshu (Kimono)", "Hyakunin Isshu (Mikado)", "Fortune Dispenser", "Calabash", "Striped Bowl", "Bamboo Water Vessel", "Balancing Rod", "Iron Kettle", "Basket", "Animal Cage", "Suggestion Box", "Empty Coin Box", "Wooden Case", "Wood Box", "Large Basket", "Insect Cage", "Cannonball Holder", "Wash Bucket", "Small Wash Bucket", "Wood Bucket", "Wooden Washtub", "Rainwater Bucket", "Tin Watering Can", "Goldfish Bowl", "Sweets Container", "Coin Purse", "Urn", "Bear Carving", "Lucky Cat", "Raccoon Dog Statue", "Paper Tiger", "Fish Print", "Deer Horn", "Sword Display Stand", "Vase", "Fancy Vase", "Decorative Vase", "Novelty Plate", "Large Novelty Plate", "Oni Tile", "Garden Rock", "Stepping Stone", "Snowflake", "Display Stand", "Shoe Display Stand", "Blue Cloth Roll", "Green Cloth Roll", "Purple Cloth Roll", "Red Cloth Roll", "Yellow Cloth Roll", "Straw Mat", "Magnifying Glass", "Japanese Matchbox", "Air Freshener", "Mosquito Repellent", "Cushion", "Rush Mat", "Bandage", "Stomach Medicine", "Dessert Cutter", "Toothpick​", "Japanese Umbrella", "Red Umbrella", "Snail", "Tree Frog", "Toad", "Rain-prevention Doll", "Winding Key", "Log Table", "Marketplace Table", "Desk", "Wooden Table", "Shelf", "Step Stool", "Bonsai Stand", "Bookstand", "Telephone Stand", "Cabinet", "Drainboard", "Armrest", "Wicker Basket", "Futon", "Express Courier", "Food Delivery Box", "Sack", "Slouched Sack", "Burlap Sack", "Big Burlap Sack", "Bundle", "Plant Pattern Sack", "Sprout", "Morning Glory", "Flowerpots", "Soybean", "Sunflower Seed", "Elephant Watering Can", "Water Scoop", "Planting Fence", "Dried Kelp", "White Flower Basket", "Brown Flower Basket", "Golden Cracker Flower", "Flower Bucket", "Log Flower Bed", "Dandelion", "Sunflower", "Peony (Pink) (Small)", "Red Tulip Flower", "White Tulip Flower", "Yellow Tulip Flower", "Pink Tulip Flower", "Red Morning Glory", "Blue Morning Glory", "Aster", "Toolbox", "Roof Tile", "Wooden Board", "Log (Tools)", "Wooden Hammer", "Watermelon", "Wow Watermelon", "Giant Watermelon", "Half Watermelon", "Watermelon Slice", "Paper Fan", "Folding Fan (Summer)", "Firework", "Sparkler Set", "Fireworks Kit", "Boxed Fireworks", "Firework Shell", "Beachball", "Cicada", "Mosquito Coil", "Shaved Ice (Strawberry)", "Shaved Ice (Melon)", "Shaved Ice (Blue Hawaii)", "Blue Hawaii Syrup", "Melon Syrup", "Samurai Governor", "Samurai Patroller", "Samurai Thief Hunter", "Samurai Thief Hunter (Paper Lantern)", "Spyglass", "Compass", "Magnet", "Test Tube Set", "Mortar", "Pestle", "Butterfly Specimens", "Ammonite Fossil", "Golden Apple", "Old Coin", "Shachihoko", "Ruby", "Emerald", "Sapphire", "Iolite", "1 Mon Coin", "Ancient Coin Slab", "Deer Head Wall Mount", "Pearl", "Tsuba", "Froggy Bank", "Tiger Skin", "Coin Box", "Paper Lamp", "Wealthy Lamp", "Paper Lantern (Luminous)", "White Lantern", "Red Paper Lantern", "Giant Paper Lantern", "Red Garden Lantern", "Street Lantern", "Fire Basket", "Candle", "Wooden Torch", "Kettle Stand", "Hibachi", "Wide Hibachi", "Fire Striker", "Kamaburo", "Camp Fire", "Frozen Pufferfish", "Cushioned Chair", "Round Straw Mat", "Wooden Bench", "Stump", "Seat Cushion", "Long Seat", "Log Bench", "Japanese Sword", "Katana", "Bamboo Sword", "Wooden Sword", "Ninja Dart", "Bamboo Spear", "Sasumata (Man-catching Fork)", "Naginata Spear", "Jomon Arrow", "Arrow", "Jomon Bow", "Rubber Band Slingshot", "Shuriken", "Cannon", "Fire Hazard Sign", "Poisonous Frog", "Blowfish", "\"Look Out!\" Sign", "Falling Rock", "Mini Cone", "Small Cone", "Triangle Cone", "Bee's Nest", "Balance Scale", "Large Wooden Box", "Storm Glass", "Big Protractor", "Big Triangle Ruler", "Ruler", "Wood Hourglass", "Horse Haniwa", "Warrior Haniwa", "Waterfowl Haniwa", "Fish Statue", "Bear Cub Statue", "Sand Castle", "Bonsai", "Hanging Scroll", "Folding Screen", "Paddle", "Log Oar", "Samurai Armor", "Shogun", "Invisible Ninja", "Incense Stick", "Geta", "Straw Conical Hat", "Folding Fan (Japan)", "Dragon Water Pump", "Tatami Mat", "Ninja Scroll", "Noh Mask", "Kokeshi Doll", "Big Kokeshi", "Japanese Doll", "Monk Statue", "Deer Scare", "Kappa", "Inari Shrine", "Inari Banner", "Garden Lantern", "Festival Paper Fan", "Pink Yo-Yo Balloon", "Yellow Yo-Yo Balloon", "Green Yo-Yo Balloon", "Goldfish Scooper", "Candy Apple", "Stall Lantern", "Festival Lantern", "Lottery Machine", "Goldfish (Festival)", "Fox Mask", "Taiko Drum", "Matsuri Girl", "Matsuri Pompadour", "Matsuri Guy", "Paper Fan Man", "Strongman", "Hina Doll", "Dairi Doll", "Lady-in-waiting Doll", "Right Councilor", "Left Councilor", "Big Camp Fire", "Paper Lantern (Festival)", "Framed Certificate", "Daruma Doll", "Flower Bouquet", "Red Oni", "Blue Oni Mask", "Green Oni Mask", "Momotaro", "Kintaro", "Suited Fireman", "Firehook Fireman", "Hook Fireman", "Man-Catcher Fireman", "Paper Fan Fireman", "Test Papers", "Expensive Desk", "Marble Table", "Seesaw", "Fairy Tale Swing", "Charcoal", "Firewood", "Bale of Rice", "Straw", "Young Farmer", "Headband Farmer", "Veteran Farmer", "Cattleman", "Small Winnowing Basket", "Hoe", "Scarecrow", "Pole Banner", "Biker Flag", "Monument", "Doghouse", "Soba Stand", "Shaved Ice Stand", "Grilled Corn Stand", "Candy Apple Stand", "Takoyaki Stand", "Shooting Game Stall", "Well", "Outhouse", "Wooden Fence", "Long Wooden Fence", "Pine Wood Fence", "Picket Fence", "Mini Bamboo Fence", "Bamboo Fence", "Freestanding Shield", "Bedside Screen", "Bamboo Blind", "Bathhouse Curtain", "Bamboo Bundle", "Small Sliding Door", "Shrine Gate", "Signpost", "Bookstore Sign", "Display Menu", "Fish Store Sign", "\"All You Can Eat\" Banner", "Takoyaki Sign", "Candy Apple Sign", "News Broadsheet", "Sushi Advertisement", "Snow-Cone Sign", "Yakitori Shop Lantern", "\"No Stealing Cows\" Sign", "Katamari Sign", "Plaque", "Over 20cm", "Over 50cm", "Over 1.5m", "Lily Pad", "Thin Tall Grass", "Tall Grass", "Thin Grass", "Bush", "Clover", "Potted Ivy", "Garden Plant (M)", "Pointy Garden Rock", "Robust Garden Rock", "Bamboo Leaf Boat", "Ferryboat", "Raft", "Wagon Wheel", "Luggage Wagon", "Food Stall", "Rickshaw", "Treasure Chest", "Bag of Luck", "Bunbuku Chagama", "Rugrat", "Brat With Kite", "Juvenile", "Rich Boy", "Rich Girl", "Class Clown", "Ushiwakamaru", "Well-Dressed Boy", "Well-Dressed Girl", "Masked Kid", "Miss Umbrella", "Dango Lady", "Green Kimono Wearer", "Kanzashi Lady", "Villager", "Blue Kimono Woman", "Old Man", "Old Lady", "Very Tall Person", "Furoshiki Man", "Old Glasses Wearer", "Iris Kimono Lady", "Handbag Lady", "Cleaning Man", "Bookworm", "Kimono Lady", "Gramps", "Wandering Samurai", "Bearded Drifter", "Pompadour Samurai", "Trainee Monk", "Wandering Monk", "Tomio Hoshino", "Trader", "Shop Assistant", "Abacus Aficionado", "Merchant", "Carpenter", "Master Carpenter", "Fish Vendor", "Traveler", "Medicine Peddler", "Meal Planner", "Hatamoto", "Hostess", "Abalone Diver", "Fishmonger", "Shamisen Master", "Four-eyed Shamisen Player", "Small Drum Player", "Large Hand Drum Guy", "High-pitched Drum Player ", "Fife Player", "Kabuki Actor", "Laundry Master", "Maasa C", "Courier", "Horse Costume", "Cook", "Old Master", "Odeko", "Tamago", "Norn", "Inuhariko", "Calico Cat", "Tabby Cat", "Black Cat", "Tom Hoshino", "Chipmunk", "Akabeko", "Monkey Doll", "Duck", "Potty", "Rat", "Mouse", "Dairy Cow", "Rabbit", "Horse", "White Horse", "Monkey", "Chicken", "Doggy", "Dog With Fleas", "Moon Bear", "Basket Clam", "Pointy Shell", "Sea Snail Shell", "Big Clam", "Triangle Shell", "Scallop Shell", "Univalve Shell", "Hermit Crab", "Red Crab", "Blue Crab", "Small Fiddler Crab", "Coconut Crab", "Freshwater Crab", "Spider Crab", "Horseshoe Crab", "Crayfish", "Sea Urchin", "Starfish", "Salmon", "Snapper", "Carp", "Tuna", "Bonito", "Goldfish", "Telescope Goldfish", "Eel", "Catfish", "Stingray", "Sunfish", "Striped Fish", "Mermaid", "Squid", "Octopus", "Large Sea Turtle", "Swan", "Mallard", "Crow", "Crane", "Ibis", "Pigeon Statue", "Paper Airplane", "36 Origami Cranes", "Deer", "Turtle", "Yellow Swallowtail", "Swallowtail", "Purple Butterfly", "Rhinoceros Beetle", "Stag Beetle", "Giraffe Stag Beetle", "Hercules Beetle", "Grasshopper", "Dung Beetle", "Big Dung Beetle", "Giant Dung Beetle", "Cloth Roll", "Pincushion", "Red Dress Pin", "Green Dress Pin", "Glass Float", "Hanging Fish", "Swordfish", "Driftwood", "Dinosaur Enthusiast"],
-    "As Fast As Possible 3": ["Daikon Radish", "Daikon Radishes", "Chinese Cabbages", "Cabbage", "Pumpkin", "Corn", "Golden Corn", "Carrot", "Bamboo Shoot", "Green Onion", "Green Pumpkin", "Purple Cabbage", "Spinach Bundle", "Boxed Tomatoes", "Boxed Green Peppers", "Turnip", "Apple", "Green Apple", "Half Melon", "Melon", "Boxed Mandarins", "Coconut", "Box of Apples", "Apple Basket", "Peach Basket", "Orange Basket", "Kebab", "Giant Rice Cracker", "Dried Mochi", "Sashimi Boat", "Soba Noodles", "Pickle Tub", "Skewered Fish", "Kitsune Udon", "Pork Bowl", "Spiny Lobster", "Hot Pot", "Malted Rice Drink", "Kettle", "Butcher's Knife", "Round Plate", "Plate", "Large Plate", "Fancy Plate", "Fruit Dish", "Chinese Bowl", "Soy Sauce Bottle", "Round Tray", "Tray Table", "Cutting Board", "Camping Pot", "Tiered Lunch Box", "Shabu-Shabu Pot", "Rice Container", "Clay Stove", "Cooking Pot", "Bamboo Broom", "Store Dustpan", "Garbage Disposal Area", "Laundry Pole", "Washtub", "Calligraphy", "Plain Short Sleeves", "Arrow Feather Patterned Kimono", "Short-sleeve Kimono", "Sky Blue Short Sleeves", "Straw Hat", "Gong", "Mini Hand Drum", "Large Hand Drum", "Tightened Drum", "Biwa", "Shamisen", "Koto", "Shakuhachi", "Conch (Audio)", "Court Musician Drummer", "Kendo Mask", "Straw Target Board", "Judo Practitioner", "Sumo Referee", "Axe", "Ichimatsu Doll", "Dragon Kite", "Rocking Horse", "Kiddie Bucket", "Fishing Pole", "Shogi Table", "Go Board", "Fortune Dispenser", "Bamboo Water Vessel", "Balancing Rod", "Iron Kettle", "Basket", "Suggestion Box", "Wooden Case", "Wood Box", "Large Basket", "Insect Cage", "Cannonball Holder", "Wash Bucket", "Small Wash Bucket", "Wood Bucket", "Wooden Washtub", "Tin Watering Can", "Goldfish Bowl", "Sweets Container", "Urn", "Bear Carving", "Lucky Cat", "Deer Horn", "Sword Display Stand", "Vase", "Fancy Vase", "Novelty Plate", "Garden Rock", "Stepping Stone", "Blue Cloth Roll", "Green Cloth Roll", "Purple Cloth Roll", "Red Cloth Roll", "Yellow Cloth Roll", "Straw Mat", "Cushion", "Rush Mat", "Desk", "Step Stool", "Wicker Basket", "Big Burlap Sack", "Morning Glory", "Flowerpots", "Water Scoop", "Planting Fence", "Hydrangea", "Flowers", "White Flower Basket", "Brown Flower Basket", "Golden Cracker Flower", "Blue Flower Pot", "Flower Bucket", "Sunflower", "Red Tulip Flower", "White Tulip Flower", "Yellow Tulip Flower", "Pink Tulip Flower", "Toolbox", "Blacksmith Hammer", "Roof Tile", "Wooden Board", "Log (Tools)", "Watermelon", "Wow Watermelon", "Half Watermelon", "Sparkler Set", "Fireworks Kit", "Firework Shell", "Strawberry Syrup", "Blue Hawaii Syrup", "Lemon Syrup", "Melon Syrup", "Samurai Governor", "Samurai Patroller", "Samurai Thief Hunter", "Samurai Thief Hunter (Paper Lantern)", "Spyglass", "Butterfly Specimens", "Golden Apple", "Shachihoko", "Froggy Bank", "Wealthy Lamp", "Red Garden Lantern", "Street Lantern", "Fire Basket", "Wooden Torch", "Wide Hibachi", "Camp Fire", "Cushioned Chair", "Wooden Bench", "Stump", "Seat Cushion", "Long Seat", "Japanese Sword", "Bamboo Sword", "Wooden Sword", "Sasumata (Man-catching Fork)", "Naginata Spear", "Jomon Arrow", "Fire Hazard Sign", "Blowfish", "Big Protractor", "Big Triangle Ruler", "Ruler", "Horse Haniwa", "Warrior Haniwa", "Waterfowl Haniwa", "Bear Cub Statue", "Sand Castle", "Bonsai", "Log Oar", "Samurai Armor", "Shogun", "Invisible Ninja", "Geta", "Straw Conical Hat", "Folding Fan (Japan)", "Tatami Mat", "Ninja Scroll", "Big Kokeshi", "Japanese Doll", "Deer Scare", "Kappa", "Inari Banner", "Garden Lantern", "Stall Lantern", "Festival Lantern", "Lottery Machine", "Goldfish (Festival)", "Fox Mask", "Long-mouthed Hyottoko Mask", "Paper Fan Man", "Strongman", "Lady-in-waiting Doll", "Right Councilor", "Left Councilor", "Paper Lantern (Festival)", "Daruma Doll", "Flower Bouquet", "Red Oni", "Kintaro", "Firehook Fireman", "Test Papers", "Marble Table", "Firewood", "Young Farmer", "Veteran Farmer", "Small Winnowing Basket", "Hoe", "Biker Flag", "Wooden Fence", "Long Wooden Fence", "Pine Wood Fence", "Mini Bamboo Fence", "Bamboo Fence", "Freestanding Shield", "Bamboo Bundle", "Small Sliding Door", "Fish Store Sign", "Sushi Advertisement", "Snow-Cone Sign", "Yakitori Shop Lantern", "Katamari Sign", "Thin Tall Grass", "Thin Grass", "Bush", "Pointy Garden Rock", "Robust Garden Rock", "Wagon Wheel", "Treasure Chest", "Bag of Luck", "Bunbuku Chagama", "Rugrat", "Brat With Kite", "Juvenile", "Rich Boy", "Rich Girl", "Ushiwakamaru", "Well-Dressed Boy", "Well-Dressed Girl", "Masked Kid", "Miss Umbrella", "Dango Lady", "Green Kimono Wearer", "Kanzashi Lady", "Villager", "Blue Kimono Woman", "Old Man", "Old Lady", "Very Tall Person", "Old Glasses Wearer", "Iris Kimono Lady", "Handbag Lady", "Kimono Lady", "Gramps", "Wandering Samurai", "Bearded Drifter", "Pompadour Samurai", "Trainee Monk", "Tomio Hoshino", "Trader", "Shop Assistant", "Abacus Aficionado", "Merchant", "Carpenter", "Master Carpenter", "Fish Vendor", "Traveler", "Hostess", "Abalone Diver", "Fishmonger", "Shamisen Master", "Four-eyed Shamisen Player", "Small Drum Player", "Large Hand Drum Guy", "High-pitched Drum Player ", "Fife Player", "Laundry Master", "Courier", "Horse Costume", "Cook", "Old Master", "Jungle (Cousin)", "Lucha", "Kyun", "Tabby Cat", "Black Cat", "Tom Hoshino", "Duck", "Potty", "Rabbit", "Monkey", "Chicken", "Doggy", "Dog With Fleas", "Big Clam", "Coconut Crab", "Spider Crab", "Horseshoe Crab", "Salmon", "Carp", "Tuna", "Bonito", "Eel", "Catfish", "Stingray", "Sunfish", "Striped Fish", "Mermaid", "Squid", "Octopus", "Herring Gull", "Mallard", "Crane", "Ibis", "Pigeon Statue", "36 Origami Cranes", "Turtle", "Cloth Roll", "Glass Float", "Swordfish", "Dinosaur Enthusiast"],
+    "As Fast As Possible 3": ["Daikon Radish", "Daikon Radishes", "Chinese Cabbages", "Cabbage", "Pumpkin", "Corn", "Golden Corn", "Carrot", "Bamboo Shoot", "Green Onion", "Green Pumpkin", "Purple Cabbage", "Spinach Bundle", "Boxed Tomatoes", "Boxed Green Peppers", "Turnip", "Apple", "Green Apple", "Half Melon", "Melon", "Boxed Mandarins", "Coconut", "Box of Apples", "Apple Basket", "Peach Basket", "Orange Basket", "Kebab", "Giant Rice Cracker", "Dried Mochi", "Sashimi Boat", "Soba Noodles", "Pickle Tub", "Skewered Fish", "Kitsune Udon", "Pork Bowl", "Spiny Lobster", "Hot Pot", "Malted Rice Drink", "Kettle", "Butcher's Knife", "Round Plate", "Plate", "Large Plate", "Fancy Plate", "Fruit Dish", "Chinese Bowl", "Sushi Boat", "Soy Sauce Bottle", "Round Tray", "Tray Table", "Cutting Board", "Camping Pot", "Tiered Lunch Box", "Shabu-Shabu Pot", "Rice Container", "Clay Stove", "Cooking Pot", "Fish Drying Poles", "Bamboo Broom", "Store Dustpan", "Garbage Disposal Area", "Old Magazines", "Old Books", "Laundry Pole", "Washtub", "History Textbook", "Animal Book", "Plant Book", "Bird Illustrations", "Home Medicine Book", "Calligraphy", "Plain Short Sleeves", "Arrow Feather Patterned Kimono", "Short-sleeve Kimono", "Sky Blue Short Sleeves", "Straw Hat", "Gong", "Mini Hand Drum", "Large Hand Drum", "Tightened Drum", "Biwa", "Shamisen", "Koto", "Shakuhachi", "Conch (Audio)", "Court Musician Drummer", "Kendo Mask", "Straw Dummy", "Cut Straw Dummy", "Straw Target Board", "Judo Practitioner", "Sumo Referee", "Axe", "Ichimatsu Doll", "Dragon Kite", "Rocking Horse", "Kiddie Bucket", "Fishing Pole", "Shogi Table", "Go Board", "Fortune Dispenser", "Bamboo Water Vessel", "Balancing Rod", "Iron Kettle", "Basket", "Animal Cage", "Suggestion Box", "Wooden Case", "Wood Box", "Large Basket", "Insect Cage", "Cannonball Holder", "Wash Bucket", "Small Wash Bucket", "Wood Bucket", "Wooden Washtub", "Rainwater Bucket", "Tin Watering Can", "Goldfish Bowl", "Sweets Container", "Urn", "Bear Carving", "Lucky Cat", "Raccoon Dog Statue", "Deer Horn", "Sword Display Stand", "Vase", "Fancy Vase", "Decorative Vase", "Novelty Plate", "Large Novelty Plate", "Oni Tile", "Garden Rock", "Stepping Stone", "Blue Cloth Roll", "Green Cloth Roll", "Purple Cloth Roll", "Red Cloth Roll", "Yellow Cloth Roll", "Straw Mat", "Mosquito Repellent", "Cushion", "Rush Mat", "Desk", "Shelf", "Step Stool", "Wicker Basket", "Burlap Sack", "Big Burlap Sack", "Bundle", "Plant Pattern Sack", "Morning Glory", "Flowerpots", "Water Scoop", "Planting Fence", "Hydrangea", "Flowers", "White Flower Basket", "Brown Flower Basket", "Golden Cracker Flower", "Blue Flower Pot", "Flower Bucket", "Sunflower", "Red Tulip Flower", "White Tulip Flower", "Yellow Tulip Flower", "Pink Tulip Flower", "Toolbox", "Blacksmith Hammer", "Roof Tile", "Wooden Board", "Log (Tools)", "Watermelon", "Wow Watermelon", "Half Watermelon", "Sparkler Set", "Fireworks Kit", "Firework Shell", "Strawberry Syrup", "Blue Hawaii Syrup", "Lemon Syrup", "Melon Syrup", "Samurai Governor", "Samurai Patroller", "Samurai Thief Hunter", "Samurai Thief Hunter (Paper Lantern)", "Spyglass", "Butterfly Specimens", "Golden Apple", "Shachihoko", "Froggy Bank", "Coin Box", "Paper Lamp", "Wealthy Lamp", "Red Garden Lantern", "Street Lantern", "Fire Basket", "Wooden Torch", "Wide Hibachi", "Camp Fire", "Cushioned Chair", "Wooden Bench", "Stump", "Seat Cushion", "Long Seat", "Japanese Sword", "Katana", "Bamboo Sword", "Wooden Sword", "Sasumata (Man-catching Fork)", "Naginata Spear", "Jomon Arrow", "Jomon Bow", "Fire Hazard Sign", "Blowfish", "\"Look Out!\" Sign", "Big Protractor", "Big Triangle Ruler", "Ruler", "Horse Haniwa", "Warrior Haniwa", "Waterfowl Haniwa", "Bear Cub Statue", "Sand Castle", "Bonsai", "Hanging Scroll", "Log Oar", "Samurai Armor", "Shogun", "Invisible Ninja", "Geta", "Straw Conical Hat", "Folding Fan (Japan)", "Tatami Mat", "Ninja Scroll", "Big Kokeshi", "Japanese Doll", "Deer Scare", "Kappa", "Inari Shrine", "Inari Banner", "Garden Lantern", "Stall Lantern", "Festival Lantern", "Lottery Machine", "Goldfish (Festival)", "Fox Mask", "Long-mouthed Hyottoko Mask", "Taiko Drum", "Paper Fan Man", "Strongman", "Lady-in-waiting Doll", "Right Councilor", "Left Councilor", "Paper Lantern (Festival)", "Daruma Doll", "Flower Bouquet", "Red Oni", "Momotaro", "Kintaro", "Firehook Fireman", "Test Papers", "Marble Table", "Firewood", "Bale of Rice", "Young Farmer", "Veteran Farmer", "Small Winnowing Basket", "Hoe", "Biker Flag", "Wooden Fence", "Long Wooden Fence", "Pine Wood Fence", "Mini Bamboo Fence", "Bamboo Fence", "Freestanding Shield", "Bamboo Blind", "Bathhouse Curtain", "Bamboo Bundle", "Small Sliding Door", "Shrine Gate", "Bookstore Sign", "Fish Store Sign", "Candy Apple Sign", "Sushi Advertisement", "Snow-Cone Sign", "Yakitori Shop Lantern", "Katamari Sign", "Thin Tall Grass", "Thin Grass", "Bush", "Pointy Garden Rock", "Robust Garden Rock", "Wagon Wheel", "Treasure Chest", "Bag of Luck", "Bunbuku Chagama", "Rugrat", "Brat With Kite", "Juvenile", "Rich Boy", "Rich Girl", "Ushiwakamaru", "Well-Dressed Boy", "Well-Dressed Girl", "Masked Kid", "Miss Umbrella", "Dango Lady", "Green Kimono Wearer", "Kanzashi Lady", "Villager", "Blue Kimono Woman", "Old Man", "Old Lady", "Very Tall Person", "Furoshiki Man", "Old Glasses Wearer", "Iris Kimono Lady", "Handbag Lady", "Bookworm", "Kimono Lady", "Gramps", "Wandering Samurai", "Bearded Drifter", "Pompadour Samurai", "Trainee Monk", "Wandering Monk", "Tomio Hoshino", "Trader", "Shop Assistant", "Abacus Aficionado", "Merchant", "Carpenter", "Master Carpenter", "Fish Vendor", "Traveler", "Hostess", "Abalone Diver", "Fishmonger", "Shamisen Master", "Four-eyed Shamisen Player", "Small Drum Player", "Large Hand Drum Guy", "High-pitched Drum Player ", "Fife Player", "Kabuki Actor", "Laundry Master", "Courier", "Horse Costume", "Cook", "Old Master", "Jungle (Cousin)", "Lucha", "Kyun", "Calico Cat", "Tabby Cat", "Black Cat", "Tom Hoshino", "Duck", "Potty", "Rabbit", "Monkey", "Chicken", "Doggy", "Dog With Fleas", "Big Clam", "Coconut Crab", "Spider Crab", "Horseshoe Crab", "Salmon", "Snapper", "Carp", "Tuna", "Bonito", "Eel", "Catfish", "Stingray", "Sunfish", "Striped Fish", "Mermaid", "Squid", "Octopus", "Herring Gull", "Mallard", "Crane", "Ibis", "Pigeon Statue", "36 Origami Cranes", "Deer", "Turtle", "Cloth Roll", "Glass Float", "Hanging Fish", "Swordfish", "Dinosaur Enthusiast"],
     "Lots of Yokai": ["Daikon Radish", "Pumpkin", "Corn", "Bamboo Shoot", "Green Pumpkin", "Boxed Tomatoes", "Boxed Mandarins", "Big Peach", "Pineapple", "Peach Basket", "Orange Basket", "Big Bento Lunch", "Sekihan", "Soba Noodles", "Pork Bowl", "Giant Hot Pot", "Malted Rice Drink", "Tiered Lunch Box", "Clay Stove", "Cooking Pot", "Bamboo Broom", "Garbage Disposal Area", "Laundry Basket", "Laundry Deck", "Laundry Pole", "Stack of Books", "Purple Book", "Calligraphy", "Kimono", "Arrow Feather Patterned Kimono", "Short-sleeve Kimono", "Spiffy Geta Sandals", "Large Hand Drum", "Bouzouki", "Shamisen", "Koto", "Guitar", "Kendo Mask", "Straw Target Board", "Picture-story Show", "Fishing Pole", "Animal Cage", "Small Wash Bucket", "Wood Bucket", "Rainwater Bucket", "Raccoon Dog Statue", "Wooden Grave Tablet", "Wooden Tablet Stand", "Oni Tile", "Stepping Stone", "Display Stand", "Shoe Display Stand", "Green Cloth Roll", "Red Cloth Roll", "Yellow Cloth Roll", "Red Umbrella", "Barrel Table", "Desk", "Bonsai Stand", "Plant Pattern Sack", "Watering Pot", "Water Scoop", "Water Lily", "Kale (Purple)", "Kale", "Surprise Flower", "Short Ladder", "Log (Tools)", "Stack of Logs", "Watermelon", "Wow Watermelon", "Shaved Ice (Strawberry)", "Shaved Ice (Melon)", "Shaved Ice (Blue Hawaii)", "Strawberry Syrup", "Blue Hawaii Syrup", "Lemon Syrup", "Melon Syrup", "Microscope", "Bone", "Ammonite Fossil", "Shachihoko", "Sarcophagus", "Coin Box", "Paper Lamp", "Wealthy Lamp", "Paper Lantern (Luminous)", "Red Paper Lantern", "Giant Paper Lantern", "Red Garden Lantern", "Fire Basket", "Wooden Torch", "Kamaburo", "Camp Fire", "Ice Spire", "Snow Block", "Ghost", "Cushioned Chair", "Long Seat", "Log Bench", "Japanese Sword", "Katana", "Bamboo Sword", "Sasumata (Man-catching Fork)", "Jomon Bow", "Tengu Fan", "\"Look Out!\" Sign", "Bonsai", "Hanging Scroll", "Folding Screen", "Samurai Armor", "Japanese Doll", "Monk Statue", "Will-o'-the-Wisp", "Umbrella Monster", "Tengu", "Crow Tengu", "One-Eyed Kid", "Fallen Samurai", "Yuki Onna", "Nurarihyon", "Kamaitachi", "Nue", "Inugami", "Osakabehime", "Noppera-bo", "Zashiki-warashi", "Nine-Tailed Fox", "Azukiarai", "Ittanmomen", "Kodama", "Narigama", "Biwa Bok-Bok", "Bakejizo", "Iron Rat Spirit", "Amikiri", "Bone Woman", "Yamabiko", "Akaname", "Jinmen-ken", "Nuppeppo", "Ouni", "Nodera-bo", "Lantern Ghost", "Nurikabe", "Nekomata", "Yamawaro", "Hand-Eye", "Kappa", "Rokurokubi", "Monster Cat", "Onibaba", "Shrine Dog", "Garden Lantern", "Pine Decoration", "Stall Lantern", "Taiko Drum", "Paper Lantern (Festival)", "Daruma Doll", "Red Oni", "Blue Oni", "Green Oni", "Yellow Oni", "Black Oni", "Green Oni Mask", "Expensive Desk", "Pebble", "Bale of Rice", "Straw", "Hoe", "Scarecrow", "Pole Banner", "Monument", "Doghouse", "Gravestone", "Headstone", "Pagoda-shaped Grave Pillar", "Daimyo Headstone", "Monk Grave", "Offering Box", "Log Fence", "Pine Wood Fence", "Picket Fence", "Bamboo Railing", "Stone Fence", "Wooden Wall", "Stone Picket", "Hole", "Signpost", "Display Menu", "Barbershop Sign", "News Broadsheet", "Snow-Cone Sign", "Yakitori Shop Lantern", "\"No Stealing Cows\" Sign", "Katamari Sign", "Spherical Tree", "Lily Pad", "Giant Lily Pad", "Thin Tall Grass", "Tall Grass", "Thin Grass", "Mini Tree", "Bush", "Rice Plant", "Garden Plant", "Garden Plant (M)", "Dead Tree", "Big Dead Tree", "Gigantic Mushroom", "Flat Mushroom", "Big Pebble", "Pointy Garden Rock", "Ferryboat", "Luggage Wagon", "Rickshaw", "Slip", "Amabie"],
     "Build a Haniwa": ["Tomato", "Daikon Radish", "Chinese Cabbages", "Cabbage", "Pumpkin", "Corn", "Carrot", "Bamboo Shoot", "Green Onion", "Half Apple", "Apple", "Half Melon", "Melon", "Mandarin", "Mandarin Peel", "Peach", "Big Peach", "Banana Bunch", "Coconut", "Pineapple", "Red Berry Harvest", "Apple Basket", "Peach Basket", "Orange Basket", "Large Rice Bowl", "Small Rice Bowl", "Kids Rice Bowl", "Roast On Bone", "Large Meat", "Campfire Meat", "Large Raw Meat", "Well-Done Steak", "Kebab", "Giant White Egg", "Roast Pork", "Skewered Fish", "Fancy Plate", "Wooden Mortar", "Fish Drying Rack", "Bamboo Broom", "Stone Clothes Drying Rack", "Stone Clothesline Pole", "Top Hat", "Cowboy Hat", "Primitive Necklace", "Big Magatama", "Fishing Pole", "Raised Bowl", "Large Basket", "Sue Pottery", "Fruit Basket", "Jomon Pottery", "Swirly Jomon Pottery", "Stone Hat Stand", "Stone Clock", "Stone TV", "Stone TV Stand", "Sack", "Big Burlap Sack", "Yam Garden", "Stone Flower Pot", "Topiary Duck", "Sunflower", "Happy Flower", "Flower Bud (White)", "Red Rose", "Red Flowers", "Stone Phone", "Log (Tools)", "Watermelon", "Bone", "Ammonite Fossil", "Shachihoko", "Ancient Coin", "Ancient Bills", "Deer Head Wall Mount", "Primitive Chandelier", "Animal Hide", "Dried Animal Skin", "Stacked Firewood", "Fire Starter", "Camp Fire", "Stone Refrigerator", "Stone Chair", "Stone Rocking Chair", "Stump", "Bamboo Spear", "Jomon Spear", "Stone Hatchet", "Jomon Axe", "Club", "Jomon Arrow", "Mousetrap", "Stone Signpost", "Haniwa", "Horse Haniwa", "Warrior Haniwa", "Waterfowl Haniwa", "Haniwa House", "Boat Haniwa", "Warrior Helmet Haniwa", "Ancient Umbrella Haniwa", "Bladed Haniwa", "Snow Haniwa", "Flying Squirrel Haniwa", "Deer Haniwa", "Clay Figure", "Heart-Shaped Clay Figure", "Jomon Venus", "Masked Goddess", "Owl-Like Clay Figure", "Praying Clay Figure", "Hollow Clay Figurine", "Jomon Goddess", "Primitive Mask", "Stone Prince", "Giant Stone Prince", "Stone L'Amour", "Stone Twinkle", "Stone Norn", "Sand Castle", "Primitive Painting", "Log Oar", "Candy Apple", "Black Rock", "Big Rock", "Firewood", "Cut Rice Plant", "Dried Rice Plant", "Hoe", "Rice Drying Rack", "Log (Facilities)", "Well Pump", "Western Fence", "Stake", "Bamboo Bundle", "Giant Lily Pad", "Pointy Shrubbery", "Yucca", "Cattail", "Rice Plant", "Garden Plant", "Garden Plant (M)", "Big Dead Tree", "Log Bundle", "Mushroom", "Gigantic Mushroom", "Fairy Mushroom", "Flat Mushroom", "Pointy Garden Rock", "Robust Garden Rock", "Log Boat", "Stone Stroller", "Stone Bicycle", "Clay", "Giant Clam", "Fish Bones", "Hanging Fish"],
     "Dig a Hole": ["Bamboo Shoot", "Roast On Bone", "Jomon Pottery", "Swirly Jomon Pottery", "Cow Skull", "Surprise Flower", "Rafflesia", "Bone", "Owl-Like Clay Figure", "Praying Clay Figure", "Cherry Blossom Branch", "Yucca", "Dead Tree", "Gigantic Mushroom", "Bedrock", "Blue Bedrock", "Purple Bedrock", "Brown Bedrock", "Pink Bedrock", "Cracked Bedrock", "Pu", "Armadillo"],
     "Green Desert": ["Odeon"],
     "Pharaoh's Request": ["Pumpkin", "Sweet Potato", "Green Pumpkin", "Half Apple", "Rabbit Apple", "Green Apple", "Banana", "Banana Bunch", "Grapes", "French Country Bread", "Baguette", "White Egg", "Dried Fish", "Skewered Fish", "Barley Tea", "Drink Barrel", "Rectangular Plate", "Wooden Bucket", "Stack of Books", "Western-Style Book", "Navy Book", "Red Book", "Handbook", "Logbook", "Papyrus Paper Bundle", "Egyptian Macho-Man", "Fishing Pole", "Wooden Bin", "Cannonball Holder", "Wooden Coffin", "Big Greek Pot", "Greek Pot & Lid", "Lucky Cat", "Blue Cloth Roll", "Green Cloth Roll", "Purple Cloth Roll", "Red Cloth Roll", "Yellow Cloth Roll", "Burlap Mat", "Green Rug", "Wooden Crate", "Wide Wooden Crate", "Greek Potted Plant", "Yam Garden", "Water Scoop", "Flower Bucket", "Dandelion", "Water Lily", "Flower Bud (Red)", "Red Rose", "Fancy Egyptian Pottery", "Watermelon", "Half Watermelon", "Red & White Life Preserver", "Polka-Dot Pool Ring", "Sand Man", "Golden Apple", "Shachihoko", "Golden Mask", "Treasure Mummy", "Ghost", "Red Deck Chair", "Warning Sign", "Bear Sign", "Sitting Anubis Statue", "Anubis-Riding Kid", "Sitting Bastet Statue", "Sand Castle", "Dog Doodle", "Cat Doodle", "Doodle of a Bird", "Turtle Doodle", "Water Ninja", "Invisible Ninja", "Kappa", "Fox Mask", "Birthday Cake", "Thief", "Kintaro", "Shovel", "Bird's Nest", "Lily Pad", "Giant Lily Pad", "Tiny Cactus", "Yucca", "Fluff", "Wheat", "Egyptian Boy", "Egyptian Girl", "Egyptian Braid Girl", "Little Helper", "Tiny Mummy", "Sitting Tiny Mummy", "Jar-Head Kid Mummy", "Egyptian Pompadour", "Sunbather", "Sitting Egyptian Native", "Egyptian Guy", "Human Pyramid Athlete", "Man In Pot", "Praying Egyptian", "Egyptian Man", "Egyptian Senior", "Egyptian Geezer", "Pharaoh", "Jomon Hunter", "Jomon Archer", "Person Carrying a Vase", "Harvest Farmer", "Harvest Trainee", "Egyptian Dancer", "Jomon Craftsman", "Perah", "Calico Cat", "Tabby Cat", "Siamese Cat", "Black Cat", "Tom Hoshino", "Goose", "Rabbit", "Monkey", "Chicken", "Dog With Fleas", "Piranha", "Snapper", "Bonito", "Sunfish", "Striped Fish", "Pigeon", "Giant Chick", "Dung Beetle", "Big Dung Beetle", "Giant Dung Beetle", "Pompadour Mummy", "Pot Mummy", "Training Mummy", "Lazy Mummy", "Hoop Mummy", "Sitting Mummy", "Canoe Mummy", "Cat Sphinx", "Rabbit Sphinx", "Raccoon Dog Sphinx"],
-    "Hurry, the Mummies": ["Papyrus Paper Bundle", "Pschent", "Deshret Crown", "Gold Sandal (Right)", "Gold Sandal (Left)", "Heka Staff", "Was Scepter", "Flail", "Pharaoh's Mirror", "Egyptian Necklace", "Egyptian Bangle", "Heart Scarab", "Cartouche", "Sistrum", "Rabab", "Egyptian Harp", "Egyptian Trumpet", "Arghul", "Senet", "Orient Goblet", "Orient Vase", "Orient Urn", "Locked Wooden Chest", "Wooden Bin", "Barrel", "Wooden Coffin", "Canopic Chest", "Urn", "Fruit Basket", "Egyptian Pot", "Slender Egyptian Pot", "Huge Egyptian Pot", "Large Burnt Egyptian Vase", "Burnt Egyptian Vase", "Sunship", "Still Life Painting", "World Map", "Jackal Canopic Jar", "Human Canopic Jar", "Baboon Canopic Jar", "Falcon Canopic Jar", "Cow Skull", "Vase", "Decorative Vase", "Aging Jar", "Djed Pillar", "Miniature Pyramid", "Linen", "Egyptian Table", "Shelf", "Egyptian Pedestal", "Blue Rug", "Potted Cactus", "Potted Plant", "Red Flower Pot", "Blue Flower Pot", "Rose", "Rose Bouquet", "Hygrangea (Pink) (Large)", "Hydrangea Flowers", "Water Lily", "Narcissus", "Surprise Flower", "Fancy Egyptian Pottery", "Red Paint", "Paint", "Pink Paintbrush", "Paintbrush", "Egyptian Wooden Mallet", "Egyptian Chisel", "Plywood Board", "Wooden Board", "Timber", "Wrench", "Phillips Head Screwdriver", "Egyptian Coin", "Gold Ingot", "Pile of Gold Coins", "Golden Mask", "Sarcophagus", "Giant Diamond Ring", "Ruby Ring", "Emerald Ring", "Onyx Ring", "Cow-Patterned Mat", "Deer Head Wall Mount", "Treasure Mummy", "Tiger Skin", "Candlestick", "Candle Stand", "Candle", "Wax Candle", "Egyptian Chair", "Tutankhamun Short Sword", "Hard Hat", "Water Clock", "Egyptian Level", "Ushabti", "Primitive Mask", "Bastet Statue", "Thoth Statue", "Crouching Anubis Statue", "Sitting Bastet Statue", "Adventure Painting", "Sunset Painting", "Dog Doodle", "Cat Doodle", "Doodle of a Bird", "Turtle Doodle", "Steel Fence", "Mushroom", "Gigantic Mushroom", "Fairy Mushroom", "Treasure Chest", "Magic Lamp", "Tiny Mummy", "Sitting Tiny Mummy", "Jar-Head Kid Mummy", "Anubis", "Ra", "Opeo", "Ibis Mummy", "Maat's Feather", "Mummy", "Giant Mummy", "Pompadour Mummy", "Pot Mummy", "Relaxing Mummy", "Hanging Mummy", "Training Mummy", "Lazy Mummy", "Hoop Mummy", "Sitting Mummy", "Cat Mummy", "Crocodile Mummy", "Coffin-Bound Mummy", "Medjed"],
+    "Hurry, the Mummies": ["Papyrus Paper Bundle", "Pschent", "Deshret Crown", "Gold Sandal (Right)", "Gold Sandal (Left)", "Heka Staff", "Was Scepter", "Flail", "Pharaoh's Mirror", "Egyptian Necklace", "Egyptian Bangle", "Heart Scarab", "Cartouche", "Sistrum", "Rabab", "Egyptian Harp", "Egyptian Trumpet", "Arghul", "Senet", "Orient Goblet", "Orient Vase", "Orient Urn", "Locked Wooden Chest", "Wooden Bin", "Barrel", "Wooden Coffin", "Canopic Chest", "Urn", "Fruit Basket", "Egyptian Pot", "Slender Egyptian Pot", "Huge Egyptian Pot", "Large Burnt Egyptian Vase", "Burnt Egyptian Vase", "Sunship", "Still Life Painting", "World Map", "Jackal Canopic Jar", "Human Canopic Jar", "Baboon Canopic Jar", "Falcon Canopic Jar", "Cow Skull", "Vase", "Decorative Vase", "Aging Jar", "Djed Pillar", "Eye of Horus", "Miniature Pyramid", "Linen", "Egyptian Table", "Shelf", "Egyptian Pedestal", "Blue Rug", "Potted Cactus", "Potted Plant", "Red Flower Pot", "Blue Flower Pot", "Rose", "Rose Bouquet", "Hygrangea (Pink) (Large)", "Hydrangea Flowers", "Water Lily", "Narcissus", "Surprise Flower", "Fancy Egyptian Pottery", "Red Paint", "Paint", "Pink Paintbrush", "Paintbrush", "Egyptian Wooden Mallet", "Egyptian Chisel", "Plywood Board", "Wooden Board", "Timber", "Wrench", "Phillips Head Screwdriver", "Egyptian Coin", "Gold Ingot", "Pile of Gold Coins", "Golden Mask", "Sarcophagus", "Giant Diamond Ring", "Ruby Ring", "Emerald Ring", "Onyx Ring", "Cow-Patterned Mat", "Deer Head Wall Mount", "Treasure Mummy", "Tiger Skin", "Candlestick", "Candle Stand", "Candle", "Wax Candle", "Egyptian Chair", "Tutankhamun Short Sword", "Hard Hat", "Giant Scale", "Water Clock", "Egyptian Level", "Ushabti", "Primitive Mask", "Bastet Statue", "Thoth Statue", "Crouching Anubis Statue", "Sitting Bastet Statue", "Adventure Painting", "Sunset Painting", "Dog Doodle", "Cat Doodle", "Doodle of a Bird", "Turtle Doodle", "Paddle", "Relic Robber", "Steel Fence", "Mushroom", "Gigantic Mushroom", "Fairy Mushroom", "Treasure Chest", "Magic Lamp", "Tiny Mummy", "Sitting Tiny Mummy", "Jar-Head Kid Mummy", "Anubis", "Ra", "Opeo", "Ibis Mummy", "Maat's Feather", "Mummy", "Giant Mummy", "Pompadour Mummy", "Pot Mummy", "Relaxing Mummy", "Hanging Mummy", "Training Mummy", "Lazy Mummy", "Hoop Mummy", "Sitting Mummy", "Cat Mummy", "Crocodile Mummy", "Coffin-Bound Mummy", "Medjed"],
     "Perfect-Sized Coffin": ["Daikon Radishes", "Chinese Cabbages", "Cabbage", "Pumpkin", "Apple", "Half Melon", "Melon", "Boxed Mandarins", "Big Peach", "Banana Bunch", "Grapes", "Persea", "Box of Apples", "Box of Grapes", "Box of Muscat Grapes", "Apple Basket", "Peach Basket", "Orange Basket", "Croissant", "Bread Loaf", "Baguette", "Ham", "Roast Turkey", "Giant White Egg", "Egg", "Roast Pork", "Caramel", "Chocolate Cornet", "Milk Can", "Cup of Coffee", "Round Tea Kettle", "Faience Cup", "Faience Plate", "Fruit Dish", "Food Bowl", "Decorative Dish", "Salt Basket", "Broom", "Bamboo Broom", "Dustpan", "Store Dustpan", "Dust Cloth Hanger", "Washtub", "Stack of Books", "Western-Style Book", "Ink", "Quill Pen", "India Ink", "Parchment", "Papyrus Paper Bundle", "Blond Long & Straight", "Pschent", "Deshret Crown", "Top Hat", "Egyptian Comb", "Hair Brush", "Gold Sandal (Right)", "Gold Sandal (Left)", "Heka Staff", "Was Scepter", "Pharaoh's Scepter", "Flail", "Egyptian Mirror", "Pharaoh's Mirror", "Egyptian Necklace", "Egyptian Beauty Box", "Nail Polish", "Perfume", "Heart Scarab", "Golden Fly Necklace", "Cartouche", "Patchwork Rug", "Sistrum", "Lute", "Rabab", "Lyre", "Egyptian Trumpet", "Arghul", "Baseball Cap", "Pickaxe", "Fishing Pole", "Olive Green Bottle", "Locked Wooden Chest", "Wooden Bin", "Egyptian Box", "Barrel", "Wooden Coffin", "Canopic Chest", "Slender Egyptian Pot", "Huge Egyptian Pot", "Egyptian Pottery", "Big Minoan Pot", "Minoan Pot", "Slim Minoan Pot", "Lucky Cat", "Raccoon Dog Statue", "Sunship", "Still Life Painting", "World Map", "Jackal Canopic Jar", "Human Canopic Jar", "Baboon Canopic Jar", "Falcon Canopic Jar", "Cow Skull", "Vase", "Fancy Vase", "Decorative Vase", "Aging Jar", "Large Novelty Plate", "Djed Pillar", "Eye of Horus", "Miniature Pyramid", "Blue Cloth Roll", "Green Cloth Roll", "Purple Cloth Roll", "Red Cloth Roll", "Linen", "Classroom Clock", "TV Camera", "SLR Camera", "Barrel Table", "Egyptian Table", "Table", "Shelf", "Egyptian Pedestal", "Tower Rack", "Egyptian Pillow", "Perch", "Wooden Crate", "Wide Wooden Crate", "Sack", "Slouched Sack", "Burlap Sack", "Bundle", "Potted Cactus", "Potted Plant", "Sprout", "Flowerpots", "Garden Scissors", "Hydrangea", "Flowers", "White Flower Basket", "Brown Flower Basket", "Red Flower Pot", "Blue Flower Pot", "Pansies", "White Tulip", "Golden Rose", "Bouquet of Golden Roses", "Rose", "Rose Bouquet", "Hygrangea (Pink) (Large)", "Hydrangea Flowers", "Water Lily", "Cactus Flower", "Narcissus", "Surprise Flower", "Fancy Egyptian Pottery", "Microphone", "Microphone Stand", "Gold Paint", "Gold Paintbrush", "Egyptian Wooden Mallet", "Egyptian Chisel", "Coil of Rope", "Globe", "Human Anatomy Model", "Golden Apple", "Big Coin", "Mini Gold Ore", "Mini Gold Ore Pieces", "Medium Gold Ore", "Big Gold Ore", "Golden Egg", "Egyptian Coin", "Gold Bar", "Gold Bars", "Pile of Gold Coins", "Expensive Clock", "Crown", "Golden Mask", "Sarcophagus", "Rough Diamond", "Ruby Gem", "Unpolished Emerald", "Sapphire Ore", "Unpolished Amethyst", "Money Bag", "Gold Coin", "Silver Coin", "Cow-Patterned Mat", "Deer Head Wall Mount", "Treasure Mummy", "Froggy Bank", "Lamp", "Fire Basket", "Headlamp", "Stage Spotlight", "Ancient Egyptian Lamp", "Ghost", "Half-Made Mummy", "Round Stool", "Stool", "Station Bench", "Wooden Bench", "Egyptian Chair", "Stone Chair", "Workbench", "Khopesh", "Tutankhamun Short Sword", "Bow & Arrow", "Jomon Bow", "Hard Hat", "Bee's Nest", "Water Clock", "Egyptian Level", "Ushabti", "Bastet Statue", "Thoth Statue", "Anubis Statue", "Sitting Anubis Statue", "Anubis-Riding Kid", "Sitting Bastet Statue", "Majestic Painting", "Adventure Painting", "Watercolor Painting", "Sunset Painting", "Chalk Drawing (Airplane)", "Chalk Drawing (Flower)", "Straw Conical Hat", "Champion's Trophy", "Trophy", "Framed Certificate", "Birthday Cake", "Tulip Bouquet", "Flower Bouquet", "Relic Robber", "White Hair Relic Robber", "Sack of Wheat", "Shovel", "Monument", "Bird's Nest", "Wooden Fence", "Steel Fence", "Cinder Block", "You Are Here", "Treasure Map", "Lily Pad", "Giant Lily Pad", "Pitcher Plant", "Potted Ivy", "Mushroom", "Flat Mushroom", "Magic Lamp", "Tsuchinoko", "Bunbuku Chagama", "Lost Alien", "Egyptian Boy", "Egyptian Girl", "Egyptian Child", "Tiny Mummy", "Sitting Tiny Mummy", "Jar-Head Kid Mummy", "Box Man", "Noble Egyptian Woman", "Ancient Egyptian", "Egyptian Native", "Praying Egyptian", "Mr. Coffin", "Egyptian Man", "Egyptian Woman", "Egyptian Archer", "Horus", "Anubis", "Egyptian Dancer", "Egyptian Harp Player", "Egyptian Arghul Player", "Egyptian Lyre Player", "Snake Lover", "Peso", "Calico Cat", "Tabby Cat", "Siamese Cat", "Black Cat", "Penguin", "Cobra", "Black Sheep", "Golden Snub-Nosed Monkey", "Dog With Fleas", "Bulldog", "Husky", "Doberman", "Hyena", "Salmon", "Bonito", "Pigeon", "Vulture", "Golden Pheasant", "Lady Amherst's Pheasant", "Crow", "Ibis", "Raccoon Dog", "Leafy Raccoon Dog", "Raccoon Dog Family", "Giant Dung Beetle", "Wool Roll", "Cloth Roll", "Bundle of Scrolls", "Hanging Fish", "Clown Mummy", "Mummy", "Pompadour Mummy", "Hanging Mummy", "Hoop Mummy", "Sitting Mummy", "Cat Mummy", "Floral Mummy", "Medjed", "Flying Arabian Guy", "Nautilus", "Squirrel Sphinx", "Cat Sphinx"],
-    "As Large As Possible 4": ["Tomato", "Daikon Radishes", "Chinese Cabbages", "Cabbage", "Pumpkin", "Sweet Potato", "Lotus Root", "Carrot", "Broccoli", "Bamboo Shoot", "Green Onion", "Green Pumpkin", "Gigantic Green Pumpkin", "Purple Cabbage", "Spinach", "Boxed Tomatoes", "Boxed Green Peppers", "Turnip", "Boxed Mandarins", "Asian Pear", "Persimmon", "Apple Basket", "Peach Basket", "Orange Basket", "Large Rice Bowl", "Kids Rice Bowl", "Dried Fish Lunch", "Raw Meat", "Daikon Radish Salad", "Konjac", "Fried Shrimp", "Gigantic Fried Shrimp", "Gigantic Ramen", "Sweet Bean Pancake", "Dried Squid", "Hishi-Mochi", "Moon Viewing Dango", "Giant Rice Cracker", "Gigantic Dango", "Sweet Bean Pastry", "Gigantic Sweet Bean Pastry", "Inari Sushi", "Uncut Sushi Roll", "Sashimi Boat", "Rice Ball", "Gigantic Rice Ball", "Sekihan", "Soba Noodles", "Pickle Tub", "Straw Natto", "Grilled Fish", "Chunk of Salmon", "Six Ration Meatballs", "Japanese Flag Lunch Box", "Ochazuke", "Miso Soup", "Tororo Soup", "Tofu", "Giant Tofu", "Tempura Soba", "Kitsune Udon", "Pork Bowl", "Gigantic Pork Bowl", "Spiny Lobster", "Oden", "Oden Meal", "Hot Pot", "Giant Hot Pot", "Rice Skewer", "Square Mochi", "Kagami-Mochi", "Huge Rice Cake", "Milk Can", "Matcha", "Giant Matcha", "Malted Rice Drink", "Cold Ginger Drink", "Tea Caddy", "Canned Tea", "Round Tea Kettle", "Teapot", "Teacup", "Kettle", "Chirori", "Sakazuki", "Gold Cup", "Kitchen Knife", "Wooden Peeler", "Round Plate", "Plate", "Fancy Plate", "Rectangular Plate", "Fruit Dish", "Decorative Dish", "Soy Sauce", "Sugar", "Miso Paste", "Round Tray", "Tray Table", "Cutting Board", "Tiered Lunch Box", "Wooden Mortar", "Wooden Mallet", "Cauldron", "Irori Pot", "Shabu-Shabu Pot", "Rice Container", "Clay Stove", "Cooking Pot", "Old Cook Stove", "Bread Oven", "Sink", "Fish Drying Poles", "Broom", "Bamboo Broom", "Garbage Disposal Area", "Old Newspaper", "Laundry Deck", "Laundry Pole", "Washtub", "Stack of Books", "Red Book", "Japanese-style Book", "Animal Book", "Plant Book", "Bird Illustrations", "Home Medicine Book", "Purple Book", "Inkstone", "India Ink", "Calligraphy Brush", "Large Calligraphy Brush", "Abacus", "Kimono", "Plain Short Sleeves", "Arrow Feather Patterned Kimono", "Green Short Sleeves", "Short-sleeve Kimono", "Sky Blue Short Sleeves", "Wandering Samurai Wig", "Fake Top Knot", "Eboshi", "Wandering Samurai Hat", "Spiffy Geta Sandals", "Hand Mirror", "Powder Brush", "Large Bell", "Mini Hand Drum", "Large Hand Drum", "Tightened Drum", "Biwa", "Shamisen", "Koto", "Shakuhachi", "Conch (Audio)", "Kendo Mask", "Straw Dummy", "Straw Target Board", "Judo Practitioner", "Sumo Wrestler", "Sumo Referee", "Flagstick", "Sumo Bout", "Sumo Ring", "Axe", "Pickaxe", "Elephant", "Ichimatsu Doll", "Big Top", "Paper Ball", "Temari Ball", "Ramshackle Kite", "Japanese Kite", "Pinwheel", "Japanese Cup & Ball", "Rocking Horse", "Castle Model", "Battledore", "Battledore Shuttlecock", "Kiddie Rake", "Kiddie Bucket", "Kaleidoscope", "Jumbo Kinsho", "Shogi Table", "Shogi Piece Stand", "Go Bowl", "Go Board", "Fortune Dispenser", "Calabash", "Bamboo Water Vessel", "Portable Water Vessel", "Balancing Rod", "Basket", "Rolling Luggage", "Suggestion Box", "Empty Coin Box", "Wooden Mosaic Box", "Empty Box Lid", "Empty Box", "Wooden Case", "Wood Box", "Large Basket", "Insect Cage", "Wood Bucket", "Wooden Washtub", "Rainwater Bucket", "Tin Watering Can", "Goldfish Bowl", "Sweets Container", "Urn", "Fruit Basket", "Greek Pot & Lid", "Storehouse", "Shop Warehouse", "Bear Carving", "Mermaid Carving", "Lucky Cat", "Raccoon Dog Statue", "Paper Tiger", "Goldfish Nebuta", "Still Life Painting", "Equestrian Painting", "World Map", "Fish Print", "Shark Teeth", "Lucky Rake", "Sword Display Stand", "Stand", "Vase", "Porcelain Vase", "Fancy Vase", "Novelty Plate", "Large Novelty Plate", "Oni Tile", "Stepping Stone", "Ceremonial Arrow", "Display Stand", "Shoe Display Stand", "Fancy Shelf", "Tree Prop", "Grass Prop", "Moon Prop", "Wooden Staff", "Plant Pattern Towel", "Peach Blossom Hand Towel", "Bamboo Pattern Towel", "Straw Mat", "Giant Straw Mat", "Cushion", "Rush Mat", "Japanese Umbrella", "Red Umbrella", "Toad", "Mechanical Doll", "Elekiter", "Log Table", "Marketplace Table", "Compact Desk", "Desk", "Wooden Table", "Bonsai Stand", "Bookshelf", "Shoe Cupboard", "Felt Rug", "Drainboard", "Mirror Stand", "Wicker Basket", "Express Courier", "Rolled-Up Letter", "Food Delivery Box", "Giant Wide Wooden Crate", "Slouched Sack", "Bundle", "Plant Pattern Sack", "Sprout", "Flowerpots", "Topiary Duck", "Topiary Turtle", "Topiary Rabbit", "Topiary Deer", "Elephant Watering Can", "Water Scoop", "Garden Scissors", "Dried Kelp", "Flower Bucket", "Log Flower Bed", "Log Planter", "Rose", "Red Paint", "Paint", "Blacksmith Hammer", "Medium Anvil", "Long Bamboo Ladder", "Rope", "Coil of Rope", "Roof Tile", "Timber", "Log (Tools)", "Wooden Seaside House", "Samurai Governor", "Samurai Patroller", "Samurai Thief Hunter", "Prisoner Carrier", "Spyglass", "Gold Stamp", "Big Coin", "Shachihoko", "Gold Bars", "Rough Diamond", "Ruby Gem", "Unpolished Emerald", "Sapphire Ore", "Unpolished Amethyst", "Ancient Coin Slab", "Silver Nugget", "Tiger Skin", "Coin Box", "Matsutake", "Mini Treasure Boat", "Paper Lamp", "Wealthy Lamp", "White Lantern", "Japanese Lantern", "Giant Paper Lantern", "Red Garden Lantern", "Street Lantern", "Nightlight", "Candlestick", "Hot Water Bottle", "Hibachi", "Kamaburo", "Camp Fire", "Bathhouse", "Heated Table", "Ghost", "Cushioned Chair", "Wooden Bench", "Stone Chair", "Workbench", "Stump", "Seat Cushion", "Long Seat", "Log Bench", "Japanese Sword", "Katana", "Bamboo Sword", "Wooden Sword", "Ninja Dart", "Bamboo Spear", "Sasumata (Man-catching Fork)", "Naginata Spear", "Funny Hammer", "Shuriken", "Cannon", "Blowfish", "\"No Trespassing\"", "Falling Rock", "Huge Falling Rock", "Small Cone", "Big Cone", "Bee's Nest", "Large Wooden Box", "Fish Statue", "Bonsai", "Hanging Scroll", "Folding Screen", "Kabuki Actor Ukiyo-e", "Sudden Downpour Ukiyo-e", "Great Wave Ukiyo-e", "Red Fuji Ukiyo-e", "Cave Painting", "Gourd Picture", "Sunset Painting", "Easel", "Garden", "Rusted Anchor", "Log Oar", "Command Fan", "Anchor", "Samurai Armor", "Shogun", "Bathhouse Samurai", "Ninja", "Water Ninja", "Ninja on a Kite", "Invisible Ninja", "Straw Conical Hat", "Folding Fan (Japan)", "Dragon Water Pump", "Tatami Mat", "Ninja Scroll", "Tengu Mask", "Hannya Mask", "Ebisu Mask", "Kokeshi Doll", "Big Kokeshi", "Japanese Doll", "Monk Statue", "Deer Scare", "Kappa", "Onibaba", "Shrine Dog", "Inari Shrine", "Inari Banner", "Garden Lantern", "Shrine", "Wish Tablet Display", "New Year's Decoration", "Pine Decoration", "Secretive Kite", "Lion Dancer", "Lone Lion Dance", "Castle Turret", "Thunder Gate", "Magoi", "Higoi", "Kogoi", "Festival Paper Fan", "Clappers", "Kagura Suzu", "Red Namahage", "Blue Namahage", "Nebuta Parade Float", "Omikoshi", "Stall Lantern", "Festival Lantern", "Fox Mask", "Taiko Drum", "Festival Float", "Matsuri Girl", "Matsuri Pompadour", "Matsuri Guy", "Paper Fan Man", "Strongman", "Right Councilor", "Left Councilor", "Matsuri Table", "Matsuri Stage", "Hina Doll Stand", "Huge Camp Fire", "Horseback Archer", "Bonus Bag", "Framed Certificate", "Daruma Doll", "Flower Bouquet", "Celebratory Booze Barrel", "Grand Opening Decoration", "Red Oni", "Good Thief", "Bear Kintaro", "Suited Fireman", "Marble Table", "School Incinerator", "Rock", "Black Rock", "Wisteria Trellis", "Charcoal Barrel", "Firewood", "Water Mill", "Bale of Rice", "Harvested Rice", "Dried Rice Plant", "Straw", "Young Farmer", "Headband Farmer", "Veteran Farmer", "Cattleman", "Small Winnowing Basket", "Hoe", "Rice Paddy Harrow", "Rice Drying Rack", "Scarecrow", "Cowshed", "Rotting Shed", "Rotting Cottage", "Pole Banner", "Big-Catch Flag #1", "Big-Catch Flag #2", "Big-Catch Flag #3", "Big-Catch Flag #4", "Kabuki Tower Ornament", "Statue Base", "Monument", "Courtyard Long House", "Divided Row House", "Split Long House", "Long House", "Thatched Roof House", "Doghouse", "Bird's Nest", "Rental Shop", "Tea Dealer", "Variety Store", "Eatery", "Fruit Shop", "Pharmacy", "Out-of-Business Shop", "Soba Shop", "Miscellaneous Goods Store", "Soba Stand", "Carpenter Shop", "Bookstore", "Fish Market", "Rice Shop", "Doll Store", "Boat Rental", "Money Exchange Shop", "Teahouse", "Shipping Agency", "Sushi Stall", "Tempura Stall", "Barley Tea Stand", "Palm Reader", "Echigoya Kimono Store", "Dango Store", "Fabric Store", "Shrine Office", "Mask Stall", "Blue Stall", "Orange Stall", "Produce Section", "Picnic Table", "Log (Facilities)", "Wooden Steps", "Stage", "Fairy Tale Fountain", "Well", "Earthen Bridge", "Red Bridge", "Gravestone", "Headstone", "Pagoda-shaped Grave Pillar", "Daimyo Headstone", "Governor's Office", "Encampment", "Command Post", "Lodging Post", "Edo Guardhouse", "Gatehouse", "Daimyo Inn", "Daimyo Inn Backup", "Cheap Inn", "Guardhouse", "Inn", "Japanese-Style Inn", "Bell Tower", "Covered Well", "Purification Fountain", "Garden Pavilion", "Notice Board", "Outhouse", "Offering Box", "Fire Watch Tower", "Farm Railing", "Fence", "Pine Wood Fence", "Picket Fence", "Bamboo Railing", "Stone Fence", "Mini Bamboo Fence", "Long House Gate", "Bamboo Fence", "Standing Screen", "Edo Wall", "Edo Wall Corner", "Bamboo Blind", "Stone Picket", "Stone Wall", "Hedge Wall", "Sliding Door", "Shoji Screen", "Sliding Door (Paper Fan)", "Edo Gate", "Shrine Gate", "Inari Shrine Gate", "Pier", "Short Pier", "Long Pier", "Boat Dock", "Japanese Bridge", "Kimono Shop Sign", "Shipping Facility Sign", "Household Goods Store Sign", "Timber Shop Sign", "Edo Transport Service Sign", "Bookstore Sign", "\"All You Can Eat\" Banner", "Teahouse Banner", "Palmistry Sign", "News Broadsheet", "Blowfish Model", "Vertical Banner", "Over 50cm", "Over 3m", "Pine Tree", "Willow", "Ginkgo Leaf", "Ginkgo Tree", "Huge Ginkgo Tree", "Maple Leaf", "Maple Tree", "Huge Maple Tree", "Giant Lily Pad", "Thin Tall Grass", "Bush", "Garden Shrub", "Bamboo Grass", "Rice Plant", "Rice Plant Bundle", "Reeds", "Garden Plant", "Garden Plant (M)", "Pampas Grass", "Mushroom", "Mushroom (L)", "Gigantic Mushroom", "Flat Mushroom", "Stone Door Rock", "Rocks", "Pointy Garden Rock", "Robust Garden Rock", "Small Cargo Boat", "Pleasure Boat", "Ferryboat", "Swan Boat", "Raft", "Stone Stroller", "Stone Bicycle", "Stone Car", "Palanquin", "Noblewoman's Palanquin", "Wagon Wheel", "Giant Carriage", "Wooden Cart", "Luggage Wagon", "Food Stall", "Rickshaw", "Magic Mallet", "Wish Tablet", "Bag of Luck", "Tsuchinoko", "Bunbuku Chagama", "Rugrat", "Juvenile", "Rich Boy", "Rich Girl", "Class Clown", "Relaxing Princess", "Miss Umbrella", "Dango Lady", "Green Kimono Wearer", "Kanzashi Lady", "Ninokin", "Villager", "Blue Kimono Woman", "Old Man", "Old Lady", "Very Tall Person", "Furoshiki Man", "Old Glasses Wearer", "Iris Kimono Lady", "Handbag Lady", "Cleaning Man", "Bookworm", "Wandering Samurai", "Bearded Drifter", "Pompadour Samurai", "Komono", "Lazy Servant", "Sitting Servant", "Shogun's Caretaker", "Shogun's Wife", "Rambler", "Trainee Monk", "Wandering Monk", "Bathhouse Greek", "Bilingual Guy", "Gentleman", "Parisienne", "Ashigaru", "Training Samurai", "Loyal Retainer", "Daimyo", "Edo Police Officer", "Loyal Vassal", "Trader", "Benkei", "Abacus Aficionado", "Merchant", "Paper Boy", "Carpenter", "Master Carpenter", "Fish Vendor", "Traveler", "Medicine Peddler", "Meal Planner", "Hatamoto", "Hostess", "Litter Bearers", "Shrine Maiden", "Abalone Diver", "Fishmonger", "Maintenance Man", "Kabuki Actor", "Tea Master", "Appraiser", "Laundry Master", "Servant", "Acrobat Boy", "Acrobat Girl", "Acrobatics Coach", "Matador", "Courier", "Cook", "Old Master", "Shy", "Lucky", "Hans", "Rosetsu's Dog", "Inuhariko", "Calico Cat", "Tabby Cat", "Black Cat", "Tom Hoshino", "Chipmunk", "Baby Boar", "Akabeko", "Monkey Doll", "Giant Flapjack Octopus", "Rat", "Dairy Cow", "Strawberry Cow", "Ox", "Tiger", "Rabbit", "Horse", "White Horse", "Monkey", "See-No-Evil Monkey", "Speak-No-Evil Monkey", "Hear-No-Evil Monkey", "Chicken", "Doggy", "Black Shiba-inu", "Boar", "Polar Bear", "Big Bear", "Moon Bear", "Sitting Bear", "Big Bivalve", "Big Clam", "Blue Crab", "Spider Crab", "Horseshoe Crab", "Crayfish", "Sea Urchin", "Starfish", "Mahi-mahi", "Snapper", "Tuna", "Bonito", "Stingray", "Sunfish", "Merman", "Octopus", "Pigeon", "Herring Gull", "Peacock", "Sparrow", "Ibis", "Wire Prop (Butterfly)", "Wire Prop (Bird)", "Deer", "Red Fox", "Raccoon Dog", "Turtle", "Mole", "Dinosaur Egg", "Red Dragonfly", "Cloth Roll", "Fishing Net", "Glass Float", "Swordfish", "Sengoku Boat", "Mini Sailboat", "Sperm Whale", "Driftwood", "Amabie", "Raijin", "Fujin", "Pumpkin Carriage", "Coelacanth", "Photo Stand-In"],
+    "As Large As Possible 4": ["Tomato", "Daikon Radishes", "Chinese Cabbages", "Cabbage", "Pumpkin", "Sweet Potato", "Lotus Root", "Carrot", "Broccoli", "Bamboo Shoot", "Green Onion", "Green Pumpkin", "Gigantic Green Pumpkin", "Purple Cabbage", "Spinach", "Boxed Tomatoes", "Boxed Green Peppers", "Turnip", "Boxed Mandarins", "Asian Pear", "Persimmon", "Apple Basket", "Peach Basket", "Orange Basket", "Large Rice Bowl", "Kids Rice Bowl", "Dried Fish Lunch", "Raw Meat", "Daikon Radish Salad", "Konjac", "Fried Shrimp", "Gigantic Fried Shrimp", "Gigantic Ramen", "Sweet Bean Pancake", "Dried Squid", "Hishi-Mochi", "Moon Viewing Dango", "Giant Rice Cracker", "Gigantic Dango", "Sweet Bean Pastry", "Gigantic Sweet Bean Pastry", "Inari Sushi", "Uncut Sushi Roll", "Sashimi Boat", "Rice Ball", "Gigantic Rice Ball", "Sekihan", "Soba Noodles", "Pickle Tub", "Straw Natto", "Grilled Fish", "Chunk of Salmon", "Six Ration Meatballs", "Japanese Flag Lunch Box", "Ochazuke", "Miso Soup", "Tororo Soup", "Tofu", "Giant Tofu", "Tempura Soba", "Kitsune Udon", "Pork Bowl", "Gigantic Pork Bowl", "Spiny Lobster", "Oden", "Oden Meal", "Hot Pot", "Giant Hot Pot", "Rice Skewer", "Square Mochi", "Kagami-Mochi", "Huge Rice Cake", "Milk Can", "Matcha", "Giant Matcha", "Malted Rice Drink", "Cold Ginger Drink", "Tea Caddy", "Canned Tea", "Round Tea Kettle", "Teapot", "Teacup", "Kettle", "Chirori", "Sakazuki", "Gold Cup", "Kitchen Knife", "Wooden Peeler", "Round Plate", "Plate", "Fancy Plate", "Rectangular Plate", "Fruit Dish", "Decorative Dish", "Soy Sauce", "Sugar", "Miso Paste", "Round Tray", "Tray Table", "Cutting Board", "Tiered Lunch Box", "Wooden Mortar", "Wooden Mallet", "Cauldron", "Irori Pot", "Shabu-Shabu Pot", "Rice Container", "Clay Stove", "Cooking Pot", "Old Cook Stove", "Bread Oven", "Sink", "Fish Drying Poles", "Broom", "Bamboo Broom", "Garbage Disposal Area", "Old Newspaper", "Laundry Deck", "Laundry Pole", "Washtub", "Stack of Books", "Red Book", "Japanese-style Book", "Animal Book", "Plant Book", "Bird Illustrations", "Home Medicine Book", "Purple Book", "Inkstone", "India Ink", "Calligraphy Brush", "Large Calligraphy Brush", "Abacus", "Kimono", "Plain Short Sleeves", "Arrow Feather Patterned Kimono", "Green Short Sleeves", "Short-sleeve Kimono", "Sky Blue Short Sleeves", "Wandering Samurai Wig", "Fake Top Knot", "Eboshi", "Wandering Samurai Hat", "Spiffy Geta Sandals", "Hand Mirror", "Powder Brush", "Large Bell", "Mini Hand Drum", "Large Hand Drum", "Tightened Drum", "Biwa", "Shamisen", "Koto", "Shakuhachi", "Conch (Audio)", "Kendo Mask", "Straw Dummy", "Straw Target Board", "Judo Practitioner", "Sumo Wrestler", "Sumo Referee", "Flagstick", "Sumo Bout", "Sumo Ring", "Axe", "Pickaxe", "Elephant", "Ichimatsu Doll", "Big Top", "Paper Ball", "Temari Ball", "Ramshackle Kite", "Japanese Kite", "Pinwheel", "Japanese Cup & Ball", "Rocking Horse", "Castle Model", "Battledore", "Battledore Shuttlecock", "Kiddie Rake", "Kiddie Bucket", "Kaleidoscope", "Jumbo Kinsho", "Shogi Table", "Shogi Piece Stand", "Go Bowl", "Go Board", "Fortune Dispenser", "Calabash", "Bamboo Water Vessel", "Portable Water Vessel", "Balancing Rod", "Basket", "Rolling Luggage", "Suggestion Box", "Empty Coin Box", "Wooden Mosaic Box", "Empty Box Lid", "Empty Box", "Wooden Case", "Wood Box", "Large Basket", "Insect Cage", "Wood Bucket", "Wooden Washtub", "Rainwater Bucket", "Tin Watering Can", "Goldfish Bowl", "Sweets Container", "Urn", "Fruit Basket", "Greek Pot & Lid", "Storehouse", "Shop Warehouse", "Bear Carving", "Mermaid Carving", "Lucky Cat", "Raccoon Dog Statue", "Paper Tiger", "Goldfish Nebuta", "Still Life Painting", "Equestrian Painting", "World Map", "Fish Print", "Shark Teeth", "Lucky Rake", "Sword Display Stand", "Stand", "Vase", "Porcelain Vase", "Fancy Vase", "Novelty Plate", "Large Novelty Plate", "Oni Tile", "Stepping Stone", "Ceremonial Arrow", "Display Stand", "Shoe Display Stand", "Fancy Shelf", "Tree Prop", "Grass Prop", "Moon Prop", "Wooden Staff", "Plant Pattern Towel", "Peach Blossom Hand Towel", "Bamboo Pattern Towel", "Straw Mat", "Giant Straw Mat", "Cushion", "Rush Mat", "Japanese Umbrella", "Red Umbrella", "Toad", "Mechanical Doll", "Elekiter", "Log Table", "Marketplace Table", "Compact Desk", "Desk", "Wooden Table", "Bonsai Stand", "Bookshelf", "Shoe Cupboard", "Felt Rug", "Drainboard", "Mirror Stand", "Wicker Basket", "Express Courier", "Rolled-Up Letter", "Food Delivery Box", "Giant Wide Wooden Crate", "Slouched Sack", "Big Burlap Sack", "Bundle", "Plant Pattern Sack", "Sprout", "Flowerpots", "Topiary Duck", "Topiary Turtle", "Topiary Rabbit", "Topiary Deer", "Elephant Watering Can", "Water Scoop", "Garden Scissors", "Dried Kelp", "Flower Bucket", "Log Flower Bed", "Log Planter", "Rose", "Red Paint", "Paint", "Blacksmith Hammer", "Medium Anvil", "Long Bamboo Ladder", "Rope", "Coil of Rope", "Roof Tile", "Timber", "Log (Tools)", "Wooden Seaside House", "Samurai Governor", "Samurai Patroller", "Samurai Thief Hunter", "Prisoner Carrier", "Spyglass", "Gold Stamp", "Big Coin", "Shachihoko", "Gold Bars", "Rough Diamond", "Ruby Gem", "Unpolished Emerald", "Sapphire Ore", "Unpolished Amethyst", "Ancient Coin Slab", "Silver Nugget", "Tiger Skin", "Coin Box", "Matsutake", "Mini Treasure Boat", "Paper Lamp", "Wealthy Lamp", "White Lantern", "Japanese Lantern", "Giant Paper Lantern", "Red Garden Lantern", "Street Lantern", "Nightlight", "Candlestick", "Hot Water Bottle", "Hibachi", "Kamaburo", "Camp Fire", "Bathhouse", "Heated Table", "Ghost", "Cushioned Chair", "Wooden Bench", "Stone Chair", "Workbench", "Stump", "Seat Cushion", "Long Seat", "Log Bench", "Japanese Sword", "Katana", "Bamboo Sword", "Wooden Sword", "Ninja Dart", "Bamboo Spear", "Sasumata (Man-catching Fork)", "Naginata Spear", "Funny Hammer", "Shuriken", "Cannon", "Blowfish", "\"No Trespassing\"", "Falling Rock", "Huge Falling Rock", "Small Cone", "Big Cone", "Bee's Nest", "Large Wooden Box", "Fish Statue", "Bonsai", "Hanging Scroll", "Folding Screen", "Kabuki Actor Ukiyo-e", "Sudden Downpour Ukiyo-e", "Great Wave Ukiyo-e", "Red Fuji Ukiyo-e", "Cave Painting", "Gourd Picture", "Sunset Painting", "Easel", "Garden", "Rusted Anchor", "Log Oar", "Command Fan", "Anchor", "Samurai Armor", "Shogun", "Bathhouse Samurai", "Ninja", "Water Ninja", "Ninja on a Kite", "Invisible Ninja", "Straw Conical Hat", "Folding Fan (Japan)", "Dragon Water Pump", "Tatami Mat", "Ninja Scroll", "Tengu Mask", "Hannya Mask", "Ebisu Mask", "Kokeshi Doll", "Big Kokeshi", "Japanese Doll", "Monk Statue", "Deer Scare", "Kappa", "Onibaba", "Shrine Dog", "Inari Shrine", "Inari Banner", "Garden Lantern", "Shrine", "Wish Tablet Display", "New Year's Decoration", "Pine Decoration", "Secretive Kite", "Lion Dancer", "Lone Lion Dance", "Castle Turret", "Thunder Gate", "Magoi", "Higoi", "Kogoi", "Festival Paper Fan", "Clappers", "Kagura Suzu", "Red Namahage", "Blue Namahage", "Nebuta Parade Float", "Omikoshi", "Stall Lantern", "Festival Lantern", "Fox Mask", "Taiko Drum", "Festival Float", "Matsuri Girl", "Matsuri Pompadour", "Matsuri Guy", "Paper Fan Man", "Strongman", "Right Councilor", "Left Councilor", "Matsuri Table", "Matsuri Stage", "Hina Doll Stand", "Huge Camp Fire", "Horseback Archer", "Bonus Bag", "Framed Certificate", "Daruma Doll", "Flower Bouquet", "Celebratory Booze Barrel", "Grand Opening Decoration", "Red Oni", "Good Thief", "Bear Kintaro", "Suited Fireman", "Marble Table", "School Incinerator", "Rock", "Black Rock", "Wisteria Trellis", "Charcoal Barrel", "Firewood", "Water Mill", "Bale of Rice", "Harvested Rice", "Dried Rice Plant", "Straw", "Young Farmer", "Headband Farmer", "Veteran Farmer", "Cattleman", "Small Winnowing Basket", "Hoe", "Rice Paddy Harrow", "Rice Drying Rack", "Scarecrow", "Cowshed", "Rotting Shed", "Rotting Cottage", "Pole Banner", "Big-Catch Flag #1", "Big-Catch Flag #2", "Big-Catch Flag #3", "Big-Catch Flag #4", "Kabuki Tower Ornament", "Statue Base", "Monument", "Courtyard Long House", "Divided Row House", "Split Long House", "Long House", "Thatched Roof House", "Doghouse", "Bird's Nest", "Rental Shop", "Tea Dealer", "Variety Store", "Eatery", "Fruit Shop", "Pharmacy", "Out-of-Business Shop", "Soba Shop", "Miscellaneous Goods Store", "Soba Stand", "Carpenter Shop", "Bookstore", "Fish Market", "Rice Shop", "Doll Store", "Boat Rental", "Money Exchange Shop", "Teahouse", "Shipping Agency", "Sushi Stall", "Tempura Stall", "Barley Tea Stand", "Palm Reader", "Echigoya Kimono Store", "Dango Store", "Fabric Store", "Shrine Office", "Mask Stall", "Blue Stall", "Orange Stall", "Produce Section", "Picnic Table", "Log (Facilities)", "Wooden Steps", "Stage", "Fairy Tale Fountain", "Well", "Earthen Bridge", "Red Bridge", "Gravestone", "Headstone", "Pagoda-shaped Grave Pillar", "Daimyo Headstone", "Governor's Office", "Encampment", "Command Post", "Lodging Post", "Edo Guardhouse", "Gatehouse", "Daimyo Inn", "Daimyo Inn Backup", "Cheap Inn", "Guardhouse", "Inn", "Japanese-Style Inn", "Bell Tower", "Covered Well", "Purification Fountain", "Garden Pavilion", "Notice Board", "Outhouse", "Offering Box", "Fire Watch Tower", "Farm Railing", "Fence", "Pine Wood Fence", "Picket Fence", "Bamboo Railing", "Stone Fence", "Mini Bamboo Fence", "Long House Gate", "Bamboo Fence", "Standing Screen", "Edo Wall", "Edo Wall Corner", "Bamboo Blind", "Stone Picket", "Stone Wall", "Hedge Wall", "Sliding Door", "Shoji Screen", "Sliding Door (Paper Fan)", "Edo Gate", "Shrine Gate", "Inari Shrine Gate", "Pier", "Short Pier", "Long Pier", "Boat Dock", "Japanese Bridge", "Kimono Shop Sign", "Shipping Facility Sign", "Household Goods Store Sign", "Timber Shop Sign", "Edo Transport Service Sign", "Bookstore Sign", "\"All You Can Eat\" Banner", "Teahouse Banner", "Palmistry Sign", "News Broadsheet", "Blowfish Model", "Vertical Banner", "Over 50cm", "Over 3m", "Pine Tree", "Willow", "Ginkgo Leaf", "Ginkgo Tree", "Huge Ginkgo Tree", "Maple Leaf", "Maple Tree", "Huge Maple Tree", "Giant Lily Pad", "Thin Tall Grass", "Bush", "Garden Shrub", "Bamboo Grass", "Rice Plant", "Rice Plant Bundle", "Reeds", "Garden Plant", "Garden Plant (M)", "Pampas Grass", "Mushroom", "Mushroom (L)", "Gigantic Mushroom", "Flat Mushroom", "Stone Door Rock", "Rocks", "Pointy Garden Rock", "Robust Garden Rock", "Small Cargo Boat", "Pleasure Boat", "Ferryboat", "Swan Boat", "Raft", "Stone Stroller", "Stone Bicycle", "Stone Car", "Palanquin", "Noblewoman's Palanquin", "Wagon Wheel", "Giant Carriage", "Wooden Cart", "Luggage Wagon", "Food Stall", "Rickshaw", "Magic Mallet", "Wish Tablet", "Bag of Luck", "Tsuchinoko", "Bunbuku Chagama", "Rugrat", "Juvenile", "Rich Boy", "Rich Girl", "Class Clown", "Relaxing Princess", "Ushiwakamaru", "Miss Umbrella", "Dango Lady", "Green Kimono Wearer", "Kanzashi Lady", "Ninokin", "Villager", "Blue Kimono Woman", "Old Man", "Old Lady", "Very Tall Person", "Furoshiki Man", "Old Glasses Wearer", "Iris Kimono Lady", "Handbag Lady", "Cleaning Man", "Bookworm", "Wandering Samurai", "Bearded Drifter", "Pompadour Samurai", "Komono", "Lazy Servant", "Sitting Servant", "Shogun's Caretaker", "Shogun's Wife", "Rambler", "Trainee Monk", "Wandering Monk", "Bathhouse Greek", "Bilingual Guy", "Gentleman", "Parisienne", "Ashigaru", "Training Samurai", "Loyal Retainer", "Daimyo", "Edo Police Officer", "Loyal Vassal", "Trader", "Benkei", "Abacus Aficionado", "Merchant", "Paper Boy", "Carpenter", "Master Carpenter", "Fish Vendor", "Traveler", "Medicine Peddler", "Meal Planner", "Hatamoto", "Hostess", "Litter Bearers", "Shrine Maiden", "Abalone Diver", "Fishmonger", "Maintenance Man", "Kabuki Actor", "Tea Master", "Appraiser", "Laundry Master", "Servant", "Acrobat Boy", "Acrobat Girl", "Acrobatics Coach", "Matador", "Courier", "Cook", "Old Master", "Shy", "Lucky", "Hans", "Rosetsu's Dog", "Inuhariko", "Calico Cat", "Tabby Cat", "Black Cat", "Tom Hoshino", "Chipmunk", "Baby Boar", "Akabeko", "Monkey Doll", "Giant Flapjack Octopus", "Rat", "Dairy Cow", "Strawberry Cow", "Ox", "Tiger", "Rabbit", "Horse", "White Horse", "Monkey", "See-No-Evil Monkey", "Speak-No-Evil Monkey", "Hear-No-Evil Monkey", "Chicken", "Doggy", "Black Shiba-inu", "Boar", "Polar Bear", "Big Bear", "Moon Bear", "Sitting Bear", "Big Bivalve", "Big Clam", "Blue Crab", "Spider Crab", "Horseshoe Crab", "Crayfish", "Sea Urchin", "Starfish", "Mahi-mahi", "Snapper", "Tuna", "Bonito", "Stingray", "Sunfish", "Merman", "Octopus", "Pigeon", "Herring Gull", "Peacock", "Sparrow", "Ibis", "Wire Prop (Butterfly)", "Wire Prop (Bird)", "Deer", "Red Fox", "Raccoon Dog", "Turtle", "Mole", "Dinosaur Egg", "Red Dragonfly", "Cloth Roll", "Fishing Net", "Glass Float", "Swordfish", "Sengoku Boat", "Mini Sailboat", "Sperm Whale", "Driftwood", "Amabie", "Raijin", "Fujin", "Pumpkin Carriage", "Coelacanth", "Photo Stand-In"],
     "As Fast As Possible 4": ["Bread Oven", "Sumo Ring", "Elephant", "Storehouse", "Shop Warehouse", "Giant Straw Mat", "Dried Kelp", "Long Bamboo Ladder", "Wooden Seaside House", "Nightlight", "Bathhouse", "Huge Falling Rock", "Garden", "Anchor", "Shrine Dog", "Castle Turret", "Thunder Gate", "Nebuta Parade Float", "Festival Float", "Matsuri Stage", "Huge Camp Fire", "Water Mill", "Cowshed", "Rotting Shed", "Rotting Cottage", "Big-Catch Flag #1", "Big-Catch Flag #2", "Big-Catch Flag #3", "Big-Catch Flag #4", "Statue Base", "Courtyard Long House", "Divided Row House", "Split Long House", "Long House", "Thatched Roof House", "Rental Shop", "Tea Dealer", "Variety Store", "Eatery", "Fruit Shop", "Pharmacy", "Out-of-Business Shop", "Soba Shop", "Miscellaneous Goods Store", "Carpenter Shop", "Bookstore", "Fish Market", "Rice Shop", "Doll Store", "Boat Rental", "Money Exchange Shop", "Teahouse", "Shipping Agency", "Echigoya Kimono Store", "Dango Store", "Fabric Store", "Blue Stall", "Orange Stall", "Picnic Table", "Stage", "Fairy Tale Fountain", "Earthen Bridge", "Red Bridge", "Governor's Office", "Encampment", "Command Post", "Lodging Post", "Edo Guardhouse", "Gatehouse", "Daimyo Inn", "Daimyo Inn Backup", "Guardhouse", "Inn", "Japanese-Style Inn", "Bell Tower", "Covered Well", "Purification Fountain", "Garden Pavilion", "Notice Board", "Fire Watch Tower", "Edo Wall", "Edo Wall Corner", "Stone Wall", "Hedge Wall", "Edo Gate", "Inari Shrine Gate", "Pier", "Short Pier", "Long Pier", "Boat Dock", "Japanese Bridge", "Kimono Shop Sign", "Shipping Facility Sign", "Household Goods Store Sign", "Timber Shop Sign", "Edo Transport Service Sign", "Vertical Banner", "Pine Tree", "Willow", "Ginkgo Tree", "Huge Ginkgo Tree", "Maple Tree", "Huge Maple Tree", "Rice Plant Bundle", "Mushroom (L)", "Stone Door Rock", "Rocks", "Pleasure Boat", "Swan Boat", "Havana", "Miki", "Pokkle", "Ox", "Big Bivalve", "Swordfish", "Sengoku Boat", "Sperm Whale", "Driftwood", "Pumpkin Carriage"],
     "Lots of Coins": ["Golden Corn", "Green Pumpkin", "Strawberry", "Mandarin", "Mandarin Peel", "Mandarin Piece", "Banana", "Toast", "Cheese Wedge", "Swiss Cheese", "Canned Mackerel Pike", "Dried Squid", "Hishi-Mochi", "Mitarashi Dango", "Chestnut Manju", "Light Chocolate Sticks", "Mint Chocolate Sticks", "Crème Caramel", "Tuna Sushi", "Squid Sushi", "Egg Sushi", "Rice Ball", "Grilled Fish", "Variety Lunch Box", "Ochazuke", "Miso Soup", "Hot Pot", "Matcha", "Teacup", "Hot Water Pot", "Kitchen Knife", "Round Plate", "Food Bowl", "Round Tray", "Tray Table", "Japanese-English Dictionary", "Inkstone", "Spiffy Geta Sandals", "Horseshoe", "Big Top", "Red Cylinder Toy Block", "Blue Cylinder Toy Block", "Yellow Square Toy Block", "Red Square Toy Block", "Blue Triangle Toy Block", "Yellow Triangle Toy Block", "Pinwheel", "Mallet", "Daruma Head", "Daruma Body (Yellow)", "Daruma Body (Green)", "Daruma Body (Blue)", "Tiny Storage Box", "Paper Tiger", "Picture Frame", "Sword Display Stand", "Stand", "Toad", "Alarm Clock", "Bundle", "Elephant Watering Can", "Water Scoop", "Cosmea", "Orange Cosmea", "Pansy (Yellow)", "Pansy (Red)", "Narcissus", "Paintbrush", "Mosquito Coil", "Gold Stamp", "Gold Pineapple", "Old Coin", "Big Coin", "Golden Jet", "Gold Bar", "Gold Bars", "Tsuba", "Japanese Lantern", "Wax Candle", "Japanese Sword", "Arrow", "Shuriken", "Tengu Fan", "Mousetrap", "Cone 45cm", "Geta", "Noh Mask", "Tengu Mask", "Ebisu Mask", "Kokeshi Doll", "Halloween Pumpkin", "Framed Certificate", "Gold Medal", "Price Tag 98 Yen", "Plaque", "Over 45cm", "Ginkgo Leaf", "Maple Leaf", "Drooby", "Tabby Cat", "Cymbal Monkey", "Akabeko", "Rat", "Mouse", "Rabbit", "Fish Bones", "Squid", "Octopus", "Mole"],
     "Cowbear Pasture": ["Bamboo Shoot", "Box of Apples", "Peach Basket", "Pickle Tub", "Giant Hot Pot", "Malted Rice Drink", "Milk Carton", "Cold Ginger Drink", "Wooden Mortar", "Kimono", "Gong", "Conch (Audio)", "Kendo Mask", "Straw Dummy", "Cut Straw Dummy", "Straw Target Board", "Samurai's Vortex Wheel", "Ramshackle Kite", "Rocking Horse", "Jumbo Kinsho", "Shogi Table", "Balancing Rod", "Animal Cage", "Empty Coin Box", "Cannonball Holder", "Barrel", "Empty Barrel", "Ball Toss Basket", "Bear Carving", "Lucky Cat", "Raccoon Dog Statue", "Porcelain Vase", "Decorative Vase", "Oni Tile", "Hammock", "Red Umbrella", "Stone TV", "Barrel Table", "Stone Table", "Wooden Table", "Felt Rug", "Carpet", "Wide Wooden Crate", "Topiary Deer", "Watering Pot", "Happy Flower", "Medium Anvil", "Log (Tools)", "Watermelon", "Wow Watermelon", "Giant Watermelon", "Firework Shell", "Beachball", "Cow Umbrella", "Ammonite Fossil", "Fossil", "Shachihoko", "Pile of Gold Coins", "Ancient Coin Slab", "Coin Box", "Mini Treasure Boat", "Wealthy Lamp", "White Lantern", "Red Paper Lantern", "Giant Paper Lantern", "Camp Fire", "Heated Table", "Stone Refrigerator", "Frost-Resistant Flower", "Cushioned Chair", "Blue Deck Chair", "Green Deck Chair", "Red Deck Chair", "Long Seat", "Katana", "Bamboo Sword", "Wooden Sword", "Bamboo Spear", "Jomon Spear", "Naginata Spear", "Labrys", "Bow & Arrow", "Cannon", "Cannonball", "Barrel Bomb", "Falling Rock", "Cow Cone", "Fish Statue", "Bear Cub Statue", "Lion Statue", "Rusted Anchor", "Signaling Baton", "Child Armor", "Samurai Armor", "Large Samurai Armor", "Shogun", "Ninja", "Water Ninja", "Invisible Ninja", "Tatami Mat", "Big Kokeshi", "Fallen Samurai", "Kasha", "Cow Oni", "Shrine Dog", "Garden Lantern", "Pine Decoration", "Lion Dancer", "Lone Lion Dance", "Stall Lantern", "Festival Lantern", "Taiko Drum", "Horseback Archer", "Daruma Doll", "Red Oni", "Blue Oni", "Yellow Oni", "Kintaro", "Mobile Blackboard", "Pebble", "Bale of Rice", "Dried Rice Plant", "Straw", "Rice Drying Rack", "Scarecrow", "Pole Banner", "Cow Banner", "Bear Banner", "Umajirushi", "Statue Base", "Monument", "Log (Facilities)", "Log Fence", "Pine Wood Fence", "Bamboo Railing", "Mini Bamboo Fence", "Barbed Fence", "Bamboo Fence", "Encampment Barrier", "Freestanding Shield", "Post", "Bamboo Bundle", "Sliding Door (Cherry Blossom)", "Sliding Door (Paper Fan)", "Sliding Door Wave Pattern", "\"On Sale\" Banner", "Teahouse Banner", "\"No Stealing Cows\" Sign", "Katamari Sign", "Willow", "Tall Grass", "Bush", "Garden Plant (M)", "Big Dead Tree", "Mushroom", "Gigantic Mushroom", "Flat Mushroom", "Pointy Garden Rock", "Raft", "Stone Stroller", "Stone Bicycle", "Stone Car", "Big Bear Bus", "Wagon Wheel", "Wooden Cart", "Treasure Chest", "Bunbuku Chagama", "Alien", "Ashigaru", "Training Samurai", "Loyal Vassal", "Benkei", "Horse Costume", "Huey", "Daisy", "Tom Hoshino", "Wind-up Bear", "Penguin", "Seal", "Sea Otter", "Dairy Cow", "Jersey Cow", "Strawberry Cow", "Cow Shogun", "Cow Foot Soldier", "Horse", "White Horse", "White Sheep", "Black Sheep", "Monkey", "See-No-Evil Monkey", "Boar", "Sun Bear", "Polar Bear", "Big Bear", "Moon Bear", "Money Bear", "Resting Bear", "Bear Foot Soldier", "Bear General", "Lion", "Spider Crab", "Salmon", "Sunfish", "Merman", "Eagle", "Wings", "Weathercock (Colourful)", "Pigeon Statue", "Deer", "Okapi", "Donkey Statue", "Hippopotamus", "Pig", "Giraffe", "Dalmatian", "Wool Roll", "Man In Barrel", "Centaur", "Minotaur", "Amabie", "Cowbear", "Coelacanth"],
     "Lots of Icicles": ["Skewered Fish", "Tropical Juice", "Sunglasses", "Ice Axe", "Pickaxe", "Fishing Pole", "Cow Skull", "Deer Horn", "Santa & Reindeer", "Chisel", "Giant Saw", "Rope", "Coil of Rope", "Bone", "Mammoth Tusk", "Ammonite Fossil", "Rough Diamond", "Ruby Gem", "Unpolished Emerald", "Sapphire Ore", "Unpolished Amethyst", "Wooden Torch", "Camp Fire", "Glove", "Icicle", "Giant Icicle", "Ice Spire", "Pink Icicle", "Large Pink Icicle", "Green Icicle", "Large Green Icicle", "Orange Icicle", "Giant Orange Icicle", "Frosted Flower", "Ice Block", "Frozen Red Fish", "Frozen Pufferfish", "Giant Frozen Fish", "Frozen Striped Fish", "Ice Bucket", "Snow Rabbit", "Snow Child", "Yeti", "Frost-Resistant Flower", "Stone Chair", "Stone Hatchet", "Firewood", "Shovel", "Hoe", "Belaying Pin", "Hole", "Njamo", "Penguin", "Jet Pack Emperor Penguin", "Red Penguin", "Indigo Penguin", "Yellow Penguin", "Green Penguin", "Light Blue Penguin", "Orange Penguin", "Purple Penguin", "Sitting Wolf", "Big Clam", "Coral Reef", "Big Coral", "Red Coral", "Peach Coral", "Blue Coral", "Pink Coral", "Round Coral", "Big Round Coral", "Salmon", "Snapper", "Narwhal", "Fish Bones", "Bat", "Mole", "Swordfish", "Nautilus"],
     "Perfect-Sized Mammoth": ["XL Roast On Bone", "Well-Done Steak", "Stone Clothes Drying Rack", "Stone Clothesline Pole", "Gorgeous Fur Coat", "Caveman & Club", "Mammoth", "Deinotherium", "Stone Table", "Ammonite Fossil", "Fossil", "Ice Daruma", "Snow Human", "Tuna Ice Block", "Abominable Snowman", "Yeti", "Shot Yeti", "Skater Yeti", "Snowboarder Yeti", "Cone 1m", "Matsuri Table", "Huge Camp Fire", "Big-Catch Flag #1", "Animal Skin House", "Log (Facilities)", "Primitive Log Fence", "Farm Railing", "Stone Gate", "Stone Map", "Tall Wintry Tree", "Round Wintry Tree", "White Birch", "Fairy Mushroom", "Flat Mushroom", "Stone Sleigh", "Sasquatch", "Sitting Sasquatch", "Alien", "Cavebaby", "Cavegirl", "Caveboy With Bone", "High Ponytail Kid", "Caveman", "Sitting Caveman", "Caveman Grandpa", "Cavegal", "Caveguy", "Hot Spring Caveman", "Cavedancer", "Caveman Lumberjack", "Caveman Hunter", "Löyly Caveman", "Neanderthal Lumberjack", "Primitive Drummer", "Sherman", "Jet Pack Emperor Penguin", "Rocket Penguin", "Saber-toothed Tiger", "Polar Bear", "Moon Bear", "Sitting Bear", "Big Gorilla", "Saiga Antelope", "Muskox", "Driftwood", "Gigantopithecus", "Megatherium", "Pelorovis", "Neanderthal"],
-    "As Large As Possible 5": ["Daikon Radishes", "Chinese Cabbages", "Corn", "Carrot", "Green Onion", "Boxed Tomatoes", "Boxed Green Peppers", "Big Turnip", "Melon", "Big Peach", "Coconut", "Half Coconut", "Pineapple", "Gigantic Pineapple", "Red Berry Harvest", "Green Berries", "Box of Grapes", "Box of Muscat Grapes", "Apple Basket", "Peach Basket", "Big Bento Lunch", "Dried Fish Lunch", "Toast", "Cheese Wheel", "Meat", "Hanging Meat", "Roast On Bone", "Large Meat", "Turkey", "Raw Meat", "Jumbo Beef Patty", "Greek Lunch", "Gigantic Fried Shrimp", "Gigantic Ramen", "Curry", "Stew", "Golden Fried Rice", "Roast Pork", "Moon Viewing Dango", "Gigantic Dango", "Gigantic Sweet Bean Pastry", "Dried Mochi", "Sashimi Boat", "Gigantic Rice Ball", "Soba Noodles", "Pickle Tub", "Skewered Fish", "Giant Tofu", "Gigantic Pork Bowl", "Spiny Lobster", "Giant Shrimp", "Kabuki Actor Hot Pot", "Tasty Hot Pot", "Giant Hot Pot", "Orange Soda", "Apple Juice Bottle", "Milk Can", "Strawberry Milk Can", "Giant Matcha", "Malted Rice Drink", "Cold Ginger Drink", "Kettle", "Butcher's Knife", "Large Plate", "Fancy Plate", "Soy Sauce Bottle", "Soy Sauce Jar", "Fancy Dining Table", "Cutting Board", "Tiered Lunch Box", "Wooden Mortar", "Wooden Mallet", "Shabu-Shabu Pot", "Wok", "Rice Container", "Cooking Pot", "Old Cook Stove", "Bread Oven", "Outdoor Grill", "Fish Drying Poles", "Bamboo Broom", "Garbage Disposal Area", "Clay Tablet", "Large Calligraphy Brush", "Papyrus Paper Bundle", "Kimono", "Blond Long & Straight", "Blond Pompadour", "Blond Afro", "Fake Top Knot", "Eboshi", "Wandering Samurai Hat", "Panda Slipper", "Hand Mirror", "Egyptian Necklace", "Sunglasses", "Large Bell", "Temple Bell", "Mini Hand Drum", "Large Hand Drum", "Tightened Drum", "Gold Egyptian Harp", "Conch (Audio)", "Grand Piano", "Organ", "Pipe Organ", "Straw Target Board", "Judo Practitioner", "Sumo Wrestler", "Sumo Referee", "Spartan Warrior & Dory", "Spartan Warrior & Xiphos", "Phalanx Formation", "Spartan Student", "Samurai's Vortex Wheel", "Killer Move", "Mammoth", "Large Mammoth", "Elephant", "Indian Elephant", "Paper Ball", "Ramshackle Kite", "Rocking Horse", "Castle Model", "Picture-story Show", "Fishing Pole", "Jumbo Kinsho", "Shogi Table", "Portable Water Vessel", "Rolling Luggage", "Suggestion Box", "Wooden Case", "Wood Box", "Netting Cage", "Small Wash Bucket", "Wood Bucket", "Barrel", "Empty Barrel", "Wooden Washtub", "Rainwater Bucket", "Tin Watering Can", "Goldfish Bowl", "Wooden Coffin", "Urn", "Greek Water Pitcher", "Greek Pot & Lid", "Storehouse", "Shop Warehouse", "Bear Carving", "Lucky Cat", "Russian Doll (XL)", "Goldfish Nebuta", "Red Cloth", "Blue Cloth", "Green Cloth", "Purple Cloth", "Model Ship", "Portrait Painting", "Landscape Painting", "World Map", "Porcelain Vase", "Decorative Vase", "Oni Tile", "Ceremonial Arrow", "Miniature Pyramid", "Shoe Display Stand", "Triangular Shelf", "Tree Prop", "Moon Prop", "Blue Cloth Roll", "Green Cloth Roll", "Purple Cloth Roll", "Red Cloth Roll", "Yellow Cloth Roll", "Giant Straw Mat", "Rush Mat", "Japanese Umbrella", "Red Umbrella", "Grandfather Clock", "Stone Clock", "Cuckoo Clock", "Mechanical Doll", "Elekiter", "V-1", "V-2", "V-3", "Super Robot", "Barrel Table", "Log Table", "Stone Table", "Table With Tablecloth", "Egyptian Table", "Compact Desk", "Desk", "Wooden Table", "Stone Drawer", "Stone Shelf", "Big Decorative Shelf", "Bonsai Stand", "Shoe Cupboard", "Red Rug", "Blue Rug", "Western Rug", "Felt Rug", "Carpet", "Drainboard", "Armrest", "Mirror Stand", "Express Courier", "Food Delivery Box", "Coal Car", "Santa & Reindeer", "Giant Wooden Crate", "Giant Wide Wooden Crate", "Slouched Sack", "Big Burlap Sack", "Plant Pattern Sack", "Potted Cycad", "Flowerpots", "Large Shrubbery", "Squared Shrubbery", "Topiary Deer", "Dried Kelp", "Hydrangea", "Flowers", "Golden Cracker Flower", "Black Flower Pot", "Flower Bucket", "Log Flower Bed", "Happy Flower", "Surprise Flower", "Blacksmith Hammer", "Timber", "Log (Tools)", "Watermelon", "Giant Watermelon", "Firework Shell", "Wooden Seaside House", "Strawberry Syrup", "Blue Hawaii Syrup", "Lemon Syrup", "Melon Syrup", "Samurai Governor", "Samurai Thief Hunter", "Samurai Thief Hunter (Paper Lantern)", "Buckingham Guard", "Official Paper Lantern", "Police Club", "Globe", "Giant Ammonite Fossil", "Full Dinosaur Skeleton", "Fossil", "Golden Egg", "Shiny Gold Town", "Shiny Gold Mansion", "Shiny Gold Castle", "Golden Mask", "Sarcophagus", "Ancient Coin Slab", "Suit of Armor", "Mini Treasure Boat", "Treasure Boat", "Paper Lamp", "Wealthy Lamp", "Giant Paper Lantern", "Red Garden Lantern", "Street Lantern", "Nightlight", "Slim Fire Pit", "Big Fire Pit", "Anglerfish", "Tall Lighthouse", "Hibachi", "Wide Hibachi", "Kamaburo", "Camp Fire", "Flame", "Bathhouse Chimney", "Bathhouse", "Heated Table", "Ice Spire", "Stone Refrigerator", "Ice Block", "Frozen Red Fish", "Giant Frozen Fish", "Frozen Striped Fish", "Abominable Snowman", "Yeti", "Sweep Yeti", "Ghost", "Barefoot Ghost", "Ghost Chef", "Small Iceberg", "Pointy Iceberg", "Iceberg", "Big Iceberg", "Ice Floe", "Giant Ice Floe", "Snow Ball (Massive)", "Folding Stool", "Round Straw Mat", "Greek Chair", "Wooden Bench", "Blue Deck Chair", "Green Deck Chair", "Red Deck Chair", "Greek Bench", "Stone Sofa", "Stone Chair", "Workbench", "Seat Cushion", "Long Seat", "Log Bench", "Japanese Sword", "Katana", "Bamboo Spear", "Trident", "Epic Shield", "Cannon", "Spartan Helmet", "TNT Box", "Detonator", "Barrel Bomb", "Falling Rock", "Huge Falling Rock", "Big Cone", "Surprise Cone", "American Cone", "Danger Sign", "Earthquake Catfish", "Tornado", "Giant Tornado", "Balance Scale", "Giant Scale", "Big Protractor", "Big Triangle Ruler", "Scale", "Haniwa Man", "Warrior Haniwa", "Clay Figure", "Owl-Like Clay Figure", "Bear Cub Statue", "Spirit of Joy", "Spirit of Anger", "Spirit of Sorrow", "Spirit of Fun", "Human Statue", "Muscle Sculpture", "1st Generation Bust", "2nd Generation Bust", "3rd Generation Bust", "4th Generation Bust", "5th Generation Bust", "Philosopher Statue", "Spartan & Xiphos Statue", "Spartan & Dory Statue", "Thoth Statue", "Crouching Anubis Statue", "Giant Sandcastle", "Folding Screen", "Kabuki Actor Ukiyo-e", "Sudden Downpour Ukiyo-e", "Great Wave Ukiyo-e", "Red Fuji Ukiyo-e", "Primitive Painting", "Easel", "Mystery Key Crop Circle", "Mystery UFO Crop Circle", "Mystery Sun Crop Circle", "Garden", "Mystery Sun Island", "Mystery UFO Island", "Mystery Key Island", "Command Fan", "Signaling Baton", "Parking Turntable", "Samurai Armor", "Shogun", "Ninja", "Ninja on a Kite", "Invisible Ninja", "Dragon Water Pump", "Japanese Doll", "Tengu", "Fallen Samurai", "Yuki Onna", "Nurarihyon", "Inugami", "Osakabehime", "Jorogumo", "Jinmen-ken", "Nuppeppo", "Lantern Ghost", "Nurikabe", "Nekomata", "Shrine Dog", "Garden Lantern", "Temple", "Grand Shrine", "Shrine", "Pine Decoration", "Secretive Kite", "Lion Dancer", "Castle Turret", "Thunder Gate", "Mt. Fuji", "Carp Streamer Pole", "Magoi", "Higoi", "Kogoi", "Fukinagashi", "Nebuta Parade Float", "Long-mouthed Hyottoko Mask", "Taiko Drum", "Festival Float", "Matsuri Pompadour", "Matsuri Table", "Matsuri Stage", "Hina Doll Stand", "Big Camp Fire", "Champion's Trophy", "Daruma Doll", "Wedding Cake", "Celebratory Booze Barrel", "Grand Opening Decoration", "Red Oni", "Blue Oni", "Green Oni", "Good Thief", "Mecha Mogran", "Neck Monster", "Momotaro", "Suited Fireman", "Firehook Fireman", "Hook Fireman", "Man-Catcher Fireman", "Jumbo Samurai Governor", "Fly, Jumboman!", "Marine Jumboman", "Fight, Jumboman!", "Jumbo Papa", "Reversible Cap", "Horizontal Bars", "Monkey Bars", "Slide", "Seesaw", "Globe Jungle Gym", "Jungle Gym", "Koala Rocker", "Wisteria Trellis", "Water Mill", "Bale of Rice", "Harvested Rice", "Sack of Wheat", "Young Farmer", "Veteran Farmer", "Grinding Mortar", "Small Winnowing Basket", "Hoe", "Rice Paddy Harrow", "Rice Drying Rack", "Scarecrow", "Rotting Shed", "Rotting Cottage", "European Farm", "Chocolate Factory", "Grape Factory", "Grape Warehouse", "Auto Factory", "Chimney", "Bank", "Pole Banner", "Big-Catch Flag #1", "Big-Catch Flag #2", "Big-Catch Flag #3", "Big-Catch Flag #4", "Umajirushi", "Kabuki Tower Ornament", "Sacred Fire", "Lone Cedar Tree", "Married Rocks", "Clock Tower", "Station Building", "Future Tower", "Courtyard Long House", "Divided Row House", "Split Long House", "Neat Housing Complex", "Messy Housing Complex", "Long House", "Extremely Tall Tower", "Absurdly Tall Tower", "Ridiculously Tall Tower", "Animal Skin Tent", "Portable Tent", "Raised Floor House", "Raised Temple", "Thatched Roof House", "Island House", "Pit House", "Desert Mansion", "Dry Desert House", "Sandy Desert House", "Rough Desert House", "Gritty Desert House", "Igloo", "Bird's Nest", "Aquarium", "Mushroom House", "Cottage", "Lodge", "Pierre Residence", "William Residence", "Joseph Residence", "Rudolph Residence", "Croissant Building", "European House", "Goldman Estate", "Tyler Residence", "Arthur Residence", "Adams Residence", "Lloyd Residence", "Brown Residence", "Rental Shop", "Thrift Store", "Tea Dealer", "Variety Store", "Eatery", "Fruit Shop", "Pharmacy", "Out-of-Business Shop", "Soba Shop", "Miscellaneous Goods Store", "Carpenter Shop", "Bookstore", "Fish Market", "Rice Shop", "Doll Store", "Boat Rental", "Money Exchange Shop", "Teahouse", "Shipping Agency", "Sushi Stall", "Tempura Stall", "Barley Tea Stand", "Produce Store", "Pottery Store", "Edo Barbershop", "Umbrella & Paper Lantern Shop", "Household Goods Store", "Timber Shop", "Edo Transport Service", "Echigoya Kimono Store", "Dango Store", "Fabric Store", "Red Sunshade", "Blue Sunshade", "Shaved Ice Stand", "Grilled Corn Stand", "Candy Apple Stand", "Takoyaki Stand", "Blue Stall", "Orange Stall", "Market", "Chinese Restaurant Menu", "Café", "Restaurant", "Flower Store", "Clock Store", "Butcher Shop", "Bakery", "Fruit Store", "Cosmic Space Center", "Launch Pad", "Mini Circus Tent", "Gazebo", "Log (Facilities)", "Wooden Steps", "Fairy Tale Fountain", "Fountain", "Monastery", "Well", "Earthen Bridge", "Mega Bridge", "Red Bridge", "High Raised Tower", "Food Storage House", "Japanese Theater", "Governor's Office", "Encampment", "Command Post", "Lodging Post", "Edo Guardhouse", "Gatehouse", "Daimyo Inn", "Daimyo Inn Backup", "Fireman's Lodging Post", "Guardhouse", "Inn", "Japanese-Style Inn", "Bell Tower", "Covered Well", "Purification Fountain", "Notice Board", "Outhouse", "Offering Box", "Fire Watch Tower", "Chinese Bell Tower", "Tall Bell Tower", "Farm Railing", "Pine Wood Fence", "Picket Fence", "Bamboo Railing", "Stone Fence", "Barbed Fence", "Bamboo Fence", "Standing Screen", "Encampment Barrier", "Freestanding Shield", "Edo Wall", "Edo Wall Corner", "Large Edo Wall", "Bathhouse Curtain", "Belaying Pin", "Stone Picket", "Bamboo Bundle", "Stone Wall", "Hedge Wall", "Angled Shrubbery", "Edo Gate", "Shrine Gate", "Inari Shrine Gate", "Leafy Arch", "Pier", "Short Pier", "Long Pier", "Boat Dock", "Duct", "Chinese Gate", "Primitive Traffic Signal", "Wooden Lamp Post", "Arowana Highway", "Chimaera Highway", "Lancetfish Highway​", "Future Highway", "Japanese Bridge", "Uguisu Town", "Hototogisu Town", "Wild Town", "Good Town", "Surprise Town", "Dog Town", "Future City", "Cyber City", "Techno City", "Mushroom City", "The People", "Everyone", "Ginger Crane Town", "Turtle Dove Town", "Flycatcher Town", "Tuna City", "Flying Squirrel District", "Peacock District", "Dugong District", "Toucan District", "Pheasant District", "Firecracker District", "Condor District", "Llama District", "Sea Turtle District", "Automatic Island", "Orichalcum Island", "Swallow Island", "Budgie Isle", "Parrot Isle", "Rooster Isle", "Signpost", "Kimono Shop Sign", "Shipping Facility Sign", "Household Goods Store Sign", "Timber Shop Sign", "Edo Transport Service Sign", "Edo Water House Sign", "Bookstore Sign", "Edo Barbershop Sign", "Stewed Cuisine Sign", "Rice Dealer Sign", "Display Menu", "\"All You Can Eat\" Banner", "Yakitori Shop Lantern", "Blowfish Model", "Waterway Marker", "Vertical Banner", "\"Mother\" Sign", "\"Nature\" Sign", "Over 3m", "Over 12m", "Over 60m", "Fir Tree", "Savanna Tree", "Decorative Tree", "Tree", "Tree-Swing Tree", "Big Tree", "Huge Tree", "Gigantic Tree", "Pine Tree", "Large Pine Tree", "Willow", "Palm Tree", "Spherical Tree", "Conifer", "Dark Conifer", "Cherry Blossom Tree", "Peach Tree", "Winter Conifer", "Baobab Tree", "Jurassic Tree", "Thin Tall Grass", "Paddle Cactus", "Wild Cactus", "Bush", "Bamboo Grass", "Reeds", "Bamboo", "Garden Plant", "Garden Plant (M)", "Mushroom (L)", "Gigantic Mushroom", "Mushroom (XXXL)", "Miracle Mushroom", "Surprise Tumbleweed", "Flower Tumbleweed", "Mysterious Fuzzball", "Grass Clump", "World Tree", "Grove", "Woods", "Jungle (Nature)", "Coniferous Forest", "Winter Coniferous Forest", "Red Leaf Forest", "Yellow Leaf Forest", "Cherry Forest", "Rocks", "Robust Garden Rock", "Goblin Shark Island", "Nautilus Island", "Lotus Root Island", "Gigglebear Island", "Mt. Magnet", "Mt. Olympus", "Mt. Ginger", "Cockle Island", "Tsunami Island", "City Ruin", "Anchor Island", "Dokudami Island", "Lily Island", "Jewelweed Island", "Begonia Island", "Udo Island", "Death Valley Rocks", "Oasis", "Machu Picchu Site", "Celery Island", "Azalea Island", "Tsukushi Island", "Radish Island", "Lily Bell Island", "Parsley Island", "Pea Island", "Willow Island", "Fungus Island", "Larch Tree Island", "Pinky Island", "Chrysanthemum Island", "Bean Sprout Island", "Desert (1)", "Desert (2)", "Huge Desert", "Mega Dunes", "Desert (3)", "Bud Island", "Dandelion Island", "Cypress Island", "Cosmea Island", "Stinky Island", "Thorn Island", "Mt. Camellia", "Mt. Akane", "Mt. Wasabi", "Bristlegrass Island", "Robinson Island", "Pohole Island", "Anemone Island", "Sunflower Island", "Mustard Island", "Red Bean Island", "Morning Glory Island", "Mugwort Island", "Plantain Island", "Camellia Island", "Ume Island", "Peony Island", "Hyacinth Island", "Canna Island", "Pansy Island", "Crater", "Palm Tree Coast", "Tulip Coast", "Ivy Island", "Cherry Island", "Niagara Falls", "The Grand Canyon", "Green Island", "Soybean Island", "Plum Island", "Fir Island", "Cheesy Island", "Littleneck Beach", "Mountain Tunnel", "Cuckoo Isle", "Spot-Billed Isle", "Owl Isle", "Crow Isle", "Peacock Isle", "Eagle Isle", "Skylark Isle", "Java Sparrow Isle", "Canary Isle", "Quartz", "Super Huge Rainbow", "Active Volcano", "Large Volcano", "Spiral Rock", "Mt. Sungan", "Mt. Fried Rice", "Washtub Boat", "Small Cargo Boat", "Pleasure Boat", "Papyrus Boat", "Ferryboat", "Stone Car", "Palanquin", "Noblewoman's Palanquin", "Greek Chariot", "Steam Locomotive", "Passenger Car", "Carriage", "Mine Cart", "Giant Carriage", "Wooden Cart", "Luggage Wagon", "Food Stall", "Rickshaw", "Treasure Chest", "Bag of Luck", "Bunbuku Chagama", "Sasquatch", "Mystery Creature", "Cupid", "Utsuro-bune", "UFO", "Rocket", "Astro Jet", "Secret Hideout", "Hot Air Balloon", "Blue Hot Air Balloon", "Polka-Dot Hot Air Balloon", "Pink Hot Air Balloon", "Colorful Hot Air Balloon", "European Hot Air Balloon", "Rugrat", "Juvenile", "Rich Girl", "Noble Lad", "Relaxing Princess", "Ushiwakamaru", "Tiny Cowgirl", "Relaxing Greek Child", "Running Boy", "Mutsuo Hoshino", "Michiru Hoshino", "Sitting Student", "Young Spinosaurus", "Miss Umbrella", "Dango Lady", "Green Kimono Wearer", "Kanzashi Lady", "Human Pyramid Athlete", "Villager", "Blue Kimono Woman", "Old Man", "Old Lady", "Very Tall Person", "Furoshiki Man", "Old Glasses Wearer", "Iris Kimono Lady", "Handbag Lady", "Cleaning Man", "Bookworm", "Pompadour Samurai", "Komono", "Lazy Servant", "Sitting Servant", "Shogun's Caretaker", "Noble Minister", "Trainee Monk", "Wandering Monk", "Giddy Up! Cowboy", "Mustache Cowboy", "Blond Cowboy", "Blue Dress Woman", "Rodeo Cowboy", "Lazy Cowboy", "Youngster Cowboy", "Noble Egyptian Woman", "Ancient Egyptian", "Egyptian Parent & Child", "Egyptian Man", "Egyptian Lady", "Ancient Greek", "Relaxing Greek Citizen", "Greek With Cane", "Lazy Greek", "Wandering Man", "Sitting Caveman", "Driving Caveman", "Caveman Grandpa", "Cavegal", "Lazy Watchman", "Tomboy Cavegirl", "Bilingual Guy", "Mizue Hoshino", "Chinese Man", "Gentleman", "Sleeping Bag Man", "Ashigaru", "Training Samurai", "Loyal Retainer", "Daimyo", "Edo Police Officer", "Loyal Vassal", "Trader", "Benkei", "Shop Assistant", "Abacus Aficionado", "Merchant", "Paper Boy", "Carpenter", "Master Carpenter", "Hostess", "Litter Bearers", "Pickaxe Cowboy", "Wheelbarrow Cowboy", "Caveman Lumberjack", "Goliath", "Person Carrying a Vase", "Shrine Maiden", "Abalone Diver", "Fishmonger", "Handcar", "Tomio Hoshino (Astronaut)", "Kabuki Actor", "Tea Master", "Servant", "Taiko Drum Samurai", "Naginata Spear Samurai", "Mustache Samurai", "Lance Samurai", "Sickle Spear Samurai", "Onmyoji", "Chief Archaeologist", "Archaeologist", "Harp Player", "Kithara Player", "Primitive Drummer", "Cavewoman Sculptor", "Himiko", "Acrobat Boy", "Conductor", "Trombonist", "Violinist", "Courier", "Horse Costume", "Hula Dancer", "Cook", "God of Rain", "God of Wind", "God of Thunder", "Fujio", "Mag", "Chamba", "Rosetsu's Dog", "Panda", "Red Panda", "Goose", "Penguin", "Emperor Penguin", "Queen Penguin", "Red Penguin", "Indigo Penguin", "Yellow Penguin", "Green Penguin", "Light Blue Penguin", "Orange Penguin", "Purple Penguin", "Holy Cow", "Strawberry Cow", "Ox", "Raging Bull", "Tiger", "Dragon", "Gigantic Snake", "Horse", "White Horse", "Monkey", "Dog With Fleas", "Spartan Doggy", "Black Shiba-inu", "Boar", "Polar Bear", "Moon Bear", "Sitting Bear", "Resting Bear", "Piranha", "Crocodile", "Shark", "Big Gorilla", "Big Bivalve", "Giant Clam", "Big Clam", "Seaweed", "Spider Crab", "Giant Red Shrimp", "Giant Mantis Shrimp", "Salmon", "Napoleonfish", "Tuna", "Bonito", "Dolphin", "Manta Ray", "Fishies", "Walruses", "Relaxing Purple Mermaid", "Octopus", "Large Sea Turtle", "Pteranodon", "Peacock", "Wings", "Lady Amherst's Pheasant", "Ibis", "Ostrich", "Pigeon Statue", "King Origami Crane", "Elk", "Deer", "Red Fox", "Raccoon Dog", "Camel", "Hippopotamus", "Pig", "Giraffes", "Elephants", "Zebras", "Round Armadillo", "Giant Tortoise", "Dinosaur Egg", "Cloth Roll", "Sewing Box", "White Cloud (S)", "White Cloud (M)", "Jumbo Cloud", "Rain Cloud", "Rain Cloud (L)", "Cumulonimbus", "Mt. Fuji Cloud", "Captain Blackbeard", "Admiral", "Pirate", "Sailor With Cutlass", "Mr. Bandana", "Red Sunbather", "Blue Sunbather", "Green Sunbather", "Seagull Man", "Man In Barrel", "Pirate Ship Man", "Blue Coat Voyager", "Black Coat Voyager", "Glass Float", "Swordfish", "Sengoku Boat", "Voyage Ship", "Red Voyage Ship", "Blue Voyage Ship", "Black Ship", "Sailboat", "Giant Sea Turtle Egg", "Giant Sea Turtle", "Gigantic Squid", "Jumbo Squid", "Giant Octopus", "Gigantic Octopus", "Sperm Whale", "Gigantic Whale", "Driftwood", "Whirlpool", "Large Whirlpool", "Giant Whirlpool", "Centaur", "Minotaur", "Cactus Man", "Three-headed Dog", "Three-headed Shiba", "Pegasus", "Pegasus Statue", "Mummy", "Giant Mummy", "Pot Mummy", "Crocodile Mummy", "Medjed", "Amabie", "Raijin", "Fujin", "Gryphon", "Goddess", "Phoenix", "Pointy Castle", "Underwater Castle", "Ogre Rock", "Ogre Island", "Ammonite", "Anomalocaris", "Tyrannosaurus Rex", "Red Tyrannosaurus Rex", "Dinosaur Enthusiast", "Triceratops Cosplayer", "Triceratops", "Stegosaurus", "Green Stegosaurus", "Ankylosaurus", "Parasaurolophus", "Therizinosaurus", "Compsognathus", "Deinonychus", "Mei Long", "Caudipteryx", "Agustinia", "Brontosaurus", "Carnotaurus", "Iguanodon", "Giant Moa", "Pachycephalosaurus", "Coelacanth", "Dunkleosteus", "Ichthyosaurus Cosplayer", "Plesiosaurus", "Cameroceras", "Chalicotherium", "Megatherium", "Ancylotherium", "Woolly Rhinoceros", "Elasmotherium", "Glyptodon", "Neanderthal", "Trojan Horse", "The King Of All Cosmos", "The Queen", "Papa", "Vertical Garden", "Palais Garnier", "Lighthouse of Alexandria", "Megamouth Building", "Isopod Building", "Viperfish Building", "Handfish Building", "Shark Building", "Barreleye Building", "Fangtooth Building", "Octopus Building", "Quartz Palace", "Tuna Castle", "Castle", "Egyptian Stone Statue", "Olmec Head", "Mayan Pyramid", "L'Arc de Triomphe", "Eiffel Tower", "Leaning Tower of Pisa", "Waffle Building", "Foie Gras Building", "Castella Building", "Champagne Building", "Olive Building", "Big Ben", "Houses of Parliament", "Colosseum", "Parthenon", "Windmill", "Sphinx", "Pyramid", "Big Pyramid", "Cat Sphinx", "Raccoon Dog Sphinx", "Statue of Liberty", "George", "Thomas", "Theodore", "Abraham", "Stone Bear", "Moai", "Stylish Moai", "Nazca Lines (Condor)", "Nazca Lines (Spider)", "Nazca Lines (Dog)", "Machu Picchu", "\"Big\" Kanji", "Big Buddha", "Ten-Story Pagoda", "Five-Story Pagoda", "Burial Mound", "Column", "Broken Column"],
-    "As Fast As Possible 5": ["Daikon Radishes", "Chinese Cabbages", "Corn", "Carrot", "Boxed Tomatoes", "Boxed Green Peppers", "Big Turnip", "Big Peach", "Gigantic Pineapple", "Red Berry Harvest", "Box of Apples", "Box of Grapes", "Box of Muscat Grapes", "Apple Basket", "Peach Basket", "Big Bento Lunch", "Dried Fish Lunch", "Cheese Wheel", "Roast On Bone", "Turkey", "Raw Meat", "Gigantic Fried Shrimp", "Gigantic Ramen", "Golden Fried Rice", "Moon Viewing Dango", "Gigantic Dango", "Strawberry Parfait", "Dried Mochi", "Sashimi Boat", "Soba Noodles", "Pickle Tub", "Skewered Fish", "Giant Tofu", "Gigantic Pork Bowl", "Spiny Lobster", "Giant Shrimp", "Kabuki Actor Hot Pot", "Tasty Hot Pot", "Milk Can", "Strawberry Milk Can", "Giant Matcha", "Malted Rice Drink", "Cold Ginger Drink", "Kettle", "Butcher's Knife", "Large Plate", "Fancy Plate", "Decorative Dish", "Soy Sauce Bottle", "Soy Sauce Jar", "Fancy Dining Table", "Cutting Board", "Tiered Lunch Box", "Wooden Mortar", "Shabu-Shabu Pot", "Wok", "Rice Container", "Clay Stove", "Cooking Pot", "Old Cook Stove", "Bread Oven", "Outdoor Grill", "Fish Drying Poles", "Garbage Disposal Area", "Clay Tablet", "Papyrus Paper Bundle", "Kimono", "Blond Long & Straight", "Blond Pompadour", "Blond Afro", "Eboshi", "Wandering Samurai Hat", "Panda Slipper", "Hand Mirror", "Large Bell", "Temple Bell", "Mini Hand Drum", "Large Hand Drum", "Tightened Drum", "Gold Egyptian Harp", "Grand Piano", "Organ", "Pipe Organ", "Sumo Wrestler", "Sumo Referee", "Spartan Soldier", "Phalanx Formation", "Spartan Student", "Sumo Ring", "Mammoth", "Large Mammoth", "Indian Elephant", "Castle Model", "Fishing Pole", "Jumbo Kinsho", "Shogi Table", "Portable Water Vessel", "Balancing Rod", "Rolling Luggage", "Empty Coin Box", "Wooden Case", "Wood Box", "Netting Cage", "Cannonball Holder", "Wood Bucket", "Barrel", "Empty Barrel", "Wooden Washtub", "Rainwater Bucket", "Tin Watering Can", "Greek Pot & Lid", "Storehouse", "Shop Warehouse", "Bear Carving", "Lucky Cat", "Russian Doll (XL)", "Red Cloth", "Blue Cloth", "Green Cloth", "Purple Cloth", "Model Ship", "Portrait Painting", "Landscape Painting", "World Map", "Shark Teeth", "Porcelain Vase", "Oni Tile", "Ceremonial Arrow", "Miniature Pyramid", "Shoe Display Stand", "Triangular Shelf", "Tree Prop", "Moon Prop", "Blue Cloth Roll", "Green Cloth Roll", "Purple Cloth Roll", "Red Cloth Roll", "Yellow Cloth Roll", "Giant Straw Mat", "Rush Mat", "Red Umbrella", "Grandfather Clock", "Cuckoo Clock", "Mechanical Doll", "V-1", "V-2", "V-3", "Barrel Table", "Log Table", "Stone Table", "Table With Tablecloth", "Egyptian Table", "Compact Desk", "Desk", "Wooden Table", "Stone Drawer", "Stone Shelf", "Shoe Cupboard", "Red Rug", "Western Rug", "Felt Rug", "Carpet", "Drainboard", "Armrest", "Wicker Basket", "Express Courier", "Food Delivery Box", "Coal Car", "Plant Pattern Sack", "Flowerpots", "Large Shrubbery", "Topiary Deer", "Log Flower Bed (Empty)", "Dried Kelp", "Flowers", "Golden Cracker Flower", "Black Flower Pot", "Flower Bucket", "Happy Flower", "Surprise Flower", "Timber", "Watermelon", "Giant Watermelon", "Strawberry Syrup", "Blue Hawaii Syrup", "Lemon Syrup", "Melon Syrup", "Samurai Governor", "Samurai Thief Hunter", "Samurai Thief Hunter (Paper Lantern)", "Buckingham Guard", "Official Paper Lantern", "Police Club", "Giant Ammonite Fossil", "Full Dinosaur Skeleton", "Golden Egg", "Golden Mask", "Sarcophagus", "Ancient Coin Slab", "Suit of Armor", "Treasure Boat", "Paper Lamp", "Wealthy Lamp", "Red Garden Lantern", "Street Lantern", "Nightlight", "Slim Fire Pit", "Big Fire Pit", "Tall Lighthouse", "Hibachi", "Wide Hibachi", "Kamaburo", "Bathhouse Chimney", "Bathhouse", "Heated Table", "Ice Spire", "Stone Refrigerator", "Abominable Snowman", "Yeti", "Sweep Yeti", "Barefoot Ghost", "Ghost Chef", "Small Iceberg", "Iceberg", "Ice Floe", "Snow Ball (Massive)", "Round Straw Mat", "Greek Chair", "Blue Deck Chair", "Green Deck Chair", "Red Deck Chair", "Stone Sofa", "Stone Chair", "Workbench", "Seat Cushion", "Long Seat", "Log Bench", "Japanese Sword", "Katana", "Bamboo Spear", "Trident", "Epic Shield", "Cannon", "TNT Box", "Detonator", "Barrel Bomb", "Falling Rock", "Huge Falling Rock", "Big Cone", "Surprise Cone", "American Cone", "Danger Sign", "Tornado", "Balance Scale", "Giant Scale", "Big Protractor", "Big Triangle Ruler", "Scale", "Haniwa Man", "Warrior Haniwa", "Clay Figure", "Owl-Like Clay Figure", "Bear Cub Statue", "Spirit of Fun", "Human Statue", "Muscle Sculpture", "3rd Generation Bust", "4th Generation Bust", "Philosopher Statue", "Spartan & Xiphos Statue", "Spartan & Dory Statue", "Giant Sandcastle", "Folding Screen", "Kabuki Actor Ukiyo-e", "Mystery Key Crop Circle", "Mystery UFO Crop Circle", "Mystery Sun Crop Circle", "Mystery Sun Island", "Mystery UFO Island", "Mystery Key Island", "Command Fan", "Signaling Baton", "Parking Turntable", "Samurai Armor", "Shogun", "Dragon Water Pump", "Fallen Samurai", "Yuki Onna", "Cow Oni", "Nue", "Inugami", "Ittanmomen", "Tree Monster", "Jinmen-ken", "Lantern Ghost", "Nekomata", "Garden Lantern", "Temple", "Grand Shrine", "Shrine", "Shintai", "Secretive Kite", "Lion Dancer", "Castle Turret", "Thunder Gate", "Mt. Fuji", "Nebuta Parade Float", "Long-mouthed Hyottoko Mask", "Taiko Drum", "Festival Float", "Matsuri Pompadour", "Matsuri Table", "Matsuri Stage", "Hina Doll Stand", "Big Camp Fire", "Birthday Cake", "Wedding Cake", "Celebratory Booze Barrel", "Blue Oni", "Green Oni", "Good Thief", "Mecha Mogran", "Neck Monster", "Momotaro", "Kintaro", "Suited Fireman", "Hook Fireman", "Jumbo Samurai Governor", "Fly, Jumboman!", "Marine Jumboman", "Fight, Jumboman!", "Jumbo Papa", "Monkey Bars", "Jungle Gym", "Bale of Rice", "Harvested Rice", "Sack of Wheat", "Young Farmer", "Veteran Farmer", "Hoe", "Rice Paddy Harrow", "Scarecrow", "Rotting Shed", "Rotting Cottage", "European Farm", "Chocolate Factory", "Grape Factory", "Grape Warehouse", "Auto Factory", "Chimney", "Bank", "Pole Banner", "Big-Catch Flag #1", "Big-Catch Flag #2", "Big-Catch Flag #3", "Big-Catch Flag #4", "Sacred Fire", "Lone Cedar Tree", "Married Rocks", "Clock Tower", "Station Building", "Courtyard Long House", "Divided Row House", "Split Long House", "Neat Housing Complex", "Messy Housing Complex", "Long House", "Extremely Tall Tower", "Absurdly Tall Tower", "Ridiculously Tall Tower", "Animal Skin Tent", "Portable Tent", "Raised Floor House", "Raised Temple", "Thatched Roof House", "Island House", "Traditional Snow House", "Pit House", "Desert Mansion", "Dry Desert House", "Sandy Desert House", "Rough Desert House", "Gritty Desert House", "Igloo", "Doghouse", "Bird's Nest", "Mushroom House", "Cottage", "Lodge", "Pierre Residence", "William Residence", "Joseph Residence", "Rudolph Residence", "Croissant Building", "European House", "Goldman Estate", "Tyler Residence", "Arthur Residence", "Adams Residence", "Lloyd Residence", "Brown Residence", "Rental Shop", "Thrift Store", "Tea Dealer", "Variety Store", "Eatery", "Fruit Shop", "Pharmacy", "Out-of-Business Shop", "Soba Shop", "Miscellaneous Goods Store", "Soba Stand", "Carpenter Shop", "Bookstore", "Fish Market", "Rice Shop", "Doll Store", "Boat Rental", "Money Exchange Shop", "Teahouse", "Shipping Agency", "Sushi Stall", "Tempura Stall", "Barley Tea Stand", "Produce Store", "Pottery Store", "Edo Barbershop", "Umbrella & Paper Lantern Shop", "Household Goods Store", "Timber Shop", "Edo Transport Service", "Echigoya Kimono Store", "Dango Store", "Fabric Store", "Shrine Office", "Shaved Ice Stand", "Grilled Corn Stand", "Candy Apple Stand", "Takoyaki Stand", "Blue Stall", "Orange Stall", "Market", "Café", "Restaurant", "Flower Store", "Clock Store", "Butcher Shop", "Bakery", "Fruit Store", "Mini Circus Tent", "Log (Facilities)", "Stage", "Fairy Tale Fountain", "Fountain", "Monastery", "Earthen Bridge", "Mega Bridge", "Canal Bridge", "Red Bridge", "High Raised Tower", "Food Storage House", "Japanese Theater", "Governor's Office", "Encampment", "Command Post", "Lodging Post", "Edo Guardhouse", "Gatehouse", "Daimyo Inn", "Daimyo Inn Backup", "Cheap Inn", "Fireman's Lodging Post", "Guardhouse", "Inn", "Japanese-Style Inn", "Bell Tower", "Covered Well", "Purification Fountain", "Garden Pavilion", "Notice Board", "Outhouse", "Offering Box", "Fire Watch Tower", "Tall Bell Tower", "Farm Railing", "Pine Wood Fence", "Picket Fence", "Stone Fence", "Barbed Fence", "Bamboo Fence", "Encampment Barrier", "Freestanding Shield", "Edo Wall", "Edo Wall Corner", "Large Edo Wall", "Bathhouse Curtain", "Belaying Pin", "Stone Picket", "Stone Wall", "Hedge Wall", "Edo Gate", "Inari Shrine Gate", "Pier", "Short Pier", "Long Pier", "Duct", "Primitive Traffic Signal", "Wooden Lamp Post", "Arowana Highway", "Chimaera Highway", "Lancetfish Highway​", "Japanese Bridge", "Uguisu Town", "Hototogisu Town", "Wild Town", "Good Town", "Surprise Town", "Dog Town", "Mushroom City", "The People", "Peacock District", "Dugong District", "Toucan District", "Pheasant District", "Firecracker District", "Condor District", "Sea Turtle District", "Budgie Isle", "Parrot Isle", "Rooster Isle", "Kimono Shop Sign", "Shipping Facility Sign", "Household Goods Store Sign", "Edo Water House Sign", "Bookstore Sign", "Display Menu", "\"All You Can Eat\" Banner", "Yakitori Shop Lantern", "Blowfish Model", "Waterway Marker", "Vertical Banner", "\"Nature\" Sign", "Over 3m", "Over 12m", "Over 60m", "Fir Tree", "Savanna Tree", "Tree", "Tree-Swing Tree", "Big Tree", "Huge Tree", "Gigantic Tree", "Pine Tree", "Large Pine Tree", "Willow", "Palm Tree", "Spherical Tree", "Conifer", "Dark Conifer", "Cherry Blossom Tree", "Peach Tree", "Winter Conifer", "Baobab Tree", "Jurassic Tree", "Thin Tall Grass", "Paddle Cactus", "Wild Cactus", "Bush", "Rice Plant", "Bamboo", "Garden Plant", "Mushroom (L)", "Mushroom (XXXL)", "Miracle Mushroom", "Surprise Tumbleweed", "Flower Tumbleweed", "Mysterious Fuzzball", "Grove", "Woods", "Jungle (Nature)", "Coniferous Forest", "Winter Coniferous Forest", "Red Leaf Forest", "Yellow Leaf Forest", "Rocks", "Robust Garden Rock", "Goblin Shark Island", "Nautilus Island", "Mt. Olympus", "Mt. Ginger", "Cockle Island", "Tsunami Island", "Anchor Island", "Dokudami Island", "Lily Island", "Jewelweed Island", "Begonia Island", "Udo Island", "Death Valley Rocks", "Oasis", "Machu Picchu Site", "Celery Island", "Azalea Island", "Tsukushi Island", "Radish Island", "Parsley Island", "Pea Island", "Willow Island", "Fungus Island", "Larch Tree Island", "Pinky Island", "Chrysanthemum Island", "Bean Sprout Island", "Desert (1)", "Desert (2)", "Huge Desert", "Mega Dunes", "Desert (3)", "Bud Island", "Dandelion Island", "Cypress Island", "Cosmea Island", "Stinky Island", "Thorn Island", "Mt. Akane", "Mt. Wasabi", "Pohole Island", "Anemone Island", "Sunflower Island", "Mustard Island", "Red Bean Island", "Morning Glory Island", "Mugwort Island", "Plantain Island", "Camellia Island", "Ume Island", "Peony Island", "Crater", "Palm Tree Coast", "Tulip Coast", "Ivy Island", "Cherry Island", "Mountain Tunnel", "Spot-Billed Isle", "Owl Isle", "Crow Isle", "Peacock Isle", "Eagle Isle", "Skylark Isle", "Java Sparrow Isle", "Canary Isle", "Quartz", "Active Volcano", "Spiral Rock", "Washtub Boat", "Small Cargo Boat", "Pleasure Boat", "Papyrus Boat", "Ferryboat", "Palanquin", "Noblewoman's Palanquin", "Greek Chariot", "Steam Locomotive", "Passenger Car", "Carriage", "Mine Cart", "Giant Carriage", "Wooden Cart", "Luggage Wagon", "Food Stall", "Rickshaw", "Treasure Chest", "Bag of Luck", "Tsuchinoko", "Bunbuku Chagama", "Sasquatch", "Mystery Creature", "UFO", "Hot Air Balloon", "Blue Hot Air Balloon", "Pink Hot Air Balloon", "European Hot Air Balloon", "Ushiwakamaru", "Tiny Cowgirl", "Running Boy", "Mutsuo Hoshino", "Michiru Hoshino", "Young Spinosaurus", "Dango Lady", "Green Kimono Wearer", "Kanzashi Lady", "Blue Kimono Woman", "Old Man", "Old Lady", "Very Tall Person", "Furoshiki Man", "Old Glasses Wearer", "Iris Kimono Lady", "Handbag Lady", "Cleaning Man", "Bookworm", "Pompadour Samurai", "Komono", "Sitting Servant", "Shogun's Caretaker", "Noble Minister", "Trainee Monk", "Wandering Monk", "Giddy Up! Cowboy", "Mustache Cowboy", "Blond Cowboy", "Blue Dress Woman", "Rodeo Cowboy", "Lazy Cowboy", "Youngster Cowboy", "Noble Egyptian Woman", "Ancient Egyptian", "Mr. Coffin", "Egyptian Man", "Red Toga Greek", "Greek With Cane", "Sitting Caveman", "Driving Caveman", "Cavegal", "Berry Harvester", "Bilingual Guy", "Mizue Hoshino", "Gentleman", "Ashigaru", "Loyal Retainer", "Edo Police Officer", "Loyal Vassal", "Trader", "Shop Assistant", "Abacus Aficionado", "Paper Boy", "Carpenter", "Master Carpenter", "Hostess", "Litter Bearers", "Pickaxe Cowboy", "Wheelbarrow Cowboy", "Caveman Lumberjack", "Goliath", "Person Carrying a Vase", "Abalone Diver", "Fishmonger", "Tomio Hoshino (Astronaut)", "Kabuki Actor", "Tea Master", "Servant", "Onmyoji", "Socrates", "Chief Archaeologist", "Archaeologist", "Harp Player", "Primitive Drummer", "Cavewoman Sculptor", "Himiko", "Acrobat Boy", "Conductor", "Trombonist", "Violinist", "Courier", "Horse Costume", "Hula Dancer", "Cook", "Nickel", "Signolo", "The Princess", "Calico Cat", "Panda", "Red Panda", "Goose", "Penguin", "Queen Penguin", "Red Penguin", "Indigo Penguin", "Yellow Penguin", "Green Penguin", "Light Blue Penguin", "Orange Penguin", "Purple Penguin", "Holy Cow", "Strawberry Cow", "Ox", "Raging Bull", "Tiger", "Horse", "Monkey", "Dog With Fleas", "Polar Bear", "Moon Bear", "Sitting Bear", "Piranha", "Crocodile", "Shark", "Big Gorilla", "Killer Whale", "Big Bivalve", "Giant Clam", "Seaweed", "Giant Red Shrimp", "Giant Mantis Shrimp", "Salmon", "Napoleonfish", "Tuna", "Bonito", "Manta Ray", "Fishies", "Walruses", "Octopus", "Pteranodon", "Crane", "Ibis", "Ostrich", "Pigeon Statue", "King Origami Crane", "Elk", "Deer", "Red Fox", "Camel", "Hippopotamus", "Giraffes", "Elephants", "Zebras", "Giant Tortoise", "Dinosaur Egg", "White Cloud (S)", "White Cloud (M)", "Rain Cloud", "Mt. Fuji Cloud", "Captain Blackbeard", "Admiral", "Pirate", "Sailor With Cutlass", "Mr. Bandana", "Red Sunbather", "Blue Sunbather", "Green Sunbather", "Seagull Man", "Man In Barrel", "Pirate Ship Man", "Blue Coat Voyager", "Glass Float", "Swordfish", "Sengoku Boat", "Voyage Ship", "Red Voyage Ship", "Blue Voyage Ship", "Black Ship", "Sailboat", "Giant Sea Turtle Egg", "Giant Sea Turtle", "Gigantic Squid", "Jumbo Squid", "Giant Octopus", "Sperm Whale", "Driftwood", "Whirlpool", "Large Whirlpool", "Centaur", "Minotaur", "Cactus Man", "Three-headed Dog", "Three-headed Shiba", "Pegasus Statue", "Mummy", "Crocodile Mummy", "Amabie", "Raijin", "Fujin", "Gold Axe", "Silver Axe", "Goddess", "Pointy Castle", "Ammonite", "Anomalocaris", "Tyrannosaurus Rex", "Red Tyrannosaurus Rex", "Dinosaur Enthusiast", "Triceratops Cosplayer", "Triceratops", "Stegosaurus", "Green Stegosaurus", "Ankylosaurus", "Therizinosaurus", "Compsognathus", "Deinonychus", "Agustinia", "Brontosaurus", "Carnotaurus", "Iguanodon", "Pachycephalosaurus", "Coelacanth", "Dunkleosteus", "Ichthyosaurus Cosplayer", "Mosasaurus", "Plesiosaurus", "Megatherium", "Elasmotherium", "Glyptodon", "Neanderthal", "Trojan Horse", "Vertical Garden", "Palais Garnier", "Lighthouse of Alexandria", "Megamouth Building", "Isopod Building", "Viperfish Building", "Handfish Building", "Shark Building", "Barreleye Building", "Fangtooth Building", "Octopus Building", "Tuna Castle", "Castle", "Egyptian Stone Statue", "Olmec Head", "Mayan Pyramid", "L'Arc de Triomphe", "Eiffel Tower", "Leaning Tower of Pisa", "Waffle Building", "Foie Gras Building", "Castella Building", "Champagne Building", "Olive Building", "Big Ben", "Houses of Parliament", "Colosseum", "Parthenon", "Windmill", "Sphinx", "Pyramid", "Big Pyramid", "Squirrel Sphinx", "Cat Sphinx", "Statue of Liberty", "George", "Thomas", "Theodore", "Abraham", "Stone Bear", "Moai", "Stylish Moai", "Nazca Lines (Condor)", "Nazca Lines (Spider)", "Nazca Lines (Dog)", "Machu Picchu", "\"Big\" Kanji", "Big Buddha", "Ten-Story Pagoda", "Five-Story Pagoda", "Burial Mound", "Column", "Broken Column"],
+    "As Large As Possible 5": ["Daikon Radishes", "Chinese Cabbages", "Corn", "Carrot", "Green Onion", "Boxed Tomatoes", "Boxed Green Peppers", "Big Turnip", "Melon", "Big Peach", "Coconut", "Half Coconut", "Pineapple", "Gigantic Pineapple", "Red Berry Harvest", "Green Berries", "Box of Apples", "Box of Grapes", "Box of Muscat Grapes", "Apple Basket", "Peach Basket", "Big Bento Lunch", "Dried Fish Lunch", "Toast", "Cheese Wheel", "Meat", "Hanging Meat", "Roast On Bone", "Large Meat", "Turkey", "Raw Meat", "Jumbo Beef Patty", "Greek Lunch", "Gigantic Fried Shrimp", "Gigantic Ramen", "Curry", "Stew", "Golden Fried Rice", "Roast Pork", "Moon Viewing Dango", "Gigantic Dango", "Gigantic Sweet Bean Pastry", "Strawberry Parfait", "Dried Mochi", "Sashimi Boat", "Gigantic Rice Ball", "Soba Noodles", "Pickle Tub", "Skewered Fish", "Giant Tofu", "Gigantic Pork Bowl", "Spiny Lobster", "Giant Shrimp", "Kabuki Actor Hot Pot", "Tasty Hot Pot", "Giant Hot Pot", "Orange Soda", "Apple Juice Bottle", "Milk Can", "Strawberry Milk Can", "Giant Matcha", "Malted Rice Drink", "Cold Ginger Drink", "Kettle", "Butcher's Knife", "Large Plate", "Fancy Plate", "Decorative Dish", "Soy Sauce Bottle", "Soy Sauce Jar", "Fancy Dining Table", "Cutting Board", "Tiered Lunch Box", "Wooden Mortar", "Wooden Mallet", "Shabu-Shabu Pot", "Wok", "Rice Container", "Cooking Pot", "Old Cook Stove", "Bread Oven", "Outdoor Grill", "Fish Drying Poles", "Bamboo Broom", "Garbage Disposal Area", "Clay Tablet", "Large Calligraphy Brush", "Papyrus Paper Bundle", "Kimono", "Blond Long & Straight", "Blond Pompadour", "Blond Afro", "Fake Top Knot", "Eboshi", "Wandering Samurai Hat", "Panda Slipper", "Hand Mirror", "Egyptian Necklace", "Sunglasses", "Large Bell", "Temple Bell", "Mini Hand Drum", "Large Hand Drum", "Tightened Drum", "Gold Egyptian Harp", "Conch (Audio)", "Music Box", "Grand Piano", "Organ", "Pipe Organ", "Straw Target Board", "Judo Practitioner", "Sumo Wrestler", "Sumo Referee", "Spartan Soldier", "Spartan Warrior & Dory", "Spartan Warrior & Xiphos", "Phalanx Formation", "Spartan Student", "Samurai's Vortex Wheel", "Killer Move", "Mammoth", "Large Mammoth", "Elephant", "Indian Elephant", "Paper Ball", "Ramshackle Kite", "Rocking Horse", "Castle Model", "Picture-story Show", "Fishing Pole", "Jumbo Kinsho", "Shogi Table", "Portable Water Vessel", "Rolling Luggage", "Suggestion Box", "Wooden Case", "Wood Box", "Netting Cage", "Small Wash Bucket", "Wood Bucket", "Barrel", "Empty Barrel", "Wooden Washtub", "Rainwater Bucket", "Tin Watering Can", "Goldfish Bowl", "Wooden Coffin", "Urn", "Greek Water Pitcher", "Greek Pot & Lid", "Storehouse", "Shop Warehouse", "Bear Carving", "Lucky Cat", "Russian Doll (XL)", "Goldfish Nebuta", "Red Cloth", "Blue Cloth", "Green Cloth", "Purple Cloth", "Model Ship", "Portrait Painting", "Landscape Painting", "World Map", "Porcelain Vase", "Decorative Vase", "Oni Tile", "Ceremonial Arrow", "Miniature Pyramid", "Shoe Display Stand", "Triangular Shelf", "Tree Prop", "Moon Prop", "Blue Cloth Roll", "Green Cloth Roll", "Purple Cloth Roll", "Red Cloth Roll", "Yellow Cloth Roll", "Giant Straw Mat", "Rush Mat", "Japanese Umbrella", "Red Umbrella", "Grandfather Clock", "Stone Clock", "Cuckoo Clock", "Mechanical Doll", "Elekiter", "V-1", "V-2", "V-3", "Super Robot", "Barrel Table", "Log Table", "Stone Table", "Table With Tablecloth", "Egyptian Table", "Compact Desk", "Desk", "Wooden Table", "Stone Drawer", "Stone Shelf", "Big Decorative Shelf", "Bonsai Stand", "Shoe Cupboard", "Tower Rack", "Red Rug", "Blue Rug", "Western Rug", "Felt Rug", "Carpet", "Drainboard", "Armrest", "Mirror Stand", "Express Courier", "Food Delivery Box", "Coal Car", "Santa & Reindeer", "Giant Wooden Crate", "Giant Wide Wooden Crate", "Slouched Sack", "Big Burlap Sack", "Plant Pattern Sack", "Potted Cycad", "Flowerpots", "Large Shrubbery", "Squared Shrubbery", "Topiary Deer", "Dried Kelp", "Hydrangea", "Flowers", "Golden Cracker Flower", "Black Flower Pot", "Flower Bucket", "Log Flower Bed", "Happy Flower", "Surprise Flower", "Blacksmith Hammer", "Timber", "Log (Tools)", "Watermelon", "Giant Watermelon", "Firework Shell", "Wooden Seaside House", "Strawberry Syrup", "Blue Hawaii Syrup", "Lemon Syrup", "Melon Syrup", "Samurai Governor", "Samurai Thief Hunter", "Samurai Thief Hunter (Paper Lantern)", "Buckingham Guard", "Official Paper Lantern", "Police Club", "Globe", "Butterfly Specimens", "Giant Ammonite Fossil", "Full Dinosaur Skeleton", "Fossil", "Golden Egg", "Shiny Gold Town", "Shiny Gold Mansion", "Shiny Gold Castle", "Golden Mask", "Sarcophagus", "Ancient Coin Slab", "Suit of Armor", "Mini Treasure Boat", "Treasure Boat", "Paper Lamp", "Wealthy Lamp", "Giant Paper Lantern", "Red Garden Lantern", "Street Lantern", "Nightlight", "Slim Fire Pit", "Big Fire Pit", "Anglerfish", "Tall Lighthouse", "Hibachi", "Wide Hibachi", "Kamaburo", "Camp Fire", "Flame", "Bathhouse Chimney", "Bathhouse", "Heated Table", "Ice Spire", "Stone Refrigerator", "Ice Block", "Frozen Red Fish", "Giant Frozen Fish", "Frozen Striped Fish", "Abominable Snowman", "Yeti", "Sweep Yeti", "Ghost", "Barefoot Ghost", "Ghost Chef", "Small Iceberg", "Pointy Iceberg", "Iceberg", "Big Iceberg", "Ice Floe", "Giant Ice Floe", "Snow Ball (Massive)", "Folding Stool", "Round Straw Mat", "Greek Chair", "Wooden Bench", "Blue Deck Chair", "Green Deck Chair", "Red Deck Chair", "Greek Bench", "Stone Sofa", "Stone Chair", "Workbench", "Seat Cushion", "Long Seat", "Log Bench", "Japanese Sword", "Katana", "Bamboo Spear", "Trident", "Epic Shield", "Cannon", "Spartan Helmet", "TNT Box", "Detonator", "Barrel Bomb", "Falling Rock", "Huge Falling Rock", "Big Cone", "Surprise Cone", "American Cone", "Danger Sign", "Earthquake Catfish", "Tornado", "Giant Tornado", "Balance Scale", "Giant Scale", "Big Protractor", "Big Triangle Ruler", "Scale", "Haniwa Man", "Warrior Haniwa", "Clay Figure", "Owl-Like Clay Figure", "Bear Cub Statue", "Spirit of Joy", "Spirit of Anger", "Spirit of Sorrow", "Spirit of Fun", "Human Statue", "Muscle Sculpture", "1st Generation Bust", "2nd Generation Bust", "3rd Generation Bust", "4th Generation Bust", "5th Generation Bust", "Philosopher Statue", "Spartan & Xiphos Statue", "Spartan & Dory Statue", "Thoth Statue", "Crouching Anubis Statue", "Giant Sandcastle", "Folding Screen", "Kabuki Actor Ukiyo-e", "Sudden Downpour Ukiyo-e", "Great Wave Ukiyo-e", "Red Fuji Ukiyo-e", "Primitive Painting", "Easel", "Mystery Key Crop Circle", "Mystery UFO Crop Circle", "Mystery Sun Crop Circle", "Garden", "Mystery Sun Island", "Mystery UFO Island", "Mystery Key Island", "Command Fan", "Signaling Baton", "Parking Turntable", "Samurai Armor", "Shogun", "Ninja", "Ninja on a Kite", "Invisible Ninja", "Dragon Water Pump", "Japanese Doll", "Tengu", "Fallen Samurai", "Yuki Onna", "Nurarihyon", "Nue", "Inugami", "Osakabehime", "Ittanmomen", "Jorogumo", "Tree Monster", "Jinmen-ken", "Nuppeppo", "Lantern Ghost", "Nurikabe", "Nekomata", "Rokurokubi", "Shrine Dog", "Garden Lantern", "Temple", "Grand Shrine", "Shrine", "Shintai", "Pine Decoration", "Secretive Kite", "Lion Dancer", "Castle Turret", "Thunder Gate", "Mt. Fuji", "Carp Streamer Pole", "Magoi", "Higoi", "Kogoi", "Fukinagashi", "Nebuta Parade Float", "Long-mouthed Hyottoko Mask", "Taiko Drum", "Festival Float", "Matsuri Pompadour", "Matsuri Table", "Matsuri Stage", "Hina Doll Stand", "Big Camp Fire", "Champion's Trophy", "Daruma Doll", "Birthday Cake", "Wedding Cake", "Celebratory Booze Barrel", "Grand Opening Decoration", "Red Oni", "Blue Oni", "Green Oni", "Good Thief", "Mecha Mogran", "Neck Monster", "Momotaro", "Suited Fireman", "Firehook Fireman", "Hook Fireman", "Man-Catcher Fireman", "Paper Fan Fireman", "Jumbo Samurai Governor", "Fly, Jumboman!", "Marine Jumboman", "Fight, Jumboman!", "Jumbo Papa", "Reversible Cap", "Horizontal Bars", "Monkey Bars", "Slide", "Seesaw", "Globe Jungle Gym", "Jungle Gym", "Koala Rocker", "Wisteria Trellis", "Water Mill", "Bale of Rice", "Harvested Rice", "Sack of Wheat", "Young Farmer", "Veteran Farmer", "Grinding Mortar", "Small Winnowing Basket", "Hoe", "Rice Paddy Harrow", "Rice Drying Rack", "Scarecrow", "Rotting Shed", "Rotting Cottage", "European Farm", "Chocolate Factory", "Grape Factory", "Grape Warehouse", "Auto Factory", "Chimney", "Bank", "Pole Banner", "Big-Catch Flag #1", "Big-Catch Flag #2", "Big-Catch Flag #3", "Big-Catch Flag #4", "Umajirushi", "Kabuki Tower Ornament", "Sacred Fire", "Lone Cedar Tree", "Married Rocks", "Clock Tower", "Station Building", "Future Tower", "Courtyard Long House", "Divided Row House", "Split Long House", "Neat Housing Complex", "Messy Housing Complex", "Long House", "Extremely Tall Tower", "Absurdly Tall Tower", "Ridiculously Tall Tower", "Animal Skin Tent", "Portable Tent", "Raised Floor House", "Raised Temple", "Thatched Roof House", "Island House", "Traditional Snow House", "Pit House", "Desert Mansion", "Dry Desert House", "Sandy Desert House", "Rough Desert House", "Gritty Desert House", "Igloo", "Bird's Nest", "Aquarium", "Mushroom House", "Cottage", "Lodge", "Pierre Residence", "William Residence", "Joseph Residence", "Rudolph Residence", "Croissant Building", "European House", "Goldman Estate", "Tyler Residence", "Arthur Residence", "Adams Residence", "Lloyd Residence", "Brown Residence", "Rental Shop", "Thrift Store", "Tea Dealer", "Variety Store", "Eatery", "Fruit Shop", "Pharmacy", "Out-of-Business Shop", "Soba Shop", "Miscellaneous Goods Store", "Soba Stand", "Carpenter Shop", "Bookstore", "Fish Market", "Rice Shop", "Doll Store", "Boat Rental", "Money Exchange Shop", "Teahouse", "Shipping Agency", "Sushi Stall", "Tempura Stall", "Barley Tea Stand", "Produce Store", "Pottery Store", "Edo Barbershop", "Umbrella & Paper Lantern Shop", "Household Goods Store", "Timber Shop", "Edo Transport Service", "Echigoya Kimono Store", "Dango Store", "Fabric Store", "Red Sunshade", "Blue Sunshade", "Shrine Office", "Shaved Ice Stand", "Grilled Corn Stand", "Candy Apple Stand", "Takoyaki Stand", "Blue Stall", "Orange Stall", "Market", "Chinese Restaurant Menu", "Café", "Restaurant", "Flower Store", "Clock Store", "Butcher Shop", "Bakery", "Fruit Store", "Cosmic Space Center", "Launch Pad", "Mini Circus Tent", "Gazebo", "Log (Facilities)", "Wooden Steps", "Stage", "Fairy Tale Fountain", "Fountain", "Monastery", "Well", "Earthen Bridge", "Mega Bridge", "Red Bridge", "High Raised Tower", "Food Storage House", "Japanese Theater", "Governor's Office", "Encampment", "Command Post", "Lodging Post", "Edo Guardhouse", "Gatehouse", "Daimyo Inn", "Daimyo Inn Backup", "Cheap Inn", "Fireman's Lodging Post", "Guardhouse", "Inn", "Japanese-Style Inn", "Bell Tower", "Covered Well", "Purification Fountain", "Garden Pavilion", "Notice Board", "Outhouse", "Offering Box", "Fire Watch Tower", "Chinese Bell Tower", "Tall Bell Tower", "Farm Railing", "Pine Wood Fence", "Picket Fence", "Bamboo Railing", "Stone Fence", "Barbed Fence", "Bamboo Fence", "Standing Screen", "Partition", "Encampment Barrier", "Freestanding Shield", "Edo Wall", "Edo Wall Corner", "Large Edo Wall", "Bathhouse Curtain", "Belaying Pin", "Stone Picket", "Bamboo Bundle", "Stone Wall", "Hedge Wall", "Angled Shrubbery", "Edo Gate", "Shrine Gate", "Inari Shrine Gate", "Leafy Arch", "Pier", "Short Pier", "Long Pier", "Boat Dock", "Duct", "Chinese Gate", "Primitive Traffic Signal", "Wooden Lamp Post", "Arowana Highway", "Chimaera Highway", "Lancetfish Highway​", "Future Highway", "Japanese Bridge", "Uguisu Town", "Hototogisu Town", "Wild Town", "Good Town", "Surprise Town", "Dog Town", "Future City", "Cyber City", "Techno City", "Mushroom City", "The People", "Everyone", "Ginger Crane Town", "Turtle Dove Town", "Flycatcher Town", "Tuna City", "Flying Squirrel District", "Peacock District", "Dugong District", "Toucan District", "Pheasant District", "Firecracker District", "Condor District", "Llama District", "Sea Turtle District", "Automatic Island", "Orichalcum Island", "Swallow Island", "Budgie Isle", "Parrot Isle", "Rooster Isle", "Signpost", "Kimono Shop Sign", "Shipping Facility Sign", "Household Goods Store Sign", "Timber Shop Sign", "Edo Transport Service Sign", "Edo Water House Sign", "Bookstore Sign", "Edo Barbershop Sign", "Stewed Cuisine Sign", "Rice Dealer Sign", "Display Menu", "\"All You Can Eat\" Banner", "Yakitori Shop Lantern", "Blowfish Model", "Waterway Marker", "Vertical Banner", "\"Mother\" Sign", "\"Nature\" Sign", "Over 3m", "Over 12m", "Over 60m", "Fir Tree", "Savanna Tree", "Decorative Tree", "Tree", "Tree-Swing Tree", "Big Tree", "Huge Tree", "Gigantic Tree", "Pine Tree", "Large Pine Tree", "Willow", "Palm Tree", "Spherical Tree", "Conifer", "Dark Conifer", "Cherry Blossom Tree", "Peach Tree", "Winter Conifer", "Baobab Tree", "Jurassic Tree", "Thin Tall Grass", "Paddle Cactus", "Wild Cactus", "Bush", "Bamboo Grass", "Reeds", "Bamboo", "Garden Plant", "Garden Plant (M)", "Mushroom (L)", "Gigantic Mushroom", "Mushroom (XXXL)", "Miracle Mushroom", "Surprise Tumbleweed", "Flower Tumbleweed", "Mysterious Fuzzball", "Grass Clump", "World Tree", "Grove", "Woods", "Jungle (Nature)", "Coniferous Forest", "Winter Coniferous Forest", "Red Leaf Forest", "Yellow Leaf Forest", "Cherry Forest", "Rocks", "Robust Garden Rock", "Goblin Shark Island", "Nautilus Island", "Lotus Root Island", "Gigglebear Island", "Mt. Magnet", "Mt. Olympus", "Mt. Ginger", "Cockle Island", "Tsunami Island", "City Ruin", "Anchor Island", "Dokudami Island", "Lily Island", "Jewelweed Island", "Begonia Island", "Udo Island", "Death Valley Rocks", "Oasis", "Machu Picchu Site", "Celery Island", "Azalea Island", "Tsukushi Island", "Radish Island", "Lily Bell Island", "Parsley Island", "Pea Island", "Willow Island", "Fungus Island", "Larch Tree Island", "Pinky Island", "Chrysanthemum Island", "Bean Sprout Island", "Desert (1)", "Desert (2)", "Huge Desert", "Mega Dunes", "Desert (3)", "Bud Island", "Dandelion Island", "Cypress Island", "Cosmea Island", "Stinky Island", "Thorn Island", "Mt. Camellia", "Mt. Akane", "Mt. Wasabi", "Bristlegrass Island", "Robinson Island", "Pohole Island", "Anemone Island", "Sunflower Island", "Mustard Island", "Red Bean Island", "Morning Glory Island", "Mugwort Island", "Plantain Island", "Camellia Island", "Ume Island", "Peony Island", "Hyacinth Island", "Canna Island", "Pansy Island", "Crater", "Palm Tree Coast", "Tulip Coast", "Ivy Island", "Cherry Island", "Niagara Falls", "The Grand Canyon", "Green Island", "Soybean Island", "Plum Island", "Fir Island", "Cheesy Island", "Littleneck Beach", "Mountain Tunnel", "Cuckoo Isle", "Spot-Billed Isle", "Owl Isle", "Crow Isle", "Peacock Isle", "Eagle Isle", "Skylark Isle", "Java Sparrow Isle", "Canary Isle", "Quartz", "Super Huge Rainbow", "Active Volcano", "Large Volcano", "Spiral Rock", "Mt. Sungan", "Mt. Fried Rice", "Washtub Boat", "Small Cargo Boat", "Pleasure Boat", "Papyrus Boat", "Ferryboat", "Stone Car", "Palanquin", "Noblewoman's Palanquin", "Greek Chariot", "Steam Locomotive", "Passenger Car", "Carriage", "Mine Cart", "Giant Carriage", "Wooden Cart", "Luggage Wagon", "Food Stall", "Rickshaw", "Treasure Chest", "Bag of Luck", "Tsuchinoko", "Bunbuku Chagama", "Sasquatch", "Mystery Creature", "Cupid", "Utsuro-bune", "UFO", "Rocket", "Astro Jet", "Secret Hideout", "Hot Air Balloon", "Blue Hot Air Balloon", "Polka-Dot Hot Air Balloon", "Pink Hot Air Balloon", "Colorful Hot Air Balloon", "European Hot Air Balloon", "Rugrat", "Juvenile", "Rich Boy", "Rich Girl", "Noble Lad", "Relaxing Princess", "Ushiwakamaru", "Tiny Cowgirl", "Relaxing Greek Child", "Running Boy", "Mutsuo Hoshino", "Michiru Hoshino", "Sitting Student", "Young Spinosaurus", "Miss Umbrella", "Dango Lady", "Green Kimono Wearer", "Kanzashi Lady", "Human Pyramid Athlete", "Villager", "Blue Kimono Woman", "Old Man", "Old Lady", "Very Tall Person", "Furoshiki Man", "Old Glasses Wearer", "Iris Kimono Lady", "Handbag Lady", "Cleaning Man", "Bookworm", "Pompadour Samurai", "Komono", "Lazy Servant", "Sitting Servant", "Shogun's Caretaker", "Noble Minister", "Trainee Monk", "Wandering Monk", "Giddy Up! Cowboy", "Mustache Cowboy", "Blond Cowboy", "Blue Dress Woman", "Rodeo Cowboy", "Lazy Cowboy", "Youngster Cowboy", "Noble Egyptian Woman", "Ancient Egyptian", "Egyptian Parent & Child", "Mr. Coffin", "Egyptian Man", "Egyptian Lady", "Ancient Greek", "Red Toga Greek", "Relaxing Greek Citizen", "Greek With Cane", "Lazy Greek", "Wandering Man", "Sitting Caveman", "Driving Caveman", "Caveman Grandpa", "Cavegal", "Lazy Watchman", "Tomboy Cavegirl", "Bilingual Guy", "Mizue Hoshino", "Chinese Man", "Gentleman", "Sleeping Bag Man", "Ashigaru", "Training Samurai", "Loyal Retainer", "Daimyo", "Edo Police Officer", "Loyal Vassal", "Trader", "Benkei", "Shop Assistant", "Abacus Aficionado", "Merchant", "Paper Boy", "Carpenter", "Master Carpenter", "Hostess", "Litter Bearers", "Pickaxe Cowboy", "Wheelbarrow Cowboy", "Caveman Lumberjack", "Goliath", "Person Carrying a Vase", "Shrine Maiden", "Abalone Diver", "Fishmonger", "Handcar", "Tomio Hoshino (Astronaut)", "Kabuki Actor", "Tea Master", "Servant", "Taiko Drum Samurai", "Naginata Spear Samurai", "Mustache Samurai", "Lance Samurai", "Sickle Spear Samurai", "Onmyoji", "Socrates", "Chief Archaeologist", "Archaeologist", "Harp Player", "Kithara Player", "Primitive Drummer", "Cavewoman Sculptor", "Himiko", "Acrobat Boy", "Conductor", "Trombonist", "Violinist", "Courier", "Horse Costume", "Hula Dancer", "Cook", "God of Rain", "God of Wind", "God of Thunder", "Fujio", "Mag", "Chamba", "Rosetsu's Dog", "Panda", "Red Panda", "Goose", "Penguin", "Emperor Penguin", "Queen Penguin", "Red Penguin", "Indigo Penguin", "Yellow Penguin", "Green Penguin", "Light Blue Penguin", "Orange Penguin", "Purple Penguin", "Holy Cow", "Strawberry Cow", "Ox", "Raging Bull", "Tiger", "Dragon", "Gigantic Snake", "Cobra", "Horse", "White Horse", "Monkey", "Dog With Fleas", "Spartan Doggy", "Black Shiba-inu", "Boar", "Polar Bear", "Moon Bear", "Sitting Bear", "Resting Bear", "Piranha", "Crocodile", "Shark", "Big Gorilla", "Killer Whale", "Big Bivalve", "Giant Clam", "Big Clam", "Seaweed", "Spider Crab", "Giant Red Shrimp", "Giant Mantis Shrimp", "Salmon", "Napoleonfish", "Tuna", "Bonito", "Dolphin", "Manta Ray", "Fishies", "Walruses", "Relaxing Purple Mermaid", "Octopus", "Large Sea Turtle", "Pteranodon", "Peacock", "Wings", "Lady Amherst's Pheasant", "Ibis", "Ostrich", "Pigeon Statue", "King Origami Crane", "Elk", "Deer", "Red Fox", "Raccoon Dog", "Camel", "Hippopotamus", "Pig", "Giraffes", "Elephants", "Zebras", "Round Armadillo", "Giant Tortoise", "Dinosaur Egg", "Cloth Roll", "Sewing Box", "White Cloud (S)", "White Cloud (M)", "Jumbo Cloud", "Rain Cloud", "Rain Cloud (L)", "Cumulonimbus", "Mt. Fuji Cloud", "Captain Blackbeard", "Admiral", "Pirate", "Sailor With Cutlass", "Mr. Bandana", "Red Sunbather", "Blue Sunbather", "Green Sunbather", "Seagull Man", "Man In Barrel", "Pirate Ship Man", "Blue Coat Voyager", "Black Coat Voyager", "Glass Float", "Swordfish", "Sengoku Boat", "Voyage Ship", "Red Voyage Ship", "Blue Voyage Ship", "Black Ship", "Sailboat", "Giant Sea Turtle Egg", "Giant Sea Turtle", "Gigantic Squid", "Jumbo Squid", "Giant Octopus", "Gigantic Octopus", "Sperm Whale", "Gigantic Whale", "Driftwood", "Whirlpool", "Large Whirlpool", "Giant Whirlpool", "Centaur", "Minotaur", "Cactus Man", "Three-headed Dog", "Three-headed Shiba", "Pegasus", "Pegasus Statue", "Mummy", "Giant Mummy", "Pot Mummy", "Crocodile Mummy", "Medjed", "Amabie", "Raijin", "Fujin", "Gryphon", "Goddess", "Phoenix", "Flying Arabian Guy", "Pointy Castle", "Underwater Castle", "Ogre Rock", "Ogre Island", "Ammonite", "Anomalocaris", "Tyrannosaurus Rex", "Red Tyrannosaurus Rex", "Dinosaur Enthusiast", "Triceratops Cosplayer", "Triceratops", "Stegosaurus", "Green Stegosaurus", "Ankylosaurus", "Parasaurolophus", "Therizinosaurus", "Compsognathus", "Deinonychus", "Mei Long", "Caudipteryx", "Agustinia", "Brontosaurus", "Carnotaurus", "Iguanodon", "Giant Moa", "Pachycephalosaurus", "Coelacanth", "Dunkleosteus", "Ichthyosaurus Cosplayer", "Mosasaurus", "Plesiosaurus", "Cameroceras", "Chalicotherium", "Megatherium", "Ancylotherium", "Woolly Rhinoceros", "Elasmotherium", "Glyptodon", "Neanderthal", "Trojan Horse", "The King Of All Cosmos", "The Queen", "Papa", "Vertical Garden", "Palais Garnier", "Lighthouse of Alexandria", "Megamouth Building", "Isopod Building", "Viperfish Building", "Handfish Building", "Shark Building", "Barreleye Building", "Fangtooth Building", "Octopus Building", "Quartz Palace", "Tuna Castle", "Castle", "Egyptian Stone Statue", "Olmec Head", "Mayan Pyramid", "L'Arc de Triomphe", "Eiffel Tower", "Leaning Tower of Pisa", "Waffle Building", "Foie Gras Building", "Castella Building", "Champagne Building", "Olive Building", "Big Ben", "Houses of Parliament", "Colosseum", "Parthenon", "Windmill", "Sphinx", "Pyramid", "Big Pyramid", "Cat Sphinx", "Raccoon Dog Sphinx", "Statue of Liberty", "George", "Thomas", "Theodore", "Abraham", "Stone Bear", "Moai", "Stylish Moai", "Nazca Lines (Condor)", "Nazca Lines (Spider)", "Nazca Lines (Dog)", "Machu Picchu", "\"Big\" Kanji", "Big Buddha", "Ten-Story Pagoda", "Five-Story Pagoda", "Burial Mound", "Column", "Broken Column"],
+    "As Fast As Possible 5": ["Daikon Radishes", "Chinese Cabbages", "Corn", "Carrot", "Green Onion", "Boxed Tomatoes", "Boxed Green Peppers", "Big Turnip", "Melon", "Big Peach", "Coconut", "Half Coconut", "Gigantic Pineapple", "Red Berry Harvest", "Box of Apples", "Box of Grapes", "Box of Muscat Grapes", "Apple Basket", "Peach Basket", "Big Bento Lunch", "Dried Fish Lunch", "Toast", "Gigantic Pizza", "Cheese Wheel", "Meat", "Hanging Meat", "Roast On Bone", "Large Meat", "Turkey", "Raw Meat", "Gigantic Fried Shrimp", "Gigantic Ramen", "Curry", "Stew", "Golden Fried Rice", "Moon Viewing Dango", "Gigantic Dango", "Gigantic Sweet Bean Pastry", "Strawberry Parfait", "Dried Mochi", "Sashimi Boat", "Gigantic Rice Ball", "Soba Noodles", "Pickle Tub", "Skewered Fish", "Giant Tofu", "Gigantic Pork Bowl", "Spiny Lobster", "Giant Shrimp", "Kabuki Actor Hot Pot", "Tasty Hot Pot", "Orange Soda", "Apple Juice Bottle", "Milk Can", "Strawberry Milk Can", "Giant Matcha", "Malted Rice Drink", "Cold Ginger Drink", "Kettle", "Butcher's Knife", "Large Plate", "Fancy Plate", "Decorative Dish", "Soy Sauce Bottle", "Soy Sauce Jar", "Fancy Dining Table", "Cutting Board", "Tiered Lunch Box", "Wooden Mortar", "Wooden Mallet", "Shabu-Shabu Pot", "Wok", "Rice Container", "Clay Stove", "Cooking Pot", "Old Cook Stove", "Bread Oven", "Outdoor Grill", "Fish Drying Poles", "Bamboo Broom", "Garbage Disposal Area", "Clay Tablet", "Papyrus Paper Bundle", "Kimono", "Blond Long & Straight", "Blond Pompadour", "Blond Afro", "Eboshi", "Wandering Samurai Hat", "Panda Slipper", "Hand Mirror", "Egyptian Necklace", "Sunglasses", "Large Bell", "Temple Bell", "Mini Hand Drum", "Large Hand Drum", "Tightened Drum", "Gold Egyptian Harp", "Grand Piano", "Organ", "Pipe Organ", "Straw Target Board", "Sumo Wrestler", "Sumo Referee", "Spartan Soldier", "Phalanx Formation", "Spartan Student", "Sumo Ring", "Mammoth", "Large Mammoth", "Indian Elephant", "Castle Model", "Fishing Pole", "Jumbo Kinsho", "Shogi Table", "Portable Water Vessel", "Balancing Rod", "Rolling Luggage", "Suggestion Box", "Empty Coin Box", "Wooden Case", "Wood Box", "Netting Cage", "Cannonball Holder", "Small Wash Bucket", "Wood Bucket", "Barrel", "Empty Barrel", "Wooden Washtub", "Rainwater Bucket", "Tin Watering Can", "Goldfish Bowl", "Greek Pot & Lid", "Storehouse", "Shop Warehouse", "Bear Carving", "Lucky Cat", "Russian Doll (XL)", "Red Cloth", "Blue Cloth", "Green Cloth", "Purple Cloth", "Model Ship", "Portrait Painting", "Landscape Painting", "World Map", "Shark Teeth", "Lucky Rake", "Porcelain Vase", "Decorative Vase", "Oni Tile", "Ceremonial Arrow", "Miniature Pyramid", "Shoe Display Stand", "Triangular Shelf", "Tree Prop", "Moon Prop", "Blue Cloth Roll", "Green Cloth Roll", "Purple Cloth Roll", "Red Cloth Roll", "Yellow Cloth Roll", "Giant Straw Mat", "Rush Mat", "Red Umbrella", "Grandfather Clock", "Cuckoo Clock", "Mechanical Doll", "Elekiter", "V-1", "V-2", "V-3", "Barrel Table", "Log Table", "Stone Table", "Table With Tablecloth", "Egyptian Table", "Compact Desk", "Desk", "Wooden Table", "Stone Drawer", "Stone Shelf", "Bonsai Stand", "Shoe Cupboard", "Tower Rack", "Red Rug", "Blue Rug", "Western Rug", "Felt Rug", "Carpet", "Drainboard", "Armrest", "Wicker Basket", "Express Courier", "Food Delivery Box", "Coal Car", "Santa & Reindeer", "Big Burlap Sack", "Plant Pattern Sack", "Flowerpots", "Large Shrubbery", "Topiary Deer", "Log Flower Bed (Empty)", "Dried Kelp", "Hydrangea", "Flowers", "Golden Cracker Flower", "Black Flower Pot", "Flower Bucket", "Happy Flower", "Surprise Flower", "Toolbox", "Blacksmith Hammer", "Timber", "Watermelon", "Giant Watermelon", "Wooden Seaside House", "Strawberry Syrup", "Blue Hawaii Syrup", "Lemon Syrup", "Melon Syrup", "Samurai Governor", "Samurai Thief Hunter", "Samurai Thief Hunter (Paper Lantern)", "Buckingham Guard", "Official Paper Lantern", "Police Club", "Globe", "Giant Ammonite Fossil", "Full Dinosaur Skeleton", "Golden Egg", "Golden Mask", "Sarcophagus", "Ancient Coin Slab", "Suit of Armor", "Mini Treasure Boat", "Treasure Boat", "Paper Lamp", "Wealthy Lamp", "Giant Paper Lantern", "Red Garden Lantern", "Street Lantern", "Nightlight", "Slim Fire Pit", "Big Fire Pit", "Tall Lighthouse", "Hibachi", "Wide Hibachi", "Kamaburo", "Camp Fire", "Flame", "Bathhouse Chimney", "Bathhouse", "Heated Table", "Ice Spire", "Stone Refrigerator", "Ice Block", "Giant Frozen Fish", "Abominable Snowman", "Yeti", "Sweep Yeti", "Barefoot Ghost", "Ghost Chef", "Small Iceberg", "Pointy Iceberg", "Iceberg", "Ice Floe", "Snow Ball (Massive)", "Folding Stool", "Round Straw Mat", "Greek Chair", "Wooden Bench", "Blue Deck Chair", "Green Deck Chair", "Red Deck Chair", "Stone Sofa", "Stone Chair", "Workbench", "Seat Cushion", "Long Seat", "Log Bench", "Japanese Sword", "Katana", "Bamboo Spear", "Trident", "Epic Shield", "Cannon", "Spartan Helmet", "TNT Box", "Detonator", "Barrel Bomb", "Falling Rock", "Huge Falling Rock", "Big Cone", "Surprise Cone", "American Cone", "Danger Sign", "Tornado", "Balance Scale", "Giant Scale", "Big Protractor", "Big Triangle Ruler", "Scale", "Haniwa Man", "Warrior Haniwa", "Clay Figure", "Owl-Like Clay Figure", "Bear Cub Statue", "Spirit of Fun", "Human Statue", "Muscle Sculpture", "1st Generation Bust", "2nd Generation Bust", "3rd Generation Bust", "4th Generation Bust", "Philosopher Statue", "Spartan & Xiphos Statue", "Spartan & Dory Statue", "Giant Sandcastle", "Bonsai", "Folding Screen", "Kabuki Actor Ukiyo-e", "Sudden Downpour Ukiyo-e", "Great Wave Ukiyo-e", "Red Fuji Ukiyo-e", "Mystery Key Crop Circle", "Mystery UFO Crop Circle", "Mystery Sun Crop Circle", "Garden", "Mystery Sun Island", "Mystery UFO Island", "Mystery Key Island", "Command Fan", "Signaling Baton", "Parking Turntable", "Samurai Armor", "Shogun", "Dragon Water Pump", "Japanese Doll", "Fallen Samurai", "Yuki Onna", "Cow Oni", "Nue", "Inugami", "Ittanmomen", "Jorogumo", "Tree Monster", "Jinmen-ken", "Lantern Ghost", "Nekomata", "Garden Lantern", "Temple", "Grand Shrine", "Shrine", "Shintai", "Pine Decoration", "Secretive Kite", "Lion Dancer", "Castle Turret", "Thunder Gate", "Mt. Fuji", "Nebuta Parade Float", "Long-mouthed Hyottoko Mask", "Taiko Drum", "Festival Float", "Matsuri Pompadour", "Matsuri Table", "Matsuri Stage", "Hina Doll Stand", "Big Camp Fire", "Daruma Doll", "Birthday Cake", "Wedding Cake", "Celebratory Booze Barrel", "Blue Oni", "Green Oni", "Good Thief", "Mecha Mogran", "Neck Monster", "Momotaro", "Kintaro", "Suited Fireman", "Hook Fireman", "Man-Catcher Fireman", "Paper Fan Fireman", "Jumbo Samurai Governor", "Fly, Jumboman!", "Marine Jumboman", "Fight, Jumboman!", "Jumbo Papa", "Reversible Cap", "Monkey Bars", "Slide", "Jungle Gym", "Bale of Rice", "Harvested Rice", "Sack of Wheat", "Young Farmer", "Veteran Farmer", "Small Winnowing Basket", "Hoe", "Rice Paddy Harrow", "Rice Drying Rack", "Scarecrow", "Rotting Shed", "Rotting Cottage", "European Farm", "Chocolate Factory", "Grape Factory", "Grape Warehouse", "Auto Factory", "Chimney", "Bank", "Pole Banner", "Big-Catch Flag #1", "Big-Catch Flag #2", "Big-Catch Flag #3", "Big-Catch Flag #4", "Umajirushi", "Sacred Fire", "Lone Cedar Tree", "Married Rocks", "Clock Tower", "Station Building", "Courtyard Long House", "Divided Row House", "Split Long House", "Neat Housing Complex", "Messy Housing Complex", "Long House", "Extremely Tall Tower", "Absurdly Tall Tower", "Ridiculously Tall Tower", "Animal Skin Tent", "Portable Tent", "Raised Floor House", "Raised Temple", "Thatched Roof House", "Island House", "Traditional Snow House", "Pit House", "Desert Mansion", "Dry Desert House", "Sandy Desert House", "Rough Desert House", "Gritty Desert House", "Igloo", "Doghouse", "Bird's Nest", "Mushroom House", "Cottage", "Lodge", "Pierre Residence", "William Residence", "Joseph Residence", "Rudolph Residence", "Croissant Building", "European House", "Goldman Estate", "Tyler Residence", "Arthur Residence", "Adams Residence", "Lloyd Residence", "Brown Residence", "Rental Shop", "Thrift Store", "Tea Dealer", "Variety Store", "Eatery", "Fruit Shop", "Pharmacy", "Out-of-Business Shop", "Soba Shop", "Miscellaneous Goods Store", "Soba Stand", "Carpenter Shop", "Bookstore", "Fish Market", "Rice Shop", "Doll Store", "Boat Rental", "Money Exchange Shop", "Teahouse", "Shipping Agency", "Sushi Stall", "Tempura Stall", "Barley Tea Stand", "Produce Store", "Pottery Store", "Edo Barbershop", "Umbrella & Paper Lantern Shop", "Household Goods Store", "Timber Shop", "Edo Transport Service", "Echigoya Kimono Store", "Dango Store", "Fabric Store", "Red Sunshade", "Shrine Office", "Shaved Ice Stand", "Grilled Corn Stand", "Candy Apple Stand", "Takoyaki Stand", "Blue Stall", "Orange Stall", "Market", "Café", "Restaurant", "Flower Store", "Clock Store", "Butcher Shop", "Bakery", "Fruit Store", "Mini Circus Tent", "Log (Facilities)", "Stage", "Fairy Tale Fountain", "Fountain", "Monastery", "Earthen Bridge", "Mega Bridge", "Canal Bridge", "Red Bridge", "High Raised Tower", "Food Storage House", "Japanese Theater", "Governor's Office", "Encampment", "Command Post", "Lodging Post", "Edo Guardhouse", "Gatehouse", "Daimyo Inn", "Daimyo Inn Backup", "Cheap Inn", "Fireman's Lodging Post", "Guardhouse", "Inn", "Japanese-Style Inn", "Bell Tower", "Covered Well", "Purification Fountain", "Garden Pavilion", "Notice Board", "Outhouse", "Offering Box", "Fire Watch Tower", "Tall Bell Tower", "Farm Railing", "Pine Wood Fence", "Picket Fence", "Stone Fence", "Barbed Fence", "Bamboo Fence", "Encampment Barrier", "Freestanding Shield", "Edo Wall", "Edo Wall Corner", "Large Edo Wall", "Bathhouse Curtain", "Belaying Pin", "Stone Picket", "Bamboo Bundle", "Stone Wall", "Hedge Wall", "Angled Shrubbery", "Edo Gate", "Inari Shrine Gate", "Pier", "Short Pier", "Long Pier", "Boat Dock", "Duct", "Primitive Traffic Signal", "Wooden Lamp Post", "Arowana Highway", "Chimaera Highway", "Lancetfish Highway​", "Japanese Bridge", "Uguisu Town", "Hototogisu Town", "Wild Town", "Good Town", "Surprise Town", "Dog Town", "Cyber City", "Techno City", "Mushroom City", "The People", "Ginger Crane Town", "Turtle Dove Town", "Flycatcher Town", "Tuna City", "Flying Squirrel District", "Peacock District", "Dugong District", "Toucan District", "Pheasant District", "Firecracker District", "Condor District", "Llama District", "Sea Turtle District", "Budgie Isle", "Parrot Isle", "Rooster Isle", "Kimono Shop Sign", "Shipping Facility Sign", "Household Goods Store Sign", "Edo Transport Service Sign", "Edo Water House Sign", "Bookstore Sign", "Display Menu", "\"All You Can Eat\" Banner", "Yakitori Shop Lantern", "Blowfish Model", "Waterway Marker", "Vertical Banner", "\"Nature\" Sign", "Over 3m", "Over 12m", "Over 60m", "Fir Tree", "Savanna Tree", "Tree", "Tree-Swing Tree", "Big Tree", "Huge Tree", "Gigantic Tree", "Pine Tree", "Large Pine Tree", "Willow", "Palm Tree", "Spherical Tree", "Conifer", "Dark Conifer", "Cherry Blossom Tree", "Peach Tree", "Winter Conifer", "Baobab Tree", "Jurassic Tree", "Thin Tall Grass", "Paddle Cactus", "Wild Cactus", "Bush", "Bamboo Grass", "Rice Plant", "Bamboo", "Garden Plant", "Mushroom (L)", "Mushroom (XXXL)", "Miracle Mushroom", "Surprise Tumbleweed", "Flower Tumbleweed", "Mysterious Fuzzball", "Grove", "Woods", "Jungle (Nature)", "Coniferous Forest", "Winter Coniferous Forest", "Red Leaf Forest", "Yellow Leaf Forest", "Cherry Forest", "Rocks", "Robust Garden Rock", "Goblin Shark Island", "Nautilus Island", "Mt. Olympus", "Mt. Ginger", "Cockle Island", "Tsunami Island", "Anchor Island", "Dokudami Island", "Lily Island", "Jewelweed Island", "Begonia Island", "Udo Island", "Death Valley Rocks", "Oasis", "Machu Picchu Site", "Celery Island", "Azalea Island", "Tsukushi Island", "Radish Island", "Lily Bell Island", "Parsley Island", "Pea Island", "Willow Island", "Fungus Island", "Larch Tree Island", "Pinky Island", "Chrysanthemum Island", "Bean Sprout Island", "Desert (1)", "Desert (2)", "Huge Desert", "Mega Dunes", "Desert (3)", "Bud Island", "Dandelion Island", "Cypress Island", "Cosmea Island", "Stinky Island", "Thorn Island", "Mt. Camellia", "Mt. Akane", "Mt. Wasabi", "Pohole Island", "Anemone Island", "Sunflower Island", "Mustard Island", "Red Bean Island", "Morning Glory Island", "Mugwort Island", "Plantain Island", "Camellia Island", "Ume Island", "Peony Island", "Hyacinth Island", "Crater", "Palm Tree Coast", "Tulip Coast", "Ivy Island", "Cherry Island", "Niagara Falls", "The Grand Canyon", "Mountain Tunnel", "Cuckoo Isle", "Spot-Billed Isle", "Owl Isle", "Crow Isle", "Peacock Isle", "Eagle Isle", "Skylark Isle", "Java Sparrow Isle", "Canary Isle", "Quartz", "Active Volcano", "Spiral Rock", "Washtub Boat", "Small Cargo Boat", "Pleasure Boat", "Papyrus Boat", "Ferryboat", "Palanquin", "Noblewoman's Palanquin", "Greek Chariot", "Steam Locomotive", "Passenger Car", "Carriage", "Mine Cart", "Giant Carriage", "Wooden Cart", "Luggage Wagon", "Food Stall", "Rickshaw", "Treasure Chest", "Bag of Luck", "Tsuchinoko", "Bunbuku Chagama", "Sasquatch", "Mystery Creature", "UFO", "Hot Air Balloon", "Blue Hot Air Balloon", "Pink Hot Air Balloon", "European Hot Air Balloon", "Noble Lad", "Ushiwakamaru", "Tiny Cowgirl", "Running Boy", "Mutsuo Hoshino", "Michiru Hoshino", "Young Spinosaurus", "Miss Umbrella", "Dango Lady", "Green Kimono Wearer", "Kanzashi Lady", "Villager", "Blue Kimono Woman", "Old Man", "Old Lady", "Very Tall Person", "Furoshiki Man", "Old Glasses Wearer", "Iris Kimono Lady", "Handbag Lady", "Cleaning Man", "Bookworm", "Pompadour Samurai", "Komono", "Sitting Servant", "Shogun's Caretaker", "Noble Minister", "Trainee Monk", "Wandering Monk", "Giddy Up! Cowboy", "Mustache Cowboy", "Blond Cowboy", "Blue Dress Woman", "Rodeo Cowboy", "Lazy Cowboy", "Youngster Cowboy", "Noble Egyptian Woman", "Ancient Egyptian", "Mr. Coffin", "Egyptian Man", "Red Toga Greek", "Greek With Cane", "Sitting Caveman", "Driving Caveman", "Cavegal", "Berry Harvester", "Bilingual Guy", "Mizue Hoshino", "Gentleman", "Ashigaru", "Loyal Retainer", "Daimyo", "Edo Police Officer", "Loyal Vassal", "Trader", "Shop Assistant", "Abacus Aficionado", "Paper Boy", "Carpenter", "Master Carpenter", "Hostess", "Litter Bearers", "Pickaxe Cowboy", "Wheelbarrow Cowboy", "Caveman Lumberjack", "Goliath", "Person Carrying a Vase", "Abalone Diver", "Fishmonger", "Handcar", "Tomio Hoshino (Astronaut)", "Kabuki Actor", "Tea Master", "Servant", "Onmyoji", "Socrates", "Chief Archaeologist", "Archaeologist", "Harp Player", "Primitive Drummer", "Cavewoman Sculptor", "Himiko", "Acrobat Boy", "Conductor", "Trombonist", "Violinist", "Courier", "Horse Costume", "Hula Dancer", "Cook", "Nickel", "Signolo", "The Princess", "Calico Cat", "Panda", "Red Panda", "Goose", "Penguin", "Queen Penguin", "Red Penguin", "Indigo Penguin", "Yellow Penguin", "Green Penguin", "Light Blue Penguin", "Orange Penguin", "Purple Penguin", "Holy Cow", "Strawberry Cow", "Ox", "Raging Bull", "Tiger", "Horse", "Monkey", "Dog With Fleas", "Polar Bear", "Moon Bear", "Sitting Bear", "Resting Bear", "Piranha", "Crocodile", "Shark", "Big Gorilla", "Killer Whale", "Big Bivalve", "Giant Clam", "Seaweed", "Spider Crab", "Giant Red Shrimp", "Giant Mantis Shrimp", "Salmon", "Napoleonfish", "Tuna", "Bonito", "Dolphin", "Manta Ray", "Fishies", "Walruses", "Octopus", "Pteranodon", "Peacock", "Crane", "Ibis", "Ostrich", "Pigeon Statue", "King Origami Crane", "Elk", "Deer", "Red Fox", "Camel", "Hippopotamus", "Giraffes", "Elephants", "Zebras", "Giant Tortoise", "Dinosaur Egg", "Cloth Roll", "Sewing Box", "White Cloud (S)", "White Cloud (M)", "Rain Cloud", "Mt. Fuji Cloud", "Captain Blackbeard", "Admiral", "Pirate", "Sailor With Cutlass", "Mr. Bandana", "Red Sunbather", "Blue Sunbather", "Green Sunbather", "Seagull Man", "Man In Barrel", "Pirate Ship Man", "Blue Coat Voyager", "Glass Float", "Swordfish", "Sengoku Boat", "Voyage Ship", "Red Voyage Ship", "Blue Voyage Ship", "Black Ship", "Sailboat", "Giant Sea Turtle Egg", "Giant Sea Turtle", "Gigantic Squid", "Jumbo Squid", "Giant Octopus", "Sperm Whale", "Driftwood", "Whirlpool", "Large Whirlpool", "Centaur", "Minotaur", "Cactus Man", "Three-headed Dog", "Three-headed Shiba", "Pegasus Statue", "Mummy", "Pot Mummy", "Crocodile Mummy", "Amabie", "Raijin", "Fujin", "Gold Axe", "Silver Axe", "Goddess", "Pointy Castle", "Ammonite", "Anomalocaris", "Tyrannosaurus Rex", "Red Tyrannosaurus Rex", "Dinosaur Enthusiast", "Triceratops Cosplayer", "Triceratops", "Stegosaurus", "Green Stegosaurus", "Ankylosaurus", "Therizinosaurus", "Compsognathus", "Deinonychus", "Agustinia", "Brontosaurus", "Carnotaurus", "Iguanodon", "Pachycephalosaurus", "Coelacanth", "Dunkleosteus", "Ichthyosaurus Cosplayer", "Mosasaurus", "Plesiosaurus", "Cameroceras", "Megatherium", "Elasmotherium", "Glyptodon", "Neanderthal", "Trojan Horse", "Vertical Garden", "Palais Garnier", "Lighthouse of Alexandria", "Megamouth Building", "Isopod Building", "Viperfish Building", "Handfish Building", "Shark Building", "Barreleye Building", "Fangtooth Building", "Octopus Building", "Tuna Castle", "Castle", "Egyptian Stone Statue", "Olmec Head", "Mayan Pyramid", "L'Arc de Triomphe", "Eiffel Tower", "Leaning Tower of Pisa", "Waffle Building", "Foie Gras Building", "Castella Building", "Champagne Building", "Olive Building", "Big Ben", "Houses of Parliament", "Colosseum", "Parthenon", "Windmill", "Sphinx", "Pyramid", "Big Pyramid", "Squirrel Sphinx", "Cat Sphinx", "Statue of Liberty", "George", "Thomas", "Theodore", "Abraham", "Stone Bear", "Moai", "Stylish Moai", "Nazca Lines (Condor)", "Nazca Lines (Spider)", "Nazca Lines (Dog)", "Machu Picchu", "\"Big\" Kanji", "Big Buddha", "Ten-Story Pagoda", "Five-Story Pagoda", "Burial Mound", "Column", "Broken Column"],
     "Rev Up Those Fryers": ["Tomato", "Sweet Potato", "Garlic", "Canned Tomatoes", "Canned Corn", "Chili Pepper", "Red Onion", "Cucumber", "Onion", "Giant Strawberry", "Half Apple", "Rabbit Apple", "Banana", "Star Fruit", "Star Fruit Slice", "Strawberry Jam", "Toast", "Stew on Toast", "Sliced Bread", "Hot Dog", "Hamburger", "Steamed Beef Bun", "Steamed Bun", "Pizza", "Cheese", "Big Cheese Slice", "Swiss Cheese", "Sausage", "Coarse Ground Sausage", "Sliced Ham", "Fried Chicken", "Octopus-shaped Wiener", "Supersized Fried Chicken", "Kebab", "Quail Egg", "White Egg", "Fried Egg", "Oyster Omelet", "Fried Squid", "Shumai Dumpling", "California Roll", "Naruto", "Giant Naruto", "Spring Roll", "Corn Soup", "Glass Noodle Soup", "Yakisoba Noodles", "Canned Baked Beans", "Frozen Fried Rice", "Sweet Bean Pancake", "Dried Squid", "Sweet Potato Skewer", "Chocolate Sauce", "Strawberry Sauce", "Whipped Cream", "Sweet Bean Pastry Parfait", "Purple Sweet Potato Ball", "Yellow Sweet Potato Ball", "Star Candy Carving Leftovers", "Star Candy Carving", "Heart Candy Carving Leftovers", "Heart Candy Carving", "Katamari Candy Carving Leftovers", "Katamari Candy Carving", "Crown Candy Carving Leftovers", "Crown Candy Carving", "Candy Strawberry", "Baby Castella", "Ring Toss Chocolate", "Sweet Bean Pastry", "Melon Bread", "Tuna Sushi", "Egg Sushi", "Cylindrical Rice Ball", "Chikuwa", "Sweet Rolled Omelet", "Fish Cake", "Fish Cake Slice", "Grilled Fish", "Chunk of Salmon", "Small Takoyaki", "Okonomiyaki", "Chawanmushi", "Orange Juice", "Ramune Drink", "Apple Juice", "Cup of Milk", "Drink", "Milk Carton", "Fork", "Kitchen Knife", "Peeler", "Sauce Brush", "Biscuit stick", "Spatula", "Slotted Spatula", "Expensive Plate", "Small Plate", "Coaster", "Round Plate", "Rectangular Plate", "Wooden Dish", "Squirt Ketchup", "Squirt Mustard", "Ketchup", "Soy Sauce Bottle", "Batter Can", "Soy Sauce", "Hot Hot Sauce", "Hot Sauce", "Round Tray", "Plastic Wrap", "Bamboo Steamer Lid", "Bamboo Steamer", "Takoyaki Hotplate", "Pencil Stand", "Scissors", "Thin Paintbrush", "Sunglasses", "Paper Tiger", "Kitty Keychain", "Penguin Keychain", "Wooden Chopsticks", "Tabletop Calendar", "Toothpick​", "Toothpicks​", "Tissue Box", "Calculator", "Gold Paintbrush", "Paintbrush", "Golden Apple", "Gelato", "Bee's Nest", "Haniwa", "Primitive Mask", "Meat Section", "Napkins", "Kinoko", "Bunny", "Knitting Needle"],
     "Lots of Sweeeeeeeeets": ["Tomato", "Cabbage", "Sweet Potato", "Corn", "Green Pepper", "Purple Cabbage", "Bitter Melon", "Sliced Bitter Melon", "Turnip", "Sugar Beet", "Half Apple", "Apple", "Half Melon", "Melon", "Melon With Raw Ham", "Mandarin", "Mandarin Peel", "Half Mandarin", "Shiranuhi", "Asian Pear", "Big Pear", "Peach", "Banana", "Banana Bunch", "Banana Peel", "Grapes", "Muscat Grapes", "Coconut", "Half Coconut", "Star Fruit", "Pineapple", "Durian", "Half Papaya", "Half Cherimoya", "Half Passion Fruit", "Half Mangosteen", "Half Jujube", "Sliced Fruit", "Apple Basket", "Croissant", "Pizza", "Cheesy Corn", "Grilled Squid", "Fried Squid", "Minced Pork & Rice", "Stinky Tofu", "Curry Roux", "Curry Rice", "Sweet Potato Skewer", "Chocolate Sauce", "Strawberry Sauce", "Whipped Cream", "Sweet Bean Pastry Parfait", "Purple Sweet Potato Ball", "Yellow Sweet Potato Ball", "Sweet Potato Sticks", "Chiffon Cake", "Candied Tomatoes", "Tofu Pudding", "Strawberry Chocolate Crepe", "Banana Chocolate Crepe", "Candy Strawberry", "Cake To-Go", "Grape Flower", "Mandarin Flower", "Sweet Bean Pastry", "Strawberry Parfait", "Eclair", "Melon Bread", "Pancakes", "Shortcake", "Big Chocolate Donut", "Big Strawberry Donut", "Soba Noodles", "Grilled Fish", "Apple Juice Bottle", "100% Orange Juice", "Canned Green Tea", "Canned Coffee", "Soda", "Canned Cider", "Apple Juice", "Cup of Milk", "Boba Milk Tea", "Papaya Milk", "Watermelon Juice", "Grape Ice Cream Float", "Banana Ice Cream Float", "Strawberry Cream Soda", "Milk Carton", "Bag of Coffee Beans", "Kitchen Knife", "Butcher's Knife", "Coaster", "Steel Plate", "Round Plate", "Decorative Dish", "Honey (Cooking)", "Mayonnaise", "Soy Sauce Bottle", "Vegetable Oil", "Hot Hot Sauce", "Hot Sauce", "Tray (2)", "Food Tray", "Cutting Board", "Hot Plate", "Frying Pan", "Cassette Radio", "Beverage Crate", "Blue Plastic Crate", "Green Plastic Crate", "Gold Pan", "Watermelon", "Square Watermelon", "Half Square Watermelon", "Half Watermelon", "Watermelon Slice", "Shaved Ice (Strawberry)", "Shaved Ice (Melon)", "Shaved Ice (Blue Hawaii)", "Shaved Ice (Orange)", "Shaved Ice (Rainbow)", "Strawberry Syrup", "Blue Hawaii Syrup", "Melon Syrup", "Champion Ice Cream", "Spicy Ramen", "Bee's Nest", "Kitchen Scale", "Candy Apple", "Price Sign 980 Yen", "Napkins", "Burger Case", "Cinder Block", "You Are Here", "Asura", "Calico Cat", "Black Cat", "Baby Boar", "Teddy Bear", "Monkey"],
     "Make a Star Again 1": ["Parsley", "Eggplant", "Strawberry", "Mandarin", "Mandarin Peel", "Mandarin Piece", "Cherries", "Banana Peel", "Olive Branch", "Cheese", "Canned Salmon", "Half Red Bean Cake", "Red Bean Cake", "Warabi-Mochi", "Chestnut", "Hard Candy", "Milk Candy", "Caramel Square", "Milk Caramel", "Chocolate Square", "Cookie", "Cookie Sandwich", "Ochazuke", "Canned Green Tea", "Teapot", "Teacup", "Wooden Peeler", "Rectangular Plate", "Weekly Magazine", "Paperback Book", "Yellow Pushpin", "Blue Pushpin", "Thumbtack", "Fancy Tape", "B Pencil", "Sand Eraser", "Hairpin", "Lipstick", "Green Die", "Kinsho", "Hanafuda (Crane)", "Hanafuda (Boar)", "Ousho", "Gyokusho", "Hisha", "Kakugyo", "Ginsho", "Keima", "Kyousha", "Fu (Shogi)", "Soy Sauce Pack", "Cookie Tin", "Magnifying Glass", "Japanese Matchbox", "Match", "Button", "Nail Clipper", "Eye Drops", "Open Tissue Box", "New Year's Postcard", "Stamp", "Cell Phone", "Phillips-head Screw", "Screw", "Mosquito Repeller", "Mosquito Paper", "Gold Coin", "Western Coin", "1 Mon Coin", "5 Yen Coin", "10 Yen Coin", "Shuriken", "Ninja Spike", "Scorpion", "Pirate Compass", "Charcoal", "Power Plug", "Triple Tap Outlet Adapter", "D Battery", "Plaque", "Ant", "Twinkle", "Bunny", "Mouse", "White Butterfly", "Mosquito", "The Prince"],
