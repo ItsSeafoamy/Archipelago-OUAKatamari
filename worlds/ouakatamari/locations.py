@@ -20,6 +20,7 @@ class OUAKatamariLocation(Location):
 
 
 def define_locations() -> None:
+    # level based locations
     for level_name, level_data in game_data.data.items():
         locations_all[f"{level_name} - Clear"] = level_data["id"] + game_data.LEVEL_OFFSET
         locations_all[f"{level_name} - Planet"] = level_data["id"] + game_data.PLANET_OFFSET
@@ -34,6 +35,10 @@ def define_locations() -> None:
             for i in range(3):
                 locations_all[f"{level_name} - Crown {str(i+1)}"] = level_data["crown_index"] + i + game_data.CROWN_OFFSET
 
+        if "meteor_time" in level_data:
+            locations_all[f"{level_name} - Meteor (<{level_data["meteor_time"]})"] = level_data["id"] + game_data.METEOR_OFFSET
+
+    # collectionsanity locations
     count = 0
     for object_name, object_data in collectionsanity_data.object_data.items():
         count += 1
@@ -100,6 +105,16 @@ def create_locations(world: OUAKatamariWorld) -> None:
                     region
                 )
                 region.locations.append(loc)
+
+        # meteor checks
+        if world.options.meteors and "meteor_time" in level_data:
+            loc = OUAKatamariLocation(
+                world.player,
+                f"{level_name} - Meteor (<{level_data["meteor_time"]})",
+                level_data["id"] + game_data.METEOR_OFFSET,
+                region
+            )
+            region.locations.append(loc)
 
     # collectionsanity
     if world.options.collectionsanity.value != Collectionsanity.option_disabled:

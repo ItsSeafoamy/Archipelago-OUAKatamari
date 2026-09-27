@@ -7,6 +7,7 @@ FILLER_OFFSET = 5_000
 FREEBIE_OFFSET = 6_000
 FREEBIE_SUPER_OFFSET = 6_015
 TRAP_OFFSET = 7_000
+METEOR_OFFSET = 8_000
 COLLECTIONSANITY_INDIVIDUAL_OFFSET = 100_000
 COLLECTIONSANITY_MILESTONE_OFFSET = 200_000
 
@@ -28,6 +29,7 @@ data = {
             "Top Knot": 0,
         },
         "crown_index": 1,
+        "meteor_time": "01:20"
     },
     "As Fast As Possible 1": {
         "id": 19,
@@ -36,6 +38,7 @@ data = {
         },
         "present": {},
         "crown_index": 4,
+        "meteor_time": "01:00"
     },
     "Tidy It Up": {
         "id": 22,
@@ -137,6 +140,7 @@ data = {
             "Cherry Blossom": 1,
         },
         "crown_index": 34,
+        "meteor_time": "03:00"
     },
     "As Fast As Possible 2": {
         "id": 21,
@@ -146,6 +150,7 @@ data = {
         },
         "present": {},
         "crown_index": 37,
+        "meteor_time": "01:00"
     },
     "Lots of Food 1": {
         "id": 26,
@@ -279,6 +284,7 @@ data = {
             "Pinwheel": 9,
         },
         "crown_index": 76,
+        "meteor_time": "06:00"
     },
     "As Fast As Possible 3": {
         "id": 24,
@@ -289,6 +295,7 @@ data = {
         },
         "present": {},
         "crown_index": 79,
+        "meteor_time": "01:00"
     },
     "Lots of Yokai": {
         "id": 27,
@@ -371,6 +378,7 @@ data = {
             "Dango Dumplings": 17,
         },
         "crown_index": 103,
+        "meteor_time": "08:00"
     },
     "As Fast As Possible 4": {
         "id": 36,
@@ -381,6 +389,7 @@ data = {
         },
         "present": {},
         "crown_index": 106,
+        "meteor_time": "01:00"
     },
     "Lots of Coins": {
         "id": 28,
@@ -434,6 +443,7 @@ data = {
             "Mawashi": 36,
         },
         "crown_index": 121,
+        "meteor_time": "11:00"
     },
     "As Fast As Possible 5": {
         "id": 61,
@@ -444,6 +454,7 @@ data = {
         },
         "present": {},
         "crown_index": 124,
+        "meteor_time": "09:00"
     },
     "Rev Up Those Fryers": {
         "id": 41,

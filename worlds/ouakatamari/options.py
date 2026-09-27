@@ -88,6 +88,15 @@ class Crowns(DefaultOnToggle):
     display_name = "Randomize Crowns"
 
 
+class Meteors(Toggle):
+    """
+    Determines whether clearing As Large As Possible and As Fast As Possible levels fast enough to earn a meteor
+    will grant checks (up to 10 locations).
+    """
+
+    display_name = "Meteor Checks"
+
+
 class SkipTutorial(Toggle):
     """
     Skips the tutorial.
@@ -320,6 +329,7 @@ class OUAKatamariOptions(PerGameCommonOptions):
     cousins: Cousins
     presents: Presents
     crowns: Crowns
+    meteors: Meteors
     skip_tutorial: SkipTutorial
     starting_level_count: StartingLevels
     exclude_levels: ExcludeLevels
