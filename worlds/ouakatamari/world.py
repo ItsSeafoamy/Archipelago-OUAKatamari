@@ -26,12 +26,25 @@ class OUAKatamariWorld(World):
     item_name_to_id = items.items_all
     item_name_groups = items.items_groups
 
+    ut_can_gen_without_yaml = True
+
     def __init__(self, world, player: int):
         super().__init__(world, player)
         self.number_of_planets = 0
         self.planet_requirement = 0
 
     def generate_early(self) -> None:
+        # universal tracker
+        re_gen_passthrough = getattr(self.multiworld, "re_gen_passthrough", {})
+        if re_gen_passthrough and self.game in re_gen_passthrough:
+            slot_data: dict[str, Any] = re_gen_passthrough[self.game]
+
+            slot_options: dict[str, Any] = slot_data.get("options", {})
+            for key, value in slot_options.items():
+                opt: Optional[Option] = getattr(self.options, key, None)
+                if opt is not None:
+                    setattr(self.options, key, opt.from_any(value))
+
         excluded_levels = len(self.options.exclude_levels.value)
         max_levels = 47 - excluded_levels
 
@@ -71,4 +84,13 @@ class OUAKatamariWorld(World):
             "meteor_checks": bool(self.options.meteors.value),
             "collectionsanity": int(self.options.collectionsanity.value),
             "skip_tutorial": bool(self.options.skip_tutorial.value),
+            "options": self.options.as_dict(
+                "planet_clear", "planet_shuffle", "planet_requirement_type",
+                "planet_requirement_percentage", "planet_requirement_count", "cousins", "presents", "crowns",
+                "meteors", "collectionsanity", "collectionsanity_milestones", "collectionsanity_out_of_logic"
+            ), # for yamlless universal tracker
         }
+
+    @staticmethod
+    def interpret_slot_data(slot_data: dict[str, Any]) -> dict[str, Any]:
+        return slot_data
