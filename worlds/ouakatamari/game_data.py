@@ -18,7 +18,6 @@ data = {
             "Cosmi": 75,
         },
         "present": {},
-        "crown_index": -1,
     },
     "As Large As Possible 1": {
         "id": 4,
@@ -502,7 +501,79 @@ data = {
             "Reindeer Horns": 5,
         },
         "crown_index": 139,
-    }
+    },
+    "These Glow Sticks REALLY Glow!": {
+        "id": 69,
+        "cousins": {},
+        "present": {},
+        "dlc": "Rolling LIVE Highlights",
+    },
+    "How YOU Can Become a Singer!": {
+        "id": 71,
+        "cousins": {},
+        "present": {},
+        "dlc": "Rolling LIVE Highlights",
+    },
+    "Biggest Fish EVER Caught!": {
+        "id": 67,
+        "cousins": {},
+        "present": {},
+        "dlc": "Rolling LIVE Highlights",
+    },
+    "You Won't BELIEVE this Katamari!": {
+        "id": 63,
+        "cousins": {
+            "Catherine": 72,
+        },
+        "present": {},
+        "dlc": "Rolling LIVE Highlights",
+    },
+    "INSANE Fast-Rolling Katamari!": {
+        "id": 64,
+        "cousins": {
+            "Jack": 71,
+        },
+        "present": {},
+        "dlc": "Rolling LIVE Highlights",
+    },
+    "Me Singing Karaoke!": {
+        "id": 65,
+        "cousins": {
+            "Phil": 74,
+        },
+        "present": {},
+        "dlc": "Rolling LIVE Highlights",
+    },
+    "I Was Cleaning and Found THIS!": {
+        "id": 72,
+        "cousins": {
+            "Cameron": 73,
+        },
+        "present": {},
+        "dlc": "Rolling LIVE Highlights",
+    },
+    "Found THIS Scrubbing the Bathtub!": {
+        "id": 70,
+        "cousins": {
+            "Patch": 69,
+        },
+        "present": {},
+        "dlc": "Rolling LIVE Highlights",
+    },
+    "Things You NEED to Know about Ducks!": {
+        "id": 66,
+        "cousins": {
+            "Milky": 70,
+        },
+        "present": {},
+        "dlc": "Rolling LIVE Highlights",
+    },
+    "ACTUALLY Hiding in a Theme Park!": {
+        "id": 68,
+        "cousins": {},
+        "present": {},
+        "dlc": "Rolling LIVE Highlights",
+    },
 }
 
 freebie_data = {

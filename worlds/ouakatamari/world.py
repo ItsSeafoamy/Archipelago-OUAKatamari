@@ -3,7 +3,7 @@ from typing import Any
 
 from Options import OptionError
 from worlds.AutoWorld import World
-from . import items, locations, regions, rules, web_world
+from . import items, locations, regions, rules, web_world, game_data
 from . import options as ouakatamari_options
 
 
@@ -32,6 +32,7 @@ class OUAKatamariWorld(World):
         super().__init__(world, player)
         self.number_of_planets = 0
         self.planet_requirement = 0
+        self.included_levels = []
 
     def generate_early(self) -> None:
         # universal tracker
@@ -45,8 +46,14 @@ class OUAKatamariWorld(World):
                 if opt is not None:
                     setattr(self.options, key, opt.from_any(value))
 
-        excluded_levels = len(self.options.exclude_levels.value)
-        max_levels = 47 - excluded_levels
+        for level_name, level_data in game_data.data.items():
+            if level_name in self.options.exclude_levels.value: continue
+            if level_name == "Tutorial" and self.options.skip_tutorial.value: continue
+            if "dlc" in level_data and not self.options.rolling_live_highlights.value: continue
+
+            self.included_levels.append(level_name)
+
+        max_levels = len(self.included_levels)
 
         if max_levels == 0:
             raise OptionError("Attempted to exclude every single level. Please leave at least one enabled.")
@@ -87,7 +94,8 @@ class OUAKatamariWorld(World):
             "options": self.options.as_dict(
                 "planet_clear", "planet_shuffle", "planet_requirement_type",
                 "planet_requirement_percentage", "planet_requirement_count", "cousins", "presents", "crowns",
-                "meteors", "collectionsanity", "collectionsanity_milestones", "collectionsanity_out_of_logic"
+                "meteors", "collectionsanity", "collectionsanity_milestones", "collectionsanity_out_of_logic",
+                "rolling_live_highlights",
             ), # for yamlless universal tracker
         }
 

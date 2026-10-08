@@ -125,6 +125,15 @@ class ExcludeLevels(OptionSet):
     valid_keys = set(data.keys() - {"Tutorial"})
 
 
+class RollingLiveHighlights(Toggle):
+    """
+    Adds the levels and cousins from the DLC Rolling LIVE Highlights
+    This requires the player to have purchased Rolling LIVE Highlights
+    """
+
+    display_name = "Enable Rolling LIVE Highlights"
+
+
 class Collectionsanity(Choice):
     """
     Adds checks for rolling up objects in the collection.
@@ -333,6 +342,7 @@ class OUAKatamariOptions(PerGameCommonOptions):
     skip_tutorial: SkipTutorial
     starting_level_count: StartingLevels
     exclude_levels: ExcludeLevels
+    rolling_live_highlights: RollingLiveHighlights
     collectionsanity: Collectionsanity
     collectionsanity_milestones: CollectionsanityMilestones
     collectionsanity_out_of_logic: CollectionsanityOutOfLogic

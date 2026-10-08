@@ -82,7 +82,7 @@ def create_all_items(world: OUAKatamariWorld) -> None:
         starting_levels.append("Tutorial")
 
     # random starting levels
-    level_names = sorted(game_data.data.keys() - starting_levels - world.options.exclude_levels.value - {"Tutorial"})
+    level_names = sorted(set(world.included_levels) - {"Tutorial"})
     world.random.shuffle(level_names)
     for _ in range(world.options.starting_level_count):
         starting_levels.append(level_names.pop())
@@ -92,8 +92,7 @@ def create_all_items(world: OUAKatamariWorld) -> None:
     cosmetics: list[str] = []
 
     for level_name, level_data in game_data.data.items():
-        if level_name in world.options.exclude_levels.value: continue
-        if level_name == "Tutorial" and world.options.skip_tutorial.value: continue
+        if level_name not in world.included_levels: continue
 
         # level unlocks
         if level_name not in starting_levels:

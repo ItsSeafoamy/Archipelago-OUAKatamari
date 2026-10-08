@@ -3,9 +3,9 @@ from __future__ import annotations
 from typing import TYPE_CHECKING
 
 from BaseClasses import Location
-from rule_builder.rules import HasAny, Has
+from rule_builder.rules import HasAny
 from math import floor
-from . import collectionsanity_data, game_data, rules
+from . import collectionsanity_data, game_data
 from .options import Collectionsanity
 from .rules import CollectionRule
 
@@ -31,7 +31,7 @@ def define_locations() -> None:
         for present_name, present_id in level_data["present"].items():
             locations_all[f"{level_name} - Present"] = present_id + game_data.PRESENT_OFFSET
 
-        if level_data["crown_index"] != -1:
+        if "crown_index" in level_data:
             for i in range(3):
                 locations_all[f"{level_name} - Crown {str(i+1)}"] = level_data["crown_index"] + i + game_data.CROWN_OFFSET
 
@@ -48,8 +48,7 @@ def define_locations() -> None:
 
 def create_locations(world: OUAKatamariWorld) -> None:
     for level_name, level_data in game_data.data.items():
-        if level_name in world.options.exclude_levels.value: continue
-        if level_name == "Tutorial" and world.options.skip_tutorial.value: continue
+        if level_name not in world.included_levels: continue
 
         region = world.get_region(level_name)
 
@@ -96,7 +95,7 @@ def create_locations(world: OUAKatamariWorld) -> None:
                 region.locations.append(loc)
 
         # crown checks
-        if world.options.crowns and level_data["crown_index"] != -1:
+        if world.options.crowns and "crown_index" in level_data:
             for i in range(3):
                 loc = OUAKatamariLocation(
                     world.player,
@@ -125,7 +124,7 @@ def create_locations(world: OUAKatamariWorld) -> None:
         for object_name, object_data in collectionsanity_data.object_data.items():
             levels = [
                 level_name for level_name in object_data["levels"]
-                if level_name not in world.options.exclude_levels.value
+                if level_name in world.included_levels
                 if level_name != "That Hole..."
                 if level_name != "Tutorial"
             ]
@@ -143,7 +142,7 @@ def create_locations(world: OUAKatamariWorld) -> None:
                 region.locations.append(loc)
                 world.set_rule(loc, HasAny(*levels))
                 collectionsanity_locations.append(loc)
-            else:
+            else: # milestones
                 required += 1
                 count = required - world.options.collectionsanity_out_of_logic.value
 
