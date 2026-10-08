@@ -126,7 +126,6 @@ def create_locations(world: OUAKatamariWorld) -> None:
                 level_name for level_name in object_data["levels"]
                 if level_name in world.included_levels
                 if level_name != "That Hole..."
-                if level_name != "Tutorial"
             ]
 
             if not levels: continue
