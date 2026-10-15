@@ -53,13 +53,14 @@ class OUAKatamariWorld(World):
 
             self.included_levels.append(level_name)
 
-        max_levels = len(self.included_levels)
+        max_starting_levels = len(self.included_levels)
+        if not self.options.skip_tutorial.value: max_starting_levels -= 1
 
-        if max_levels == 0:
+        if max_starting_levels == 0:
             raise OptionError("Attempted to exclude every single level. Please leave at least one enabled.")
 
-        if self.options.starting_level_count.value > max_levels:
-            self.options.starting_level_count.value = max_levels
+        if self.options.starting_level_count.value > max_starting_levels:
+            self.options.starting_level_count.value = max_starting_levels
 
     def create_regions(self) -> None:
         regions.create_regions(self)
