@@ -95,7 +95,7 @@ class OUAKatamariWorld(World):
                 "planet_clear", "planet_shuffle", "planet_requirement_type",
                 "planet_requirement_percentage", "planet_requirement_count", "cousins", "presents", "crowns",
                 "meteors", "collectionsanity", "collectionsanity_milestones", "collectionsanity_out_of_logic",
-                "rolling_live_highlights",
+                "collectionsanity_cowbear_logic", "rolling_live_highlights",
             ), # for yamlless universal tracker
         }
 

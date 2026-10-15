@@ -146,7 +146,7 @@ class Collectionsanity(Choice):
     option_disabled = 0
     option_individual = 1
     option_milestones = 2
-    default = 0
+    default = option_disabled
 
 
 class CollectionsanityMilestones(Range):
@@ -185,6 +185,24 @@ class CollectionsanityLocalFill(Range):
     range_start = 0
     range_end = 100
     default = 90
+
+
+class CollectionsanityCowbearLogic(Choice):
+    """
+    Determines which objects in Cowbear Pasture are considered in logic.
+
+    Exclude All: All objects in Cowbear Pasture will be considered out of logic.
+
+    Exclude Cowbears: Any object considered by the king to be a cow, bear, or cowbear will be considered out of logic.
+    All other objects will be considered in logic.
+
+    Include All: All collectionsanity checks are considered in logic
+    """
+    display_name = "Cowbear Logic"
+    option_exclude_all = 0
+    option_exclude_cowbears = 1
+    option_include_all = 2
+    default = option_exclude_all
 
 
 class RocketWeight(Range):
@@ -347,6 +365,7 @@ class OUAKatamariOptions(PerGameCommonOptions):
     collectionsanity_milestones: CollectionsanityMilestones
     collectionsanity_out_of_logic: CollectionsanityOutOfLogic
     collectionsanity_local_fill: CollectionsanityLocalFill
+    collectionsanity_cowbear_logic: CollectionsanityCowbearLogic
     rocket_weight: RocketWeight
     magnet_weight: MagnetWeight
     sonar_weight: SonarWeight
@@ -364,7 +383,10 @@ class OUAKatamariOptions(PerGameCommonOptions):
 option_groups = [
     OptionGroup(
         "Collectionsanity Options",
-        [Collectionsanity, CollectionsanityMilestones, CollectionsanityOutOfLogic, CollectionsanityLocalFill],
+        [
+            Collectionsanity, CollectionsanityMilestones, CollectionsanityOutOfLogic, CollectionsanityLocalFill,
+            CollectionsanityCowbearLogic
+        ],
     ),
     OptionGroup(
         "Freebie Options",

@@ -5,10 +5,9 @@ from math import floor
 from typing import TYPE_CHECKING
 from typing_extensions import override
 
-from rule_builder.field_resolvers import FieldResolver, resolve_field
 from rule_builder.rules import Has, Rule
 from . import collectionsanity_data
-from .options import PlanetRequirementType
+from .options import PlanetRequirementType, CollectionsanityCowbearLogic
 
 if TYPE_CHECKING:
     from .world import OUAKatamariWorld
@@ -27,14 +26,16 @@ def set_completion_condition(world: OUAKatamariWorld) -> None:
 
 @dataclass()
 class CollectionRule(Rule["OUAKatamariWorld"], game="Once Upon a Katamari"):
-    milestone: int | FieldResolver
+    milestone: int
+    cowbear_logic: int
 
     @override
     def _instantiate(self, world: "OUAKatamariWorld") -> Rule.Resolved:
-        return self.Resolved(milestone=resolve_field(self.milestone, world, int), player=world.player)
+        return self.Resolved(milestone=self.milestone, cowbear_logic=self.cowbear_logic, player=world.player)
 
     class Resolved(Rule.Resolved):
         milestone: int
+        cowbear_logic: int
 
         @override
         def _evaluate(self, state: CollectionState) -> bool:
@@ -42,6 +43,19 @@ class CollectionRule(Rule["OUAKatamariWorld"], game="Once Upon a Katamari"):
 
             for level, objects in collectionsanity_data.level_data.items():
                 if state.has(level, self.player):
+                    if level == "Cowbear Pasture":
+                        if self.cowbear_logic == CollectionsanityCowbearLogic.option_exclude_all:
+                            continue
+                        elif self.cowbear_logic == CollectionsanityCowbearLogic.option_exclude_cowbears:
+                            for object in objects:
+                                if not collectionsanity_data.object_data[object]["cowbear"]:
+                                    reachable.add(object)
+
+                                    if len(reachable) >= self.milestone:
+                                        return True
+
+                            continue
+
                     reachable.update(objects)
 
                     if len(reachable) >= self.milestone:

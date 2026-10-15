@@ -6,7 +6,7 @@ from BaseClasses import Location
 from rule_builder.rules import HasAny
 from math import floor
 from . import collectionsanity_data, game_data
-from .options import Collectionsanity
+from .options import Collectionsanity, CollectionsanityCowbearLogic
 from .rules import CollectionRule
 
 if TYPE_CHECKING:
@@ -122,11 +122,17 @@ def create_locations(world: OUAKatamariWorld) -> None:
 
         required = 0
         for object_name, object_data in collectionsanity_data.object_data.items():
-            levels = [
-                level_name for level_name in object_data["levels"]
-                if level_name in world.included_levels
-                if level_name != "That Hole..."
-            ]
+            levels = []
+            for level_name in object_data["levels"]:
+                if level_name not in world.included_levels: continue
+                if level_name == "That Hole...": continue
+                if level_name == "Cowbear Pasture":
+                    if world.options.collectionsanity_cowbear_logic.value == CollectionsanityCowbearLogic.option_exclude_all:
+                        continue
+                    if world.options.collectionsanity_cowbear_logic.value == CollectionsanityCowbearLogic.option_exclude_cowbears:
+                        if object_data["cowbear"]: continue
+
+                levels.append(level_name)
 
             if not levels: continue
 
@@ -154,7 +160,7 @@ def create_locations(world: OUAKatamariWorld) -> None:
                     )
 
                     region.locations.append(loc)
-                    world.set_rule(loc, CollectionRule(required))
+                    world.set_rule(loc, CollectionRule(required, world.options.collectionsanity_cowbear_logic.value))
                     collectionsanity_locations.append(loc)
 
         local_fill_count = floor(len(collectionsanity_locations) * (world.options.collectionsanity_local_fill.value / 100.0))
