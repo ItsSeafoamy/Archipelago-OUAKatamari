@@ -15,7 +15,7 @@ def create_regions(world: OUAKatamariWorld) -> None:
     world.multiworld.regions.append(menu)
 
     for name in data.keys():
-        if name in world.options.exclude_levels.value: continue
+        if name not in world.included_levels: continue
 
         # create region
         region = Region(name, world.player, world.multiworld)
